@@ -1,0 +1,106 @@
+BODY {
+ margin: 0px 0px 0px 0px;
+ background-color: white; 
+ font-family: Lora, arial, helvetica, ariel, sans-serif;
+ color: black;
+}
+    
+.title {
+ color: black;
+ font-size: 200%;
+ font-weight: bold;
+}
+
+.subtitle {
+ font-size: 140%;
+ padding-left: 5px;
+ border-bottom: 1px solid black;
+}
+
+P {
+ color: black;
+ padding-left: 5px;
+}
+
+LI {
+ color: black;
+}
+
+.big {
+ font-size: 120%;
+ vertical-align: baseline;
+}
+
+.address {
+ font-style: italic;
+}
+
+.alert {
+ font-size: 120%;
+ background-color: #ffffff;
+ color: black;
+ border-style: solid;
+ border-width: thin;
+ border-color: black;
+}
+
+.grey {
+  background-color: #f0f0f0;
+  color: black;
+}
+
+.box {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #000000;
+  padding: 2px 2px 2px 2px;
+}
+
+.boxnarrow {
+  width: 600px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #000000;
+  padding: 2px 2px 2px 2px;
+}
+
+pre.quote {
+  border-style: solid;
+  border-width: thin;
+  border-color: black;
+  padding: 2px 2px 2px 2px;
+
+  background-color: #f0f0ff; 
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+/* top menu */
+div.topmenu {
+    background-color: #f0f0ff;
+    color: white;
+    text-align: center;
+}
+
+div.main {
+    margin: 4px 4px 4px 4px;
+}
+
+.odd {
+  background-color: #e0e0e0;
+}
+
+.twitter-timeline {
+  float: right;
+}
+
+a {
+  text-decoration: none;
+  color: #0000c0;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #6060c0;
+}
