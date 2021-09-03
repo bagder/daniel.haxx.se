@@ -1,0 +1,762 @@
+                               _ _ ____                    
+               _ __ ___   __ _(_) |___ \ ___ _ __ ___  ___ 
+              | '_ ` _ \ / _` | | | __) / __| '_ ` _ \/ __|
+              | | | | | | (_| | | |/ __/\__ \ | | | | \__ \
+              |_| |_| |_|\__,_|_|_|_____|___/_| |_| |_|___/
+
+Project: mail2sms
+Version: 1.3.x
+Date:    February 12, 2001
+Author:  Daniel Stenberg <daniel@haxx.se>
+Web:     http://www.contactor.se/~dast/mail2sms/
+
+==============================================================================
+  Description
+==============================================================================
+
+  mail2sms reads a (MIME) mail and converts it to a short message. It offers
+search and replace, conditional rules, conditional search and replace etc to
+create a custom output. It can optionally pipe its output into a specified
+program.
+
+  mail2sms is entirely FREE. See the LEGAL file for details.
+
+			      Table Of Contents
+			      =================
+
+	1. Usage
+
+	2. Config File Format
+	  In General
+	  2.1 General Keywords
+	  2.2 Search/Replace, Conditional Search/Replace
+	  2.3 Conditional Config File Sections
+	  2.4 Stop/Allow Message Forwarding
+	  2.5 Conditional Actions and Variables
+	  2.6 Logfile and Include
+
+	3. mail2sms internals
+
+==============================================================================
+				   1. Usage
+==============================================================================
+
+	mail2sms [options] < mail
+
+ mail2sms reads the config file /usr/local/mail2sms/config first and then
+ $HOME/.mail2sms by default.
+
+ Available options:
+
+ -c [file]  specifies what config file to read. It can be used repeatedly.
+ -d         switch on debug messages in the log file
+ -I [dir]   adds a directory to the include path.
+ -l [file]  log everything to the specified file, this overrides 'logfile'
+            entries on the config file
+ -n         prevents reading the default config files
+ -o         makes mail2sms write the sms message to stdout when completed (and
+            not invoke any sub-command).
+ -p         sets the $phone variable (see the run command)
+ -q         shuts off all logging
+ -v         prints version number and quits
+
+==============================================================================
+			    2. Config File Format
+==============================================================================
+
+Each line should be in the format:
+
+	<keyword> [ : <value> ]
+
+Values are either written plainly and whitespaces left and right of the words
+are cut off, or within quotes ("). If the value is quoted, you must escape
+quotes to be able to have them in the string, as in: " \" ".
+
+Lines beginning with '#' are treated as comments.
+
+Basically, there are two kinds of keywords. The first is the one read and
+dealt with in real-time when read from the config file, they may also build
+strings that define output format, specify command to run etc.. The other type
+is the keywords that build a tree of regular expressions with accompanying
+actions. Those actions might be performed when the regexes match contents of
+the input mail. It is important to understand the difference.
+
+------------------------------------------------------------------------------
+  2.1 General Keywords
+------------------------------------------------------------------------------
+
+options
+=======
+  Usage:
+	options: <options>
+
+	(may be specified as o:)
+
+	Options are single words separated with spaces or commas. The options
+	control the following search/replace or if operation. Available
+	options are:
+
+	 1perline (previously: "noloop")
+	   - only one replace per line
+	 once
+	   - only one replace per mail
+	 subject (*)
+	   - replace in subject
+	 from (*)
+	   - replace in from (the name or if not available, the email address)
+         fromaddress (*)
+           - replace in from address (the email address)
+	 to (*)
+	   - replace in to (the name or if not available, the email address)
+         toaddress (*)
+           - replace in the to field (the email address)
+	 body (*)
+	   - replace in body
+	 fullbody (*)
+	   - replace in the full body, as one large buffer without newlines
+         header (*)
+	   - search/replace in header! Must be specifily specified, if not
+	     specified no searching will be done in headers.
+	 nocase
+	   - case insensitive search. Only the letters A-Z will be treated
+	     case insensitively.
+	 prio <1-5>
+	   - lower prio value makes the regex be done before higher values.
+	     Default prio is 3.
+
+	(*) = when one or more of these are used, the search/replace or if
+	      is only valid for the specified parts.
+
+log
+===
+  Usage:
+	log: <message>
+
+	This is a message that will be added to the log file when the action
+	specified after this is performed. 'log' is used by search, if,
+	not, begin and many other keywords.
+
+------------------------------------------------------------------------------
+ 2.2 Search/Replace, Conditional Search/Replace
+------------------------------------------------------------------------------
+search
+======
+  Usage:
+	search: <search regex>
+
+	(may be specified as s:) The search regex is a full posix egrep style
+	regex. Must be used BEFORE the replace command.
+
+        This regex may in fact match many times, not just one.
+
+replace
+=======
+  Usage:
+	replace: <replacement>
+
+	(may be specified as r:) Replace is the replacement for the
+	search. \<num> can be used to insert "registers" from the search. Must
+	be used AFTER a search command. This must also be the last line in a
+	search/replace action.
+
+        One search/replace pair may be used many times if the search pattern
+        is general enough.
+
+if
+==
+  Usage:
+	if: <trigging regex>
+
+	Starts a conditional sub-section. This sub-section that MUST be ended
+	with an 'endif' keyword, is an ordinary sequence of config items that
+	won't be considered until the if-regex has first matched once. Once
+	the if-regex has matched, all the sub-sections' expressions (like
+	search/replace within this sub-section) are all moved to the "normal"
+	list and are then treated just as normal items.
+
+	You can control the if-regex with the 'options' keyword. The 'log'
+	keyword is also used.
+
+	You can "append" actions to this keyword by using one or more of the
+	following keywords within the if/endif block:
+
+                abort, outsize, create, delete, system, config, run, program,
+                progargs, output, phone, server, port, multipart, maxparts
+
+        When you use these keywords within an if/endif block, they will all
+        take effect the first time the IF regex matches (and only then).
+
+        Do not confuse the IF keyword with BEGIN. The IF/ENDIF is for
+        conditions against mail content like if you want different behaviour
+	for different kinds of mails. BEGIN/END is used for making parts of
+	the config file conditional.
+
+	You MUST end this sub-section with 'endif'
+
+endif
+=====
+  Usage:
+	endif
+
+	Closes a conditional sub-section previously started with the 'if'
+	keyword.
+
+not
+===
+  Usage:
+	not: <regex>
+
+	This keyword can only be used within an if-endif section, or after a
+	'replace' keyword. Each time this keyword is used, it adds a regex to
+	the list on the the preceeding regex keyword (i.e search/replace, or
+	if) that must NOT match for the regex to match. 'not' can be used any
+	number of times.
+
+	You may specify a separate 'log' line for the NOT expression. The
+	'not' expression will always be tried on the exact same context that
+	the previous regex-expression just matched.
+
+	Example, if the subject includes Daniel but NOT Stenberg, add a
+	special search/replace rule:
+
+		options: subject
+		if: Daniel
+		Not: Stenberg
+			search: Daniel
+			replace: Fake-Danman
+		endif
+
+	Make a search/replace like the above without the if:
+
+		options: subject
+		search: Daniel
+		replace: Fake-Danman
+		not: Stenberg
+
+------------------------------------------------------------------------------
+ 2.3 Conditional Config File Sections
+------------------------------------------------------------------------------
+ These keywords control what parts of a config file that is read.
+
+when
+whennot
+=======
+  Usage:
+	when: <expression>
+	whennot: <expression>
+
+	If the given when expression matches current conditions, it sets the
+	condition flag. 
+
+        If a whennot expression matches current conditions it clears the
+        condition flag.
+
+	You can also reverse the expression by prefixing it with !.
+
+	NOTE: a 'when' command only defines what sections to read from the
+	config file.
+
+	The condition flag controls whether a following sub-section shall be
+	parsed or skipped. If the condition flag is set, the section is
+	parsed, otherwise it is skipped!
+
+	A sub section is specified within 'begin', 'else' and 'end'
+	keywords. The condition flag is always undefined after a begin, end
+	or else.
+
+	Default state of the condition flag is undefined, and the first when
+	command will set it.
+
+	    The EXPRESSION may involve:
+
+	     day <sequence 1 - 31>
+		Day of the month.
+	     hour <sequence 0 - 23 or 0000 - 2359>
+		Note that the size of the numbers are used to figure out which
+		of these formats to use. 0-23 means full hours, 0-26 would
+		mean from 00:00 to 00:26>
+	     min <sequence 0000 - 2359>
+		Note that this is hour+minutes and not plain minutes
+	     wday <sequence 1 - 7>
+		Day of the week. 1 is Monday, 7 is Sunday.
+	     month <sequence 1 - 12>
+		Month of the year. 1 is January, 12 is December.
+	     year <sequence 1998 - 2038>
+		Year number. Only full 4-digit years are supported.
+	     file <filename>
+		TRUE if the file is present
+	     always
+		Always set TRUE
+	     never
+		Always set FALSE
+
+	    Sequences can be specified as:
+
+		1-4,2,9-4,3 (no whitespace)
+
+	    Filename is a filename without whitespace.
+
+	    You can combine the different parts of an expression to a combined
+	    expression as in:
+
+		day 1-3 hour 8-14 wday 1,3,6
+
+	    The file keyword makes the operation dependent on the presense of
+	    a named file:
+
+		when: file /etc/passwd
+
+	    ... requires that named file to be there for the program to
+	    continue.
+
+	    Expressions are read top to bottom.
+
+	    You can mix when and whennot keywords to make complex expressions.
+
+	Example, make a special search expression friday the 13th 1999:
+
+		# place condition
+		when: year 1999
+		when: day 13 wday 5
+		begin
+		  # start sub section
+	   	  options: nocase
+		  search: .*
+		  replace: friday the 13th!
+		end
+begin
+=====
+  Usage:
+	begin
+
+	Starts a config file sub section. If the condition flag is set or
+	undefined, this section will be parsed. If the condition flag is
+	cleared, this section will be skipped all the way to the following end
+	(or else) keyword (not counting sub sections within this section). You
+	MUST end a sub section with a corresponding 'end'.
+
+        It is important to remember that begin/end keywords only change what
+        to read in the config file. The section's "condition flag" is set by
+        conditions found when reading the config. The begin/end section can
+        *NEVER* depend on particular mail contents, since the config file is
+        scanned long before any mail content is known. To make conditional
+        actions depending on mail content, see the IF keyword.
+
+	If 'log' was used for this keyword, it will be logged together with
+	the condition flag status.
+
+	You can use '{' instead of 'begin'.
+
+end
+===
+  Usage:
+	end
+
+	Ends a sub section. See 'begin' and 'when' for more details. This
+	shall not be used without a preceeding 'begin' or 'else' keyword.
+
+	You can NOT have the 'end' keyword of section appear in another file
+	than the one with the initiating 'begin'.
+
+	You can use '}' instead of 'end'.
+
+else
+====
+  Usage:
+	special
+
+	This must be preceeded with a begin keyword and an end keyword should
+	end this section. This keyword ends a section and if the previous one
+	was parsed, the one following this won't be and vice verse.
+
+	You can NOT have the 'else' keyword of section appear in another file
+	than the one with the initiating 'begin'.
+
+	'else' shall not be used without a preceeding 'begin' keyword.
+
+------------------------------------------------------------------------------
+  2.4 Stop/Allow Message Forwarding
+------------------------------------------------------------------------------
+ These commands are taken care of when the config file is read, and the
+decision whether to continue or not will be taken before the mail is read at
+all.
+
+break
+=====
+  Usage:
+	break
+
+	Sets the BREAK flag. If all config files have been read and the BREAK
+	flag is set, no SMS will be sent.
+
+        To abort the SMS sending depending on some mail content, use the abort
+	keyword within an if/endif section.
+
+unbreak
+=======
+  Usage:
+	unbreak
+
+	Clears the BREAK flag. See 'break'.
+
+exit
+=====
+  Usage:
+	exit: <exit code>
+
+	Sets the BREAK flag and sets what return code mail2sms should return
+        to the invoking process/shell. If all config files have been read and
+        the BREAK flag is set, no SMS will be sent.
+
+        Note that this keyword can also be used within IF/ENDIF sections and
+        if so, it will be treated as a ABORT keyword with an added exitcode
+        specifier.
+
+------------------------------------------------------------------------------
+  2.5 Conditional Actions and Variables
+------------------------------------------------------------------------------
+
+ These actions can be put on root-level, within begin-end sections or within
+if-endif section. When set within if/endif sections, they take effect at first
+when that IF expression matches.
+
+ All these keywords take advantage of the log string in case there is one set
+before the actual keyword. The logging will take place when the action is
+performed.
+
+
+abort
+=====
+  Usage:
+	abort: <message>
+
+	The abort keyword aborts the sms creation immediately. This keyword
+	can't be used on root-level, abort MUST be put within an if/endif
+	section. The message will simply be logged.
+
+config
+======
+  Usage:
+	config: <file name>
+
+	Reads the specified config file if the previous 'if' regex matches.
+
+create
+======
+  Usage:
+	create: <filename>
+
+	Creates the file if it isn't already created.
+
+delete
+======
+  Usage:
+	delete: <filename>
+
+	Deletes the specified file.
+
+exit  (see the upper section for full details)
+====
+
+maxparts
+========
+  Usage:
+	maxparts: <num>
+
+        This specifies the maximum number of output parts that mail2sms is
+	allowed to generate. Default is 1. Each part is maximum 'outsize'
+	bytes long.
+
+multipart
+=========
+  Usage:
+        multipart: <format>
+
+        Specifies how to deal with multipart prefixes or suffixes. If the
+	message is sent in more than one part, this string is used to define
+	the prefix or suffix to include in every single part. If this format
+	starts with a dash (-) the rest of the string will be used as a
+	suffix, otherwise it will be a prefix.
+
+        The format string has two "variables" that will be replaced with the
+	numbers that goes for each part and message:
+
+                $index     starts at 1 and is increased for every part
+                $numparts  the amount of parts that this message uses 
+
+        Other characters that can be used in the string are:
+
+                \t         Tab character
+                \n         Newline character
+                \r         Carriage return character
+
+output
+======
+  Usage:
+	output: <output>
+
+	Specifies what to output and in what order. Available variables are:
+
+          $from         The name or the email of the sender
+          $fromaddress  The email address of the sender
+          $to           The name or the email of the receiver
+          $toaddress    The email address of the receiver
+          $subject      The subject field
+          $body         The body of the mail
+
+        Other characters that can be used in the string are:
+
+        \t              Tab character
+        \n              Newline character
+        \r              Carriage return character
+
+	Default output string is "F: $from S: $subject B: $body". Note that
+        as much as possible of all variables will be output. I.e if the first
+        variable used is very big, no other output will be shown.
+
+outsize
+=======
+  Usage:
+	outsize: <number of bytes>
+
+	Specifies the maximum size of the output message. Default is 160.
+	There is at max 'maxparts' parts of this size sent.
+
+system
+======
+  Usage:
+	system: <command line>
+
+	Runs the specified shell command line.
+
+phone
+port
+progargs
+program
+server
+=======
+  Usage:
+	<keyword> : <value>
+
+	These keywords all set the variable with the same name as the keyword.
+	The variable can be used in the 'run' string to specify what command
+	line to use when passing the SMS to a client program.
+
+run
+===
+  Usage:
+	run : <command line to run>
+
+	This command line is a string with the possibility to insert different
+	variables. All non-variable characters are inserted as specified. The
+	'output' string will be passed to the program on its stdin.
+
+	There is no default run string. If no string is specified, no program
+	will be run by mail2sms.
+
+	Available variables are:
+
+	Name		Contains
+	----		--------
+	$message	The entire SMS message.
+	$phone		What has been specified with the phone keyword.
+	$port		What has been specified with the port keyword.
+	$progargs	What has been specified with the progargs keyword.
+	$program	What has been specified with the program keyword.
+	$server		What has been specified with the server keyword.
+
+filter
+======
+  Usage:
+        filter : <filter instruction>
+
+        The filter can only be used conditionally. It cannot be set on the
+        root-level. A filter is set on a section on a line-by-line basis. When
+        the filter is switched on, it is in use until it is again switched
+        off. The filter instruction that is written on the right side should
+        be in this format:
+
+                <name> <status> [lines <num>] [exclude/include]
+
+        'name' is the filter name. Currently 'ignore' is the only available
+        supported filter. 'ignore' effectively cuts off the lines in the
+        filtered section. Note that the theory here is that you should be able
+        to switch on and off different filters independently. As soon as there
+        is more filters available that is.
+
+        'status' is either "on" or "off". Setting a filter to "on" means it
+        takes effect, it gets in use. Switched "off" a filter means that the
+        filter is turned off and things go back to normal (non-filtered).
+
+        'lines <num>' (for 'on' entries only) sets the filter to remain valid
+        for a certain number of lines, the matching one counted. This makes
+        the filter to automatically get switched off after this amount of lines
+        have been sent through the filter.
+
+        'exclude' in the line means that the matching line in itself should
+        not be considered as part of the filtered section. Exclude it from the
+        section.
+
+        'include' is the opposite of 'exclude'. It is the default behaviour
+        and it makes the matching line of a filter expression to be included
+        in the filter section.
+
+------------------------------------------------------------------------------
+  2.6 Logfile and Include
+------------------------------------------------------------------------------
+ These can only be made conditional within begin/end sections.
+
+logfile
+=======
+  Usage:
+	logfile: <filename>
+
+	Logs all messages to the specified logfile instead of stderr.
+
+showlog
+=======
+  Usage:
+	showlog: <what to include>
+
+	Sets what kinds of log messages to include in the logfile. The format
+	for the control string is:
+
+		<[+/-]LOGTYPE1>, <[+/-]LOGTYPE2>
+
+	Available log types are: ALL, INFO, BREAK, ERROR, DEBUG, WARNING,
+	ABORT, IF, SEARCH, NOT, DELETE, CREATE, SYSTEM, CONFIG, REGEX, ACTION
+
+	A few examples explain this best:
+
+	To see all log entries:
+
+		showlog: +all
+
+	To see all except the DELETE ones:
+
+		showlog: +all, -delete
+
+	To see the default set but not the WARNING ones:
+
+		showlog: -warning
+
+	To disable if, search and not:
+
+		showlog: -if,search,not
+
+	Switch off everything:
+
+		showlog: -all
+
+	NOTE: the -d command line flag enables "ALL" (including DEBUG). Normal
+	defaults are "+ALL,-DEBUG".
+
+path
+====
+  Usage:
+	path: <directory name without trailing slash>
+
+	Adds the specified directory to the include path. The include path is
+	a list of directories that mail2sms will search through for the
+	specified file when include is used. By default, no directory is in
+	the include path.
+
+include
+=======
+  Usage:
+	include: <file>
+
+	Makes that specified conf file get read.
+
+==============================================================================
+			    3. mail2sms Internals
+==============================================================================
+
+ The Regex Loop
+ --------------
+  When traversing the config files, mail2sms creates a linked list of regex
+nodes. One node is added for each IF or SEARCH/REPLACE.
+
+ Each regex node may have sub-list (that themselves are actal regex nodes)
+that if the main node matches, are moved into the main list. They're not taken
+into account until they're in the main list.
+
+ Each sublist node may itself have subnodes of course, which can make it
+pretty advanced.
+
+ Each regex node may also have a list of not-matches. If any of the entries in
+the not-list matches, the main node is considered not a match. An attempt to
+draw this situation looks like:
+
+ Search/Replace #1
+        |
+        |
+     If #2 ----- Subsearch/replace #1 - Subsearch/replace #2 - ...
+       	|
+        |
+ Search/Replace #3
+        | \__                             
+        |    \__                          
+        |        Not #1  - Not #2 - ...
+        |
+ Search/Replace #4
+        |
+       ...
+
+ The list is built when the config files are read. mail2sms then goes through
+the input mail and for each line of the mail it does the following:
+
+We start at the beginning with the highest prio; number 1.
+
+  1. If the node isn't of this prio, get the next. If we reach the end of the
+     list, increase the prio to check for and restart the list. If the prio
+     to check for reaches max, end the loop.
+
+  2. Check if the condition is dependent on what kind of input (header, from,
+     subject, etc). If it isn't supposed to replace/match the current type,
+     loop.
+
+  3. Make sure that we haven't looped this too many times.
+
+  4. Check if the regex matches. Otherwise, loop.
+
+  5. Make sure we haven't found exactly this match too many times.
+
+  6. Check the type of the regex.
+
+    6.1 If it is an 'IF':
+
+	o Check that it hasn't already been "done".
+
+	o Check the not-list. If any of them matches, treat this as a
+	  non-match.
+
+        o Perform all the actions that were specified within this if/endif
+          block.
+
+	o Move the sublist to the "main list".
+
+    6.2 If it is a 'SEARCH/REPLACE', perform the replace.
+
+  7. Reset to start-of-list at prio 1.
+
+  8. Loop
+
+ Order Of Tests
+ --------------
+
+ First all headers are read.
+
+ Each header is first tested as a 'header' and then secondly, if it is a known
+ header (like To:, From: etc) it is tested as that kind of header.
+
+ When all headers are done the body gets read.
+
+ Each line of the body is tested as 'body', one line at a time. This goes on
+ until mail2sms has collected a body-"buffer" that is ten times the size of
+ the output text (by default that means 10*160 bytes). It then tests the whole
+ body-buffer as 'fullbody'.
+
+ In each of these many tests, the low prio tests are performed before the high
+ prio tests.  But this order described here is important to understand since
+ the prio system only changes importance within the same test.

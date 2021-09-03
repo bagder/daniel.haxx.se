@@ -1,0 +1,316 @@
+<html>
+<!-- test -->
+<HTML>
+<HEAD> <TITLE>Trio - download</TITLE>
+</HEAD>
+<BODY bgcolor="#ffffff" text="#000000" LINK="#ff0000" VLINK=""#000000"" ALINK="red">
+<table><tr><td valign=top align=left>
+<table width=100% cellspacing=0 cellpadding=2 border=0 bgcolor="#000000"><tr><td>
+<table width=100% border=0 cellspacing=0 cellpadding=0 bgcolor="#800080"><tr><td align=left nowrap>
+<a href="./"><font color="#ffffff">Trio</font></a><br>
+<a href="competition.html"><font color="#ffffff">Competitors</font></a><br>
+<font size=+1 color="#ffffff">Download</font><br>
+</td></tr></table>
+</td></tr></table>
+<br>
+ <A href="http://sourceforge.net"> <IMG
+
+ src="http://sourceforge.net/sflogo.php?group_id=14216" width="88" height="31"
+
+ border="0" alt="SourceForge Logo"></A>
+</td><td valign=top align=left>
+<p> <table width=100% cellpadding=1 cellpadding=0><tr><td bgcolor="#000000"> <table width=100% cellspacing=2 cellpadding=0><tr><td align=center bgcolor="#800080"> <font color="#ffffff" size=+2> Download </font> </td></tr></table> </td></tr></table>
+<p>
+ From now on, get all <a
+ href="http://sourceforge.net/project/showfiles.php?group_id=14216">released
+
+ files</a> from sourceforge.net...
+<p>
+ <b>trio 1.12</b> was uploaded on November 26, 2006. Get more recent fixes off
+ the <a href="./#cvs">CVS server</a>.
+<p> <table width=100% cellpadding=1 cellpadding=0><tr><td bgcolor="#000000"> <table width=100% cellspacing=2 cellpadding=0><tr><td align=center bgcolor="#800080"> <font color="#ffffff" size=+2> Changelog </font> </td></tr></table> </td></tr></table>
+<p><b>1.12</b><ul>
+<li> LynxOS support
+<li> minor fixes
+</ul>
+<p><b>1.11</b><ul>
+<li> Patrick Jessee
+  Fixed width calculation for %g.
+<li> Added macros for internal features.
+<li> Jon Foster
+  Added macros for conditional compilation of many features. Documented all
+  the features.
+<li> Karl Bochert
+  Fixed problem with Borland C++, which changes the floating-point precision
+  for certain math functions (log10() and _flclass()).
+<li> Karl Bochert
+  Fixed compilation warnings on Borland C++.
+<li> Removed any occurrence of #elif because Borland C++ reports wrong line
+  numbers when they are present (reported by Karl Bochert).
+<li> David Byron
+  Added trio_asprintfv.
+<li> Brian Chapman
+  Fixed Mac OS X compilation.
+<li> David Byron
+  Fixed several compiler warnings.
+<li> Fixed printing of out-of-range arguments for %hhd and %hd. These arguments
+  can be out of range because of default integer promotion.
+<li> Bob Friesenhahn
+  Fixed installation of header files.
+<li> Joe Orton
+  Added SHELL to Makefile.in to avoid problems with CShells.
+<li> Shaun Tancheff
+  Fixed regresion tests for MSVC.
+<li> Craig Berry
+  Fixed the VMS C99 workaround.
+</ul>
+<p><b>1.10</b><ul>
+<li> Rearranged some include files to accommodate large file support (reported by
+  Albert Chin-A-Young).
+<li> Added support for SunOS 4.1.x lack of strerror, tolower, and toupper
+  (reported by Peter McCluskey).
+<li> Fixed pedantic compilation with TRIO_MINIMAL.
+<li> Jose Kahan
+  Moved <limits.h> to avoid redefinition problems.
+<li> Fixed hex-float exponents (reported by Matthias Clasen).
+<li> Fixed handling of negative width and precision via paramters (reported by
+  Jacob Navia).
+<li> Nigel Hall
+  Fixed TRIO_VA_START for VMS.
+<li> Rune Enggaard Lausen
+  Fixed compilation for Borland C++ Builder.
+<li> Fixed precision of hex-float numbers (reported by James Antill).
+<li> Fixed plus sign only to be added for signed numbers.
+<li> Fixed printing of integers with value and precision of zero (reported by
+  James Antill).
+<li> Fixed %#.o to only print one zero if the value is zero (reported by James
+  Antill).
+<li> Rewrote check for IEEE compilation option to remove dependency on additional
+  scripts.
+<li> Mehdi Lavasani
+  Makefile install target fixed to work with older install programs.
+<li> Collapsed the DECC, MSVC, HP-UX, and AIX code for trio_fpclassify_and_sign()
+  with further preprocessing.
+</ul>
+<p><b>1.9</b><ul>
+<li> Fixed trio_fpclassify_and_signbit on AIX 3.2
+<li> Added configure check for -ieee/-mieee compilation option for Alpha machines.
+<li> Craig Berry
+  Fixed compilation on VMS.
+<li> Albert Chin-A-Young
+  Fixed incorrect conditional expression in trio_isinf.
+<li> Fixed the warnings about uninitialized va_list in the printfv and scanfv
+  family without the use of compiler specific pragmas (suggested by Ian
+  Pilcher).
+<li> Fixed space flag for floating-point numbers (reported by Ian Main).
+</ul>
+<p><b>1.8</b><ul>
+<li> Fixed infinite loop in multibyte handling (reported by Gisli Ottarsson).
+<li> Added the customizable cprintf/cscanf family which enables to user to specify
+  input and output stream functions (suggested by Florian Schulze).
+<li> Fixed trio_isinf by removing the HP-UX workaround, and instead making sure
+  that the C99 macro will adhere to the trio return values (reported by Luke
+  Dunstan).
+<li> Alexander Lukyanov
+  Fixed boundary case for scanning and EOF.
+<li> Jacob Navia
+  Enabled the L modifier for formatting.
+<li> Added TRIO_MINIMAL to build trio without the string functions.
+<li> Added the R modifier to print rounded floating-point numbers.
+<li> Added trio_to_long_double and long double scanning (the L modifier).
+<li> Added trio_locale_decimal_point, trio_locale_thousand_separator,
+  trio_locale_grouping to overwrite locale settings.
+<li> Rewrote TrioWriteDouble to avoid temporary buffers and thus the danger of
+  buffer overflows (for instance %.5000f).
+<li> Improved floating-point formatting accuracy.
+<li> Fixed formatting of non-decimal exponents.
+<li> Fixed thousand separator checking.
+<li> Fixed %f scanning to get a float and %lf to get a double.
+<li> Fixed WIN32 compilation (reported by Emmanuel Mogenet)
+<li> Fixed regression test cases to exclude disabled features.
+</ul>
+<p><b>1.7</b><ul>
+ <li> new functions: trio_isfinite, trio_signbit, trio_fpclassify
+ <li> formatting of floating-point numbers beyond their accuracy
+ <li> K&R compatibility
+ <li> autoconf used to create Makefile
+ <li> many bug fixes
+</ul>
+<p><b>1.6</b><ul>
+<li> Added dynamic string functions.
+<li> Rewrote and extended documentation in JavaDoc (using Doxygen).
+<li> Moved and renamed strio functions to triostr.
+<li> Robert Collins
+  Added definition for Cygwin.
+<li> Markus Henke
+  Added long double workaround for the HP C/iX compiler.
+<li> Marc Verwerft
+  Improved error handling for dynamically allocated strings.
+<li> John Fotheringham
+  Made trionan compile on OpenVMS.
+<li> Added 'd' and 'D' as exponent letters when using TRIO_MICROSOFT.
+<li> Fixed uninitial memory read for the parameter modifiers.
+</ul>
+<p><b>1.5</b><ul>
+<li> Merged with libxml changes
+<li> Moved NaN and Inf handling to separate file to enable reuse in other
+  projects.
+<li> Fixed TrioGenerateNan for MSVC.
+<li> Fixed lots of preprocessor macros and internal data structure names.
+</ul>
+<p><b>1.4</b><ul>
+<li> Added hex-float (%a and %A) for scanning.
+<li> Added wide character arguments (%ls, %ws, %S, %lc, %wc, and %C) for both
+  printf and scanf.
+<li> Added mutex callbacks for user-specified specifiers to enable applications to
+  add thread-safety. These are registered with trio_register, where the
+  namespace is set to either ":enter" to lock a mutex, or ":leave" to unlock a
+  mutex.
+<li> Added equivalence class expressions for scanning. For example, %[[=a=]] scans
+  for all letters in the same equivalence class as the letter 'a' as defined
+  by the locale.
+<li> Changed character class expressions for scanning. The expressions must now
+  be embedded withing an extra set of brackets, e.g. %[[:alpha:]]. This was
+  done to adhere to the syntax of UNIX98 regular expressions.
+<li> Added the possibility to specify standard support (TRIO_C99 etc.) as compiler
+  options.
+<li> Fixed conversion of hex-float in StrToDouble.
+<li> Fixed formatting of hex-float numbers.
+<li> Fixed crash on QNX, which happend because some buffers on the stack were too
+  big.
+<li> Fixed default precision for %f and %g (reported by Jose Ortiz)
+<li> Added the I8, I16, I32, and I64 modifiers.
+<li> Fixed rounding problem for %e.
+<li> Fixed various problems with the xlC and Sun C++ compilers.
+</ul>
+<p><b>1.3</b><ul>
+<li> trio's treatment of the field width when the %e code was used was not
+  correct (Gisli Ottarsson reported). It turns out the fraction part should
+  be zero-padded by default and the exponent part should be zero-prefixed
+  if it is only one digit. At least that's how the GNU and Sun libc's work.
+  The trio floating point output looks identical to them now.
+<li> Fixed group scanning with modifiers.
+<li> Igor Zlatkovic
+  Fixed compilation of dprintf, which uses read/write, for MSCC.
+<li> Fixed various compilation problems on Digital Unix (mainly associated with
+  va_list).
+</ul>
+<p><b>1.2</b><ul>
+<li> Added autoconf integration. If compiled with HAVE_CONFIG_H the following
+  happens. Firstly, <config.h> is included. Secondly, trio will only be
+  compiled if WITH_TRIO is defined herein. Thirdly, if TRIO_REPLACE_STDIO is
+  defined, only stdio functions that have not been detected by autoconf, i.e.
+  those not defined by HAVE_PRINTF or similar, will be replaced by trio
+  functions (suggested by Daniel Veillard).
+<li> Fixed '%m.nf' output. Previously trio did not treat the width properly
+  in all cases (reported by Gisli Ottarsson).
+<li> Added explicit promotion for the scanfv family.
+<li> Fixed more C++ compilation warnings.
+</ul>
+<p><b>1.1</b><ul>
+<li> Added explicit promotion for the printfv familiy. A float must be
+ specified by %hf.
+<li> Fixed positionals for printfv (reported by Gisli Ottarsson).
+<li> Fixed an integer to pointer conversion problem on the SGI MIPS C compiler
+ (reported by Gisli Ottarsson).
+<li> Fixed ANSI C++ warnings (type casting, and namespace is a reserved keyword).
+<li> Added \n to all examples in the documentation to prevent confusion.
+<li> Fixed StrSubstringMax
+</ul>
+<p><b>1.0</b><ul>
+ <li> More documentation
+ <li> Fixed C99 support
+ <li> Improved NaN support
+</ul>
+<p><b>0.24</b><ul>
+ <li> User-defined specifier with callback function
+ <li> printfv: an argument array implementation
+</ul>
+<p><b>0.23</b><ul>
+ <li> Added width to scanning of floating-point numbers.
+ <li> Wrote more documentation on trio_printf.
+ <li> Fixed problem with trailing zeroes after decimal-point.
+</ul>
+<p><b>0.22</b><ul>
+ <li>
+  Added LC_CTYPE locale dependent character class expressions to scan lists.
+  Included are [:alnum:], [:alpha:], [:cntrl:], [:digit:], [:graph:],
+  [:lower:], [:print:], [:punct:], [:space:], [:upper:], [:xdigit:]
+ <li>
+  Added C escapes to alternative string formatting and scanning.
+ <li>
+  Added StrSubstringMax.
+ <li>
+  Wrote a little more documentation.
+ <li>
+  Fixed scanf return values.
+ <li>
+  Fixed a sign error for non-ascii characters.
+</ul>
+<p>
+ <b>0.21</b><ul>
+ <li> Converted the documentation to TeX. With latex2man the documentation can
+  automatically be converted into man pages.
+ <li> Added trio_scanf, trio_vscanf, trio_fscanf, and trio_vfscanf.
+ <li> Added trio_dprintf, trio_vdprintf, trio_dscanf, and trio_vdscanf. These
+  functions can be used to write and read directly to pipes and sockets (the
+  assume blocking sockets). Stdio buffering is surpassed, so the functions are
+  async-safe. However, reading from stdin (STDIN_FILENO) or writing to stdout
+  (STDOUT_FILENO) reintroduces the buffering.
+ <li> Added trio_dprintf and trio_vdprintf. These can be used to write directly
+  to pipes and sockets.
+ <li> Paul Janzen
+  Added trio_asprintf and trio_vasprintf, which are compatible with the GNU
+  and BSD interfaces.
+ <li> Added scanlist ranges for group scanning (%[]).
+ <li> Added width for scanning (missing for floating-point numbers though).
+ <li> Added variable size modifier (&) to handle system defined types of unknown
+  size. This modifier makes certain assumptions about the integer sizes, which
+  may not be valid on any machine. Consequently, the modifier will remain
+  undocumented, as it may be removed later.
+ <li> Added \777 and \xFF to alternative string scanning (%#s)
+ <li> Added the TRIO_REPLACE_STDIO check in the header.
+ <li> Improved performance of the multibyte character parsing.
+ <li> Fixed positionals (%n$) which had stopped working.
+ <li> Fixed hh and ll modifiers to allow exactly two letters and no more.
+ <li> Fixed ANSI C++ warnings. Also fixed the compiler warning about casting
+  between integer and pointer (this has been annoying me for ages).
+ <li> Fixed snprintf and vsnprintf with zero buffer size.
+ <li> Fixed NAN problems (reported by Keith Briggs).
+ <li> Fixed parsing of multibyte characters. The format string was not correctly
+  advanced in case of a multibyte character.
+ <li> Renamed many of the internal functions to have more consistant names.
+ <li> Removed the &lt;quote=c&gt; and &lt;fill=c&gt; modifiers. They are not really worth
+  including. The other &lt;&gt; modifiers may disappear as well.
+ </ul>
+<p>
+ <b>0.20</b><ul>
+ <li> Sticky flag to allow reuse of modifiers
+ <li> Double-dot notation for radix
+ <li> Uses LC_NUMERIC grouping
+ <li> Fixed parameters to use positional, ie. *n$, and to accept an arbitrary
+      number
+ <li> intmax_t and ptrdiff_t supported
+ </ul>
+<p>
+ <b>0.19</b><ul>
+ <li> Bjorn Reese rewrote the entire floating-point formatting function.
+ <li> Changed the parsing of the format string to be multibyte aware.
+ <li> Added INF, -INF, and NAN for floating-point numbers.
+ <li> Fixed %#.9g -- alternative with precision.
+ <li> Ken Gibson Fixed printing of negative hex numbers
+ <li> Joerg Fixed convertion of non-ASCII characters
+ </ul>
+ <b>0.16</b><ul>
+ <li> Danny Dulai noticed another difference to the standard printf(), when you
+  used ("%.0f", 3.0) or ("%#.0f", 3.0). I think I corrected the problems and
+  I added tests for these outputs to the regression test.
+ <li> TrioFormat() is now available "publicly".
+ </ul>
+<p>
+ <b>0.15</b><ul> <li>
+ Danny Dulai fixed several problems with the floating point precision. The
+ regression tests are updated to check for this and also some new test cases
+ that 0.14 didn't handle well.
+ </ul>
+</td></tr></table><p><small>Web page edited by daniel at haxx.se, modified January 08, 2008 </small>

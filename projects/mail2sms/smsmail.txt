@@ -1,0 +1,120 @@
+#!/usr/bin/perl
+#
+# smsmail.pl
+#
+# Author:  Daniel Stenberg <daniel@haxx.se>
+# Date:    2000-mar-17
+# Version: 0.1
+# License: Free, keep it free, but keep my name when you modify it!
+#
+# Purpose: read a mail. Get all the phone numbers specified in the subject
+# line and pass the entire mail to 'mail2sms' for each given phone number.
+#
+
+# You may need to change this if you're using anything else but Solaris:
+$mailcmd="/usr/lib/sendmail";
+# Enter the full path to your mail2sms executable:
+$mail2sms="/usr/local/bin/mail2sms";
+# Enter your custom parameters to mail2sms, for specifying an extra config
+# file or similar:
+$mail2smsargs="-c /etc/mail/sms/smsbymail.conf";
+
+# Linux example:
+#$mailcmd="/usr/sbin/sendmail";
+
+sub mailaway {
+    my $mailto = $_[0];
+
+    open(SENDIT, "|$mailcmd $mailto") ||
+        die "Couldn't run mail program";
+
+    print SENDIT "From: contactor-sms-mailer <mail@address.com>\n";
+    print SENDIT "To: $mailto\n";
+    print SENDIT "Subject: SMS by mail, receipt\n";
+
+    print SENDIT "X-mailer: smsmail.pl - a sms mailing script by Daniel Stenberg\n";
+
+    print SENDIT "\n"; # header/body separator
+
+    print SENDIT "Your message has been delivered to the server, addressed to:\n";
+
+    for(keys %uniq) {
+        $num = $_;
+        print SENDIT "Telephone: $num\n";
+    }
+    
+    close(SENDIT);
+}
+
+
+$state = 0;
+while (<STDIN>) {
+    if(0 == $state) {
+        if($_ =~ /^Subject: (.*)/) {
+            $state = 1;
+            $subject = $1;
+        }
+        elsif($_ =~ /^From:.*[^a-zA-Z0-9.](([a-zA-Z0-9.]+)@([a-zA-Z0-9.]+))/) {
+            # we extract the email address only
+            $from = $1;
+        }
+        elsif($_ =~ /^Reply-To:.*[^a-zA-Z0-9.](([a-zA-Z0-9.]+)@([a-zA-Z0-9.]+))/) {
+            $replyto = $1;
+        }
+    }
+    else {
+        if($_ =~ /^[ \t]+(.*)/) {
+            $subject .= $1;
+        }
+        else {
+            $state = 0; # back to nothing
+        }
+    }
+    push @mail, $_;
+}
+
+print "From: $from\n";
+print "Reply-To: $replyto\n";
+print "Subject: $subject\n";
+
+print ("-" x 76);
+print "\n";
+
+@numbers = split(",", $subject);
+for(@numbers) {
+    $_ =~ s/[ -]//g;
+
+    if($_ =~ /^[0-9]/) {
+        $uniq{$_} = 1;
+    }
+    else {
+        #print "waste: $_\n";
+    }
+
+}
+
+sub sendmessage {
+    my $num = $_[0];
+
+    open(AWAY, "|$mail2sms $mail2smsargs -p $num");
+
+    # loop through the whole mail and pass it to mail2sms
+    for(@mail) {
+        print AWAY $_;
+    }
+    close(AWAY);
+}
+
+$num=0;
+for(keys %uniq) {
+    $num = $_;
+    print "NUM: $num\n";
+    &sendmessage($num);
+}
+
+if($replyto eq "") {
+    $replyto = $from;
+}
+
+# Now send back an informational mail
+&mailaway($replyto);

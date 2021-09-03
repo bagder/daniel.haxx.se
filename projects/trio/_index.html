@@ -1,0 +1,144 @@
+#include "_doctype.html"
+<HTML>
+<HEAD> <TITLE>Trio - portable and extendable printf and string functions</TITLE>
+</HEAD>
+
+#define TRIO_MAIN
+
+#include "_menu.html"
+#include "setup.t"
+
+TITLE(Trio - portable and extendable printf and string functions)
+<p>
+  Trio is a fully matured and stable set of printf and string functions
+  designed be used by applications with focus on portability or with the need
+  for additional features that are not supported by standard stdio
+  implementation.
+<p>
+  There are several cases where you may want to consider using trio:
+ <ol>
+    <li> Portability across heterogeneous platforms.
+    <li> Embedded systems without stdio support.
+    <li> Extendability of unsupported features.
+    <li> Your native version doesn't do everything you need.
+ </ol>
+<p>
+
+  When you write applications that must be portable to a wide range of
+  platforms you often have to deal with inadequate implementations of the
+  stdio library functions. Most notably is the lack of secure formatting
+  functions, such as snprintf, or the lack of parameter reordering commonly
+  used for the internationalization of applications, such as the &lt;num&gt;$
+  modifier. Sometimes the feature you need is simply not present in stdio. So
+  you end up spending much effort on determining which platforms supports
+  what, and to write your own versions of various features. This is where trio
+  can help you. Trio is a platform-independent implementation of the stdio
+  printf and scanf functions and the string library functions.
+
+<p>
+  The functionality described in the stdio standards is a compromise, and does
+  unfortunately not include a mechanism to extend the functionality for an
+  individual application. Oftentimes an application has the need for an extra
+  feature, and the application code can become much more clear and readable
+  by using an extension mechanism. Trio supports a range of useful extensions
+  such as user-defined specifiers, passing of arguments in arrays, localized
+  string scanning, thousand-separators, and arbitrary integer bases.
+
+<p>
+  Trio fully implements the C99 (ISO/IEC 9899:1999) and UNIX98 (the Single
+  Unix Specification, Version 2) standards, as well as many features from
+  other implemenations, e.g. the GNU libc and BSD4.
+
+
+#define NUM(x) <b><i>x</i></b> &middot;
+<p>
+<h2>Examples</h2>
+<p>
+ NUM(1) Output an integer as a binary number using a trio extension.
+<pre>
+    trio_printf("%..2i\n", number);
+</pre>
+
+<p>
+ NUM(2) Output a number with thousand-separator using a trio extension
+<pre>
+    trio_printf("%'f\n", 12345.6);
+</pre>
+  The thousand-separator described by the locale is used.
+
+<p>
+ NUM(3) Output an fixed length array of floating-point numbers.
+<pre>
+    double array[] = {1.0, 2.0, 3.0};
+
+    printf("%.2f %.2f %.2f\n", array[0], array[1], array[2]);
+</pre>
+  The same with two trio extensions (arguments are passed in an array, and
+  the first formatting specifier sets the sticky option so we do not have
+  to type all the formatting modifiers for the remaining formatting specifiers)
+<pre>
+    trio_printfv("%!.2f %f %f\n", array);
+</pre>
+  Another, and more powerful, application of being able to pass arguments
+  in an array is the creation of the printf/scanf statement at run-time,
+  where the formatting string, and thus the argument list, is based on an
+  external configuration file.
+<p>
+
+ NUM(4) Parse a string consisting of one or more upper-case alphabetic
+  characters followed by one or more numeric characters.
+<pre>
+    sscanf(buffer, "%[A-Z]%[0-9]", alphabetic, numeric);
+</pre>
+  The same but with locale using a trio extension.
+<pre>
+    trio_sscanf(buffer, "%[:upper:]%[:digit:]", alphabetic, numeric);
+</pre>
+
+TITLE(Legal)
+<p>
+  The <a href="https://sourceforge.net/p/ctrio/git/ci/master/tree/README">trio
+  license</a> is MIT-like, to allow practicly everyone to be able to use it in
+  almost any kind of software without having problems with our license.
+
+<p>
+  This package is written by Bjorn Reese and Daniel Stenberg. Valuable bug
+  fixes and extensions by Danny Dulai, Gisli Ottarsson and others.
+
+TITLE(Docs)
+<p>
+  Here's some basic attempts to document this package.
+  <ul>
+   <li> <a href="strio.shtml">strio man page</a> 
+   <li> <a href="trio_printf.shtml">trio_printf man page</a>
+   <li> <a href="trio_scanf.shtml">trio_scanf man page</a>
+  </ul>
+
+TITLE(Mailing List)
+<p>
+  We have a mailing list setup to discuss all sorts of matters related to
+  trio: bugs, features, other printf() clones and similar. <a href="
+  http://lists.sourceforge.net/lists/listinfo/ctrio-talk">subscribe to the
+  mailing list</a>.
+
+<a name="cvs"></a>
+TITLE(git)
+<p>
+ We have a project page over at <a
+ href="http://sourceforge.net/projects/ctrio/">sourceforge</a>.
+
+<p>
+  Get the most recent trio source code directly off git by doing this:
+
+<pre>
+  git clone git://git.code.sf.net/p/ctrio/git trio
+</pre>
+
+<p>
+  <a href="https://sourceforge.net/p/ctrio/git/ci/master/tree/">Browse the sources directly</a>
+
+<p><small>Page initially created on March 5th 1999</small>
+
+#include "_footer.html"
+</BODY>
+</HTML>

@@ -1,0 +1,643 @@
+Version 1.3.5
+=============
+ Daniel (4 Feb 2003)
+ - Jernej Porenta pointed out the stupity in using 'run' pass variables with
+   contents from mails, unescaped, to popen() etc as that is a SECURITY FLAW 
+   if you for example used '$message' in the run string. His patch, somewhat
+   edited by me, is now used.
+
+Version 1.3.4
+=============
+ Daniel (7 Jun 2002)
+ - Rainer Thieringer found out that a line starting with "From " in the body
+   of a mail with mysteriously discarded from the output. This was due to old
+   bad parsing code hanging around.
+
+ Daniel (20 May 2002)
+ - Rainer Thieringer got a mail with a very long "encoded-word", even though
+   the standards say they shouldn't be longer than 76 bytes. I increased the
+   buffer in mail2sms to support 256 bytes body in the "encoded-words".
+
+ Daniel (27 Apr 2002)
+ - Josep Portella Florit fixed a problem with some 8-bit chars used as
+   array indexes, as some compilers apparently will deal with them signed
+   and then there will be badness happening.
+
+ Daniel (19 Feb 2002)
+ - Norbert Federa fixed a problem where we didn't clear the full range for
+   keywords like 'wday' etc which could lead to bad expression parsing.
+
+Version 1.3.3
+=============
+ Daniel (7 Nov 2001)
+ - Harry Mahoney pointed out that the quoted-printable decoder didn't work
+   properly if the line ends with CRLF and not just an LF. We now check for
+   either LF or CRLF.
+
+ Daniel (25 Oct 2001)
+ - Petr Kuba found and corrected a problem with a string buffer that wasn't
+   zero terminated properly.
+
+ Daniel (31 May 2001)
+ - getname() had an unsigned problem that made certain 8bit characters get
+   treated and shown as space!
+
+ Daniel (19 Apr 2001)
+ - More complete CRLF fixes, they seem to make Hermann's example mails to
+   get through looking fine!
+
+Version 1.3.2
+=============
+ Daniel (3 Apr 2001)
+ - Made some basic attempts to deal with CRLF lines better as Hermann
+   Himmelbauer reported problems. mail2sms has never dealt with them good.
+
+ Daniel (13 Feb 2001)
+ - Mats Irenéus discovered that within a multipart mail, mail2sms could fail
+   to decode the Content-Transfer-Encoding specified. This happened if the
+   CTE-header was set before the Content-Type header.
+
+ - As Mats Irenéus reported, -n could only be used as the first argument. Hm, 
+   a 1 can look like a i! Fixed! :-)
+
+Version 1.3.1
+=============
+ Daniel (12 Feb 2001)
+ - Applied the patches sent to me by Luciano Campal Vazquez
+   <lucho@coala.uniovi.es>. They add the 'exit' keyword, which is a kind of
+   combined 'break' and 'abort' keyword that makes it possible to set the exit
+   code of mail2sms. One beauty of this feature is to return 75 when invoked
+   by sendmail, since that'll make the mail to get queued and retried at a
+   later time. Do note that you can make this return whatever value you tell
+   it to, but you need to check out yourself what return codes that make sense
+   in your environment.
+
+Version 1.3
+===========
+
+ Daniel (9 Feb 2001)
+ - I removed the -s again since it can be done better with 'filter'.
+
+ - So, after having posted a few mails to the mailing list, I added the
+   'filter' keyword today that now allows the 'ignore' filter to be used. I've
+   done some initial basic testing, but I figure I need a larger user base to
+   know for sure that everything works as intended.
+
+ Daniel (7 Feb 2001)
+ - Juan Toledo identified the most silly mistake in the history of mail2sms.
+   At least it felt so. mail2sms wrote a line like 'attached mail follows'
+   within HTML tags when an attached mail was included. I removed this.
+
+ Daniel (31 Jan 2001)
+ - After a discussion with Jernej Porenta I've made the -l switch override
+   the 'logfile' keywords of config files. Once -l has been used on the command
+   line, no config file can set the logfile. It just makes more sense.
+
+ Daniel (25 Jan 2001)
+ - Based on the simple patch Karol Bryd <kbryd@int.gnu.org.pl> was friendly to
+   send me, I added the -s switch today that tell mail2sms to attempt to strip
+   off the signature from the input mail. It is a very simple approach, but it
+   might work! The signature is everything from a line starting with "-- ".
+
+   There is currently no way to set this option in the config file, as I want
+   to solve this a little different in the future. The stripping should not be
+   done in parse.c as now, it should be in the sms.c so that the stripping
+   could be conditional like most other things in mail2sms. We should also add
+   more strip options, like the frequently requested 'strip html'. We might
+   just add a 'strip' keyword soon...
+ 
+ Daniel (19 Jan 2001)
+ - Tin Le <tin@le.org> made me aware of a possible core dump situation in the
+   log function that I corrected. I've asked him to verify that my fix
+   actaully removes the problem...
+
+ Daniel (24 Oct 2000)
+ - I made most of the config file keyword loggings to use the CONFIG level
+   instead of the INFO level. It makes it easier to filter stuff in the log.
+   All log texts regarding config file parsing should now be CONFIG.
+
+Version 1.2.1
+=============
+
+ Daniel (19 Oct 2000)
+ - Made the startup config files get read in a slightly different manner. It
+   won't really be noticed. Instead of parsing them right away as they're
+   defined, they're now appened to a queue. When all the command line options
+   are parsed, the config files are taken care of. Thus, if "-n" is used
+   anywhere, the default config files are skipped.
+
+   This properly allows -l to be used to set a logfile that will be used for
+   all read config files, as the -l sets logfile before any config files gets
+   parsed.
+
+ Daniel (18 Oct 2000)
+ - Added the -l <log> command line switch. This is important if you want *all*
+   logs to end up in that particular logfile, since some events will happen
+   before the 'logfile' entry in your personal config file is read.
+
+ - I had missed the new ACTION stuff in the logging so the log didn't look
+   like before. Now it does again.
+
+Version 1.2
+===========
+
+ Daniel (18 Oct 2000)
+ - The IF-stuff didn't quite work. There was this kludge lying around that was
+   once introduced to enable search/replace to have not-regexes that ruined
+   everything, as after one search-expression, everything would be linked to
+   that expressions action list! And search/replace-expressions can't have
+   action lists! :-)
+
+ - Removed a crash in the replacecheck(). Now why hasn't anyone noticed that
+   before? Must've been there for very long...
+
+ Daniel (17 Oct 2000)
+ - Removed double MSG-log entries.
+
+Version 1.1
+===========
+
+ Daniel (17 Oct 2000)
+ - The ABORT keyword is now made one of those IF-sensitive ones. This also
+   means it no longer requires a regex as parameter. In fact, this is a very
+   much changed ABORT function, although I really think this fits in the
+   design a lot better than before.
+
+ - Updated README quite a bit to reflect the new reality. I really do think it
+   makes the whole config file concept easier to grasp.
+
+ Daniel (16 Oct 2000)
+ - Added support to send multiple messages from one large input. You control
+   this feature with two new keywords:
+
+        multipart - controls how you want each part in a multipart output to
+                    look like. Available "variables" are $index and $numparts,
+                    that allow you to set it to "($index/$numparts)" if you
+		    want each part to be prefixed with that. Start this
+		    pattern with a dash '-' to make it a suffix instead! If
+		    the output fits in one part, no multipart format will be
+		    added.
+
+        maxparts -  set the maximum number of parts you allow the output to
+                    consist of
+
+   These two keywords are of course also possible to control with IF, just as
+   the ones I described below...
+
+ - I made things work way cooler than before. The following keywords are
+   affected:
+        outsize, create, delete, system, config, run, program, progargs,
+        output, phone, server, port
+
+   They're all kind of "variables". They're all from now on "context
+   sensitive" in the sense that if they're written within an IF-ENDIF section,
+   they will only be performed if that IF-expression evaluates TRUE. This
+   enables a lot more tricky stuff and fancy conditions. You can change any of
+   these variables depending on contents of a mail.
+
+   NOTE! The ability to change outsize "run time" forced me to remove the
+   feature that was used that made mail2sms sometimes not scan the entire
+   mail, but only outsize * 10 bytes. Since outsize now can change all the
+   time, the entire mail will now always be read.
+
+Version 1.0
+===========
+
+ Daniel (9 Oct 2000)
+ - I decided to bump to 1.0 now since we've been running 0.x-versions now for
+   almost two years by now and the implementation is rather solid as it is
+   used in most of the cases.
+
+ - Made mail2sms truncate logged messages at 500 bytes.
+
+ - Jørn-Morten Innselset pointed out that the multi-part alternative parser
+   didn't work properly. When there was one text and one html part, both parts
+   were included in the output. Now only the first, plain-text part is used.
+
+ Daniel (26 Mar 2000)
+ - In a discussion with Petr Sulla <xsulla@informatics.muni.cz>, I decided to
+   finally and once and for all, remove the code that prevents mail2sms to
+   output two "space" letters in a row. This has only caused problems to those
+   who have had slightly different wishes than I've had.
+
+0.36
+====
+ Daniel (19 Jan 2000)
+ - A problem pointed out by Mats Irenéus <Mats.Ireneus@sth.frontec.se> and
+   Gerd Bavendiek <bav@esn.sbs.de> caused mail2sms to crash if the HOME
+   environment variable wasn't set.
+
+ - Expect this project to appear on sourceforge.net very soon. At least partly.
+
+ Daniel (10 jan 2000)
+ - I remade the previous patch, it got lost. mail2sms now doesn't exit if the
+   home directory wasn't found. We don't need it that terribly bad! ;-)
+
+0.35
+====
+ Daniel (13 oct 1999)
+ - Alexander Bergolth <leo@strike.wu-wien.ac.at> pointed out two problems.
+   One of them lead to an immediate crash when logging fullbody-stuff and
+   the other was a little more subtle possible crash.
+
+0.34
+====
+ Daniel (12 oct 1999)
+ - Adrian Pavlykevych <pam@polynet.lviv.ua> pointed out and fixed a bug in
+   the new output support for \-codes.
+
+ Daniel (11 Oct 1999)
+ - Iztok Umek <Iztok.Umek@simobil.si> pointed out two bugs related to stuff I
+   introduced in 0.33. It had to do with the 'output' string and the 'to'
+   stuff. The 'to' stuff is still pretty bad since it only works really well
+   if there's a single mail address in there. If not, you should probably
+   consider using the 'header' type and match it better "manually".
+ - Alexander Bergolth <leo@strike.wu-wien.ac.at> brought me some fixes
+   regarding AFS and a few buffer sizes.
+ - I took Alexander's changes a bit further and made the output buffer fully
+   dynamic, as it should have been from the start, to fully support any-length
+   outputs.
+ - Added the first mail2sms.1 man page attempt. I stalled the mail2sms.4 that
+   should contain the config file format, it was too much work and the README
+   does a pretty good job already. It is still included here in case anyone
+   would want to help me completing it.
+ - Made -v display the current version number.
+
+0.33
+====
+ Daniel (7 Oct 1999)
+ - Made 'to' and 'toaddress' work all over the rules and conditions
+ - The 'address' should now be replaced with 'fromaddress' in rules and config
+   files, although the former is still recognized and working
+ - \n now makes newlines in the output string, \t makes tab and \r makes
+   carriage return. \\ should be a regular backslash. This idea came from
+   A. Ljunggren <andreas.ljunggren@ericsson.com>.
+ - I added more blurb in the README file (bottom) about the order of the tests
+   as it has caused confusion.
+
+0.32
+====
+ Daniel (7 Sep 1999)
+ - Removed the MPL license again, it is not compatible with the GPL of the
+   regex.c file. *sigh* it is a plague.
+ - Removed an old debug-line in sms.c that made redhat 6 compiles fail.
+ - Added a configure script for better portability. Not that much is
+   actually using the results from it yet! ;-)
+ - Updated to my new email address all over
+
+0.31
+====
+ Daniel (29 Jul 1999)
+ - Peter Kundrat <kundrat@gic.sk> and Tomi Malensek <tomi@insert.si> both
+   pointed out a problem in sms.c that made the 0.30 change a little buggy.
+
+0.30
+====
+ Daniel (1 Mar 1999)
+ - On request from Balazs Nagy <julian7@kva.hu>, I've introduced $address
+   as a variable in the output format, as well as "address" is now an
+   understood options limiter. Address is the email address only. Not the
+   name part. $from/from will remain the name part if available and the
+   email otherwise.
+
+0.29
+====
+ Daniel (10 Feb 1999)
+ - Just found out the Lotus Notes SMTP (some version) doesn't fill in the
+   MIME-version: header at all times (in my test, I didn't get it when I got a
+   mail without body), so I have to skip the check for that and always
+   "assume" mime-headers to be better compliant... :-/
+
+ - Extended the buffer which overflow Kjell Ericson pointed out.
+
+0.28
+====
+ Daniel (22 Dec 1998)
+ - A command parse bug removed. It occured with space-indented commands.
+
+0.27
+====
+ Daniel (18 Dec 1998)
+ - Finally I found the BAAAAD bug that ocured on sunos-4 which made repeated
+   regex searches return "internal error"...
+
+ - Added Kjell's regex fixes again after correction.
+
+ - -d now enables the DEBUGREGEX messages too, which can be handy when
+   debugging weird search/replace things.
+
+ - "always" and "never" works better in when expressions.
+
+0.26
+====
+ - Removed Kjell's regex fiddle and it WORKS again under sunos and linux.
+   Darned problem took me hours to track!
+
+0.25
+====
+
+ - example.conf is taking shape
+ 
+ - Corrected the problem if no prio was specified no regex was done! ;-)
+
+ - The log now numbers body-replacemens from body line number 1.
+
+ - 'config' is now an accepted if/endif specifier. It specifies a config file
+   to read if the regex matches!
+
+0.24
+====
+
+ - 'not' now works for the previous 'abort' or 'search/replace' too. (If
+   defined for a search/replace, it must be used after the replace keyword.)
+
+ - Corrected a "location" bug in which the regexes weren't properly done if
+   "locations" were specified.
+
+ - Now checks for min and max prio used and only runs through them on
+   regex checks.
+
+ - Now logs each s/r once for each line it performs on.
+
+0.23
+====
+
+ - removed the ctype[] stuff in regex.c
+
+ - no longer treats attachments' headers as real headers
+
+ - '-n' as first argument prevents reading the default config files.
+
+0.22
+====
+
+ - 'nocase' now treats 'åäö' properly.
+
+ - (Kjell Ericson) åäö are treated as parts of words in the regex.c.
+
+ - More details added to the README.
+
+ - Made the MIME header decoder be less strict about ?-letters in encoded-
+   words (a violation of the RFC, but they still appear at times due to bad
+   mailers).
+
+0.21
+====
+
+ - 'begin' uses 'log' now, if specified. It also mentioned whether the
+   condition flag is TRUE or FALSE.
+
+ - "showlog" sets what to include in the logfile.
+ 
+ - Made "1perline" work as an alias to "noloop" in the options.
+
+ - Corrected the not-list.
+
+0.20
+====
+  (Dec 14, 1998)
+
+ - Added 'not' 
+
+ - Now logs MSG: even if -o is used.
+
+ - Added -d for debugging mail2sms.
+
+ - New internal log system.
+
+ - General clean-up of the README.
+
+ - Moved the regex guide from README to REGEX.
+
+ - Added 'outsize' to support any-length output.
+
+ - Added 'path' and -I.
+
+ - The when-fix didn't really work.
+
+0.19
+====
+
+ - The first when command now sets the condition flag to the result. This means
+   more logical constructions. I.e if the first when-command doesn't match,
+   the condition flag is set to FALSE.
+
+ - create, delete and system now work in if/endif contexts too
+
+ - if-bug removed.
+
+ - Documented create, delete and system.
+
+0.18
+====
+
+ - Made it deal with parentheses in the comment part of the From: line better
+
+ - Removed the extra newline from the 'run' command'
+
+ - Now logs when the replace-check aborts due to too many search hits. It
+   is generally due to bad search patterns.
+
+0.17
+====
+
+ - '-o' no longer runs the 'run'-command also.
+
+ - 'create' creates the specified file
+
+ - 'delete' removes the specified file
+
+ - 'system' runs a shell command line
+
+0.16
+====
+
+ - Better help desk when -h is used.
+
+ - Added support for -q (shut off logging) and -o (write message to stdout).
+
+ - Added 'run' and associated variables and code. See README.
+
+ - if/endif works for sub-sectioned search/replace/abort, whatever!
+
+ - New log format. It seemed silly to waste 15 columns on each log line for
+   information that in 99.9% remains the same through all lines.
+
+0.15
+====
+
+ - Now supports commments at all end of lines, i.e a # and everything to the
+   right of it is treated as a comment. If you want # to be part of a value,
+   use quotes around the value as in:
+
+	output: "$from#$subject#$body" # output format
+
+ - Corrected the "couldn't read include file" warning message.
+
+ - Made 'break' get logged.
+
+ - end/else used at the wrong place now warns in the logfile.
+
+0.14
+====
+
+ - Minor fixes.
+
+0.13
+====
+
+ - Now logs if it can't read a specified config file
+
+ - always and never weren't working properly in when-expressions.
+
+ - output was turned into a single string which supports three variables:
+   $from, $subject and $body. Note that $body is usually very long.
+
+0.12
+====
+
+ - experiments to actually send messages to the server failed! :-(
+
+ - changed -r to -c
+
+ - added -p <phone number> support.
+
+ - corrected the output internal defaults
+
+ - changed name of PRIO_MAX since that collided with some Linux system
+   define (sms.h, sms.c)
+
+0.11
+====
+
+ - removed 'from', 'subject' and 'body'. 'output' should be used for this!
+
+ - Thanks to Electric Fence, I undid two memory bugs in less than 5 minutes!
+
+ - More blurb in the README.
+
+ - 'output' is recogznied to control what is output and in which order.
+
+0.10
+====
+
+ - Added code to actually post the message to the server too. 100% untested.
+
+ - Added 'port', 'server' and 'phone'. Port is default to the correct sms
+   server port.
+
+ - valid/invalid are removed keywords
+
+ - 'break' now instructs to NOT send any sms
+
+ - 'unbreak' instructs to undo a 'break' command and thus enforces an sms
+
+ - 'else' is a valid keyword after a begin as in begin-else-end
+
+ - 'whennot' - is a reversed 'when' - true if the expression doesn't match
+
+ - 'if' is an alias to 'when'
+
+ - 'ifnot' is an alias to 'whennot'
+
+0.9
+===
+
+ - 'when', 'begin', 'end' added
+
+ - 'abort' works
+
+ - options 'header' works
+
+ - the "hour" expression now supports 0000-2359 format too
+
+0.8
+===
+
+  - Default file is named .mail2sms now.
+
+  - 'logfile' can redirect log messages from stderr to a file
+
+  - "prio <value>" is now a valid option for search/replace. value is 1 - 5
+    lower prio values search/replace is done before higher values.
+
+  - 'log' keyword adds a string to output in the log when the search/replace
+    is done (for debugging mostly)
+
+  - valid/invalid seem to work more as expected now
+
+  - 'day' in valid/invalid was wrong
+
+0.7
+===
+  Daniel
+
+  - More docs.
+
+  - Max time added. 10 seconds then it breaks.
+
+  - from, subject and body couldn't be set empty.
+
+  - Quotes in quoted strings in the config file weren't possible. They are
+    now.
+
+  - Search pattern error messages pointed out wrong line number.
+
+0.6
+===
+
+  Daniel
+  - 'valid' and 'invalid' are now recognized in the config file.
+    They specify expressions that validates or invalidates the continuation.
+
+    The EXPRESSION may involve:
+
+     day <sequence 1 - 31>
+     hour <sequence 0 - 23>
+     wday <sequence 1 - 7>
+     month <sequence 1 - 12>
+     year <sequence 1998 - 2038>
+     file <filename>
+
+    Sequences can be specified as:
+
+	1-4,2,4-9-3 (no whitespace)
+
+    Filename is a filename without whitespace.
+
+    You can combine the different parts of an expression to a combined
+    expression as in:
+
+	day 1-3 hour 8-14 wday 1,3,6
+
+    If you use several lines like:
+
+	    valid: <expression>
+
+    It is enough if one of the expressions are valid for this to succeed.
+
+    If you use several lines like:
+
+	    invalid: <expression>
+
+    It is enough if one of the expressions are invalid for this to be
+    treated as invalid.
+
+    It is not recommended to mix valid and invalid lines unless you know what
+    you're doing.
+
+  - Corrected the \<num> problem in replace strings.
+
+  - Corrected the "random" crashes Kjell found.
+
+  - Accepts the long form of 'options', 'search' and 'replace' now in the
+    config file.
+
+0.5
+===
+  Daniel (Dec 3, 1998)
+  - Replaces all ASCII characters below 32 with a plain space.
+
+0.4
+===
+  - Doesn't crash when run with no input.

@@ -1,0 +1,20 @@
+
+table {
+ background-color: #000000;
+}
+tr {
+ background-color: #ffffff;
+}
+
+td {
+ font-family: sans-serif;
+}
+
+th {
+ background-color: #e0e0e0;
+}
+
+.proto {
+  font-family: monospace;
+  font-weight: bold;
+}

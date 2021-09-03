@@ -1,0 +1,18 @@
+Aug  7 08:28:31 hostname kernel: bttv: driver version 0.7.96 loaded
+Aug  7 08:28:31 hostname kernel: bttv: using 4 buffers with 2080k (8320k total) for capture
+Aug  7 08:28:31 hostname kernel: bttv: Host bridge is Intel Corp. 82810E DC-133 GMCH [Graphics Memory Controller Hub]
+Aug  7 08:28:31 hostname kernel: bttv: Bt8xx card found (0).
+Aug  7 08:28:31 hostname kernel: bttv0: Bt878 (rev 17) at 01:08.0, irq: 11, latency: 66, mmio: 0x40100000
+Aug  7 08:28:31 hostname kernel: bttv0: detected: Hauppauge WinTV [card=10], PCI subsystem ID is 0070:13eb
+Aug  7 08:28:31 hostname kernel: bttv0: using: BT878(Hauppauge (bt878)) [card=10,autodetected]
+Aug  7 08:28:31 hostname kernel: bttv0: Hauppauge/Voodoo msp34xx: reset line init [5]
+Aug  7 08:28:31 hostname kernel: bttv0: Hauppauge eeprom: model=44344, tuner=LG TP18PSB11D (29), radio=no
+Aug  7 08:28:31 hostname kernel: bttv0: using tuner=29
+Aug  7 08:28:31 hostname kernel: bttv0: i2c: checking for MSP34xx @ 0x80... found
+Aug  7 08:28:31 hostname kernel: bttv0: i2c attach [client=MSP3415G-B8,ok]
+Aug  7 08:28:32 hostname kernel: bttv0: i2c: checking for TDA9875 @ 0xb0... not found
+Aug  7 08:28:33 hostname kernel: bttv0: i2c: checking for TDA7432 @ 0x8a... not found
+Aug  7 08:28:33 hostname kernel: bttv0: i2c attach [client=LG PAL_BG (TPI8PSB11D),ok]
+Aug  7 08:28:33 hostname kernel: bttv0: registered device video0
+Aug  7 08:28:33 hostname kernel: bttv0: registered device vbi0
+Aug  7 08:28:34 hostname kernel: bttv0: PLL: 28636363 => 35468950 ... ok

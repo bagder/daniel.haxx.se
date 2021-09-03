@@ -1,0 +1,241 @@
+'\" t
+.\" Manual page created with latex2man on Sat Aug 19 15:56:06 DST 2000
+.\" NOTE: This file is generated, DO NOT EDIT.
+.de Vb
+.ft CW
+.nf
+..
+.de Ve
+.ft R
+
+.fi
+..
+.TH "TRIO_SCANF" "3" "19 August 2000" "libtrio "
+.SH NAME
+trio_scanf, 
+trio_vscanf, 
+trio_fscanf, 
+trio_vfscanf, 
+trio_dscanf, 
+trio_vdscanf, 
+trio_sscanf, 
+trio_vsscanf 
+\- formatted input conversion 
+.PP
+.SH SYNOPSIS
+.PP
+cc ... \-ltrio \-lm
+.PP
+#include <trio.h>
+.PP
+int trio_scanf(const char *format, ...);
+.br
+int trio_vscanf(const char *format, va_list args);
+.br
+int trio_fscanf(FILE *file, const char *format, ...);
+.br
+int trio_vfscanf(FILE *file, const char *format, va_list args);
+.br
+int trio_dscanf(int fd, const char *format, ...);
+.br
+int trio_vdscanf(int fd, const char *format, va_list args);
+.br
+int trio_sscanf(const char *buffer, const char *format, ...);
+.br
+int trio_vsscanf(const char *buffer, const char *format, va_list args);
+.br
+.PP
+.SH DESCRIPTION
+This documentation is incomplete. 
+The documentation of the scanf family in [C99] and [UNIX98] also applies 
+to the trio counterparts. 
+.PP
+.SH SCANNING
+.PP
+The scanning is controlled by the format string. 
+The format string can contain normal text and conversion indicators. 
+The normal text can be any character except the nil character 
+(ASCII 000 = '\\0') and the percent character (ASCII 045 = '%'). 
+Conversion indicators consists of an indication character (%), followed by 
+zero or more conversion modifiers, and exactly one conversion specifier. 
+.PP
+.SS MODIFIERS
+.PP
+.TP
+Positional (9$) [UNIX98]
+.br
+See 
+.I "trio_printf"
+(3).
+.PP
+.SS SPECIFIERS
+.PP
+.RS
+.TP
+Percent (%)
+.br
+.RS
+.PP
+.RE
+.TP
+Character (c)
+.br
+.RS
+.PP
+.RE
+.TP
+Decimal (d)
+.br
+.RS
+.PP
+.RE
+.TP
+Floating\-point (a, e, E, f, F, g, G)
+.br
+.RS
+.PP
+.RE
+.TP
+Integer (i)
+.br
+.RS
+.PP
+.RE
+.TP
+Count (n)
+.br
+.RS
+.PP
+.RE
+.TP
+Octal (o)
+.br
+.RS
+.PP
+.RE
+.TP
+Pointer (p)
+.br
+.RS
+.PP
+.RE
+.TP
+String (s)
+.br
+.RS
+.PP
+.RE
+.TP
+Unsigned (u)
+.br
+.RS
+.PP
+.RE
+.TP
+Hex (x, X)
+.br
+.RS
+.PP
+.RE
+.TP
+Scanlist ([])
+.br
+.RS
+.PP
+.RS
+.RE
+.TP
+Exclusion (^)
+.br
+.RS
+.PP
+.RE
+.TP
+Range (\-) [TRIO]
+.br
+.RS
+.TP
+.B *
+Only increasing ranges, i.e. [a\-b], but not [b\-a]. 
+.TP
+.B *
+Transitive ranges, ie. [a\-b\-c] equals [a\-c]. 
+.TP
+.B *
+Trailing minus, ie. [a\-] is interpreted as an 'a' and a '\-'. 
+.TP
+.B *
+Duplicates are ignored. 
+.RE
+.RS
+.PP
+.RE
+.TP
+Class Expression (::) [TRIO]
+.br
+Locale dependent (LC_CTYPE) 
+.RS
+.TP
+:alnum:
+:alpha: and :digit: 
+.TP
+:alpha:
+:lower: and :upper: 
+.TP
+:cntrl:
+Control characters 
+.TP
+:digit:
+Decimal digits 
+.TP
+:graph:
+Printable characters except space 
+.TP
+:lower:
+Lower case alphabetic letters 
+.TP
+:print:
+Printable characters 
+.TP
+:punct:
+Punctuation 
+.TP
+:space:
+Whitespace characters 
+.TP
+:upper:
+Upper case alphabetic letters 
+.TP
+:xdigit:
+Hexadecimal digits 
+.RE
+.RS
+.PP
+.RE
+.RE
+.PP
+.RE
+.RE
+.PP
+.SH RETURN VALUES
+.SH SEE ALSO
+.I "trio_printf"
+(3)
+.PP
+.SH CONFORMING TO
+See the description of 
+.I "trio_printf"
+(3).
+.PP
+.SH LEGAL ISSUES
+Copyright (C) 1998\-2000 Bjorn Reese and Daniel Stenberg. 
+.PP
+Permission to use, copy, modify, and distribute this software for any 
+purpose with or without fee is hereby granted, provided that the above 
+copyright notice and this permission notice appear in all copies. 
+.PP
+THIS SOFTWARE IS PROVIDED ``AS IS'' AND WITHOUT ANY EXPRESS OR IMPLIED 
+WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF 
+MERCHANTIBILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE AUTHORS AND 
+CONTRIBUTORS ACCEPT NO RESPONSIBILITY IN ANY CONCEIVABLE MANNER. 
+.\" NOTE: This file is generated, DO NOT EDIT.

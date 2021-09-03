@@ -1,0 +1,14 @@
+                               _ _ ____                    
+               _ __ ___   __ _(_) |___ \ ___ _ __ ___  ___ 
+              | '_ ` _ \ / _` | | | __) / __| '_ ` _ \/ __|
+              | | | | | | (_| | | |/ __/\__ \ | | | | \__ \
+              |_| |_| |_|\__,_|_|_|_____|___/_| |_| |_|___/
+
+
+1. run './configure'
+
+2. run 'make'
+
+3. Copy the 'mail2sms' executable to a suitable place.
+
+4. Copy the 'mail2sms.1' man page to the suitable man page directory.

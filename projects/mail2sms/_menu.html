@@ -1,0 +1,86 @@
+
+#define BACKGROUND "#ffffff"
+#define TEXTCOLOR "#000000"
+#define MENUTEXT "#ffffff"
+#define MENUCOLOR "#8080c0"
+
+#ifndef NOBODY
+
+<BODY bgcolor=BACKGROUND text=TEXTCOLOR LINK="#ff0000" VLINK="TEXTCOLOR" ALINK="red">
+#endif
+
+#define SEP <br>
+
+#define NOW(text) <b>text</b>
+#define REF(link,text) <a href=link>text</a>
+
+<table><tr><td valign=top align=left>
+
+#define LINK(l,t) <font size=+1 color="#ffffff">t</font><br>
+#define VLINK(l,t) <a href=l><font color="#ffffff">t</font></a><br>
+
+<table width=100% cellspacing=0 cellpadding=2 border=0 bgcolor="#000000"><tr><td>
+<table width=100% border=0 cellspacing=0 cellpadding=0 bgcolor=MENUCOLOR><tr><td align=left nowrap>
+
+#ifdef MAIL2SMS_MAIN
+LINK("./", mail2sms)
+#else
+VLINK("./", mail2sms)
+#endif
+
+#ifdef MAIL2SMS_DOCS
+
+#ifdef MAIL2SMS_DOCS_INDEX
+LINK("", Docs)
+#else
+VLINK("docs.html", Docs Index)
+#endif
+
+#ifdef MAIL2SMS_DOCS_README
+LINK("", Tutorial)
+#else
+VLINK("readme.shtml", Tutorial)
+#endif
+
+#ifdef MAIL2SMS_DOCS_MAN
+LINK("", Man Page)
+#else
+VLINK("manpage.html", Man Page)
+#endif
+
+#ifdef MAIL2SMS_DOCS_EXAMPLE
+LINK("", Example)
+#else
+VLINK("example.shtml", Example)
+#endif
+
+#ifdef MAIL2SMS_DOCS_REGEX
+LINK("", Regex Guide)
+#else
+VLINK("regex.shtml", Regex Guide)
+#endif
+
+#ifdef MAIL2SMS_DOCS_CHANGES
+LINK("", Changelog)
+#else
+VLINK("changes.shtml", Changelog)
+#endif
+
+
+#else
+VLINK("docs.html", Docs)
+#endif
+
+
+</td></tr></table>
+</td></tr></table>
+
+<p>
+
+#include "daniel.t"
+
+<p>
+<A href="http://sourceforge.net/projects/mail2sms"> <IMG src="http://sourceforge.net/sflogo.php?group_id=1641" width="88" height="31" border="0" alt="SourceForge Logo"></A>
+
+
+</td><td valign=top align=left>

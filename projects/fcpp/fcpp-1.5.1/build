@@ -1,0 +1,55 @@
+:
+
+PATH="${PATH}:/pd/gcc/2.95.2/bin" ; export PATH
+
+if [ "$1" = "-i" ]
+then
+    echo "build 1.0.0"
+    exit 0
+fi
+
+if [ "$1" = "-h" ]
+then
+    echo "build         - Compile the source"
+    echo "build clean   - Remove intermediate files"
+    echo "build test    - Test the build"
+    echo "build install - Install the build"
+    exit 0
+fi
+
+CC=gcc
+
+if [ "$OSTYPE" = "cygwin32" ]
+then
+    EXE=".exe"
+    PC=1
+    
+else
+    EXE=""
+    PC=0
+fi
+
+if [ "$1" = "clean" ]
+then
+
+    make clean
+
+
+elif [ "$1" = "install" ]
+then
+
+    if [ -d ../../../${OSTYPE}/bin ]
+    then
+        cp cpp${EXE} ../../../${OSTYPE}/bin/tcpp${EXE}
+    fi
+
+elif [ "$1" = "test" ]
+then
+
+    test.sh
+
+else
+
+    make
+
+fi

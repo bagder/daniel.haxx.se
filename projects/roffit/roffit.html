@@ -1,0 +1,74 @@
+<html><head>
+<title>roffit man page</title>
+<meta name="generator" content="roffit 0.5">
+<STYLE type="text/css">
+P.level0 {
+ padding-left: 2em;
+}
+
+P.level1 {
+ padding-left: 4em;
+}
+
+P.level2 {
+ padding-left: 6em;
+}
+
+span.emphasis {
+ font-style: italic;
+}
+
+span.bold {
+ font-weight: bold;
+}
+
+span.manpage {
+ font-weight: bold;
+}
+
+h2.nroffsh {
+ background-color: #e0e0e0;
+}
+
+span.nroffip {
+ font-weight: bold;
+ font-size: 120%;
+ font-family: monospace;
+}
+
+p.roffit {
+ text-align: center;
+ font-size: 80%;
+}
+</STYLE>
+</head><body>
+
+<p class="level0"><a name="NAME"></a><h2 class="nroffsh">NAME</h2>
+<p class="level0">roffit - convert nroff to HTML &copy; (** <a name="SYNOPSIS"></a><h2 class="nroffsh">SYNOPSIS</h2>
+<p class="level0"><span Class="bold">roffit [options] &lt; inputfile &gt; outputfile</span> <a name="DESCRIPTION"></a><h2 class="nroffsh">DESCRIPTION</h2>
+<p class="level0"><span Class="bold">roffit</span> converts the <span Class="emphasis">inputfile</span> to <span Class="emphasis">outputfile</span>. The <span Class="emphasis">inputfile</span> must be an nroff formatted man page, and the <span Class="emphasis">outputfile</span> will be an HTML document. <a name="OPTIONS"></a><h2 class="nroffsh">OPTIONS</h2>
+<p class="level0">
+<p class="level0"><a name="--bare"></a><span class="nroffip">--bare</span> 
+<p class="level1">The output HTML will not include any HTML, HEAD or BODY tags. Also not that when this is selected, there will be no inlined CSS but you will have to define the necessary classes yourself. <a name="CSS"></a><h2 class="nroffsh">CSS CLASSES</h2>
+<p class="level0">
+<p class="level0"><a name="h2nroffsh"></a><span class="nroffip">h2.nroffsh</span> 
+<p class="level1">The nroff ".SH" section. These are normally the "headlines" before each sub section within the man page. 
+<p class="level0"><a name="pnroffip"></a><span class="nroffip">p.nroffip</span> 
+<p class="level1">The nroff ".IP" section. These are normally the bullet kind used to list each option out of several in a list. Usually followed by a <a class="emphasis" href="#plevel0">p.level0</a> containining the descriptive text. 
+<p class="level0"><a name="plevel0"></a><span class="nroffip">p.level0</span> 
+<p class="level1">Normal text at the first level. Normally not indented. 
+<p class="level0"><a name="plevel1"></a><span class="nroffip">p.level1</span> 
+<p class="level1">Text at next logical indent level. Normally indented one level right. 
+<p class="level0"><a name="plevel2"></a><span class="nroffip">p.level2</span> 
+<p class="level1">Text at the second logical indent level. Normally indented two levels right. 
+<p class="level0"><a name="spanbold"></a><span class="nroffip">span.bold</span> 
+<p class="level1">Text marked to be bold. 
+<p class="level0"><a name="spanmanpage"></a><span class="nroffip">span.manpage</span> 
+<p class="level1">Text marked as a reference to another man page. 
+<p class="level0"><a name="spanemphasis"></a><span class="nroffip">span.emphasis</span> 
+<p class="level1">Text marked to be emphasized. 
+<p class="level0"><a name="proffit"></a><span class="nroffip">p.roffit</span> 
+<p class="level1">Used for the advertising final paragraph. <a name="WWW"></a><h2 class="nroffsh">WWW</h2>
+<p class="level0">http://daniel.haxx.se/projects/roffit <p class="roffit">
+ This HTML page was made with <a href="http://daniel.haxx.se/projects/roffit/">roffit</a>.
+</body></html>

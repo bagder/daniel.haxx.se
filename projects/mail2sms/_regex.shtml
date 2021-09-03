@@ -1,0 +1,26 @@
+#include "_doctype.html"
+<HTML>
+
+#include "setup.t"
+
+<head>
+<title>mail2sms - regex guide</title>
+<link rel="STYLESHEET" type="text/css" href="/daniel.css">
+</head>
+#define MAIL2SMS_DOCS
+#define MAIL2SMS_DOCS_REGEX
+#include "_menu.html"
+
+TITLE(regex quick guide)
+<p>
+ Some people actually claim regular expressions (regex) is tricky. This little
+ overview will prove them wrong... :-)
+
+<pre>
+<!--#include virtual="regex.t" -->
+</pre>
+
+#include "_footer.html"
+
+</BODY>
+</HTML>

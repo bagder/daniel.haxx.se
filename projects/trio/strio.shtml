@@ -1,0 +1,24 @@
+<html>
+<!-- test -->
+<HTML>
+<HEAD> <TITLE>Trio - strio man page</TITLE>
+<link rel="STYLESHEET" type="text/css" href="trio.css"></HEAD>
+<BODY bgcolor="#ffffff" text="#000000" LINK="#ff0000" VLINK=""#000000"" ALINK="red">
+<table><tr><td valign=top align=left>
+<table width=100% cellspacing=0 cellpadding=2 border=0 bgcolor="#000000"><tr><td>
+<table width=100% border=0 cellspacing=0 cellpadding=0 bgcolor="#800080"><tr><td align=left nowrap>
+<a href="./"><font color="#ffffff">Trio</font></a><br>
+<a href="competition.html"><font color="#ffffff">Competitors</font></a><br>
+<a href="download.html"><font color="#ffffff">Download</font></a><br>
+</td></tr></table>
+</td></tr></table>
+<br>
+ <A href="http://sourceforge.net"> <IMG
+
+ src="http://sourceforge.net/sflogo.php?group_id=14216" width="88" height="31"
+
+ border="0" alt="SourceForge Logo"></A>
+</td><td valign=top align=left>
+<p> <table width=100% cellpadding=1 cellpadding=0><tr><td bgcolor="#000000"> <table width=100% cellspacing=2 cellpadding=0><tr><td align=center bgcolor="#800080"> <font color="#ffffff" size=+2> strio -- man page </font> </td></tr></table> </td></tr></table>
+<!--#include virtual="/projects/trio/strio.t" -->
+</td></tr></table><p><small>Web page edited by daniel at haxx.se, modified April 05, 2005 </small>

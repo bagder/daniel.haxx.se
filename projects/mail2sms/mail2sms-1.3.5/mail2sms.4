@@ -1,0 +1,73 @@
+.\" You can view this file with:
+.\" nroff -man mail2sms.4
+.\" Written by Daniel Stenberg
+.\"
+.TH mail2sms 4 "11 October 1999"
+.SH NAME
+mail2sms \- reads a (MIME) mail and converts it to a short message.
+.SH SYNOPSIS
+.B /etc/mail/sms/mail2sms.conf
+.br
+.B ~/.mail2sms
+.SH DESCRIPTION
+mail2sms offers search and replace, conditional rules, conditional search and
+replace etc to create a custom output. It can optionally pipe its output into
+a specified program.
+
+All this is controlled with the config file, which this man page intend to
+describe.
+
+The config file contains a series of control commands.
+Each entry has the form:
+.IP
+\f2keyword\ \ \ [ : value ] \f3
+.TP 20
+.I keyword
+This is the command that sets or control a certain item or the flow of the
+config file starting from here.
+.TP
+\f2value\f3
+This parameter depends on the command. It may also be left out depending on
+the command.
+.PP
+Values are either written plainly and whitespaces left and right of the words
+are cut off, or within quotes (").  If the value is quoted, you must escape
+quotes to be able to have them in the string, as in: " \\" ".
+
+Fields should be separated by any number of
+.SM SPACE
+and/or
+.SM TAB\s0
+characters and a colon (:).
+.PP
+The available commands are of a few different kinds, and therefore this
+description has a few different sections that describe the commands in each
+section.
+
+A
+\f1`\f3#\f1'
+(number sign) indicates the beginning of a comment; characters up to the end
+of the line are not interpreted by routines which parses the file.
+
+Basically, there are two kinds of keywords. The first is the one read and
+dealt with in real-time when read, they may also build strings that define
+output format, command to run etc.. The other type is the keywords that build
+a tree of regular expressions with accompanying actions. It is important to
+understand the difference.
+.SH "General Keywords"
+Left to write. See the README for now.
+.SH FILES
+.PD 0
+.TP 20
+.B /etc/aliases
+Takes care of sendmail aliases and is a good place to automatically run
+mail2sms from.
+.PD
+.SH WWW
+http://www.contactor.se/~dast/mail2sms/
+.SH "SEE ALSO"
+.BR mail2sms (1),
+.BR sendmail (1M),
+.BR procmail (1),
+.BR aliases (4)
+

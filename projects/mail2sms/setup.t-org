@@ -1,0 +1,13 @@
+#define LATESTVERSION 1.3.5
+#define RELEASEDATE February 5, 2003
+#define RELEASESIZE 123558 bytes
+
+#define TITLE(title) <p> \
+<table width=100% cellpadding=1 cellpadding=0><tr><td bgcolor="#000000"> \
+<table width=100% cellspacing=2 cellpadding=0><tr><td align=center bgcolor="#808080"> \
+<font color="#ffffff" size=+2> \
+title \
+</font> \
+</td></tr></table> \
+</td></tr></table>
+

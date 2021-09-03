@@ -1,0 +1,51 @@
+.\" You can view this file with:
+.\" nroff -man mail2sms.1
+.\" Written by Daniel Stenberg
+.\"
+.TH mail2sms 1 "19 October 2000" "mail2sms 1.2.1" "mail2sms Manual"
+.SH NAME
+mail2sms \- reads a (MIME) mail and converts it to a short message.
+.SH SYNOPSIS
+.B mail2sms [options] < mail
+.SH DESCRIPTION
+mail2sms offers search and replace, conditional rules, conditional search and
+replace etc to create a custom output. It can optionally pipe its output into
+a specified program.
+.SH OPTIONS
+.IP "-c <config file>"
+Specifies what config file to read. It can be used repeatedly.
+.IP "-d"
+Switch on debug messages in the log file
+.IP "-I <include dir>"
+Adds a directory to the include path.
+.IP "-l <logfile>"
+Specify what file to write all log texts to.
+.IP "-n"
+Prevents mail2sms from reading the default config files.
+.IP "-o"
+makes mail2sms write the sms message to stdout when completed (and not invoke
+any sub-command).
+.IP "-p <phone number>"
+sets the $phone variable (see the run command)
+.IP "-q"
+shuts off all logging
+.IP "-v"
+Shows mail2sms' version number then quits.
+.SH AUTHORS
+mail2sms has been written by Daniel Stenberg <daniel@haxx.se> with lofs of
+help from friendly contributors, such as:
+
+ - Linus Nielsen <linus@haxx.se>
+ - Kjell Ericson <kjell@haxx.se>
+ - Bjorn Stenberg <bjorn@haxx.se>
+ - Alexander Bergolth <leo@strike.wu-wien.ac.at> 
+ - A. Ljunggren <andreas.ljunggren@ericsson.com>
+ - Peter Kundrat <kundrat@gic.sk>
+ - Tomi Malensek <tomi@insert.si>
+ - Balazs Nagy <julian7@kva.hu>
+ - Adrian Pavlykevych <pam@polynet.lviv.ua>
+
+.SH WWW
+http://daniel.haxx.se/projects/mail2sms/
+.SH "SEE ALSO"
+.BR mail2sms (4)

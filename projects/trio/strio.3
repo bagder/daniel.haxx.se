@@ -1,0 +1,304 @@
+.\" t
+.\" Manual page created with latex2man on Sat Aug 19 15:56:07 DST 2000
+.\" NOTE: This file is generated, DO NOT EDIT.
+.de Vb
+.ft CW
+.nf
+..
+.de Ve
+.ft R
+
+.fi
+..
+.TH "STRIO" "3" "19 August 2000" "TRIO "
+.SH NAME
+StrAlloc, 
+StrAppend, 
+StrAppendMax, 
+StrContains, 
+StrCopy, 
+StrCopyMax, 
+StrDuplicate, 
+StrDuplicateMax, 
+StrEqual, 
+StrEqualMax, 
+StrEqualCase, 
+StrEqualCaseMax, 
+StrError, 
+StrFormat, 
+StrFormatMax, 
+StrFormatDateMax, 
+StrFree, 
+StrHash, 
+StrIndex, 
+StrIndexLast, 
+StrLength, 
+StrMatch, 
+StrMatchCase, 
+StrScan, 
+StrSpanFunction, 
+StrSubstring, 
+StrSubstringMax, 
+StrTokenize, 
+StrToDouble, 
+StrToFloat, 
+StrToLong, 
+StrToUnsignedLong, 
+StrToUpper 
+\- string functions 
+.PP
+.SH SYNOPSIS
+.PP
+cc ... \-ltrio \-lm
+.PP
+#include <strio.h>
+.PP
+See section Functions below for the prototypes of the string functions. 
+.PP
+.SH DESCRIPTION
+This package renames, fixes, and extends the C string handling functions. 
+.PP
+.SS NAMING
+Renaming is done to provide more clear names, to provide a consistant naming 
+and argument policy, and to hide portability issues.
+.br
+.TP
+.B *
+All functions starts with "Str".
+.br
+.TP
+.B *
+Target is always the first argument, if present, except where the target 
+is optional, such as StrToDouble().
+.TP
+.B *
+Functions requiring a size for target ends with "Max", and the size is 
+always the second argument. 
+.PP
+.SS FIXING
+Fixing is done to avoid subtle error conditions. 
+For example, strncpy()
+does not terminate the result with a zero if 
+the source string is bigger than the maximal length, so technically the result 
+is not a C string anymore. StrCopyMax()
+makes sure that the result is 
+zero terminated. 
+.PP
+.SS EXTENDING
+Extending is done to provide a richer set of fundamental functions. 
+This includes wildcard matching (StrMatch())
+and calculation of 
+hash values (StrHash()).
+.PP
+.SH FUNCTIONS
+.PP
+.TP
+char *StrAlloc(size_t size);
+.br
+Allocate a string with 
+.IR "size"
+characters (including terminating zero). 
+This string is freed again with StrFree().
+.PP
+.TP
+char *StrAppend(char *target, char *source);
+.br
+Append source
+at the end of 
+.IR "target".
+.PP
+.TP
+char *StrAppendMax(char *target, size_t max, const char *source);
+.br
+Append 
+.IR "source"
+at the end of 
+.IR "target".
+Make sure that the result 
+does not exceed 
+.IR "max"
+characters. 
+.IR "max"
+must be greater than the 
+length of 
+.IR "target".
+.PP
+.TP
+int StrContains(const char *string, const char *substring);
+.br
+Returns true if 
+.IR "string"
+contains at least one appearance of 
+.IR "substring".
+.PP
+.TP
+char *StrCopy(char *target, const char *source);
+.br
+Copy the contents of 
+.IR "source"
+to 
+.IR "target".
+.PP
+.TP
+char *StrCopyMax(char *target, size_t max, const char *source);
+.br
+Copy the contents of 
+.IR "source"
+to 
+.IR "target".
+Make sure that the 
+result does not exceed 
+.IR "max"
+characters. Excessive characters are 
+discarded in the result. 
+.PP
+.TP
+char *StrDuplicate(const char *source);
+.br
+Allocate a new string which contains a copy of 
+.IR "source".
+.PP
+.TP
+char *StrDuplicateMax(const char *source, size_t max);
+.br
+Allocate a new string which contains a copy of 
+.IR "source".
+At most 
+.IR "max"
+characters are allocated and copied to the result. 
+.PP
+.TP
+int StrEqual(const char *first, const char *second);
+.br
+Return true if 
+.IR "first"
+and 
+.IR "second"
+are equal. 
+Not case\-sensitive. 
+.PP
+.TP
+int StrEqualMax(const char *first, size_t max, const char *second);
+.br
+Return true if at most the first 
+.IR "max"
+characters of 
+.IR "first"
+and 
+.IR "second"
+are equal. Not case\-sensitive. 
+.PP
+.TP
+int StrEqualCase(const char *first, const char *second);
+.br
+.PP
+.TP
+int StrEqualCaseMax(const char *first, size_t max, const char *second);
+.br
+.PP
+.TP
+const char *StrError(int errno);
+.br
+.PP
+.TP
+int StrFormat(char *target, const char *format, ...);
+.br
+.PP
+.TP
+int StrFormatMax(char *target, size_t max, const char *format, ...);
+.br
+.PP
+.TP
+int StrFormatDateMax(char *target, size_t max, const char *format, const struct tm *datetime);
+.br
+.PP
+.TP
+int StrFree(char *target);
+.br
+Free a string allocated by StrAlloc(),
+StrDuplicate(),
+or 
+StrDuplicateMax().
+.PP
+.TP
+unsigned long StrHash(const char *source, int type);
+.br
+.PP
+.TP
+char *StrIndex(char *string, int character);
+.br
+.PP
+.TP
+char *StrIndexLast(char *string, int character);
+.br
+.PP
+.TP
+size_t StrLength(char *source);
+.br
+.PP
+.TP
+int StrMatch(char *string, char *pattern);
+.br
+.PP
+.TP
+int StrMatchCase(char *string, char *pattern);
+.br
+.PP
+.TP
+int StrScan(char *source, const char *format, ...);
+.br
+.PP
+.TP
+size_t StrSpanFunction(char *target, int (*Function)(int));
+.br
+.PP
+.TP
+char *StrSubstring(const char *string, const char *substring);
+.br
+.PP
+.TP
+char *StrSubstringMax(const char *string, size_t max, const char *substring);
+.br
+.PP
+.TP
+char *StrTokenize(char *target, const char *delimiter);
+.br
+.PP
+.TP
+double StrToDouble(const char *source, const char **target);
+.br
+.PP
+.TP
+float StrToFloat(const char *source, const char **target);
+.br
+.PP
+.TP
+long StrToLong(const char *source, const char **target, int base);
+.br
+.PP
+.TP
+unsigned long StrToUnsignedLong(const char *source, const char **target, int base);
+.br
+.PP
+.TP
+int StrToUpper(char *target);
+.br
+.PP
+.SH SEE ALSO
+.I "trio_printf"
+(3),
+.I "trio_scanf"
+(3)
+.PP
+.SH LEGAL ISSUES
+Copyright (C) 1998\-2000 Bjorn Reese and Daniel Stenberg. 
+.PP
+Permission to use, copy, modify, and distribute this software for any 
+purpose with or without fee is hereby granted, provided that the above 
+copyright notice and this permission notice appear in all copies. 
+.PP
+THIS SOFTWARE IS PROVIDED ``AS IS'' AND WITHOUT ANY EXPRESS OR IMPLIED 
+WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF 
+MERCHANTIBILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE AUTHORS AND 
+CONTRIBUTORS ACCEPT NO RESPONSIBILITY IN ANY CONCEIVABLE MANNER. 
+.\" NOTE: This file is generated, DO NOT EDIT.

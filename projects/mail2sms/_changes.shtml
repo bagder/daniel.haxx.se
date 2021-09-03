@@ -1,0 +1,25 @@
+#include "_doctype.html"
+<HTML>
+
+#include "setup.t"
+
+<head>
+<title>mail2sms - CHANGES</title>
+<link rel="STYLESHEET" type="text/css" href="/daniel.css">
+</head>
+#define MAIL2SMS_DOCS
+#define MAIL2SMS_DOCS_CHANGES
+#include "_menu.html"
+
+TITLE(Recent changes to mail2sms)
+<p>
+ This is what has been changed recently in mail2sms!
+
+<pre>
+<!--#include virtual="changes.t" -->
+</pre>
+
+#include "_footer.html"
+
+</BODY>
+</HTML>

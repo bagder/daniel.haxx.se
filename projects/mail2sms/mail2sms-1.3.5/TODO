@@ -1,0 +1,17 @@
+Things to add in future incarnations of mail2sms:
+
+* Make the 'run' parameter feature more replacement $variables, like all those
+  available to the 'output' parameter!
+
+* Hermann Himmelbauer: When I receive serveral SMS, the newest SMS is
+  displayed first in my mobile phone (Siemens S35) - so if a mail is seperated
+  in many parts, the last part is displayed first; What do you think of making
+  an option like "reverse_ordering" that sends the last part first and the
+  first part last to simplify reading the Mail on certain mobile phones?
+ 
+ - free() all the malloc()ed memory
+
+ - make checks for and prevent buffer overflows all over
+
+ - Make the mail2sms.4 man page complete, use the README file as input.
+

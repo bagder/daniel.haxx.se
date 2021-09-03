@@ -1,0 +1,51 @@
+
+#define BACKGROUND "#ffffff"
+#define TEXTCOLOR "#000000"
+#define MENUTEXT "#ffffff"
+#define MENUCOLOR "#800080"
+
+#ifndef NOBODY
+
+<BODY bgcolor=BACKGROUND text=TEXTCOLOR LINK="#ff0000" VLINK="TEXTCOLOR" ALINK="red">
+#endif
+
+#define SEP <br>
+
+#define NOW(text) <b>text</b>
+#define REF(link,text) <a href=link>text</a>
+
+<table><tr><td valign=top align=left>
+
+#define LINK(l,t) <font size=+1 color="#ffffff">t</font><br>
+#define VLINK(l,t) <a href=l><font color="#ffffff">t</font></a><br>
+
+<table width=100% cellspacing=0 cellpadding=2 border=0 bgcolor="#000000"><tr><td>
+<table width=100% border=0 cellspacing=0 cellpadding=0 bgcolor=MENUCOLOR><tr><td align=left nowrap>
+
+#ifdef TRIO_MAIN
+LINK("./", Trio)
+#else
+VLINK("./", Trio)
+#endif
+
+#ifdef TRIO_COMPETITION
+LINK("competition.html", Competitors)
+#else
+VLINK("competition.html", Competitors)
+#endif
+
+#ifdef TRIO_DOWNLOAD
+LINK("download.html", Download)
+#else
+VLINK("download.html", Download)
+#endif
+
+</td></tr></table>
+</td></tr></table>
+
+<br>
+ <A href="http://sourceforge.net"> <IMG
+ src="http://sourceforge.net/sflogo.php?group_id=14216" width="88" height="31"
+ border="0" alt="SourceForge Logo"></A>
+
+</td><td valign=top align=left>

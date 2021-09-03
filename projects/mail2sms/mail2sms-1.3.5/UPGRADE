@@ -1,0 +1,18 @@
+
+    *** Important notice when you upgrade to mail2sms 1.1 or later from ***
+    *** mail2sms 1.0 or 0.X                                             ***
+
+The ABORT keyword is not working as it previously did! When you in older
+versions did something like:
+
+        abort: no.*sms
+
+... in mail2sms 1.1 and onwards, you'll have to use the abort keyword within
+an if/endif section, as in:
+
+        if: no.*sms
+          abort: no sms he said
+        endif
+
+Your mail2sms will not die if the old style us used, but it won't abort as you
+would want it to!

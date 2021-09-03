@@ -1,0 +1,14 @@
+******************************************************************************
+This software is unwillingly released under the GNU Public License. I do not
+like to enforce this license to the users of this software, but since I wanted
+to take advantage of the already GNU licensed regex.c I am forced to do this.
+******************************************************************************
+
+Initial Developer of this software is:
+
+  Daniel Stenberg <daniel@haxx.se>
+ 
+Mail2sms is Copyright (C) 1998-2001 Daniel Stenberg
+
+This is free software. Use it for free, but at your own risk. There are NO
+WARRANTIES what so ever.

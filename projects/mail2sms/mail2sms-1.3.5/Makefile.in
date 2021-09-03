@@ -1,0 +1,32 @@
+
+CC=@CC@
+
+TARGET=mail2sms
+
+CFLAGS=@CFLAGS@
+LDFLAGS=@LDFLAGS@
+CPPFLAGS=@DEFS@
+ 
+OBJS= base64.o parse.o struct.o uudecode.o main.o regex.o sms.o sendmsg.o
+
+.c.o:
+	$(CC) -c $(CFLAGS) $(CPPFLAGS) $<
+
+all:   $(TARGET)
+
+$(TARGET): $(OBJS) 
+	$(CC) -o $(TARGET) $(LDFLAGS) $(OBJS) 
+
+base64.o: base64.c main.h config.h
+main.o: main.c main.h config.h sms.h parse.h sendmsg.h
+parse.o: parse.c main.h config.h struct.h
+regex.o: regex.c regex.h
+sendmsg.o: sendmsg.c sms.h
+sms.o: sms.c main.h config.h regex.h sms.h
+struct.o: struct.c main.h config.h
+uudecode.o: uudecode.c main.h config.h
+
+
+clean:
+	rm -f core *.o *~ $(TARGET) config.cache
+

@@ -1,0 +1,5 @@
+the first option:
+\user	is to leave a copy of the message in your mailbox as the default
+
+"|/home/user/mail2sms -c /home/user/example.conf -p 666666666"	pipe the
+	mail to the mail2sms program so it can be send.

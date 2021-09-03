@@ -1,0 +1,249 @@
+VIDEO curl - a hobby project with a billion users
+EVENT Google Tech Talk Meetup
+URL https://youtu.be/Lq2ksox21Eg
+SLIDES https://curl.haxx.se/docs/videos/2015-curl-hobby-billion-users-Google.pdf
+THUMB hobby-project-with-a-billion.jpg
+THUMBSIZE width="250" height="140"
+DURATION 1h11
+DATE 2015-08-26
+WHO Daniel Stenberg
+DESC curl is like a swiss army-knife for HTTP and internet transfers. Daniel takes us through how it started, how it works and why it never gets done
+ENDOFVIDEO
+
+VIDEO You know what's cool? Running on billions of devices
+EVENT FOSDEM 2017
+URL https://youtu.be/T31GvxCtrL8
+SLIDES https://curl.haxx.se/docs/videos/FOSDEM-2017-curl.pdf
+THUMB you-know-whats-cool-2017.jpg
+THUMBSIZE width="250" height="141"
+DURATION 50 minutes
+DATE 2017-02-04
+WHO Daniel Stenberg
+DESC All about curl, from inception to being everywhere
+ENDOFVIDEO
+
+VIDEO Internet all the things - using curl in your device
+EVENT FOSDEM 2015
+URL https://mirrors.dotsrc.org/fosdem/2015/devroom-embedded/curl_device.mp4
+SLIDES https://curl.haxx.se/docs/videos/2015-curl-FOSDEM-internet-all-the-things.pdf
+THUMB internet-all-the-things-2015.jpg
+THUMBSIZE width="250" height="141"
+DURATION 26 minutes
+DATE 2015-02-01
+WHO Daniel Stenberg
+DESC libcurl is the world's most used and most popular internet transfer library, already used in every imaginable sort of embedded device out there
+ENDOFVIDEO
+
+VIDEO HTTP/3 is the next coming HTTP version
+URL https://youtu.be/Tj88nQb2SvI
+EVENT Goto 10
+THUMB http3-next-coming.jpg
+THUMBSIZE width="336" height="188"
+DURATION 1h34
+DATE 2019-01-23
+WHO Daniel Stenberg
+DESC HTTP/3 is the designated name for the coming next version of the protocol that is currently under development
+ENDOFVIDEO
+
+VIDEO HTTP/2
+URL https://youtu.be/GqpDtjvZ_Rc
+SLIDES https://drive.google.com/file/d/1_YNOVtWUjPszV3aWGQUQoDlYf67OpYl-/view
+EVENT DevFest CZ 2017
+THUMB http2-devfest.jpg
+THUMBSIZE width="336" height="188"
+DURATION 41 minutes
+DATE 2017-11-18
+WHO Daniel Stenberg
+DESC A recap on what HTTP/2 brought that HTTP/1 couldn't offer
+ENDOFVIDEO
+
+VIDEO HTTP 2
+URL https://youtu.be/r2f8tloYJY0
+EVENT GOTO Copenhagen 2015
+THUMB goto2015-http2.jpg
+THUMBSIZE width="336" height="188"
+DURATION 47 minutes
+DATE 2015-10-15
+WHO Daniel Stenberg
+DESC HTTP/2 is the new version of the web's most important and used protocol. RFC 7540 shipped and is right now getting deployed across the Internet
+ENDOFVIDEO
+
+VIDEO HTTP/2 is upon us, what you need to know about it
+URL https://youtu.be/3Bg5NZGsgTg
+EVENT  Google Tech Talk Meetup
+THUMB http2-is-upon-us.jpg
+THUMBSIZE width="336" height="188"
+DURATION 1h15
+DATE 2016-04-12
+WHO Daniel Stenberg
+DESC HTTP/2 is the new version of the web's and the Internet's most important and widely used protocol
+ENDOFVIDEO
+
+VIDEO HTTP/2: Never Gonna Give You Up
+URL https://youtu.be/-QHmi4ELE9I
+EVENT Tech Day by Init 2016
+THUMB http2-never-gonna-give-you-up.jpg
+THUMBSIZE width="336" height="188"
+DURATION 1h04
+DATE 2017-05-11
+WHO Daniel Stenberg
+DESC Where HTTP is today, what HTTP/2 is and where to go next. In <b>Swedish</b>
+ENDOFVIDEO
+
+VIDEO curl?
+URL https://youtu.be/SMsfOtU8KZk
+EVENT the Polhem Prize 2017 awards
+THUMB curl.jpg
+THUMBSIZE width="336" height="188"
+DURATION 3 minutes
+DATE 2017-10-23
+WHO Daniel Stenberg
+DESC Swedish-speaking (with subtitles) explanation of what curl is
+ENDOFVIDEO
+
+VIDEO Web transport, today and tomorrow
+URL https://youtu.be/OPgoCy3Sc2A
+EVENT Netnod spring meeting 2017
+THUMB webtransport-netod.jpg
+THUMBSIZE width="336" height="188"
+DURATION 28 minutes
+DATE 2017-04-13
+WHO Daniel Stenberg
+DESC Web transport, today and tomorrow
+ENDOFVIDEO
+
+VIDEO libssh2
+URL https://youtu.be/uN1IZiupDLs
+EVENT Slackathon 2009
+THUMB slackathon2009-libssh2.jpg
+THUMBSIZE width="336" height="188"
+DURATION 14 minutes
+DATE 2009-08-20
+WHO Daniel Stenberg
+DESC libssh2 explained
+ENDOFVIDEO
+
+VIDEO HTTP/3 is the next coming HTTP version
+URL https://youtu.be/rTGAVvb87_Y
+SLIDES https://www.slideshare.net/bagder/http3-129039527
+EVENT FOSDEM 2019
+THUMB http3-fosdem2019.jpg
+THUMBSIZE width="336" height="188"
+DURATION 1 hour
+DATE 2019-02-02
+WHO Daniel Stenberg
+DESC HTTP/3 is the designated name for the coming next version of the protocol that is currently under development
+ENDOFVIDEO
+
+VIDEO DNS-over-HTTPS - the good, the bad and the ugly
+URL https://video.fosdem.org/2019/Janson/dns_over_http.mp4
+SLIDES https://www.slideshare.net/bagder/dns-over-https
+EVENT FOSDEM 2019
+THUMB doh-fosdem2019.jpg
+THUMBSIZE width="336" height="189"
+DURATION 45 minutes
+DATE 2019-02-02
+WHO Daniel Stenberg
+DESC DNS over HTTPS introduces a new transport protocol to do secure and private DNS messaging
+ENDOFVIDEO
+
+VIDEO Writing safe and secure code
+URL https://youtu.be/n55ZJxL04Hk
+SLIDES https://www.slideshare.net/bagder/writing-safe-and-secure-code
+EVENT FOSS-North 2019
+THUMB safe-secure.jpg
+THUMBSIZE width="336" height="174"
+DURATION 22 minutes
+DATE 2019-04-09
+WHO Daniel Stenberg
+DESC With experiences from the curl project, Daniel talks about how to write safe and secure code to run in every portable device on the planet
+ENDOFVIDEO
+
+VIDEO HTTP/3 is coming
+URL https://youtu.be/YjzzBxONM2o
+EVENT JAX 2019
+THUMB jax-http3.jpg
+THUMBSIZE width="336" height="188"
+DURATION 34 minutes
+DATE 2019-05-07
+WHO Daniel Stenberg
+DESC HTTP/3 and QUIC explained in half an hour!
+ENDOFVIDEO
+
+VIDEO HTTP/3 is coming soon
+URL https://youtu.be/5BT9sEopUoY
+THUMB h3-klarna.jpg
+THUMBSIZE width="336" height="144"
+DURATION 60 minutes
+DATE 2019-05-10
+WHO Daniel Stenberg
+DESC HTTP/3 is the designated name for the coming next version of the protocol that is currently under development within the QUIC working group in the IETF.
+ENDOFVIDEO
+
+VIDEO HTTP/3 - HTTP over QUIC is the next generation
+SLIDES https://www.slideshare.net/bagder/http3-fullstackfest2019
+URL https://youtu.be/idViw4anA6E
+THUMB talk-fullstackfest.jpg
+THUMBSIZE width="336" height="188"
+DURATION 40 minutes
+DATE 2019-09-06
+EVENT Fullstackfest 2019
+WHO Daniel Stenberg
+DESC HTTP/3 is the designated name for the coming next version of the protocol.
+ENDOFVIDEO
+
+VIDEO just curl it
+SLIDES https://www.slideshare.net/bagder/just-curl-it
+URL https://youtu.be/y7Mxq013Dy4
+THUMB daniel-just-curl-it.jpg
+THUMBSIZE width="336" height="188"
+DURATION 28 minutes
+DATE 2019-10-22
+EVENT Nordic APIs
+WHO Daniel Stenberg
+DESC How to use curl, including some tricks you might have missed and some things you should avoid.
+ENDOFVIDEO
+
+VIDEO Why everyone is using curl and you should too
+URL https://youtu.be/ezy9MqrV6YU
+THUMB why-everyone.jpg
+THUMBSIZE width="336" height="189"
+DURATION 40 minutes
+DATE 2020-01-21
+WHO Daniel Stenberg
+DESC Who uses curl and why they do it
+ENDOFVIDEO
+
+VIDEO HTTP/3 for everyone
+SLIDES https://www.slideshare.net/bagder/http3-for-everyone
+URL https://youtu.be/izk4nbuzPuU
+THUMB http3-for-everyone.jpg
+THUMBSIZE width="336" height="189"
+DURATION 43 minutes
+DATE 2020-02-02
+WHO Daniel Stenberg
+EVENT FOSDEM 2020
+DESC About HTTP/3 and QUIC
+ENDOFVIDEO
+
+VIDEO HTTP/3 is next Generation HTTP. Is it QUIC enough?
+URL https://youtu.be/rlN4F1oyaRM
+THUMB goto-2019-daniel-http3.webp
+THUMBSIZE width="336" height="188"
+DURATION 43 minutes
+DATE 2019-11-19
+WHO Daniel Stenberg
+EVENT GOTO Copenhagen 2019
+DESC HTTP/3 and QUIC explained
+ENDOFVIDEO
+
+VIDEO curl better
+URL https://conf.tube/videos/watch/c8d3ea0e-f089-47d2-a08f-faa6c1d2b020
+THUMB curl-better.jpg
+THUMBSIZE width="336" height="189"
+DURATION 55 minutes
+DATE 2020-03-30
+WHO Daniel Stenberg
+EVENT foss-north 2020
+DESC Using the curl tool to do HTTP
+ENDOFVIDEO

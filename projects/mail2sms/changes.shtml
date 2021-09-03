@@ -1,0 +1,39 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+
+<body bgcolor="#ffffff" text="#000000" link="#800000">
+<HTML>
+<head>
+<title>mail2sms - CHANGES</title>
+<link rel="STYLESHEET" type="text/css" href="/daniel.css">
+</head>
+<BODY bgcolor="#ffffff" text="#000000" LINK="#ff0000" VLINK=""#000000"" ALINK="red">
+<table><tr><td valign=top align=left>
+<table width=100% cellspacing=0 cellpadding=2 border=0 bgcolor="#000000"><tr><td>
+<table width=100% border=0 cellspacing=0 cellpadding=0 bgcolor="#8080c0"><tr><td align=left nowrap>
+<a href="./"><font color="#ffffff">mail2sms</font></a><br>
+<a href="docs.html"><font color="#ffffff">Docs Index</font></a><br>
+<a href="readme.shtml"><font color="#ffffff">Tutorial</font></a><br>
+<a href="manpage.html"><font color="#ffffff">Man Page</font></a><br>
+<a href="example.shtml"><font color="#ffffff">Example</font></a><br>
+<a href="regex.shtml"><font color="#ffffff">Regex Guide</font></a><br>
+<font size=+1 color="#ffffff">Changelog</font><br>
+</td></tr></table>
+</td></tr></table>
+<p>
+<div class="danielbox">
+<a href="http://daniel.haxx.se/">Daniel's page</a>
+
+</div>
+<p>
+<A href="http://sourceforge.net/projects/mail2sms"> <IMG src="http://sourceforge.net/sflogo.php?group_id=1641" width="88" height="31" border="0" alt="SourceForge Logo"></A>
+
+</td><td valign=top align=left>
+<div class=title align=left> Recent changes to mail2sms </div>
+<p>
+ This is what has been changed recently in mail2sms!
+<pre>
+<!--#include virtual="changes.t" -->
+</pre>
+</td></tr></table><p><small>Modified April 19, 2011 </small>
+</BODY>
+</HTML>

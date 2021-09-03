@@ -1,0 +1,43 @@
+<html>
+<head>
+<title>Sweden, Drottningholm</title>
+</head>
+
+<body bgcolor="#ffffff">
+
+<table width=100%><tr><td align=left>
+<a href="skansen.html"><img border=0 src="../back.gif"></a>
+</td><td align=center>
+<a href="./index.html"><img border=0 src="../home.gif"></a>
+</td><td align=right>
+<a href="ballonger.html"><img border=0 src="../next.gif"></a>
+</td></tr></table>
+<hr>
+
+<img src="279-big.jpg">
+<img src="280-big.jpg">
+<img src="283-big.jpg">
+<img src="282-big.jpg">
+<img src="285-big.jpg">
+<img src="287-big.jpg">
+<img src="288-big.jpg">
+<img src="289-big.jpg">
+<img src="290-big.jpg">
+<img src="291-big.jpg">
+<img src="292-big.jpg">
+<img src="293-big.jpg">
+<img src="294-big.jpg">
+<img src="296-big.jpg">
+<img src="297-big.jpg">
+
+
+<hr>
+<table width=100%><tr><td align=left>
+<a href="skansen.html"><img border=0 src="../back.gif"></a>
+</td><td align=center>
+<a href="./index.html"><img border=0 src="../home.gif"></a>
+</td><td align=right>
+<a href="ballonger.html"><img border=0 src="../next.gif"></a>
+</td></tr></table>
+<br>
+ (C) 2001 by <a href="http://anja.haxx.se/">Anja</a> and <a href="http://daniel.haxx.se/">Daniel</a>

@@ -1,0 +1,235 @@
+#include "_doctype.html"
+<HTML>
+
+#include "setup.t"
+
+<head>
+<title>mail2sms - convert a mail to short text</title>
+<link rel="STYLESHEET" type="text/css" href="/daniel.css">
+</head>
+#define MAIL2SMS_MAIN
+#include "_menu.html"
+
+TITLE(mail2sms)
+<p>
+  <b>mail2sms</b> converts a single (large) mail to a tiny text with contents
+  from the mail. Perfectly suitable to send as an SMS message to a GSM
+  telephone.
+<p>
+  This program acts as a filter and can optionally run another program and
+  pass the filtered data into it.
+<p>
+  This program features:
+<ul> <i>
+  regex search/replace, abort on regexes, conditional regex rules,
+  conditional output, conditional whatever actually ;-), change output length,
+  control output format, full MIME mail support (including
+  multipart/alternative), conditional runs dependent on date/time, 
+  splitting up the output in multiple output parts and more!
+</i></ul>
+<p>
+  This program can not actually send any SMS by itself.
+
+#define STARTLINE <tr valign=top>
+#define ENDLINE </tr>
+
+#define DATETD <td nowrap>
+#define WHATTD <td>
+#define ENDTD  </td>
+
+TITLE(News)
+BOXTOP
+<p>
+ <table bgcolor="#eeeeff" cellspacing=0 cellpadding=2>
+
+ STARTLINE
+ DATETD
+   5th February, 2003
+ ENDTD
+ WHATTD
+
+  <a href="mail2sms-1.3.5.tar.gz">Version 1.3.5</a>. Security fix. If you use
+  'run' with $message in your mail2sms config, you should upgrade to 1.3.5
+  from any previous version. You could be facing a security problem otherwise.
+
+ ENDTD
+ ENDLINE
+
+ STARTLINE
+ DATETD
+   13th June, 2002
+ ENDTD
+ WHATTD
+
+  Version 1.3.4. Another set of minor bugfixes.
+
+ ENDTD
+ ENDLINE
+
+ STARTLINE
+ DATETD
+   13th Nov, 2001
+ ENDTD
+ WHATTD
+
+  Version 1.3.3. Four minor bugfixes.
+
+ ENDTD
+ ENDLINE
+
+ STARTLINE
+ DATETD
+   6th Apr, 2001
+ ENDTD
+ WHATTD
+
+  Version 1.3.2. Two minor bugfixes.
+
+ ENDTD
+ ENDLINE
+
+ STARTLINE
+ DATETD
+   12th Feb, 2001
+ ENDTD
+ WHATTD
+
+  Version 1.3.1. The new 'exit' keyword is introduced.
+
+ ENDTD
+ ENDLINE
+
+ STARTLINE
+ DATETD
+   9th Feb, 2001
+ ENDTD
+ WHATTD
+
+  Version 1.3. Core dump removed, 'filter' expression added. -l now overrides
+  'logfile'.
+
+ ENDTD
+ ENDLINE
+
+ STARTLINE
+ DATETD
+   19th Oct, 2000
+ ENDTD
+ WHATTD
+
+  Version 1.2.1. Added the -l switch and made the config files get parsed in a
+  more sensible manner that makes -n work even if not as the first option!
+  Added the <a href="manpage.html">man page</a> in web version.
+
+ ENDTD
+ ENDLINE
+
+ STARTLINE
+ DATETD
+   18th Oct, 2000
+ ENDTD
+ WHATTD
+
+  I put mail2sms 1.2 up on the web. The 1.1 really didn't work well. I'll wait
+  a little before I announce this more than like this to give me some time to
+  verify functionality first.
+
+ ENDTD
+ ENDLINE
+
+ STARTLINE
+ DATETD
+   17th Oct, 2000
+ ENDTD
+ WHATTD
+
+  Released mail2sms 1.1. Made some rather major improvements in very little
+  time, if I may say so myself. I do hope to get some feedback on the new
+  stuff!
+
+ ENDTD
+ ENDLINE
+
+ STARTLINE
+ DATETD
+   &nbsp;
+ ENDTD
+ WHATTD
+
+  Made better <a href="docs.html">separate</a> web pages for the four main
+  documentation files. I added this news title and made a lot of general
+  cleanups on the web pages.
+ ENDTD
+ ENDLINE
+
+
+ </table>
+BOXBOT
+
+TITLE(Download)
+<p>
+
+ <font color="#ff0000">Note! The abort keyword is changed, modify your config
+  files when upgrading from 1.0 or earlier!</font>
+
+<p>
+  <a href="mail2sms-LATESTVERSION.tar.gz">mail2sms LATESTVERSION</a>. Released
+  RELEASEDATE. RELEASESIZE.
+
+<p>
+  View the <a href="changes.shtml">CHANGES</a> file.
+
+TITLE(Support scripts)
+<p>
+  Several people asked me for a script to use for a mail-direct-to-any-phone
+  mail alias, so now when I rewrote one, I decided to put it here:
+<ul>
+  <a href="smsmail.txt">smsmail.pl</a> - you better read the perl source and
+  modify some of the defaults and addresses to suit your own environment!
+</ul>
+
+TITLE(Mailing list)
+<p>
+  Yes, there's a mailing list for mail2sms discussions, help and all such
+  issues:
+ <ul>
+  <li> <a href="http://lists.sourceforge.net/mailman/listinfo/mail2sms-talk">Subscribe or unsubscribe</a>
+  <li> <a href="http://www.geocrawler.com/lists/3/SourceForge/1321/0/">read previous
+  postings from the archive</a>.
+ </ul>
+
+TITLE(CVS repository)
+<p>
+  Thanks to sourceforge.net, we also have a CVS repository from which you can
+  <a href="https://sourceforge.net/cvs/?group_id=1641">get the very latest
+  mail2sms sources</a>, or just <a
+  href="http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/mail2sms">browse the
+  changes with your browser</a>. Try either one, pick what suits you.
+
+TITLE(Related Software)
+<p>
+  I feel I really must mention <big><a
+  href="http://smash.sourceforge.net">Smash</a> by <a
+  href="http://bjorn.haxx.se/">Björn Stenberg</a> and me.</big> Smash uses a
+  client/server concept with an easy, ASCII based TCP/IP protocol (to allow
+  easy porting of the client to any kind of platform), plugins for different
+  operators/protocols and more. Currently supports 17 something operators!  It
+  is fully free and open, join the smash project today!
+
+ <ul>
+ <li>
+  <a href="http://www.styx.demon.co.uk/">SMS Client</a> by Angelo Masci.
+ <li>
+  <a href="http://www.styx.demon.co.uk/smslink/">SMSLink</a> by Philippe
+  Andersson.
+ <li> If you need one that actually uses GSM devices, try <a href="http://www.sztaki.hu/~kissg/gsm/">SAMSEM</a> by Gabor Kiss.
+
+ <li> Adam Spiers' <a
+ href="http://www.new.ox.ac.uk/~adam/computing/email2sms/">email2sms</a> is a
+ perl script that does some of the things mail2sms does.
+
+</ul>
+
+#include "_footer.html"
+</BODY>
+</HTML>

@@ -1,0 +1,1 @@
+int smsit(char *message);
