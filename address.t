@@ -28,7 +28,8 @@ communications.
 <img src="my-email.png" alt="daniel at haxx dot se" />
 
 <p> If you want me to do a presentation, chances are I will happily do so, but
- do not assume that I will do so free of charge!
+ <a href="how-to-invite-me.html">do not assume that I can do so free of
+ charge</a>!
 
 SUBTITLE(Physical address)
 <p>
