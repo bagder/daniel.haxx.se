@@ -21,10 +21,6 @@ div.minibox {
     max-width: 10em;
 }
 
-.wolfssl {
-    font-size: 130%;
-}
-
 .rand {
     float: left;
     margin-right: 20px;
@@ -87,10 +83,12 @@ of Stockholm, Sweden.
 
 <p> <b>I treasure</b> my wife and two kids.
 
-<p class="wolfssl"> <b>I work</b> for <a href="https://www.wolfssl.com/">wolfSSL</a>. I do
+<p> <b>I work</b> for <a href="https://www.wolfssl.com/">wolfSSL</a> doing
 commercial curl support. If you need help to fix curl problems, fix your app's
 use of libcurl, add features to curl, fix curl bugs, optimize your curl use or
 libcurl education for your developers... Then I'm your man. Contact us!
+
+<p> My <a href="https://bagder.github.io/log/">weekly reports</a> can be <a href="https://github.com/bagder/log/discussions">commented</a>.
 
 <div style="clear: both;"/>
 SUBTITLE(Rewards)
