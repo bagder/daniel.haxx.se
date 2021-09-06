@@ -34,7 +34,7 @@ BOXTOP
 <tr>
 <td> <a href="https://rustacean-station.org/episode/035-daniel-stenberg/">The Rustacean Station Podcast #35</a></td>
 <td> English </td>
-<td> September 3, 2021 </td>
+<td> Sep 3, 2021 </td>
 <td> curl, rust, memory safety, development </td>
 </tr>
 
