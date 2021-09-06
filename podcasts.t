@@ -25,17 +25,17 @@ BOXTOP
 #endif
 
 <tr>
-<td> <a href="https://rustacean-station.org/">The Rustacean Station Podcast</a> </td>
-<td> English </td>
-<td> [pending] </td>
-<td> curl, rust, memory safety, development </td>
-</tr>
-
-<tr>
 <td> <a href="https://popcast-d9f7b6dc.simplecast.com/">The Popcast</a> </td>
 <td> English </td>
 <td> [pending] </td>
 <td> curl, open source </td>
+</tr>
+
+<tr>
+<td> <a href="https://rustacean-station.org/episode/035-daniel-stenberg/">The Rustacean Station Podcast #35</a></td>
+<td> English </td>
+<td> September 3, 2021 </td>
+<td> curl, rust, memory safety, development </td>
 </tr>
 
 <tr>
