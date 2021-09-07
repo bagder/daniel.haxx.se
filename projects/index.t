@@ -37,8 +37,8 @@ href="../m3.html">article about us</a>. IMDEAD
 SUBTITLE(c-ares)
 <p>
 
- LINK("http://c-ares.haxx.se/", c-ares) is an asynch name resolver library. I
-am project maintainer.
+ LINK("http://c-ares.org/", c-ares) is an asynch name resolver library. I am a
+project maintainer.
 
 SUBTITLE(Roffit)
 <p>

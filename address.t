@@ -67,7 +67,7 @@ reason need it)
  I typically sign at least all releases of <a
 href="https://curl.se/">curl</a>, <a
 href="https://www.libssh2.org/">libssh2</a> and <a
-href="https://c-ares.haxx.se/">c-ares</a> using this key.
+href="https://c-ares.org/">c-ares</a> using this key.
 
 BOXBOT
 
