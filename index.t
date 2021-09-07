@@ -55,13 +55,9 @@ div.minibox {
 }
 </style>
 
-TITLE(Daniel Stenberg)
-
-<div style="clear: both;"/>
 <img class="daniel" src="final-12-400-gray.jpg" width=400 height=400 alt="Daniel Stenberg">
 
-<p style="font-size: 130%; font-style: italic;">
-Open Source, Free Software and open standards</p>
+TITLE(Daniel Stenberg)
 
 <p> <b>I am</b> the founder and lead developer of <a
 href="https://curl.se/">cURL and libcurl</a>. An internet protocol geek, an
