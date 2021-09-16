@@ -90,7 +90,8 @@ SUBTITLE(Upcoming talks by Daniel)
 <li> June 17, 2021. webinar: common libcurl mistakes
 #endif
 <li> September 21, 2021. Prague, Czechia. WebExpo, <a href="https://www.webexpo.net/prague2021/talk/just-curl-it">"just curl it"</a>
-<li> October 13, 2021. Stockholm, Sweden. <a href="https://www.netnod.se/netnod-events/netnod-tech-meeeting-2021-1">Netnod Tech Meeting</a>. "curl is everywhere"
+<li> October 6, 2021. Online curl talk done for a private audience
+<li> October 13, 2021. Stockholm, Sweden. <a href="https://www.netnod.se/netnod-events/netnod-tech-meeeting-2021-1">Netnod Tech Meeting</a>. "curl is everywhere" - I will be there PHYSICALLY!
 #ifdef FULLPAGE
 </ul>
 <p>
