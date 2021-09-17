@@ -132,9 +132,7 @@ screens 146</a> </td>
 </tr>
 
 <tr>
-<td>  <a
-href="http://podcast.sysca.st/podcast/4-curl-libcurl-future-web-daniel-stenberg/">Syscast
-4</a> </td>
+<td>  <a href="https://ma.ttias.be/syscast/4-curl-libcurl-future-web-daniel-stenberg/">Syscast 4</a> </td>
 <td> English </td>
 <td> Jun 22, 2016 </td>
 <td>  curl, open source, QUIC and more. </td>
