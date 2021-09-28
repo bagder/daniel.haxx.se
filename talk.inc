@@ -88,8 +88,8 @@ SUBTITLE(Upcoming talks by Daniel)
 <li> April 19-21, 2021. Copenhagen, Denmark. <a href="https://gotocph.com/">GOTO Copenhagen</a>.
 <li> June 17, 2021. NLUUG. <a href="https://www.nluug.nl/vEvents/20210617-curl.html">Curl runs on all your devices</a>
 <li> June 17, 2021. webinar: common libcurl mistakes
-#endif
 <li> September 21, 2021. Prague, Czechia. WebExpo, <a href="https://www.webexpo.net/prague2021/talk/just-curl-it">"just curl it"</a>
+#endif
 <li> October 6, 2021. Online curl talk done for a private audience
 <li> October 13, 2021. Stockholm, Sweden. <a href="https://www.netnod.se/netnod-events/netnod-tech-meeeting-2021-1">Netnod Tech Meeting</a>. "curl is everywhere" - I will be there PHYSICALLY!
 #ifdef FULLPAGE
