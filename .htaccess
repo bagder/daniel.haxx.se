@@ -15,3 +15,4 @@ ExpiresByType application/x-bzip2 "access plus 1 year"
 ExpiresByType application/zip "access plus 1 year"
 ExpiresByType application/x-tar "access plus 1 year"
 </ifmodule>
+RedirectMatch "^/.git" https://daniel.haxx.se/
