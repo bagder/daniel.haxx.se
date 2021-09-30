@@ -1,6 +1,9 @@
 SUBTITLE(Upcoming talks by Daniel)
 <ul>
 #if 0
+<li> January 15, 2015: HTTP/2 in Berlin
+<li> March 17, 2015: HTTP/2 for TCP/IP Geeks Stockholm
+<li> September 10, 2015: HTTP/2 for Truesec
 <li> October 2nd, 2015: <a href="http://apacheconcore2015.sched.org/event/cd9545130a7be6011b87e04b204130ab">Apachecon, Budapest</a>
 <li> October 6th 2015: <a href="http://gotocon.com/cph-2015/presentation/HTTP/2">GOTO Conference, Copenhagen</a>
 <li> October 13th 2015: <a href="http://velocityconf.com/devops-web-performance-ny-2015/public/schedule/detail/43776">Velocity, New York</a>
