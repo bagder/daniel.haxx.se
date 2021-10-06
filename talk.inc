@@ -95,7 +95,7 @@ SUBTITLE(Upcoming talks by Daniel)
 <li> October 6, 2021. Online curl talk done for a private audience
 #endif
 <li> October 13, 2021. Stockholm, Sweden. <a href="https://www.netnod.se/netnod-events/netnod-tech-meeeting-2021-1">Netnod Tech Meeting</a>. "curl is everywhere" - I will be there PHYSICALLY!
-<li> October 21, 2021. Online webinary: getting started with libcurl
+<li> October 21, 2021. Online webinar: getting started with libcurl
 #ifdef FULLPAGE
 </ul>
 <p>
