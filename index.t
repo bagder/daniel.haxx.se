@@ -131,12 +131,12 @@ SUBTITLE(Rewards)
 SUBTITLE(rand&#40;&#41;)
 <p>
  LINK("/docs/", docs)
-<br> LINK("/stuff/", old code)
-<br> LINK("/hexpoetry/", hexadecimal poetry)
 <br> LINK("http://www.haxx.se/matrix/", Matrix Maker)
 <br> LINK("/computers.html", my computers)
-<br> LINK("/travel/", travel stuff)
 #if 0
+<br> LINK("/stuff/", old code)
+<br> LINK("/hexpoetry/", hexadecimal poetry)
+<br> LINK("/travel/", travel stuff)
 LINK("/http2/", http2 explained) - the HTTP/2 book
 <br> LINK("/myopensource.html", my open projects) - projects I am or was involved with
 <br> LINK("/skills.html", CV) - a short description of what I know
