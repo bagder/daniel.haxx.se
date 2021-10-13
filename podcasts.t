@@ -25,6 +25,13 @@ BOXTOP
 #endif
 
 <tr>
+<td> <a href="https://youtu.be/X5SGO8cUG8o">Open source project Curl, geek out with the creator Daniel Stenberg</td>
+<td> English </td>
+<td> Oct 11, 2021</td>
+<td> A youtube conversion about curl and doing open source full time</td>
+</tr>
+
+<tr>
 <td> <a href="https://popcast-d9f7b6dc.simplecast.com/episodes/episode-81-total-recurl-with-curl-founder-daniel-stenberg">The Popcast - Episode 81 - Total ReCURL</a> </td>
 <td> English </td>
 <td> Sep 8, 2021 </td>
