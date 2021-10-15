@@ -123,7 +123,7 @@ BOXTOP
 </tr>
 
 <tr>
-<td> <a href="https://www.vuc.me/2018/vision-4-daniel-stenberg-curl/">Visions under construction, vision 4</a> </td>
+<td> <strike><a href="https://www.vuc.me/2018/vision-4-daniel-stenberg-curl/">Visions under construction, vision 4</a></strike></td>
 <td> English </td>
 <td> ❌ </td>
 <td> Jan 26, 2018 </td>
