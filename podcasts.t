@@ -37,7 +37,7 @@ BOXTOP
 <tr>
 <td> <a href="https://popcast-d9f7b6dc.simplecast.com/episodes/episode-81-total-recurl-with-curl-founder-daniel-stenberg">The Popcast - Episode 81 - Total ReCURL</a> </td>
 <td> English </td>
-<td> ❌ </td>
+<td> 🎬 </td>
 <td> Sep 8, 2021 </td>
 <td> curl, how I got into computers [<a href=="https://www.youtube.com/watch?v=PaA95jWPJ-M">video</a>]</td>
 </tr>
