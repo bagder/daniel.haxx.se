@@ -27,6 +27,14 @@ BOXTOP
 #endif
 
 <tr>
+<td> <a href="https://youtu.be/06Xfa2AvQrw">Inside Security #17</a> </td>
+<td> English </td>
+<td> 🎬 </td>
+<td> Oct 20, 2021</td>
+<td> The story of curl and more</td>
+</tr>
+
+<tr>
 <td> <a href="https://youtu.be/X5SGO8cUG8o">Eddie Jaoude's livestream</td>
 <td> English </td>
 <td> 🎬 </td>
