@@ -93,9 +93,9 @@ SUBTITLE(Upcoming talks by Daniel)
 <li> June 17, 2021. webinar: common libcurl mistakes
 <li> September 21, 2021. Prague, Czechia. WebExpo, <a href="https://www.webexpo.net/prague2021/talk/just-curl-it">"just curl it"</a>
 <li> October 6, 2021. Online curl talk done for a private audience
-#endif
 <li> October 13, 2021. Stockholm, Sweden. <a href="https://www.netnod.se/netnod-events/netnod-tech-meeeting-2021-1">Netnod Tech Meeting</a>. "curl is everywhere" - I will be there PHYSICALLY!
-<li> October 21, 2021. Online webinar: getting started with libcurl
+#endif
+<li> October 21, 2021. Online webinar: <a href="https://daniel.haxx.se/blog/2021/10/12/coming-webinar-getting-started-with-libcurl/">getting started with libcurl</a>
 #ifdef FULLPAGE
 </ul>
 <p>
