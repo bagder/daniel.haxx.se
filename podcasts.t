@@ -91,6 +91,22 @@ BOXTOP
 </tr>
 
 <tr>
+<td> <a href="https://foss-north.se/pod/episodes.html#ep12">foss-north #13</a> </td>
+<td> English </td>
+<td> ❌ </td>
+<td> Jul 19, 2020 </td>
+<td> the curl license - part 2 </td>
+</tr>
+
+<tr>
+<td> <a href="https://foss-north.se/pod/episodes.html#ep12">foss-north #12</a> </td>
+<td> English </td>
+<td> ❌ </td>
+<td> Jul 19, 2020 </td>
+<td> the curl license - part 1 </td>
+</tr>
+
+<tr>
 <td> <a href="https://digitalsamtal.se/215-mot-curl-verktyget-du-anvander-varje-dag/">Digitalsamtal 215</a> </td>
 <td> Swedish </td>
 <td> ❌ </td>
