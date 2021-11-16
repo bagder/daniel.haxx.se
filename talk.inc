@@ -96,9 +96,9 @@ SUBTITLE(Upcoming talks by Daniel)
 <li> October 13, 2021. Stockholm, Sweden. <a href="https://www.netnod.se/netnod-events/netnod-tech-meeeting-2021-1">Netnod Tech Meeting</a>. "curl is everywhere" - I will be there PHYSICALLY!
 <li> October 21, 2021. Online webinar: <a href="https://daniel.haxx.se/blog/2021/10/12/coming-webinar-getting-started-with-libcurl/">getting started with libcurl</a>
 <li> November 4, 2021. Using libcurl and tiny-curl. For wolfSSL.
-#endif
 <li> November 16, 2021. The making of curl and what's next. For a private audience.
-<li> November 18, 2021. Webinar: post-quantum curl.
+#endif
+<li> November 18, 2021. Webinar: <a href="https://daniel.haxx.se/blog/2021/11/16/curl-release-webinar-featuring-post-quantum-curl/">post-quantum curl</a>
 
 #ifdef FULLPAGE
 </ul>
