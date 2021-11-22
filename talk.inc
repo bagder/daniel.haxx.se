@@ -97,8 +97,10 @@ SUBTITLE(Upcoming talks by Daniel)
 <li> October 21, 2021. Online webinar: <a href="https://daniel.haxx.se/blog/2021/10/12/coming-webinar-getting-started-with-libcurl/">getting started with libcurl</a>
 <li> November 4, 2021. Using libcurl and tiny-curl. For wolfSSL.
 <li> November 16, 2021. The making of curl and what's next. For a private audience.
-#endif
 <li> November 18, 2021. Webinar: <a href="https://daniel.haxx.se/blog/2021/11/16/curl-release-webinar-featuring-post-quantum-curl/">post-quantum curl</a>
+#endif
+
+<li> December 14, 2021. Panel discussion. <a href="https://sentry.io/resources/the-future-of-open-source-is-it-sustainable/?utm_medium=partner&utm_source=curl&utm_campaign=event-open-source-2021">The Future of Open Source: Is It Sustainable?</a>
 
 #ifdef FULLPAGE
 </ul>
