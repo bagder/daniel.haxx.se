@@ -9,7 +9,7 @@ TODAY=$(shell date +'-D__TODAY__="%B %e, %Y"')
 NOW=$(shell date +'-D__NOW__="%H:%M"')
 
 all:	index.html skills.html myopensource.html opensource.html \
-	microsoft.html hackers.html about.html \
+	hackers.html about.html \
 	datateknik.html no_more_download_sites.html \
 	computers.html source.html bredband.html transition.html \
 	irchistory.html address.html old.html now.html m3.html \
@@ -74,9 +74,6 @@ myopensource.html: myopensource.t $(MAINPARTS)
 	$(ACTION)
 
 opensource.html: opensource.t $(MAINPARTS)
-	$(ACTION)
-
-microsoft.html: microsoft.t $(MAINPARTS)
 	$(ACTION)
 
 hackers.html: hackers.t $(MAINPARTS)
