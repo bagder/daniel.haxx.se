@@ -57,15 +57,15 @@ opcodes and circuits.
 There was this established nickname tradition on the demo scene. I started out
 calling myself D$85 based on my initials and the year I got the C64, but I
 didn't really like it (for one it was impossible to pronounce) and when we
-joined SSS I swithed.
+joined SSS I switched.
 
-I figured I would pick an animal and I went with 'bagder'. I very quickly
-realized I had actually misspelled the animal, but then it also dawned on me
-that my nickname would be better and more unique this way and so I stuck with
+I figured I would pick an animal and I went with 'bagder'. I quickly realized
+I had actually misspelled the animal, but then it also dawned on me that my
+nickname would be better and more special this way and so I stuck with
 it. Like a dyslexic badger. People have frequently been mistaking my nick for
-the animal ever since!
+the animal ever since.
 
-I used the nickame during our demo years and after that period, I've selected
+I used the nickname during our demo years and after that period, I've selected
 this name for various other services and account names. Like on GitHub,
 Twitter etc.
 
@@ -157,7 +157,7 @@ idea for that community too. Eventually I learned the true ways of life and I
 released FPL fully open. In modern times people who run one of them new
 AmigaOS versions have found a renewed interest in FrexxEd and they have ported
 it over. It is very fun that it is still alive - containing more than 25 years
-old code of ours. FrexxEd code still exists on github.
+old code of ours. FrexxEd code still exists on GitHub.
 
 ## Dancer
 
@@ -202,7 +202,7 @@ I found a little tool online called 'httpget' which was written by a Brazilian
 fellow named Rafael Sagula. It fit my purposes almost perfectly. It only
 required a few small fixes and patches first...
 
-It is a very curious coincident that the first httpget relase (0.1) was done
+It is a very curious coincident that the first httpget release (0.1) was done
 on November 11 1996 which also happens to be the very same day the first ever
 Wget release was done! Wget has been considered a curl alternative or
 substitute by many command line tool users.
@@ -251,7 +251,7 @@ the version numbering from the previous names.
 My interest for the Dancer project faded away slowly and I gave most of my
 spare time programming focus on curl.
 
-Of course, over time I also dipped into and participated in other projects.  I
+Of course, over time I also dipped into and participated in other projects. I
 spent a lot of time in hypermail - a program that converts mailboxes to HTML
 pages. I have written 'mail2sms' to convert email to SMS (it was useful in the
 times before the smartphones), and been working in 'Smash' to send SMS
@@ -417,7 +417,7 @@ hundred lines and totally useless. Attempts had been made over the years to
 correct it and at least two new cookie RFC were written that failed to get
 adopted. Finally we started a group within IETF that worked to document how
 cookies actually work on the web. I felt that I, as an independent and
-non-browsers orient cookie parser implementor since many years, could provide
+non-browsers orient cookie parser implementer since many years, could provide
 good feedback and a completely different point of view then most others who
 were participating - many of them coming from the browser world. I'd like to
 think my few bits of contribution helped making RFC 6265 as good as it is!
@@ -465,16 +465,16 @@ its age and HTTP/2 took off from Google's SPDY. I participated in that work.
 In the fall of 2013 I ended a two-year contracting job for Enea AB where I had
 worked fiercely to kick-start their embedded Linux distribution. I looked -
 and asked - around my wider circle of contacts and friends to see if anyone
-had an interesting openening for me to take on next.
+had an interesting opening for me to take on next.
 
 Someone did. Patrick Mcmanus worked in the networking team at Mozilla and
 asked if I wouldn't be interested to do my next gig for them. I was thrilled
-to get the oppurtunity, even if I then also had to do that as an employee and
+to get the opportunity, even if I then also had to do that as an employee and
 not as a contractor. It felt weird to give up that style of life but for this
-chance I was willing to do a lot. I traveled to Montain View in November 2013
+chance I was willing to do a lot. I traveled to Mountain View in November 2013
 and did seven different interviews in one rather long day...
 
-I started at Mozilla the first days of Janary 2014, in the networking
+I started at Mozilla the first days of January 2014, in the networking
 team. HTTP, FTP, DNS, cookies, caching, sockets etc. All day at work. And then
 all night with curl. Mozilla even allowed me to spend a part of my work time
 on curl stuff! Mozilla has no office in Sweden, this meant I could work full
@@ -485,7 +485,7 @@ time from home.
 In May 2015 the HTTP/2 RFC shipped. In relation to the introduction of this
 new protocol version, I did several talks and presentations to a lot of
 different audiences in multiple countries. I also wrote a document about it,
-called "http2 explained" that I relased freely and openly on the web. It
+called "http2 explained" that I released freely and openly on the web. It
 turned out a huge success and for the period I counted downloads, I saw more
 than 200,000 downloads!
 
@@ -499,7 +499,7 @@ ultimately awarded the 2nd place!
 ## QUIC
 
 The QUIC working group was formed in IETF during late 2016 and I joined the
-mailing list and subscribed to the github repository at once to keep track of
+mailing list and subscribed to the GitHub repository at once to keep track of
 and possibly participate in the development.
 
 ## US issues
@@ -514,11 +514,11 @@ US.)
 
 As my employer at the time, Mozilla engaged some people on both the American
 as well as the Swedish side to try to figure out what was wrong and what we
-could do to correct the sitution. Unfortunately, no one would offer any clues
+could do to correct the situation. Unfortunately, no one would offer any clues
 or information about why I was denied so that effort resulted in nothing.
 
 In the spring of 2018, I reapplied for ESTA, got denied and then applied for a
-visa instead. I did the final steps for that when I visted the US embassy in
+visa instead. I did the final steps for that when I visited the US embassy in
 Stockholm Sweden for an interview on April 17, 2018.
 
 
@@ -527,7 +527,7 @@ Stockholm Sweden for an interview on April 17, 2018.
 I was awarded the Polhem Prize in October 2017 for my almost 20 years of
 having run the curl project and its impact on the world. An amazing honor.
 
-At the award cermony, I was handed a gold medal from the hands of the Swedish
+At the award ceremony, I was handed a gold medal from the hands of the Swedish
 king himself.
 
 ## HTTP/3 explained
@@ -568,8 +568,8 @@ I knew wolfSSL and its CEO Larry already since many years back.
 
 I did a presentation in person at FOSDEM in early February 2020 just before we
 learned exactly how big of a deal this Covid-19 thing was. Up until then I did
-a litle more than one presentation per month, which served as an excellent to
-spice up the working-from-home life.
+a little more than one presentation per month, which served as an excellent
+way to spice up the working-from-home life.
 
 Then came the era of doing presentations over video. So much harder. So much
 not the same thing. Neither for me as a presentation and certainly not for the
