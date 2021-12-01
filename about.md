@@ -359,7 +359,7 @@ months.
 I looked around for options and at this time I found two feasible
 alternatives. Quite amusingly they were named libssh and libssh2 (yes the
 number two at the end is the only difference in naming). Unfortunately, none
-of the offered a truly non-blocking API and as my interest was to integrate
+of them offered a truly non-blocking API and as my interest was to integrate
 and use this within libcurl that already had a non-blocking API that was an
 absolute requirement. So I asked both projects about it. Basically how they
 looked at the prospect of (me) adding non-blocking support and what they think
