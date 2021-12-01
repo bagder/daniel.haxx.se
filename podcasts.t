@@ -29,6 +29,15 @@ BOXTOP
 #endif
 
 <tr>
+<td> 26 </td>
+<td> Software at Scale #nn </td>
+<td> English </td>
+<td> 🎤 </td>
+<td> NNN, 2021</td>
+<td> curl </td>
+</tr>
+
+<tr>
 <td> 25 </td>
 <td> <a href="https://youtu.be/06Xfa2AvQrw">Inside Security #17</a> </td>
 <td> English </td>
