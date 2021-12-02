@@ -7,7 +7,7 @@ Stockholm. I have two brothers and two sisters.
 
 I discovered the joy of computers for the first time sometime in the early 80s
 when Kjell, a friend of mine, and I entered data sets in Basic that we eagerly
-read in some of the first C64 magazines at his place and since then I've been
+read in some of the first C64 magazines at his place and since then I have been
 hooked. Kjell owned a C64 before me so it was in his home I had my first
 experiences in the computer world. Me and my younger brother Björn then
 subsequently saved up money for our first own computer that we finally bought
@@ -28,7 +28,7 @@ felt we too had to join that spirit and quickly founded our own c64 group
 "Confusing Solution" (we could make fun of ourselves already back then).
 
 This was when I started spending spare time on programming. Up to several
-hours per day. This is something that I've never stopped doing since...
+hours per day. This is something that I have never stopped doing since...
 
 ## Demo Scene
 
@@ -47,7 +47,7 @@ Fonzi who was then the leading person in the C64 group called Super Swap
 Sweden (SSS). When asked, we decided to join their team. At that time, Super
 Swap Sweden was already a large and well known group in Sweden that made both
 "cracks" (ie removed copy protection from games and copied pirated versions of
-them) and demos. We were taken away by the attention and didn't hesitate to
+them) and demos. We were taken away by the attention and did not hesitate to
 join this large group of friends. We went on and released more demos under the
 SSS flag, got better and learned more about the C64's undocumented corners,
 opcodes and circuits.
@@ -56,7 +56,7 @@ opcodes and circuits.
 
 There was this established nickname tradition on the demo scene. I started out
 calling myself D$85 based on my initials and the year I got the C64, but I
-didn't really like it (for one it was impossible to pronounce) and when we
+did not really like it (for one it was impossible to pronounce) and when we
 joined SSS I switched.
 
 I figured I would pick an animal and I went with 'bagder'. I quickly realized
@@ -65,7 +65,7 @@ nickname would be better and more special this way and so I stuck with
 it. Like a dyslexic badger. People have frequently been mistaking my nick for
 the animal ever since.
 
-I used the nickname during our demo years and after that period, I've selected
+I used the nickname during our demo years and after that period, I have selected
 this name for various other services and account names. Like on GitHub,
 Twitter etc.
 
@@ -169,7 +169,7 @@ well. I discovered IRC and the fact that there were lots of people out there
 to talk to. I hung out a lot in #amiga on EFnet, before IRCnet existed. It
 soon led to me writing an IRC bot on my spare time with a friend (Bjorn Reese)
 from #amiga - a bot that could be scripted with FPL! We released the bot
-(Dancer) and FPL fully open source. It wasn't anything we considered much
+(Dancer) and FPL fully open source. It was not anything we considered much
 really, there was never any other consideration. If we could stand on the
 shoulders of giants and use this large amount of very good software, the least
 we could do was to also also share our contribution with the world. That bot
@@ -209,7 +209,7 @@ substitute by many command line tool users.
 
 Around this time I installed my first Linux systems at work, and we fired up
 our first public web servers and more. As I had experience from various other
-unixes from before, Linux wasn't particularly challenging to install but was
+unixes from before, Linux was not particularly challenging to install but was
 still way more interesting due to its price and level of freedom.
 
 I had more or less taken over as leader of the httpget project when I found
@@ -217,7 +217,7 @@ another currency exchange site that was hosting data and offering it using
 GOPHER, I had to implement support for that protocol too. And then 'httpget'
 was not a good name anymore so I changed it to 'Urlget'. But lot long after
 that, I added FTP support as well and then the step to adding FTP upload
-support wasn't very big.
+support was not very big.
 
 In the late 1997 we (I and my friend Linus) registered our first company, Haxx
 HB, to use when doing odd spare time jobs outside of our regular employments.
@@ -235,7 +235,7 @@ to bed and I get around two extra hours, totally alone to work on whatever I
 want.
 
 Two hours per day, every day through decades end up a lot of time. Of course I
-also spend a little extra at times and during vacations I don't spend as
+also spend a little extra at times and during vacations I do not spend as
 much.
 
 ## curl
@@ -264,7 +264,7 @@ write and maintain 'roffit' - a tool for to create HTML pages from nroff files
 ## Licensing
 
 curl had started out GPL licensed pretty much without thought, but after some
-thinking I decided the GPL approach wasn't exactly in line with my philosophy.
+thinking I decided the GPL approach was not exactly in line with my philosophy.
 
 In 1998 when we released curl 4.9, we switched to the MPL license. It is a
 very liberal license and was much more in line with what I really wanted
@@ -327,7 +327,7 @@ library called ares that did almost exactly what we wanted. I quickly took it
 to heart and implemented support in curl to use this library to do
 asynchronous and non-blocking name resolves. Very soon I learned that the
 maintainer of ares pretty much considered his work done on that code base and
-he didn't want to merge the changes I fed back and deemed necessary - for
+he did not want to merge the changes I fed back and deemed necessary - for
 example support for building and working on Windows. I felt that I had no
 other option than to fork the project and adopt it myself to drive it
 forward. So I did, and c-ares was born.
@@ -348,7 +348,7 @@ In 2006 my second child was born, Rex, and he was still just a few months old
 when I was contracted by Adobe to work on implementing SFTP support for
 curl. Adobe wanted to use it in one of their products to complement FTP
 uploading. SFTP itself being based on SSH protocol required that we could use
-a proper library to do the binary protocol level parts with so that I wouldn't
+a proper library to do the binary protocol level parts with so that I would not
 have to do the actual SSH bits within the curl project.
 
 I loved getting the opportunity to once again work full time on curl for a few
@@ -383,7 +383,7 @@ I had been working with all these protocols up until now without knowing and
 not really caring about exactly how protocols are made or how decisions were
 made about them. But the more I worked with HTTP and all its intricate
 details, I become aware of differences in implementations and struggles to
-work with servers that obviously didn't follow what was written the
+work with servers that obviously did not follow what was written the
 RFCs. Until someone one day pointed out the HTTPbis working group to me.
 
 HTTPbis was an IETF working group that had been started in 2007 with an effort
@@ -403,10 +403,10 @@ list participants in person for the first time. Friends! This made me even
 more interested in and motivated to work within HTTPbis going forward.
 
 Developers sometimes ask me if the slowness and bureaucracy of standardization
-isn't tedious. For me, working within the IETF is a matter of bringing
+is not tedious. For me, working within the IETF is a matter of bringing
 technology and interoperability forward. To be involved and ensure that the
 specs get done right, taking the right things into consideration and not go
-over board to fiddle with things we shouldn't. It is good for everyone to have
+over board to fiddle with things we should not. It is good for everyone to have
 a good IETF. I find the spirit and working methods to be very similar to open
 source.
 
@@ -419,15 +419,15 @@ adopted. Finally we started a group within IETF that worked to document how
 cookies actually work on the web. I felt that I, as an independent and
 non-browsers orient cookie parser implementer since many years, could provide
 good feedback and a completely different point of view then most others who
-were participating - many of them coming from the browser world. I'd like to
+were participating - many of them coming from the browser world. I would like to
 think my few bits of contribution helped making RFC 6265 as good as it is!
 
 ## Haxx AB
 
 Professionally, I had spent the last several years doing contract works where
 I basically had sold myself or I had gotten the jobs myself, while at the same
-time I felt that my employer wasn't really going in the same direction that I
-was going in. I felt that I didn't really get my money's worth there. In the
+time I felt that my employer was not really going in the same direction that I
+was going in. I felt that I did not really get my money's worth there. In the
 end of August 2009 I quit my employment and I instead become the first
 full-time employee of Haxx AB, our own firm.
 
@@ -437,7 +437,7 @@ until that point.
 
 Under our own name (Haxx) I continued to do embedded systems contracting. Now
 being my own boss and of course having the ultimate freedom to decide what
-jobs to take and how to spend my time and money. I still didn't get very many
+jobs to take and how to spend my time and money. I still did not get very many
 curl related jobs more than the occasional smaller hacks and minor
 improvements (and a series of smaller "I want to automate this using curl can
 you do it for me please" tasks), so the protocol side remained a spare time
@@ -445,7 +445,7 @@ occupation.
 
 A few months after me, my brother Björn joined me as Haxx employee number two
 and a year after, Linus become employee number three. What a glorious
-development. Looking back, that switch was one of the best decisions I've ever
+development. Looking back, that switch was one of the best decisions I have ever
 done in my professional life.
 
 Haxx was like a dream since forever, transformed into reality. A small number
@@ -468,7 +468,7 @@ and asked - around my wider circle of contacts and friends to see if anyone
 had an interesting opening for me to take on next.
 
 Someone did. Patrick Mcmanus worked in the networking team at Mozilla and
-asked if I wouldn't be interested to do my next gig for them. I was thrilled
+asked if I would not be interested to do my next gig for them. I was thrilled
 to get the opportunity, even if I then also had to do that as an employee and
 not as a contractor. It felt weird to give up that style of life but for this
 chance I was willing to do a lot. I traveled to Mountain View in November 2013
@@ -505,7 +505,7 @@ and possibly participate in the development.
 ## US issues
 
 In December 2016 I attended the week long Mozilla all-hands meeting on Hawaii
-(which was also my 12th visit to the US through the years - yes I've had
+(which was also my 12th visit to the US through the years - yes I have had
 reason go back and actually carefully count the occasions). In June 2017 I was
 set to travel to San Francisco for another all-hands company meeting, when I
 was refused to board the flight due to unspecified "problems with my ESTA".
