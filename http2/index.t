@@ -95,7 +95,7 @@ demo</a>, thus over HTTPS.
 
 SECTION(See Also)
 <p>
- <a href="/http3-explained">HTTP/3 Explained</a> for all details of version 3!
+ <a href="https://http3-explained.haxx.se/">HTTP/3 Explained</a> for all details of version 3!
 
 <p>
  This page was updated __TODAY__.
