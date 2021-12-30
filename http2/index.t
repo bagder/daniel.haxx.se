@@ -97,7 +97,4 @@ SECTION(See Also)
 <p>
  <a href="https://http3-explained.haxx.se/">HTTP/3 Explained</a> for all details of version 3!
 
-<p>
- This page was updated __TODAY__.
-
 #include "footer.t"
