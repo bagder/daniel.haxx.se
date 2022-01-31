@@ -23,6 +23,7 @@ all:	index.html skills.html myopensource.html opensource.html \
 	cd docs && make
 	cd videos && make
 	cd http2 && make
+	cd devcons && make
 
 index.html: index.t $(MAINPARTS) talk.inc
 	$(ACTION)
