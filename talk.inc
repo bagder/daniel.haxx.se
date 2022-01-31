@@ -98,9 +98,16 @@ SUBTITLE(Upcoming talks by Daniel)
 <li> November 4, 2021. Using libcurl and tiny-curl. For wolfSSL.
 <li> November 16, 2021. The making of curl and what's next. For a private audience.
 <li> November 18, 2021. Webinar: <a href="https://daniel.haxx.se/blog/2021/11/16/curl-release-webinar-featuring-post-quantum-curl/">post-quantum curl</a>
-#endif
 
 <li> December 14, 2021. Panel discussion. <a href="https://sentry.io/resources/the-future-of-open-source-is-it-sustainable/?utm_medium=partner&utm_source=curl&utm_campaign=event-open-source-2021">The Future of Open Source: Is It Sustainable?</a>
+
+<li> January 11, 2022: URL confusion
+<li> January 27, 2022: curl with rust at Rust Linz
+#endif
+
+<li> February 3, 2022: "safe code" for a Swedish TV broadcasting company
+<li> February 10, 2022: "safe code" for M.....
+<li> February 17, 2022: curl roadmap 2022 webinar
 
 #ifdef FULLPAGE
 </ul>
