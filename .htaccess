@@ -16,4 +16,4 @@ ExpiresByType application/zip "access plus 1 year"
 ExpiresByType application/x-tar "access plus 1 year"
 </ifmodule>
 RedirectMatch "^/.git" https://daniel.haxx.se/
-RedirectPermanent /http3-explained to https://http3-explained.haxx.se
+RedirectPermanent /http3-explained https://http3-explained.haxx.se
