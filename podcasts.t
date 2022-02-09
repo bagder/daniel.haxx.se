@@ -13,7 +13,7 @@ BOXTOP
 <th> Episode </th>
 <th> Language </th>
 <th> Video </th>
-<th> Date </th>
+<th> Published </th>
 <th> Topic </th>
 </tr>
 
@@ -29,12 +29,21 @@ BOXTOP
 #endif
 
 <tr>
+<td> 27 </td>
+<td> Software Engineering Radio </td>
+<td> English </td>
+<td> 🎤 </td>
+<td> ? </td>
+<td> curl (recorded Feb 8, 2022) </td>
+</tr>
+
+<tr>
 <td> 26 </td>
 <td> Software at Scale #nn </td>
 <td> English </td>
 <td> 🎤 </td>
-<td> NNN, 2021</td>
-<td> curl </td>
+<td> ? </td>
+<td> curl (recorded Nov 18, 2021) </td>
 </tr>
 
 <tr>
