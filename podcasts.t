@@ -39,10 +39,10 @@ BOXTOP
 
 <tr>
 <td> 26 </td>
-<td> Software at Scale #nn </td>
+<td> <a href="https://www.softwareatscale.dev/p/software-at-scale-42-daniel-stenberg">Software at Scale 42</a> </td>
 <td> English </td>
 <td> 🎤 </td>
-<td> ? </td>
+<td> Feb 20, 2022 </td>
 <td> curl (recorded Nov 18, 2021) </td>
 </tr>
 
