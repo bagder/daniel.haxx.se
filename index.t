@@ -94,7 +94,7 @@ SUBTITLE(Rewards)
 <td>
 
 <div class="minibox">
- <a href="https://daniel.haxx.se/blog/2021/08/11/a-github-star/">GitHub Star 2021</a>
+ <a href="https://daniel.haxx.se/blog/2021/08/11/a-github-star/">GitHub Star 2021 - 2022</a>
 </div>
 
 <div class="minibox">
