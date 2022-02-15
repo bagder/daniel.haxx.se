@@ -104,9 +104,9 @@ SUBTITLE(Upcoming talks by Daniel)
 <li> January 11, 2022: URL confusion
 <li> January 27, 2022: curl with rust at Rust Linz
 <li> February 3, 2022: "safe code" for a Swedish TV broadcasting company
-#endif
 <li> February 10, 2022: "safe code" for M.....
-<li> February 17, 2022: curl roadmap 2022 webinar
+#endif
+<li> February 17, 2022: <a href="https://daniel.haxx.se/blog/2022/02/14/the-great-curl-roadmap-2022-webinar/">curl roadmap 2022 webinar</a>
 
 #ifdef FULLPAGE
 </ul>
