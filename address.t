@@ -21,6 +21,11 @@ communications.
  <a href="how-to-invite-me.html">do not assume that I can do so free of
  charge</a>!
 
+SUBTITLE(Geolocation)
+
+<p> I live and work in Sweden in the Central European time zone. UTC + 1 in
+ winters, UTC + 2 in summers.
+
 SUBTITLE(Other means)
 <p>
 Twitter: <a href="https://twitter.com/bagder">@bagder</a><br>
