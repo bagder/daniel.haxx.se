@@ -4,16 +4,6 @@
 HEAD(daniel.haxx.se -- Daniel Stenberg)
 #include "body.t"
 
-<style>
-@media screen and (max-width: 480px) {
-    img {
-      max-width: 50%;
-      max-height: 82px;
-    } 
-}
-</style>
-
-
 TITLE(Contact me)
 BOXTOP
 <p>
@@ -31,20 +21,6 @@ communications.
  <a href="how-to-invite-me.html">do not assume that I can do so free of
  charge</a>!
 
-SUBTITLE(Physical address)
-<p>
-<table cellpadding=10><tr><td valign="top">
-<b>Daniel Stenberg
-<br> Lindm&auml;tarv&auml;gen 22
-<br> 141 37 Huddinge
-<br> Sweden</b>
-</td><td valign="top">
-<b>Position:</b><br>
-Longitude: 18.02372314245376<br>
-Latitude: 59.24582691715614
-
-</td></tr></table>
-
 SUBTITLE(Other means)
 <p>
 Twitter: <a href="https://twitter.com/bagder">@bagder</a><br>
@@ -56,12 +32,6 @@ SUBTITLE(Public Key)
 My <a
 href="https://pgp.mit.edu/pks/lookup?search=daniel%40haxx.se&op=index">GPG
 key</a> as of April 7th, 2016: <a href="/mykey.asc">mykey.asc</a>
-
-#if 0
-<p>
- My previous one <a href="/old-mykey.asc">old-mykey.asc</a> (if you for any
-reason need it)
-#endif
 
 <p>
  I typically sign at least all releases of <a
