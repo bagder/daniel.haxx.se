@@ -105,8 +105,8 @@ SUBTITLE(Upcoming talks by Daniel)
 <li> January 27, 2022: curl with rust at Rust Linz
 <li> February 3, 2022: "safe code" for a Swedish TV broadcasting company
 <li> February 10, 2022: "safe code" for M.....
-#endif
 <li> February 17, 2022: <a href="https://daniel.haxx.se/blog/2022/02/14/the-great-curl-roadmap-2022-webinar/">curl roadmap 2022 webinar</a>
+#endif
 
 #ifdef FULLPAGE
 </ul>
@@ -117,7 +117,5 @@ SUBTITLE(Upcoming talks by Daniel)
 See <a href="/talks.html">more talks</a>
 #endif
 
-#if 0
 <p>
  No planned talks! Zero. Zilch. Nada. Suggestions?
-#endif
