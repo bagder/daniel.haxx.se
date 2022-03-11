@@ -29,6 +29,16 @@ BOXTOP
 #endif
 
 <tr>
+<td> 28 </td>
+<td> Cybersecurity Amplified and Intensified </td>
+<td> English </td>
+<td> 🎤 </td>
+<td> ? </td>
+<td> curl - making money, supply chain, open source (recorded Mar 8, 2022) </td>
+</tr>
+
+
+<tr>
 <td> 27 </td>
 <td> Software Engineering Radio </td>
 <td> English </td>
