@@ -30,21 +30,20 @@ BOXTOP
 
 <tr>
 <td> 28 </td>
-<td> Cybersecurity Amplified and Intensified </td>
-<td> English </td>
-<td> 🎤 </td>
-<td> ? </td>
-<td> curl - making money, supply chain, open source (recorded Mar 8, 2022) </td>
-</tr>
-
-
-<tr>
-<td> 27 </td>
 <td> Software Engineering Radio </td>
 <td> English </td>
 <td> 🎤 </td>
 <td> ? </td>
 <td> curl (recorded Feb 8, 2022) </td>
+</tr>
+
+<tr>
+<td> 27 </td>
+<td> <a href="https://anchor.fm/amplifiedandintensified/episodes/57---Daniel-Stenberg-Creator-of-cURL-and-libcurl-e1fdq43">Cybersecurity: Amplified and Intensified #57</a> </td>
+<td> English </td>
+<td> 🎤 </td>
+<td> Mar 14, 2022 </td>
+<td> curl - log4j, making money, supply chain, security, open source, curl support (recorded Mar 8, 2022) </td>
 </tr>
 
 <tr>
