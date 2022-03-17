@@ -29,6 +29,15 @@ BOXTOP
 #endif
 
 <tr>
+<td> 29 </td>
+<td> Trevlig Mjukvara </td>
+<td> Swedish </td>
+<td> 🎤 </td>
+<td> ? </td>
+<td> curl, open source, development, mozilla (recorded Mar 17, 2022) </td>
+</tr>
+
+<tr>
 <td> 28 </td>
 <td> Software Engineering Radio </td>
 <td> English </td>
