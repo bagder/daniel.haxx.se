@@ -30,20 +30,20 @@ BOXTOP
 
 <tr>
 <td> 29 </td>
-<td> Trevlig Mjukvara </td>
-<td> Swedish </td>
-<td> 🎤 </td>
-<td> ? </td>
-<td> curl, open source, development, mozilla (recorded Mar 17, 2022) </td>
-</tr>
-
-<tr>
-<td> 28 </td>
 <td> Software Engineering Radio </td>
 <td> English </td>
 <td> 🎤 </td>
 <td> ? </td>
 <td> curl (recorded Feb 8, 2022) </td>
+</tr>
+
+<tr>
+<td> 28 </td>
+<td> <a href="https://trevligmjukvara.se/s10e04/">Trevlig Mjukvara s10e04</a></td>
+<td> Swedish </td>
+<td> 🎤 </td>
+<td> Mar 22, 2022 </td>
+<td> curl, open source, development, mozilla (recorded Mar 17, 2022) </td>
 </tr>
 
 <tr>
