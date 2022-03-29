@@ -30,11 +30,11 @@ BOXTOP
 
 <tr>
 <td> 29 </td>
-<td> Software Engineering Radio </td>
+<td> <a href="https://www.se-radio.net/2022/03/episode-505-daniel-stenberg-on-25-years-with-curl/">Software Engineering Radio #505</a> </td>
 <td> English </td>
 <td> 🎤 </td>
-<td> ? </td>
-<td> curl (recorded Feb 8, 2022) </td>
+<td> Mar 30, 2022 </td>
+<td> lots of curl (recorded Feb 8, 2022) </td>
 </tr>
 
 <tr>
