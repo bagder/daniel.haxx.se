@@ -7,40 +7,6 @@ HEAD(Daniel Stenberg - daniel.haxx.se)
 
 #define LINK(url,name) <a href="url">name</a>
 
-<script>
-  window.onload=function() {
-      // Month,Day,Year,Hour,Minute,Second
-      upTime();
-  }
-  // https://stackoverflow.com/questions/15141762/how-to-initialize-a-javascript-date-to-a-particular-time-zone
-  function changeTimezone(date, ianatz) {
-      // suppose the date is 12:00 UTC
-      var invdate = new Date(date.toLocaleString('en-US', {
-          timeZone: ianatz
-      }));
-      // then invdate will be 07:00 in Toronto
-      // and the diff is 5 hours
-      var diff = date.getTime() - invdate.getTime();
-      // so 12:00 in Toronto is 17:00 UTC
-      return new Date(date.getTime() - diff); // needs to substract
-  }
-
-  function upTime() {
-      now = new Date();
-      var there = changeTimezone(now, "Europe/Stockholm");
-      var options = {
-          year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric',
-          hour12: false, minute: 'numeric',
-          timeZone: 'Europe/Stockholm',
-          timeZoneName: 'long'
-      };
-      var date = new Intl.DateTimeFormat('en-US', options).format(there);
-      document.getElementById('time').firstChild.nodeValue = date.toString();
-      clearTimeout(upTime.to);
-      upTime.to=setTimeout(function(){ upTime(); },1000);
-  }
-</script>
-
 <style>
 div.minibox {
     padding: 5px 15px 5px 15px;
@@ -92,8 +58,6 @@ div.minibox {
 <img class="daniel" src="final-12-400-gray.jpg" width=400 height=400 alt="Daniel Stenberg">
 
 TITLE(Daniel Stenberg)
-
-<p> My local time right now is <b id="time">Central Europe Time (+ possible DST)</b>
 
 <p> <b>I am</b> the founder and lead developer of <a
 href="https://curl.se/">cURL and libcurl</a>. An internet protocol geek, an
