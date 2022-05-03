@@ -9,8 +9,7 @@ HEAD(Daniel Stenberg -- Documentation)
 TITLE(Documentation)
 BOXTOP
 <p>
- This is collected random docs I've written. Still a
- bit sparse, but I'll move over some other stuff here in the future.
+ Collected random docs written by me.
 
 <ul>
 <li>
