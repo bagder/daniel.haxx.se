@@ -37,9 +37,9 @@ BOXTOP
  <a href="ftp-vs-http.html">FTP vs HTTP</a> - a comparison of similarities
  and differences between the protocols
 
-<li> <a href="/http2/">http2 explained</a> - document explaining HTTP version 2
+<li> <a href="https://http2-explained.haxx.se/">http2 explained</a> - document explaining HTTP version 2
 
-<li> <a href="/http3-explained/">HTTP/3 Explained</a> - document explaining HTTP version 3
+<li> <a href="https://http3-explained.haxx.se/">HTTP/3 Explained</a> - document explaining HTTP version 3
 
 <li> <a href="/irchistory.html">IRC history</a> - how Internet Relay Chat took off
 
@@ -49,6 +49,9 @@ BOXTOP
 <li>
  <a href="sshproxy.html">SSH Through or Over Proxy</a> - how to connect out
  to the Internet when locked in behind a HTTP proxy
+
+<li> <a href="https://un.curl.dev/">Uncurled</a> - everything I know and
+ learned about running and maintaining Open Source projects for three decades.
 
 </ul>
 
@@ -78,7 +81,7 @@ Metalink Download Description Format
 
 </ul>
 
-<p> I never wrote any "real" book, but I was technical reviewer of the
+<p> I never wrote any "real" book, but I was a technical reviewer for the
  following books:
 
 <ul>
