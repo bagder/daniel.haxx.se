@@ -24,6 +24,7 @@ all:	index.html skills.html myopensource.html opensource.html \
 	cd videos && make
 	cd http2 && make
 	cd devcons && make
+	cd uncurled && make
 
 index.html: index.t $(MAINPARTS) talk.inc
 	$(ACTION)
