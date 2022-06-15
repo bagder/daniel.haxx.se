@@ -29,6 +29,15 @@ BOXTOP
 #endif
 
 <tr>
+<td> 30 </td>
+<td> The FOSS Pod </td>
+<td> English </td>
+<td> 🎤 </td>
+<td> - </td>
+<td> recorded June 13, 2022</td>
+</tr>
+
+<tr>
 <td> 29 </td>
 <td> <a href="https://www.se-radio.net/2022/03/episode-505-daniel-stenberg-on-25-years-with-curl/">Software Engineering Radio #505</a> </td>
 <td> English </td>
