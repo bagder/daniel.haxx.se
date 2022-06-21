@@ -65,9 +65,9 @@ nickname would be better and more special this way and so I stuck with
 it. Like a dyslexic badger. People have frequently been mistaking my nick for
 the animal ever since.
 
-I used the nickname during our demo years and after that period, I have selected
-this name for various other services and account names. Like on GitHub,
-Twitter etc.
+I used the nickname during our demo years and after that period, I have
+selected this name for various other services and account names. Like on
+GitHub, Twitter etc.
 
 ## Horizon
 
@@ -84,6 +84,24 @@ Europe in a school over a weekend and spend it hacking on code, chat, drink
 coca cola and then compete in a demo competition toward the end. (Such events
 would later on get called LAN-parties but back in the late 80s and early 90s
 we had no LANs...)
+
+## Skyline Techniques
+
+During these days I also wrote a "music editor" with a separate optimized
+production music player and under the name "Skyline Techniques" Björn and
+Linus wrote several catchy SID tunes that we and others would use in many
+demos of the time. We had a dream of being able to produce and sell music to
+commerical C64 productions but that never materialized.
+
+## Games
+
+We created at least two quite well-developed and functioning game embryos on
+the C64, one was a two-car split-screen driving game with a top-view of the
+cars and the other was a horizontal shootem up game with quite advanced
+multiplexed sprite "enemies" which allowed for 20-30 simultaneously flying
+objects to shoot down. Creating the games and reaching maybe 90% of them was
+fun. Actually having the discipline to take them all the way was another
+matter so we never completed any of them.
 
 The C64 golden age faded away for us - it felt like we were done with that
 platform and its set of limitations. Several of us looked at making the jump
