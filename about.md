@@ -91,13 +91,13 @@ During these days I also wrote a "music editor" with a separate optimized
 production music player and under the name "Skyline Techniques" Björn and
 Linus wrote several catchy SID tunes that we and others would use in many
 demos of the time. We had a dream of being able to produce and sell music to
-commerical C64 productions but that never materialized.
+commercial C64 productions but that never materialized.
 
 ## Games
 
 We created at least two quite well-developed and functioning game embryos on
 the C64, one was a two-car split-screen driving game with a top-view of the
-cars and the other was a horizontal shootem up game with quite advanced
+cars and the other was a horizontal shoot-em up game with quite advanced
 multiplexed sprite "enemies" which allowed for 20-30 simultaneously flying
 objects to shoot down. Creating the games and reaching maybe 90% of them was
 fun. Actually having the discipline to take them all the way was another
