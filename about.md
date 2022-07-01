@@ -1,7 +1,19 @@
 # Daniel Stenberg
 
 I was born and raised in Huddinge, a suburb south of Sweden's capital
-Stockholm. I have two brothers and two sisters.
+Stockholm. I have two brothers and two sisters. My parents have no computer
+background or interest. My dad was a construction worker for most of his life
+and my mom has mostly been into arts and handcrafts.
+
+## Before computers
+
+At the age of seven, I started playing football ("soccer" as Amerians would
+say) in a team. I enjoyed it very much and kept playing in that team quite
+actively - even at a fairly decent level - until I was seventeen years old
+when school and my computer interest eventually made me quit.
+
+In school I was a fairly good student, but never one of the popular ones, and
+math was always one of my favorite subjects.
 
 ## 1985 - it begins
 
@@ -14,7 +26,7 @@ subsequently saved up money for our first own computer that we finally bought
 together when I was 14 years old, 1985. A Commodore 64. A glorious and
 marvelous Commodore 64.
 
-I immediately got fascinated by the concept of being able to control the
+I was immediately fascinated by the concept of being able to control the
 computer and tell it what to do and how. I headed straight into programming
 and quickly learned BASIC and how to do simple stuff. Soon I realized that the
 cool stuff we could see other people do and all the games etc were not made
