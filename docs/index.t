@@ -9,6 +9,16 @@ HEAD(Daniel Stenberg -- Documentation)
 TITLE(Documentation)
 BOXTOP
 <p>
+ Books written by me:
+<ul>
+<li> <a href="https://everything.curl.dev/">Everything curl</a> - the curl book
+<li> <a href="https://http2-explained.haxx.se/">http2 explained</a>
+<li> <a href="https://http3-explained.haxx.se/">HTTP/3 Explained</a>
+<li> <a href="https://un.curl.dev/">Uncurled</a> - everything I know and
+ learned about running and maintaining Open Source projects for three decades.
+</ul>
+
+<p>
  Collected random docs written by me.
 
 <ul>
@@ -30,15 +40,9 @@ BOXTOP
 <li>
  <a href="encrypted-transfer-protocols-compared.html">Encrypted Transfer Protocols Compared</a> - FTPS vs HTTPS vs SFTP vs SCP
 
-<li> <a href="http://bookcurl.haxx.se/">Everything curl</a> - the curl book
-
 <li>
  <a href="ftp-vs-http.html">FTP vs HTTP</a> - a comparison of similarities
  and differences between the protocols
-
-<li> <a href="https://http2-explained.haxx.se/">http2 explained</a> - document explaining HTTP version 2
-
-<li> <a href="https://http3-explained.haxx.se/">HTTP/3 Explained</a> - document explaining HTTP version 3
 
 <li> <a href="/irchistory.html">IRC history</a> - how Internet Relay Chat took off
 
@@ -49,9 +53,7 @@ BOXTOP
  <a href="sshproxy.html">SSH Through or Over Proxy</a> - how to connect out
  to the Internet when locked in behind a HTTP proxy
 
-<li> <a href="https://un.curl.dev/">Uncurled</a> - everything I know and
- learned about running and maintaining Open Source projects for three decades.
-
+<li> <a href="URL-interop.html">URL-interop</a> - problems in operability between the different URL/URI specifications.
 </ul>
 
 <p>
