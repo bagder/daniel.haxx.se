@@ -445,12 +445,13 @@ actually used in HTTP. Cookies had been around for maybe 15 years already at
 the time and the only spec that actually had been used was less than one
 hundred lines and totally useless. Attempts had been made over the years to
 correct it and at least two new cookie RFC were written that failed to get
-adopted. Finally we started a group within IETF that worked to document how
-cookies actually work on the web. I felt that I, as an independent and
-non-browsers orient cookie parser implementer since many years, could provide
-good feedback and a completely different point of view then most others who
-were participating - many of them coming from the browser world. I would like to
-think my few bits of contribution helped making RFC 6265 as good as it is!
+adopted. Finally in 2009 we started a group within IETF that worked to
+document how cookies actually work on the web. I felt that I, as an
+independent and non-browsers orient cookie parser implementer since many
+years, could provide good feedback and a completely different point of view
+then most others who were participating - many of them coming from the browser
+world. I would like to think my few bits of contribution helped making RFC
+6265 as good as it is! (Published in 2011.)
 
 ## Haxx AB
 
