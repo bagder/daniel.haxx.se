@@ -8,7 +8,7 @@ and my mom has mostly been into arts and handcrafts.
 ## Before computers
 
 At the age of seven, I started playing football ("soccer" as Amerians would
-say) in a team. I enjoyed it very much and kept playing in that team quite
+say) in a team. I enjoyed it properly and kept playing in that team quite
 actively - even at a fairly decent level - until I was seventeen years old
 when school and my computer interest eventually made me quit.
 
