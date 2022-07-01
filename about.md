@@ -455,12 +455,12 @@ world. I would like to think my few bits of contribution helped making RFC
 
 ## Haxx AB
 
-Professionally, I had spent the last several years doing contract works where
-I basically had sold myself or I had gotten the jobs myself, while at the same
-time I felt that my employer was not really going in the same direction that I
-was going in. I felt that I did not really get my money's worth there. In the
-end of August 2009 I quit my employment and I instead become the first
-full-time employee of Haxx AB, our own firm.
+Professionally, I had spent the last several years doing contract work where I
+basically had found the assignments on my own and "sold myself" without my
+employer's involvement. At the same time I felt that the company I worked for
+was not really going in the direction that I wanted to go in. I did not really
+get my money's worth there. In the end of August 2009 I quit my employment and
+I instead become the first full-time employee of Haxx AB, our own firm.
 
 In 2009, I'm honored to say that I was awarded the Nordic Free Software Award
 along with Simon Josefsson for my work in open source and free software up
