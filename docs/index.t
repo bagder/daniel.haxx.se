@@ -59,6 +59,8 @@ BOXTOP
 
 <ul>
 
+<li> <a href="https://www.rfc-editor.org/rfc/rfc9110.html">RFC 9110</a> - HTTP Semantics (<a href="https://daniel.haxx.se/blog/2022/06/06/new-http-core-specs/">blog post</a>)
+
 <li> <a href="https://tools.ietf.org/html/rfc8484">RFC 8484</a> - DNS Queries over HTTPS (DoH) (<a href="https://daniel.haxx.se/blog/2018/10/19/dns-over-https-is-rfc-8484/">blog post</a>)
 
 <li> <a href="https://tools.ietf.org/html/rfc7616">RFC 7616</a> - HTTP Digest Access Authentication
@@ -80,8 +82,7 @@ Metalink Download Description Format
 
 </ul>
 
-<p> I never wrote any "real" book, but I was a technical reviewer for the
- following books:
+<p> I was technical reviewer for the following books:
 
 <ul>
 <li> <a
