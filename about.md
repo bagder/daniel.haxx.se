@@ -7,7 +7,7 @@ and my mom has mostly been into arts and handcrafts.
 
 ## Before computers
 
-At the age of seven, I started playing football ("soccer" as Amerians would
+At the age of seven, I started playing football (*soccer* as Amerians would
 say) in a team. I enjoyed it properly and kept playing in that team quite
 actively - even at a fairly decent level - until I was seventeen years old
 when school and my computer interest eventually made me quit.
@@ -37,7 +37,7 @@ world of 6510 assembly. We started hacking demos because we liked watching
 demos and we wanted to make demos too. We figured out that all the cool demo
 making people were part of demo-groups and had nicknames and so on, and we
 felt we too had to join that spirit and quickly founded our own c64 group
-"Confusing Solution" (we could make fun of ourselves already back then).
+*Confusing Solution* (we could make fun of ourselves already back then).
 
 This was when I started spending spare time on programming. Up to several
 hours per day. This is something that I have never stopped doing since...
@@ -45,7 +45,7 @@ hours per day. This is something that I have never stopped doing since...
 ## Demo Scene
 
 Due to a happy coincidence, Triad and Fairlight, two of the giant groups on
-the "demo scene" of the time, organized a "copy-party" in our school
+the *demo scene* of the time, organized a *copy-party* in our school
 (Kvarnbergsskolan) in Huddinge in the late winter 1987. We got sucked deeper
 and harder into the C64 demo and hacker spirit and community. During that
 meet-up with hundreds of other C64 geeks we met many like-minded people,
@@ -58,20 +58,20 @@ Later in the spring 1988, we were invited to a small gathering by our friend
 Fonzi who was then the leading person in the C64 group called Super Swap
 Sweden (SSS). When asked, we decided to join their team. At that time, Super
 Swap Sweden was already a large and well known group in Sweden that made both
-"cracks" (ie removed copy protection from games and copied pirated versions of
+*cracks* (ie removed copy protection from games and copied pirated versions of
 them) and demos. We were taken away by the attention and did not hesitate to
 join this large group of friends. We went on and released more demos under the
 SSS flag, got better and learned more about the C64's undocumented corners,
 opcodes and circuits.
 
-## 'bagder'
+## bagder
 
 There was this established nickname tradition on the demo scene. I started out
 calling myself D$85 based on my initials and the year I got the C64, but I
 did not really like it (for one it was impossible to pronounce) and when we
 joined SSS I switched.
 
-I figured I would pick an animal and I went with 'bagder'. I quickly realized
+I figured I would pick an animal and I went with *bagder*. I quickly realized
 I had actually misspelled the animal, but then it also dawned on me that my
 nickname would be better and more special this way and so I stuck with
 it. Like a dyslexic badger. People have frequently been mistaking my nick for
@@ -85,7 +85,7 @@ GitHub, Twitter etc.
 
 The three of us (me, Kjell and Björn) and a few other coders left SSS
 after a while and instead we created Horizon together with a bunch of other
-demo-hacker friends from the Swedish "scene" (several came from the group
+demo-hacker friends from the Swedish *scene* (several came from the group
 Thundercats) and now we were definitely one of the leading demo groups in
 Sweden. We wanted to have a more tight-knit group that would do and focus on
 demos only - no cracking at all. We won a whole range of demo competitions in
@@ -99,18 +99,19 @@ we had no LANs...)
 
 ## Skyline Techniques
 
-During these days I also wrote a "music editor" with a separate optimized
-production music player and under the name "Skyline Techniques" Björn and
-Linus wrote several catchy SID tunes that we and others would use in many
-demos of the time. We had a dream of being able to produce and sell music to
-commercial C64 productions but that never materialized.
+During these days I also wrote a *music editor* (a program which you use to
+compose and create music) with a separate optimized production music player
+and under the name Skyline Techniques Björn and Linus wrote several catchy
+SID tunes that we and others would use in many demos of the time. We had a
+dream of being able to produce and sell music to commercial C64 productions
+but that never materialized.
 
 ## Games
 
 We created at least two quite well-developed and functioning game embryos on
 the C64, one was a two-car split-screen driving game with a top-view of the
 cars and the other was a horizontal shoot-em up game with quite advanced
-multiplexed sprite "enemies" which allowed for 20-30 simultaneously flying
+multiplexed sprite enemies which allowed for 20-30 simultaneously flying
 objects to shoot down. Creating the games and reaching maybe 90% of them was
 fun. Actually having the discipline to take them all the way was another
 matter so we never completed any of them.
@@ -118,7 +119,7 @@ matter so we never completed any of them.
 The C64 golden age faded away for us - it felt like we were done with that
 platform and its set of limitations. Several of us looked at making the jump
 over to the new emerging platform: the Amiga and continue the same activities
-there - as was common at the time - but the Amiga's almost "unlimited"
+there - as was common at the time - but the Amiga's almost unlimited
 conditions (compared to the C64) with lots of memory, super-fast CPU with
 plenty of registers, blitter (co-processor) and audio chip took in many ways
 away much of what we considered was the charm of demo-hacking: the strict
@@ -171,11 +172,11 @@ FrexxEd. I wrote a dedicated scripting language for it, the Frexx Programming
 Language (FPL). I made FPL really portable and it ran fine on several unixes
 as well as on AmigaOS, etc. Meanwhile, Björn (my brother, remember?) wrote up
 a BBS system under OS/2 that used FPL quite extensively. We ran our dual-line
-BBS "The Holy Grail" for several years into the 90s.
+BBS *The Holy Grail* for several years into the 90s.
 
-The name "FrexxEd" was just a playful word using two xx's which we enjoyed and
+The name *FrexxEd* was just a playful word using two xx's which we enjoyed and
 that habit has followed us later in life too. Basically the Swedish word fräck
-(translates to "cheeky") Englishified with xes, and then Ed tacked on to the
+(translates to cheeky) Englishified with xes, and then Ed tacked on to the
 end of it like many text editors were named at that time. The fact that the
 name turned similar to the Amiga scripting language Arexx was actually not
 intentional.
@@ -228,7 +229,7 @@ why not offer something that could make the bot say what 100 SEK would equal
 in US dollars? OK, to make this happen I first needed a command-line tool to
 download currency rates from a web page at a regular interval.
 
-I found a little tool online called 'httpget' which was written by a Brazilian
+I found a little tool online called *httpget* which was written by a Brazilian
 fellow named Rafael Sagula. It fit my purposes almost perfectly. It only
 required a few small fixes and patches first...
 
@@ -244,16 +245,16 @@ still way more interesting due to its price and level of freedom.
 
 I had more or less taken over as leader of the httpget project when I found
 another currency exchange site that was hosting data and offering it using
-GOPHER, I had to implement support for that protocol too. And then 'httpget'
-was not a good name anymore so I changed it to 'Urlget'. But lot long after
+GOPHER, I had to implement support for that protocol too. And then httpget
+was not a good name anymore so I changed it to *Urlget*. But lot long after
 that, I added FTP support as well and then the step to adding FTP upload
 support was not very big.
 
 In the late 1997 we (I and my friend Linus) registered our first company, Haxx
 HB, to use when doing odd spare time jobs outside of our regular employments.
 Another playful name (hack in plural, hacks, but with two Xs instead of
-"cks"). A couple of years later we converted it into a proper and real
-corporation; "aktiebolag" in Swedish.
+cks). A couple of years later we converted it into a proper and real
+corporation; *aktiebolag* in Swedish.
 
 ## Spare time hacking and full-time work
 
@@ -272,7 +273,7 @@ much.
 
 By the time the urlget tool got the ability to do uploads, the name had became
 misleading again, so the project was up for a name change one more time and
-curl was born. curl as in "see URL" or "client for URLs". Gee, naming things
+curl was born. curl as in *see URL* or *client for URLs*. Gee, naming things
 is really hard!
 
 I made the first curl release on March 20, 1998. curl version 4.0, as I kept
@@ -283,12 +284,12 @@ spare time programming focus on curl.
 
 Of course, over time I also dipped into and participated in other projects. I
 spent a lot of time in hypermail - a program that converts mailboxes to HTML
-pages. I have written 'mail2sms' to convert email to SMS (it was useful in the
-times before the smartphones), and been working in 'Smash' to send SMS
+pages. I have written *mail2sms* to convert email to SMS (it was useful in the
+times before the smartphones), and been working in *Smash* to send SMS
 messages to operators' modem receivers. I worked with Trio - a printf and
 string function library. I have contributed code to and I am involved somewhat
 in wget. I was an early contributor and committer in the Subversion project. I
-write and maintain 'roffit' - a tool for to create HTML pages from nroff files
+write and maintain *roffit* - a tool for to create HTML pages from nroff files
 (man pages).
 
 ## Licensing
@@ -304,7 +305,7 @@ change the curl code, but otherwise they could do whatever they wanted.
 However, MPL proved to be a really unwise choice when we later launched
 libcurl - curl as a library made for other programs to use. Because the MPL is
 considered GPL-incompatible, those applications that were GPL licensed could
-not easily use libcurl because of this license "collision". Therefore, in 2001
+not easily use libcurl because of this license collision. Therefore, in 2001
 curl was again relicensed. This time to an MIT license. That license has since
 stuck and I have not regretted that choice ever since.
 
@@ -329,7 +330,7 @@ engineered mp3 players and replaced the original firmwares with our free
 version, that often was far better than the original one in terms of
 functionality, features and battery life.
 
-Up to that point, curl was just a command line tool. You'd invoke it from
+Up to that point, curl was just a command line tool. You would invoke it from
 scripts or from a shell prompt. I of course suspected that there would be
 programs and systems out there that could benefit from getting curl's powers
 into their applications and that doing curl as a library would enable
@@ -456,22 +457,21 @@ world. I would like to think my few bits of contribution helped making RFC
 ## Haxx AB
 
 Professionally, I had spent the last several years doing contract work where I
-basically had found the assignments on my own and "sold myself" without my
+basically had found the assignments on my own and sold myself without my
 employer's involvement. At the same time I felt that the company I worked for
 was not really going in the direction that I wanted to go in. I did not really
 get my money's worth there. In the end of August 2009 I quit my employment and
 I instead become the first full-time employee of Haxx AB, our own firm.
 
-In 2009, I'm honored to say that I was awarded the Nordic Free Software Award
-along with Simon Josefsson for my work in open source and free software up
-until that point.
+In 2009, I was awarded **the Nordic Free Software Award** along with Simon
+Josefsson for my work in open source and free software up until that point.
 
 Under our own name (Haxx) I continued to do embedded systems contracting. Now
 being my own boss and of course having the ultimate freedom to decide what
 jobs to take and how to spend my time and money. I still did not get very many
 curl related jobs more than the occasional smaller hacks and minor
-improvements (and a series of smaller "I want to automate this using curl can
-you do it for me please" tasks), so the protocol side remained a spare time
+improvements (and a series of smaller *I want to automate this using curl can
+you do it for me please* tasks), so the protocol side remained a spare time
 occupation.
 
 A few months after me, my brother Björn joined me as Haxx employee number two
@@ -516,15 +516,15 @@ time from home.
 In May 2015 the HTTP/2 RFC shipped. In relation to the introduction of this
 new protocol version, I did several talks and presentations to a lot of
 different audiences in multiple countries. I also wrote a document about it,
-called "http2 explained" that I released freely and openly on the web. It
+called *http2 explained* that I released freely and openly on the web. It
 turned out a huge success and for the period I counted downloads, I saw more
 than 200,000 downloads!
 
 ## Second best developer in Sweden
 
 In 2016, the Swedish online publication called Techworld had a contest for
-"Sweden's best developer" - and were accepting nominations from the
-public. They've had this contest before but this time I was nominated and
+**Sweden's best developer** - and were accepting nominations from the
+public. They have had this contest before but this time I was nominated and
 ultimately awarded the 2nd place!
 
 ## QUIC
@@ -564,8 +564,8 @@ king himself.
 ## HTTP/3 explained
 
 In November 2018 it was announced that the protocol previously called just
-"HTTP over QUIC" would officially become HTTP/3. I renamed my new document I
-was working on and soon I could reveal "HTTP/3 Explained" online. Free and
+*HTTP over QUIC* would officially become HTTP/3. I renamed my new document I
+was working on and soon I could reveal *HTTP/3 Explained* online. Free and
 open. Soon enough volunteers joined in and started to offer and contributed to
 translated versions.
 
@@ -583,8 +583,8 @@ development and getting more bug-reports filed than we manged to close and
 ## A new home: wolfSSL
 
 In February 2019 I joined wolfSSL to do commercial curl support and work on
-curl full-time. wolfSSL is an American company. I'm the only Swede working for
-wolfSSL and I could continue to work from home. I love it.
+curl full-time. wolfSSL is an American company. I am the only Swede working
+for wolfSSL and I could continue to work from home. I love it.
 
 At the time I started I was still not allowed entry to the US so I was not
 even able to visit my new colleagues.
