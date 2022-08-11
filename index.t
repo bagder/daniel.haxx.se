@@ -151,6 +151,7 @@ LINK("/http2/", http2 explained) - the HTTP/2 book
 
 SUBTITLE(Me elsewhere)
 <p>
+LINK("https://csdb.dk/scener/?id=8084", CSDb) |
 LINK("https://www.facebook.com/stenberg.daniel", Facebook) |
 LINK("https://github.com/bagder/", GitHub) |
 LINK("https://www.internetmuseum.se/tidslinjen/curl-grundaren-daniel-stenberg-skapar-internets-budbarare/", Internetmusem) |
