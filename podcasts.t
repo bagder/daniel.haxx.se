@@ -39,11 +39,11 @@ BOXTOP
 
 <tr>
 <td> 30 </td>
-<td> The FOSS Pod </td>
+<td> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5zaW1wbGVjYXN0LmNvbS81SnpZcF9LcA/episode/NjVkM2ZhMjQtMDZhZC00MmNlLTllYTQtOWQ3YWI1MDQxZWQw?hl=en-SE&ved=2ahUKEwjejNvp-t75AhXGX_EDHazqDt4QieUEegQIBBAL&ep=6">The FOSS Pod - curl with Daniel Stenberg</a> </td>
 <td> English </td>
 <td> 🎤 </td>
-<td> - </td>
-<td> recorded June 13, 2022</td>
+<td> Jun 24, 2022</td>
+<td> History, development, used by everyone (recorded Jun 13, 2022)</td>
 </tr>
 
 <tr>
