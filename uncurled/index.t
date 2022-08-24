@@ -15,4 +15,8 @@ SUBTITLE(ePUB)
 <p>
  An epub version of the book is available <a href="uncurled.epub">here</a>. It is updated daily.
 
+SUBTITLE(PDF)
+<p>
+ A PDF version of the book is available <a href="uncurled.pdf">here</a>. It is updated daily.
+
 #include "footer.t"
