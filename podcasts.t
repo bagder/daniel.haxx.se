@@ -29,12 +29,21 @@ BOXTOP
 #endif
 
 <tr>
-<td> 31 </td>
+<td> 32 </td>
 <td> Sourcegraph podcast </td>
 <td> English </td>
 <td> 🎤 </td>
 <td> - </td>
 <td> recorded June 27, 2022</td>
+</tr>
+
+<tr>
+<td> 31 </td>
+<td> Kodsnack </td>
+<td> Swedish </td>
+<td> 🎤 </td>
+<td> - </td>
+<td> recorded Aug 24, 2022</td>
 </tr>
 
 <tr>
