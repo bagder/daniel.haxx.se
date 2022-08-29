@@ -116,6 +116,6 @@ SUBTITLE(Upcoming talks by Daniel)
 </ul>
 See <a href="/talks.html">more talks</a>
 #endif
-
+>
 <p>
- No planned talks! Zero. Zilch. Nada. Suggestions?
+ No planned (public) talks! Suggestions?
