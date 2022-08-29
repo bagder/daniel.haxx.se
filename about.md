@@ -603,7 +603,7 @@ a little more than one presentation per month, which served as an excellent
 way to spice up the working-from-home life.
 
 Then came the era of doing presentations over video. So much harder. So much
-not the same thing. Neither for me as a presentation and certainly not for the
+not the same thing. Neither for me as a presenter and certainly not for the
 audience either.
 
 ## curl.se
