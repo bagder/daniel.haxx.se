@@ -39,11 +39,11 @@ BOXTOP
 
 <tr>
 <td> 31 </td>
-<td> Kodsnack </td>
+<td> <a href="https://kodsnack.se/488/">Kodsnack 488</a> </td>
 <td> Swedish </td>
 <td> 🎤 </td>
-<td> - </td>
-<td> recorded Aug 24, 2022</td>
+<td> Aug 30, 2022 </td>
+<td> How to run an Open Source project, what to expect, how to manage people, how to deal with issues etc. (recorded Aug 24, 2022)</td>
 </tr>
 
 <tr>
