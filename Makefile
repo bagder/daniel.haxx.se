@@ -15,7 +15,8 @@ all:	index.html skills.html myopensource.html opensource.html \
 	irchistory.html address.html old.html now.html m3.html \
 	rockbox-sandisk-connection.html mynextassignment.html \
 	podcasts.html photos.html weekly.html talks.html index2.html \
-	us-visa.html how-to-invite-me.html photos2.html
+	us-visa.html how-to-invite-me.html photos2.html \
+	my-name-in-products.html
 	cd old-photos; make
 	cd hexpoetry; make
 	cd projects; make
@@ -27,6 +28,9 @@ all:	index.html skills.html myopensource.html opensource.html \
 	cd uncurled && make
 
 index.html: index.t $(MAINPARTS) talk.inc
+	$(ACTION)
+
+my-name-in-products.html: my-name-in-products.t $(MAINPARTS)
 	$(ACTION)
 
 about.html: about.t $(MAINPARTS) about.gen

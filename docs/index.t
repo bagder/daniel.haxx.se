@@ -46,6 +46,8 @@ BOXTOP
 
 <li> <a href="/irchistory.html">IRC history</a> - how Internet Relay Chat took off
 
+<li> <a href="/my-name-in-products.html">My name in products</a> - why my name and email appear at places
+
 <li>
  <a href="poll-vs-select.html">poll vs select vs event-based</a> - a comparison of the syscalls and the event-based alternatives
 
