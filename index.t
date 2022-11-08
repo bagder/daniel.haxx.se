@@ -6,6 +6,7 @@ HEAD(Daniel Stenberg - daniel.haxx.se)
 #include "daniel.t"
 
 #define LINK(url,name) <a href="url">name</a>
+#define MELINK(url,name) <a href="url" rel="me">name</a>
 
 <style>
 div.minibox {
@@ -151,20 +152,20 @@ LINK("/http2/", http2 explained) - the HTTP/2 book
 
 SUBTITLE(Me elsewhere)
 <p>
-LINK("https://csdb.dk/scener/?id=8084", CSDb) |
-LINK("https://www.facebook.com/stenberg.daniel", Facebook) |
-LINK("https://github.com/bagder/", GitHub) |
-LINK("https://www.internetmuseum.se/tidslinjen/curl-grundaren-daniel-stenberg-skapar-internets-budbarare/", Internetmusem) |
-LINK("https://keybase.io/bagder", Keybase) |
-LINK("https://www.linkedin.com/in/danielstenberg", LinkedIn) |
-LINK("https://mastodon.social/@bagder", Mastodon) |
-LINK("https://www.openhub.net/accounts/bagder", openhub) |
-LINK("https://www.slideshare.net/bagder/presentations", Slideshare) |
-LINK("https://stackoverflow.com/users/93747/daniel-stenberg", stackoverflow) |
-LINK("https://www.twitch.tv/curlhacker", Twitch) |
-LINK("https://twitter.com/bagder", twitter) |
-LINK("https://en.wikipedia.org/wiki/Daniel_Stenberg", Wikipedia) |
-LINK("https://www.youtube.com/user/danielhaxxse/", Youtube)
+MELINK("https://csdb.dk/scener/?id=8084", CSDb) |
+MELINK("https://www.facebook.com/stenberg.daniel", Facebook) |
+MELINK("https://github.com/bagder/", GitHub) |
+MELINK("https://www.internetmuseum.se/tidslinjen/curl-grundaren-daniel-stenberg-skapar-internets-budbarare/", Internetmusem) |
+MELINK("https://keybase.io/bagder", Keybase) |
+MELINK("https://www.linkedin.com/in/danielstenberg", LinkedIn) |
+MELINK("https://mastodon.social/@bagder", Mastodon) |
+MELINK("https://www.openhub.net/accounts/bagder", openhub) |
+MELINK("https://www.slideshare.net/bagder/presentations", Slideshare) |
+MELINK("https://stackoverflow.com/users/93747/daniel-stenberg", stackoverflow) |
+MELINK("https://www.twitch.tv/curlhacker", Twitch) |
+MELINK("https://twitter.com/bagder", twitter) |
+MELINK("https://en.wikipedia.org/wiki/Daniel_Stenberg", Wikipedia) |
+MELINK("https://www.youtube.com/user/danielhaxxse/", Youtube)
 
 BOXBOT
 </div>
