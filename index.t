@@ -6,7 +6,7 @@ HEAD(Daniel Stenberg - daniel.haxx.se)
 #include "daniel.t"
 
 #define LINK(url,name) <a href="url">name</a>
-#define MELINK(url,name) <a href="url" rel="me">name</a>
+#define MELINK(url,name) <a rel="me" href="url">name</a>
 
 <style>
 div.minibox {
