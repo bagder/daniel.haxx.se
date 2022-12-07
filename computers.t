@@ -74,15 +74,15 @@ members.
 
  <li> <b>2015, November</b> - Mac Mini replacement when the SSD died in the previous. Core i7-4578U CPU @ 3.00GHz. 16GB ram. 512GB SSD.
 
- <li> <b>2016, November</b> - a Lenovo 13 running Windows, for video
- conferencing (only).
+ <li> <b>2016, November</b> - a Lenovo 13 running Windows 10, for video
+ conferencing (only). Core i5-6300U 2.40 GHz.
 
  <li> <b>2017, February</b> - upgraded my desktop to 32GB ram and new 27 inch
  <a href="https://daniel.haxx.se/blog/2017/02/15/new-screen-and-new-fuses/">4K
  screen</a>. (Dell P2715Q)
 
  <li> <b>2017, August</b> - upgraded my linux work laptop to a Lenovo
- T470S. 24GB RAM, 1TB SSD. Replaced the old W540.
+ T470S. 24GB RAM, 1TB SSD. Core i7-7600U 2.80GHz. Replaced the old W540.
 
  <li> <b>2020, July</b> - upgraded my second screen to a 4K 27" as well (Dell U2720Q)
 
@@ -96,8 +96,8 @@ BOXTOP
 <p>
 <ul>
  <li> Desktop: Core-i7 3770K, 3.5GHz, 32GB ram. Dual 4K 27" screens (Dell U2720Q and Dell P2715Q)
- <li> Laptop: Lenovo T470S. 14" 24GB RAM, 1TB SSD.
- <li> Video conference laptop: Lenovo 13
+ <li> Laptop: Core i7-7600U, 2.80GHz. Lenovo T470S. 14" 24GB RAM, 1TB SSD.
+ <li> Video conference laptop: Core i5-6300U, 2.40 GHz. Lenovo 13
 </ul>
 
 BOXBOT
