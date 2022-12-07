@@ -98,6 +98,7 @@ BOXTOP
  <li> Desktop: Core-i7 3770K, 3.5GHz, 32GB ram. Dual 4K 27" screens (Dell U2720Q and Dell P2715Q)
  <li> Laptop: Core i7-7600U, 2.80GHz. Lenovo T470S. 14" 24GB RAM, 1TB SSD.
  <li> Video conference laptop: Core i5-6300U, 2.40 GHz. Lenovo 13
+ <li> Mac: Mac Mini. Core i7-4578U CPU @ 3.00GHz. 16GB ram. 512GB SSD.
 </ul>
 
 BOXBOT
