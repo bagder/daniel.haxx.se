@@ -155,6 +155,7 @@ SUBTITLE(Me elsewhere)
 MELINK("https://csdb.dk/scener/?id=8084", CSDb) |
 MELINK("https://www.facebook.com/stenberg.daniel", Facebook) |
 MELINK("https://github.com/bagder/", GitHub) |
+MELINK("https://stars.github.com/profiles/bagder/", GitHub Star) |
 MELINK("https://www.internetmuseum.se/tidslinjen/curl-grundaren-daniel-stenberg-skapar-internets-budbarare/", Internetmusem) |
 MELINK("https://keybase.io/bagder", Keybase) |
 MELINK("https://www.linkedin.com/in/danielstenberg", LinkedIn) |
