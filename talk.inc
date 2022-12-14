@@ -108,9 +108,10 @@ SUBTITLE(Upcoming talks by Daniel)
 <li> February 17, 2022: <a href="https://daniel.haxx.se/blog/2022/02/14/the-great-curl-roadmap-2022-webinar/">curl roadmap 2022 webinar</a>
 <li> October 13, 2022. On EuroRust.
 <li> November 10, 2022. Webinar. Getting started with libcurl.
+<li> November 24, 2022. <a href="https://www.meetup.com/jforum-stockholm/events/289354203/">curl is everywhere</a> on jforum-stockholm meetup, Stockholm.
 #else
 #define TALKS
-<li> November 24, 2022. <a href="https://www.meetup.com/jforum-stockholm/events/289354203/">curl is everywhere</a> on jforum-stockholm meetup, Stockholm.
+<li> May 3, 2023. On <a href="https://stockholmtechshow.se/">Stockholm Tech Show</a>
 #endif
 
 #ifdef FULLPAGE
