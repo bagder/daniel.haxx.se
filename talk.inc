@@ -106,7 +106,10 @@ SUBTITLE(Upcoming talks by Daniel)
 <li> February 3, 2022: "safe code" for a Swedish TV broadcasting company
 <li> February 10, 2022: "safe code" for M.....
 <li> February 17, 2022: <a href="https://daniel.haxx.se/blog/2022/02/14/the-great-curl-roadmap-2022-webinar/">curl roadmap 2022 webinar</a>
+<li> April 29, 2022. talked curl for (unnamed company)
+<li> June 2, 2022. GitHub Twitter space
 <li> October 13, 2022. On EuroRust.
+<li> October 19, 2022. curl in Östersund
 <li> November 10, 2022. Webinar. Getting started with libcurl.
 <li> November 24, 2022. <a href="https://www.meetup.com/jforum-stockholm/events/289354203/">curl is everywhere</a> on jforum-stockholm meetup, Stockholm.
 #else
