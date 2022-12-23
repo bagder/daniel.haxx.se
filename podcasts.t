@@ -14,7 +14,7 @@ BOXTOP
 <th> Language </th>
 <th> Video </th>
 <th> Published </th>
-<th> Topic </th>
+<th width="50%"> Topic </th>
 </tr>
 
 #if 0
