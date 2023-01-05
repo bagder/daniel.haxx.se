@@ -4,7 +4,21 @@ HEAD(Daniel Stenberg -- My Computers)
 #include "body.t"
 #include "daniel.t"
 
-TITLE(My Computers)
+TITLE(Current computer set)
+BOXTOP
+
+<p>
+<ul>
+ <li> Desktop: Core-i7 3770K, 3.5GHz, 32GB ram. Dual 4K 27" screens (Dell U2720Q and Dell P2715Q)
+ <li> Laptop: Core i7-7600U, 2.80GHz. Lenovo T470S. 14" 24GB RAM, 1TB SSD.
+ <li> Video conference laptop: Core i5-6300U, 2.40 GHz. Lenovo 13
+ <li> Mac: Mac Mini. Core i7-4578U CPU @ 3.00GHz. 16GB ram. 512GB SSD.
+ <li> Mac: Mac Mini m1. 16GB ram. 3.2GHz 1TB SSD.
+</ul>
+
+BOXBOT
+
+TITLE(History)
 BOXTOP
 
 <p> Before 1985, I had to play around with the computers of my friends. I
@@ -94,18 +108,5 @@ members.
 
 BOXBOT
 
-TITLE(Current work horses)
-BOXTOP
-
-<p>
-<ul>
- <li> Desktop: Core-i7 3770K, 3.5GHz, 32GB ram. Dual 4K 27" screens (Dell U2720Q and Dell P2715Q)
- <li> Laptop: Core i7-7600U, 2.80GHz. Lenovo T470S. 14" 24GB RAM, 1TB SSD.
- <li> Video conference laptop: Core i5-6300U, 2.40 GHz. Lenovo 13
- <li> Mac: Mac Mini. Core i7-4578U CPU @ 3.00GHz. 16GB ram. 512GB SSD.
- <li> Mac: Mac Mini m1. 16GB ram. 3.2GHz 1TB SSD.
-</ul>
-
-BOXBOT
 
 #include "footer.t"
