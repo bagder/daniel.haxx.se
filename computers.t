@@ -86,6 +86,10 @@ members.
 
  <li> <b>2020, July</b> - upgraded my second screen to a 4K 27" as well (Dell U2720Q)
 
+ <li> <b>2022, December</b> - received a <a
+ href="https://daniel.haxx.se/blog/2022/12/30/an-m1-for-curl/">donated Mac
+ mini m1</a>. 8C CPU/16GB/1TB/8C GPU/1GbE.
+
 </ul>
 
 BOXBOT
@@ -99,6 +103,7 @@ BOXTOP
  <li> Laptop: Core i7-7600U, 2.80GHz. Lenovo T470S. 14" 24GB RAM, 1TB SSD.
  <li> Video conference laptop: Core i5-6300U, 2.40 GHz. Lenovo 13
  <li> Mac: Mac Mini. Core i7-4578U CPU @ 3.00GHz. 16GB ram. 512GB SSD.
+ <li> Mac: Mac Mini m1. 16GB ram. 3.2GHz 1TB SSD.
 </ul>
 
 BOXBOT
