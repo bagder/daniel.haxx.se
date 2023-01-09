@@ -86,7 +86,8 @@ commercial curl support. If you need help to fix curl problems, fix your app's
 use of libcurl, add features to curl, fix curl bugs, optimize your curl use or
 libcurl education for your developers... Then I'm your man. Contact us!
 
-<p> My <a href="https://bagder.github.io/log/">weekly reports</a> can be <a href="https://github.com/bagder/log/discussions">commented</a>.
+<p> You can <a href="https://lists.haxx.se/listinfo/daniel">subscribe to my
+weekly reports</a>.
 
 <div style="clear: both;"/>
 SUBTITLE(Rewards)
