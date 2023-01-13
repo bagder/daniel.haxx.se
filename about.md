@@ -7,7 +7,7 @@ and my mom has mostly been into arts and handcrafts.
 
 ## Before computers
 
-At the age of seven, I started playing football (*soccer* as Amerians would
+At the age of seven, I started playing football (*soccer* as Americans would
 say) in a team. I enjoyed it properly and kept playing in that team quite
 actively - even at a fairly decent level - until I was seventeen years old
 when school and my computer interest eventually made me quit.
@@ -246,7 +246,7 @@ still way more interesting due to its price and level of freedom.
 I had more or less taken over as leader of the httpget project when I found
 another currency exchange site that was hosting data and offering it using
 GOPHER, I had to implement support for that protocol too. And then httpget
-was not a good name anymore so I changed it to *Urlget*. But lot long after
+was not a good name anymore so I changed it to *Urlget*. But not long after
 that, I added FTP support as well and then the step to adding FTP upload
 support was not very big.
 
