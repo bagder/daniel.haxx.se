@@ -181,14 +181,14 @@ end of it like many text editors were named at that time. The fact that the
 name turned similar to the Amiga scripting language Arexx was actually not
 intentional.
 
-FrexxEd was shareware for very long time. We came from the C64 and Amiga
-background where FOSS was not a familiar concept and it was not at all
-existing within that culture - sadly enough, it would have been a really good
-idea for that community too. Eventually I learned the true ways of life and I
-released FPL fully open. In modern times people who run one of them new
-AmigaOS versions have found a renewed interest in FrexxEd and they have ported
-it over. It is very fun that it is still alive - containing more than 25 years
-old code of ours. FrexxEd code still exists on GitHub.
+FrexxEd was shareware for long time. We came from the C64 and Amiga background
+where FOSS was not a familiar concept and it was not at all existing within
+that culture - sadly enough, it would have been a really good idea for that
+community too. Eventually I learned the true ways of life and I released FPL
+fully open. In modern times people who run one of them new AmigaOS versions
+have found a renewed interest in FrexxEd and they have ported it over. It is
+exciting that it is still alive - containing more than 30 years old code of
+ours. FrexxEd code still exists on GitHub.
 
 ## Dancer
 
@@ -202,10 +202,10 @@ soon led to me writing an IRC bot on my spare time with a friend (Bjorn Reese)
 from #amiga - a bot that could be scripted with FPL! We released the bot
 (Dancer) and FPL fully open source. It was not anything we considered much
 really, there was never any other consideration. If we could stand on the
-shoulders of giants and use this large amount of very good software, the least
-we could do was to also also share our contribution with the world. That bot
-was written for unix systems primarily (I believe SunOS on Sparc was the
-system we used) and was my first real application doing TCP/IP networking.
+shoulders of giants and use this large amount of good software, the least we
+could do was to also also share our contribution with the world. That bot was
+written for unix systems primarily (I believe SunOS on Sparc was the system we
+used) and was my first real application doing TCP/IP networking.
 
 By now the Amiga had completely left my life, and I used my job's modem pool
 with dial-back to log on to my employer's various unix machines to IRC and
@@ -233,10 +233,10 @@ I found a little tool online called *httpget* which was written by a Brazilian
 fellow named Rafael Sagula. It fit my purposes almost perfectly. It only
 required a few small fixes and patches first...
 
-It is a very curious coincident that the first httpget release (0.1) was done
-on November 11 1996 which also happens to be the very same day the first ever
-Wget release was done! Wget has been considered a curl alternative or
-substitute by many command line tool users.
+It is a curious coincident that the first httpget release (0.1) was done on
+November 11 1996 which also happens to be the same day the first ever Wget
+release was done! Wget has been considered a curl alternative or substitute by
+many command line tool users.
 
 Around this time I installed my first Linux systems at work, and we fired up
 our first public web servers and more. As I had experience from various other
@@ -245,10 +245,10 @@ still way more interesting due to its price and level of freedom.
 
 I had more or less taken over as leader of the httpget project when I found
 another currency exchange site that was hosting data and offering it using
-GOPHER, I had to implement support for that protocol too. And then httpget
-was not a good name anymore so I changed it to *Urlget*. But not long after
-that, I added FTP support as well and then the step to adding FTP upload
-support was not very big.
+GOPHER, I had to implement support for that protocol too. And then httpget was
+not a good name anymore so I changed it to *Urlget*. But not long after that,
+I added FTP support as well and then the step to adding FTP upload support was
+not big.
 
 In the late 1997 we (I and my friend Linus) registered our first company, Haxx
 HB, to use when doing odd spare time jobs outside of our regular employments.
@@ -298,9 +298,9 @@ curl had started out GPL licensed pretty much without thought, but after some
 thinking I decided the GPL approach was not exactly in line with my philosophy.
 
 In 1998 when we released curl 4.9, we switched to the MPL license. It is a
-very liberal license and was much more in line with what I really wanted
-people to take away from curl: have them send back code if they actually
-change the curl code, but otherwise they could do whatever they wanted.
+liberal license and was much more in line with what I really wanted people to
+take away from curl: have them send back code if they actually change the curl
+code, but otherwise they could do whatever they wanted.
 
 However, MPL proved to be a really unwise choice when we later launched
 libcurl - curl as a library made for other programs to use. Because the MPL is
@@ -356,7 +356,7 @@ me and a few friends who at this time had been pondering on starting up a
 project to work on this problem. One day however, I stumbled over the existing
 library called ares that did almost exactly what we wanted. I quickly took it
 to heart and implemented support in curl to use this library to do
-asynchronous and non-blocking name resolves. Very soon I learned that the
+asynchronous and non-blocking name resolves. Soon I learned that the
 maintainer of ares pretty much considered his work done on that code base and
 he did not want to merge the changes I fed back and deemed necessary - for
 example support for building and working on Windows. I felt that I had no
@@ -437,8 +437,8 @@ Developers sometimes ask me if the slowness and bureaucracy of standardization
 is not tedious. For me, working within the IETF is a matter of bringing
 technology and interoperability forward. To be involved and ensure that the
 specs get done right, taking the right things into consideration and not go
-over board to fiddle with things we should not. It is good for everyone to have
-a good IETF. I find the spirit and working methods to be very similar to open
+over board to fiddle with things we should not. It is good for everyone to
+have a good IETF. I find the spirit and working methods to be similar to open
 source.
 
 For example, we carried out work within the IETF to specify how cookies are
@@ -468,11 +468,10 @@ Josefsson for my work in open source and free software up until that point.
 
 Under our own name (Haxx) I continued to do embedded systems contracting. Now
 being my own boss and of course having the ultimate freedom to decide what
-jobs to take and how to spend my time and money. I still did not get very many
-curl related jobs more than the occasional smaller hacks and minor
-improvements (and a series of smaller *I want to automate this using curl can
-you do it for me please* tasks), so the protocol side remained a spare time
-occupation.
+jobs to take and how to spend my time and money. I still did not get many curl
+related jobs more than the occasional smaller hacks and minor improvements
+(and a series of smaller *I want to automate this using curl can you do it for
+me please* tasks), so the protocol side remained a spare time occupation.
 
 A few months after me, my brother Björn joined me as Haxx employee number two
 and a year after, Linus become employee number three. What a glorious
@@ -482,8 +481,8 @@ done in my professional life.
 Haxx was like a dream since forever, transformed into reality. A small number
 of close friends who are all experts in embedded systems and Linux. We worked
 as expert consultants and contractors for companies that built various
-embedded systems Embedded systems today means a very high degree Linux and
-open Source.
+embedded systems Embedded systems today means a high degree Linux and open
+Source.
 
 ## HTTP/2
 
