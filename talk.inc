@@ -115,6 +115,7 @@ SUBTITLE(Upcoming talks by Daniel)
 #else
 #define TALKS
 <li> May 3, 2023. On <a href="https://stockholmtechshow.se/">Stockholm Tech Show</a>
+<li> May 11, 2023. At <a href="https://myconf.io/">myConf</a>, Landskrona, Sweden. "just curl it"
 #endif
 
 #ifdef FULLPAGE
