@@ -114,6 +114,7 @@ SUBTITLE(Upcoming talks by Daniel)
 <li> November 24, 2022. <a href="https://www.meetup.com/jforum-stockholm/events/289354203/">curl is everywhere</a> on jforum-stockholm meetup, Stockholm.
 #else
 #define TALKS
+<li> March 15, 2023. For RedHat Security
 <li> May 3, 2023. On <a href="https://stockholmtechshow.se/">Stockholm Tech Show</a>
 <li> May 11, 2023. At <a href="https://myconf.io/">myConf</a>, Landskrona, Sweden. "just curl it"
 <li> May 25, 2023. At CAG Contactor.
