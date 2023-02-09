@@ -105,7 +105,7 @@ BOXTOP
 
 <tr>
 <td> 25 </td>
-<td> <a href="https://youtu.be/06Xfa2AvQrw">Inside Security #17</a> </td>
+<td> <a href="https://www.almsec.se/inside-security-17-interview-with-curl-creator-daniel-stenberg/">Inside Security #17</a> </td>
 <td> English </td>
 <td> 🎬 </td>
 <td> Oct 20, 2021</td>
