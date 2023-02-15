@@ -115,6 +115,9 @@ SUBTITLE(Upcoming talks by Daniel)
 #else
 #define TALKS
 <li> March 15, 2023. For RedHat Security
+<li> March 17, 2023. "how curl came to be" for hitta.se
+<li> March 23, 2023. curl roadmap 2023 webinar
+<li> March 30, 2023. curl talk for STIM
 <li> May 3, 2023. On <a href="https://stockholmtechshow.se/">Stockholm Tech Show</a>
 <li> May 11, 2023. At <a href="https://myconf.io/">myConf</a>, Landskrona, Sweden. "just curl it"
 <li> May 25, 2023. At CAG Contactor.
