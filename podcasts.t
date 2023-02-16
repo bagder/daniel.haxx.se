@@ -29,6 +29,15 @@ BOXTOP
 #endif
 
 <tr>
+<td> 33 </td>
+<td> <a href="https://youtu.be/ZLtqHFxEDm8">Sourcegraph podcast S3E07</a> </td>
+<td> English </td>
+<td> 🎬 </td>
+<td> Feb 16, 2023 </td>
+<td> How I started. Commodore 64 programming, learning unix, doing network programming, finding IRC, creating curl. (recorded June 27, 2022)</td>
+</tr>
+
+<tr>
 <td> 32 </td>
 <td> <a href="https://youtu.be/gNWg2Wtxz-w">Fairlight TV #60</a> </td>
 <td> English </td>
@@ -36,18 +45,6 @@ BOXTOP
 <td> Nov 18, 2022 </td>
 <td> Commodore 64 hacking as a teenager in the late 80s, the demo group Horizon, copy paries, then FrexxEd, unix, curl, HTTP and Polhem Prize (recorded Nov 15, 2022)</td>
 </tr>
-
-#if 0
-<tr>
-<td> 32 </td>
-<td> Sourcegraph podcast </td>
-<td> English </td>
-<td> 🎤 </td>
-<td> - </td>
-<td> recorded June 27, 2022</td>
-</tr>
-
-#endif
 
 <tr>
 <td> 31 </td>
