@@ -118,18 +118,19 @@ SUBTITLE(Upcoming talks by Daniel)
 <li> March 17, 2023. "how curl came to be" for hitta.se
 <li> March 23, 2023. curl roadmap 2023 webinar
 <li> March 30, 2023. curl talk for STIM
+#ifdef FULLPAGE
+<li> April 6, 2023. webinar: QUIQ and HTTP/3 with curl and wolfSSL
 <li> May 3, 2023. On <a href="https://stockholmtechshow.se/">Stockholm Tech Show</a>
 <li> May 11, 2023. At <a href="https://myconf.io/">myConf</a>, Landskrona, Sweden. "just curl it"
 <li> May 25, 2023. At CAG Contactor.
-#endif
 
-#ifdef FULLPAGE
 </ul>
 <p>
  Look me up and say hi!
 #else
 </ul>
 See <a href="/talks.html">more talks</a>
+#endif
 #endif
 
 #ifndef TALKS
