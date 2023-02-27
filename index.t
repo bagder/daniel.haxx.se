@@ -76,18 +76,12 @@ primarily in the HTTPbis and QUIC working groups.
 <p> <b>I stream</b> <a href="https://www.twitch.tv/curlhacker">curl
 development on twitch</a> occasionally.
 
-<p> <b>I live</b> and work in <a href="address.html">Huddinge</a>, just south
-of Stockholm, Sweden.
-
-<p> <b>I treasure</b> my wife and two kids.
-
 <p> <b>I work</b> for <a href="https://www.wolfssl.com/">wolfSSL</a> doing
 commercial curl support. If you need help to fix curl problems, fix your app's
 use of libcurl, add features to curl, fix curl bugs, optimize your curl use or
 libcurl education for your developers... Then I'm your man. Contact us!
 
-<p> You can <a href="https://lists.haxx.se/listinfo/daniel">subscribe to my
-weekly reports</a>.
+<p> <b>I write</b> <a href="https://lists.haxx.se/listinfo/daniel">weekly reports</a> you can follow
 
 <div style="clear: both;"/>
 SUBTITLE(Rewards)
