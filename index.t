@@ -90,7 +90,16 @@ libcurl education for your developers... Then I'm your man. Contact us!
 <p> <b>I write</b> <a href="https://lists.haxx.se/listinfo/daniel">weekly reports</a> you can follow
 
 <div style="clear: both;"/>
-SUBTITLE(Rewards)
+SUBTITLE(Committees)
+<ul>
+ <li> <a href="https://daniel.haxx.se/blog/2023/05/24/polhemsradet/">Polhemsrådet</a>
+ <li> <a href="https://accelerator.github.com/">GitHub Accelerator</a> Selection Committee
+</ul>
+
+</div>
+
+<div style="clear: both;"/>
+SUBTITLE(Accomplishments)
 
 <table><tr valign="top">
 <td> <img src="trophy.svg" height="120"> </td>
