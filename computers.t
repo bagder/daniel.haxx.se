@@ -18,7 +18,16 @@ BOXTOP
 
 BOXBOT
 
-TITLE(History)
+TITLE(Home office setup)
+BOXTOP
+
+<p> Enjoy this description of my <a
+href="https://hackerstations.com/setups/daniel_stenberg/">home office</a> and
+workplace hosted by Hacker Stations, from February 2023.
+
+BOXBOT
+
+TITLE(Compuiter history)
 BOXTOP
 
 <p> Before 1985, I had to play around with the computers of my friends. I
