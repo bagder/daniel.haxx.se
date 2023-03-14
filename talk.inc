@@ -124,6 +124,7 @@ SUBTITLE(Upcoming talks by Daniel)
 <li> May 11, 2023. At <a href="https://myconf.io/">myConf</a>, Landskrona, Sweden. "just curl it"
 <li> May 25, 2023. At CAG Contactor.
 <li> Aug 17-19 2023. At ConFLOSS (streamed).
+<li> Aug 23 2023. At elastx.
 <li> Nov 8-10, 2023. At Øredev.
 
 </ul>
