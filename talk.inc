@@ -123,6 +123,8 @@ SUBTITLE(Upcoming talks by Daniel)
 <li> May 3, 2023. On <a href="https://stockholmtechshow.se/">Stockholm Tech Show</a>
 <li> May 11, 2023. At <a href="https://myconf.io/">myConf</a>, Landskrona, Sweden. "just curl it"
 <li> May 25, 2023. At CAG Contactor.
+<li> Aug 17-19 2023. At ConFLOSS (streamed).
+<li> Nov 8-10, 2023. At Øredev.
 
 </ul>
 <p>
