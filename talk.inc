@@ -112,15 +112,15 @@ SUBTITLE(Upcoming talks by Daniel)
 <li> October 19, 2022. curl in Östersund
 <li> November 10, 2022. Webinar. Getting started with libcurl.
 <li> November 24, 2022. <a href="https://www.meetup.com/jforum-stockholm/events/289354203/">curl is everywhere</a> on jforum-stockholm meetup, Stockholm.
-#else
-#define TALKS
 <li> March 15, 2023. For RedHat Security
 <li> March 17, 2023. "how curl came to be" for hitta.se
+#else
+#define TALKS
 <li> March 23, 2023. curl roadmap 2023 webinar
 <li> March 30, 2023. curl talk for STIM
-#ifdef FULLPAGE
 <li> April 6, 2023. webinar: QUIQ and HTTP/3 with curl and wolfSSL
 <li> May 3, 2023. On <a href="https://stockholmtechshow.se/">Stockholm Tech Show</a>
+#ifdef FULLPAGE
 <li> May 11, 2023. At <a href="https://myconf.io/">myConf</a>, Landskrona, Sweden. "just curl it"
 <li> May 25, 2023. At CAG Contactor.
 <li> Aug 17-19 2023. At ConFLOSS (streamed).
