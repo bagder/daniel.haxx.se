@@ -116,6 +116,7 @@ SUBTITLE(Upcoming talks by Daniel)
 <li> March 17, 2023. "how curl came to be" for hitta.se
 #else
 #define TALKS
+<li> March 20, 2023. curl birthday party presentation
 <li> March 23, 2023. curl roadmap 2023 webinar
 <li> March 30, 2023. curl talk for STIM
 <li> April 6, 2023. webinar: QUIQ and HTTP/3 with curl and wolfSSL
