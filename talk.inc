@@ -118,9 +118,9 @@ SUBTITLE(Upcoming talks by Daniel)
 #else
 #define TALKS
 <li> March 23, 2023. <a href="https://us02web.zoom.us/webinar/register/1616774545098/WN_TW7GcvmeR8uERGLUka94rA">curl roadmap 2023 webinar</a>
-<li> March 30, 2023. curl talk for STIM
 <li> April 6, 2023. webinar: QUIQ and HTTP/3 with curl and wolfSSL
 <li> May 3, 2023. On <a href="https://stockholmtechshow.se/">Stockholm Tech Show</a>
+<li> May 4, 2023. talk for STIM
 <li> May 11, 2023. At <a href="https://myconf.io/">myConf</a>, Landskrona, Sweden. "just curl it"
 #ifdef FULLPAGE
 <li> May 25, 2023. At CAG Contactor.
