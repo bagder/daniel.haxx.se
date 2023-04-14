@@ -119,7 +119,7 @@ SUBTITLE(Upcoming talks by Daniel)
 <li> April 6, 2023. webinar: QUIQ and HTTP/3 with curl and wolfSSL
 #else
 #define TALKS
-<li> April 18, 2023. Keynote at Open Source Driving the Digital Decade
+<li> April 18, 2023. Keynote at <a href="https://openforumeurope.org/event/oss-swedish-eu-presidency/">Open Source Driving the Digital Decade</a>
 <li> May 3, 2023. On <a href="https://stockholmtechshow.se/">Stockholm Tech Show</a>
 <li> May 4, 2023. talk for STIM
 <li> May 11, 2023. At <a href="https://myconf.io/">myConf</a>, Landskrona, Sweden. "just curl it"
