@@ -11,15 +11,20 @@ HEAD(Daniel Stenberg - daniel.haxx.se)
 <style>
 div.minibox {
     padding: 5px 15px 5px 15px;
-    margin-right: 10px;
+    margin-right: 5px;
     margin-bottom: 10px;
-    margin-top: 10px;
-    border: 1px solid black;
+    margin-top: 0px;
+    border: 0px solid black;
     text-align: center;
     border-radius: 25px;
     float: left;
-    font-size: 110%;
+    font-size: 90%;
     max-width: 10em;
+    background: #202060;
+}
+
+a.minibox {
+    color: #ffff80;
 }
 
 .rand {
@@ -92,29 +97,33 @@ SUBTITLE(Rewards)
 <td>
 
 <div class="minibox">
- <a href="https://daniel.haxx.se/blog/2021/08/11/a-github-star/">GitHub Star 2021 - 2022</a>
+ <a class="minibox" href="https://daniel.haxx.se/blog/2023/04/23/google-open-source-peer-bonus-award-2023/">Google Open Source Peer Bonus 2023</a>
 </div>
 
 <div class="minibox">
- <a href="https://daniel.haxx.se/blog/2020/09/23/a-google-grant-for-libcurl-work/">Google Patch Reward 2020</a>
+ <a class="minibox" href="https://daniel.haxx.se/blog/2021/08/11/a-github-star/">GitHub Star 2021 - 2022</a>
 </div>
 
 <div class="minibox">
- <a href="https://daniel.haxx.se/blog/2020/04/03/google-open-source-peer-bonus-award-2020/">Google Open Source Peer Bonus 2020</a>
+ <a class="minibox" href="https://daniel.haxx.se/blog/2020/09/23/a-google-grant-for-libcurl-work/">Google Patch Reward 2020</a>
 </div>
 
 <div class="minibox">
- <a
+ <a class="minibox" href="https://daniel.haxx.se/blog/2020/04/03/google-open-source-peer-bonus-award-2020/">Google Open Source Peer Bonus 2020</a>
+</div>
+
+<div class="minibox">
+ <a class="minibox"
  href="https://daniel.haxx.se/blog/2017/10/20/my-night-at-the-museum/">The Polhem
  Prize 2017</a>
 </div>
 
 <div class="minibox">
- <a href="https://daniel.haxx.se/blog/2016/12/01/2nd-best-in-sweden/">2nd best developer in Sweden 2016</a>
+ <a class="minibox" href="https://daniel.haxx.se/blog/2016/12/01/2nd-best-in-sweden/">2nd best developer in Sweden 2016</a>
 </div>
 
 <div class="minibox">
- <a href="https://daniel.haxx.se/blog/2009/11/14/i-won-it-you-guys-are-the-best/">Nordic Free Software Award 2009</a>
+ <a class="minibox" href="https://daniel.haxx.se/blog/2009/11/14/i-won-it-you-guys-are-the-best/">Nordic Free Software Award 2009</a>
 </div>
 
 </td></tr></table>
