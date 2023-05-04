@@ -18,7 +18,7 @@ BOXTOP
 <th> Index </th>
 <th> Episode </th>
 <th> Language </th>
-<th> Video </th>
+<th> Form </th>
 <th> Published </th>
 <th width="50%"> Topic </th>
 </tr>
@@ -33,6 +33,15 @@ BOXTOP
 <td> topic </td>
 </tr>
 #endif
+
+<tr>
+<td> 34 </td>
+<td> <a href="https://shows.acast.com/63640bb66087460011850610/episodes/64526721efff280011a6c0e8">Svenska Snillen S01E04</a> </td>
+<td> Swedish </td>
+<td> 🎤 </td>
+<td> May 4, 2023 </td>
+<td> curl, open source and Internet (recorded April 3, 2023)</td>
+</tr>
 
 <tr>
 <td> 33 </td>
