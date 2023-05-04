@@ -35,12 +35,21 @@ BOXTOP
 #endif
 
 <tr>
-<td> 34 </td>
+<td> 35 </td>
 <td> <a href="https://shows.acast.com/63640bb66087460011850610/episodes/64526721efff280011a6c0e8">Svenska Snillen S01E04</a> </td>
 <td> Swedish </td>
 <td> 🎤 </td>
 <td> May 4, 2023 </td>
 <td> curl, open source and Internet (recorded April 3, 2023)</td>
+</tr>
+
+<tr>
+<td> 34 </td>
+<td> <a href="https://pod.fossified.com/2023/03/19/s01e02.html">Fossified s01e02</a> </td>
+<td> English </td>
+<td> 🎤 </td>
+<td> March 19, 2023 </td>
+<td> curl 25 years</td>
 </tr>
 
 <tr>
