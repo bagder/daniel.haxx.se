@@ -118,15 +118,15 @@ SUBTITLE(Upcoming talks by Daniel)
 <li> March 23, 2023. <a href="https://us02web.zoom.us/webinar/register/1616774545098/WN_TW7GcvmeR8uERGLUka94rA">curl roadmap 2023 webinar</a>
 <li> April 6, 2023. webinar: QUIQ and HTTP/3 with curl and wolfSSL
 <li> April 18, 2023. Keynote at <a href="https://openforumeurope.org/event/oss-swedish-eu-presidency/">Open Source Driving the Digital Decade</a>
-#else
-#define TALKS
 <li> May 3, 2023. On <a href="https://stockholmtechshow.se/">Stockholm Tech Show</a>
 <li> May 4, 2023. talk for STIM
+#else
+#define TALKS
 <li> May 11, 2023. At <a href="https://myconf.io/">myConf</a>, Landskrona, Sweden. "just curl it"
-<li> May 24, 2023. WebSocket with libcurl webinar.
-#ifdef FULLPAGE
 <li> May 25, 2023. At CAG Contactor.
+<li> June 8, 2023. WebSocket with libcurl webinar.
 <li> Aug 17-19 2023. At ConFLOSS (streamed).
+#ifdef FULLPAGE
 <li> Aug 23 2023. At elastx.
 <li> Nov 8-10, 2023. At Øredev.
 
