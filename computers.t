@@ -113,7 +113,7 @@ members.
  href="https://daniel.haxx.se/blog/2022/12/30/an-m1-for-curl/">donated Mac
  mini m1</a>. 8C CPU/16GB/1TB/8C GPU/1GbE.
 
- <li> <b>2023, February</b></b> - upgraded to a <a href="https://daniel.haxx.se/blog/2023/02/20/my-2023-dev-machine/">new dev machine</a>
+ <li> <b>2023, February</b></b> - upgraded to a <a href="https://daniel.haxx.se/blog/2023/02/20/my-2023-dev-machine/">new dev machine</a> Intel Core i7-13700K, 3.4GHz 16 cores, 32GB 3600MHz ram, 2TB SSD
 
 </ul>
 
