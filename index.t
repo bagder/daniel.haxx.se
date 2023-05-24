@@ -29,7 +29,7 @@ a.minibox {
 
 .rand {
     float: left;
-    width: 15em;
+    padding-right: 8px;
 }
 
 .talk {
@@ -40,7 +40,7 @@ a.minibox {
 
 .elsewhere {
     float: left;
-    width: 20em;
+    max-width: 40em;
 }
 
     .daniel {
