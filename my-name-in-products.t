@@ -4,19 +4,21 @@
 <style>
 
 .box {
-  width: 60em;
+  width: 40em;
+  margin-left: auto;
+  margin-right: auto;
 }
 </style>
 
 HEAD(daniel.haxx.se -- My name in products)
 #include "body.t"
 
-TITLE(My name appears in products)
 BOXTOP
+TITLE(My name appears in products)
 
-<img src="https://daniel.haxx.se/blog/wp-content/uploads/2016/09/ios-credits.png" align="right" width="300" border="2">
+<img src="https://daniel.haxx.se/blog/wp-content/uploads/2016/09/ios-credits.png" width="300" style="border: 1px solid black; margin-left: 10px; margin-right: 10px; float: right;">
 
-<p> My name, <i>Daniel Stenberg</i> and email address, appear in many
+<p> My name, <i>Daniel Stenberg</i>, and email address appear in many
  products. In license screens, about windows, credit sequences, author lists,
  third party software license collections and more. Like this example here on
  the right.
