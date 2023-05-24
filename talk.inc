@@ -120,14 +120,14 @@ SUBTITLE(Upcoming talks by Daniel)
 <li> April 18, 2023. Keynote at <a href="https://openforumeurope.org/event/oss-swedish-eu-presidency/">Open Source Driving the Digital Decade</a>
 <li> May 3, 2023. On <a href="https://stockholmtechshow.se/">Stockholm Tech Show</a>
 <li> May 4, 2023. talk for STIM
+<li> May 11, 2023. At <a href="https://myconf.io/">myConf</a>, Landskrona, Sweden. "just curl it"
 #else
 #define TALKS
-<li> May 11, 2023. At <a href="https://myconf.io/">myConf</a>, Landskrona, Sweden. "just curl it"
 <li> May 25, 2023. At CAG Contactor.
 <li> June 8, 2023. WebSocket with libcurl webinar.
 <li> Aug 17-19 2023. At ConFLOSS (streamed).
-#ifdef FULLPAGE
 <li> Aug 23 2023. At elastx.
+#ifdef FULLPAGE
 <li> Nov 8-10, 2023. At Øredev.
 
 </ul>
