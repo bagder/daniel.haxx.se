@@ -35,6 +35,7 @@ a.minibox {
 .talk {
     float: left;
     width: 25em;
+    max-width: 95%;
 }
 
 .elsewhere {
