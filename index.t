@@ -29,18 +29,17 @@ a.minibox {
 
 .rand {
     float: left;
-    margin-right: 20px;
-    margin-left: 20px;
+    width: 15em;
 }
 
 .talk {
     float: left;
-    width: 30%;
+    width: 25em;
 }
 
 .elsewhere {
     float: left;
-    width: 30%;
+    width: 20em;
 }
 
     .daniel {
@@ -51,13 +50,27 @@ a.minibox {
     } 
 @media screen and (max-width: 480px) {
     .daniel {
-      max-width: 50%;
-      max-height: 250px;
-      border: 1px solid black;
-      margin: 10px 10px 10px 10px;
+      max-width: 150px;
+      max-height: 150px;
+      border: 0px solid black;
+      margin: 5px 5px 5px 5px;
       padding: 0px;
       float: right;
-    } 
+    }
+    .nophone {
+      display: none;
+    }
+    div.minibox {
+        margin-right: 2px;
+        margin-left: 2px;
+        border: 0px solid black;
+        text-align: center;
+        border-radius: 25px;
+        float: left;
+        font-size: 80%;
+        max-width: 10em;
+        background: #202060;
+    }
 }
 </style>
 
@@ -102,7 +115,7 @@ SUBTITLE(Committees)
 SUBTITLE(Accomplishments)
 
 <table><tr valign="top">
-<td> <img src="trophy.svg" height="120"> </td>
+<td class="nophone"> <img src="trophy.svg" height="120"> </td>
 <td>
 
 <div class="minibox">
