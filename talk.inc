@@ -124,7 +124,7 @@ SUBTITLE(Upcoming talks by Daniel)
 <li> May 25, 2023. At CAG Contactor.
 #else
 #define TALKS
-<li> June 8, 2023. WebSocket with libcurl webinar.
+<li> June 15, 2023. WebSocket with libcurl webinar.
 <li> Aug 17-19 2023. At ConFLOSS (streamed).
 <li> Aug 23 2023. At elastx.
 <li> Nov 8-10, 2023. At Øredev.
