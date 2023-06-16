@@ -35,6 +35,15 @@ BOXTOP
 #endif
 
 <tr>
+<td> 36 </td>
+<td> <a href="https://podcast.sustainoss.org/185">Sustain #185</a> </td>
+<td> English </td>
+<td>  🎤 </td>
+<td> June 16, 2023 </td>
+<td> Daniel Stenberg on the cURL project </td>
+</tr>
+
+<tr>
 <td> 35 </td>
 <td> <a href="https://shows.acast.com/63640bb66087460011850610/episodes/64526721efff280011a6c0e8">Svenska Snillen S01E04</a> </td>
 <td> Swedish </td>
