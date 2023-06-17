@@ -9,7 +9,7 @@ HEAD(Daniel Stenberg -- Open Source Projects)
 <p> I've taken part in many open source projects. Many times I haven't done
  much to mention, but sometimes I have done my fair share or even maintained
  the projects. This document lists the projects in which I have put my biggest
- efforts.
+ efforts. See also <a href="https://un.curl.dev/">Uncurled</a>.
 
 #include "opensource.gen"
 
