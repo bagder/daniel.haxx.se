@@ -198,3 +198,15 @@ My own participation in this project made me instead adopt and fork the ares
 project to produce c-ares. My own involvement in c-ares is primarily to
 provide a good and solid asynch resolve library for libcurl.
 
+## libssh2 - 2006
+
+I accepted a contract job to add SCP and SFTP support to curl and to make that
+work, I needed a SSH library to use. After having contacted both the libssh
+and libssh2 projects, the better answers came from libssh2. I joined the
+project, work on improvements I thought were needed and eventually took over
+as maintainer.
+
+I later have tried to take a less active role in the project. I still do
+releases but the day to day maintenance is managed by by awesome
+co-maintainers.
+
