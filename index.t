@@ -83,7 +83,7 @@ TITLE(Daniel Stenberg)
 href="https://curl.se/">cURL and libcurl</a>. An internet protocol geek, an
 open source person and a developer. I've been programming for fun and profit
 since 1985. You'll find lots of info about my various <a
-href="projects/">projects</a> on these web pages and on <a
+href="opensource.html">Open Source projects</a> on these web pages and on <a
 href="https://github.com/bagder/">my GitHub profile</a>. <a
 href="my-name-in-products.html">My name appears in products</a>.
 
