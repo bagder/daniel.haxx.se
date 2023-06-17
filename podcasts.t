@@ -39,8 +39,8 @@ BOXTOP
 <td> <a href="https://podcast.sustainoss.org/185">Sustain #185</a> </td>
 <td> English </td>
 <td>  🎤 </td>
-<td> June 16, 2023 </td>
-<td> Daniel Stenberg on the cURL project </td>
+<td> Jun 16, 2023 </td>
+<td> Daniel Stenberg on the cURL project (recorded May 16, 2023) </td>
 </tr>
 
 <tr>
