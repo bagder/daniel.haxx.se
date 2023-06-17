@@ -210,6 +210,12 @@ I later have tried to take a less active role in the project. I still do
 releases but the day to day maintenance is managed by by awesome
 co-maintainers.
 
+## Firefox - 2014
+
+I was employed by Mozilla from early 2014 to the end of 2018, where it was my
+full time job to work in the Firefox networking team. We were responsible for
+HTTP, DNS, cookies, sockets and more in the browser engine.
+
 ## trurl - 2023
 
 It can be a challenge to write shell scripts that have to manage, parse or
