@@ -8,7 +8,7 @@ ACTION=@echo fixing $@; \
 TODAY=$(shell date +'-D__TODAY__="%B %e, %Y"')
 NOW=$(shell date +'-D__NOW__="%H:%M"')
 
-all:	index.html skills.html myopensource.html opensource.html \
+all:	index.html myopensource.html opensource.html \
 	hackers.html about.html \
 	datateknik.html no_more_download_sites.html \
 	computers.html source.html bredband.html transition.html \
@@ -70,13 +70,13 @@ irchistory.gen: docs/irchistory/README.md
 irchistory.html: irchistory.t $(MAINPARTS) irchistory.gen
 	$(ACTION)
 
-skills.html: skills.t $(MAINPARTS)
-	$(ACTION)
-
 no_more_download_sites.html: no_more_download_sites.t $(MAINPARTS)
 	$(ACTION)
 
-myopensource.html: myopensource.t $(MAINPARTS)
+myopensource.gen: myopensource.md
+	$(MARKDOWN) < $< >$@
+
+myopensource.html: myopensource.t myopensource.gen $(MAINPARTS)
 	$(ACTION)
 
 opensource.html: opensource.t $(MAINPARTS)

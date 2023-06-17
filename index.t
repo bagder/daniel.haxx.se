@@ -169,7 +169,6 @@ SUBTITLE(rand&#40;&#41;)
 <br> LINK("/travel/", travel stuff)
 LINK("/http2/", http2 explained) - the HTTP/2 book
 <br> LINK("/myopensource.html", my open projects) - projects I am or was involved with
-<br> LINK("/skills.html", CV) - a short description of what I know
 <br> LINK("/rockbox-sandisk-connection.html", Rockbox SanDisk Connection) - the story behind
 <br> LINK("/opensource.html", open source) - old post by me on what it takes to do open source
 <br> LINK("/photos/", photos) - random photos from the past

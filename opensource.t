@@ -1,157 +1,236 @@
 #include "doctype.t"
 #include "setup.t"
-HEAD(Daniel Stenberg -- Open Source Experiences)
+HEAD(Daniel Stenberg -- Open Source Projects)
 #include "body.t"
 #include "daniel.t"
 
-<p> In the separate document <a href="myopensource.html">My Open Source
- Projects</a> I describe more detailed what Open Source projects I've spent
- the most time and energy on.
-<p>
- Also, the article <a href="transition.html">Working Without Copyleft</a> that
-I co-wrote with Bjorn Reese should make my position on BSD vs GPL clear.
+<div style='max-width: 45em; margin-left: auto; margin-right: auto;'>
 
-TITLE(Open Source Experiences)
-BOXTOP
+<p> I've taken part in many open source projects. Many times I haven't done
+ much to mention, but sometimes I have done my fair share or even maintained
+ the projects. This document lists the projects in which I have put my biggest
+ efforts.
 
-<pre>
-Author:  Daniel Stenberg
-Version: 0.3
-Date:    9 May 2000
-</pre>
-<p>
- I started back on the 25th of March 1999 to write this document which is meant
-to grow and evolve in time. I plan to gather my thoughts around Open Source
-projects here. What makes them succeed, what makes them fail and what makes
-them pleasent to be part of. From a user's view, from a "contributor's" (not
-being one of the main developers) view and from a project maintainer's view.
-<p>
- As much as it may bring some lights to others, it is very much a way for me
-to truely clear my head and understand it myself!
-<p>
- I do assume some already achieved knowledge in this area.
+<p> I've also improved and adjusted lots of open source software on demand by
+cistomers.
 
-SUBTITLE(Release Often and Public is Required)
-<p>
- Many words have been spoken around this since the beginning of time and
-especially since Eric Raymond's article series. I can't but agree and stress
-that this item is vital for a project to strive.
+<p> All these years with Open Source development have given me a lot of
+ experiences that I have tried to sum up in my document <a
+ href="opensource.html">Open Source Experiences</a>. I've jotted down my
+ general <a href="skills.html">experiences</a> in a separate page.
 
-<p class="big">Makes good patches</p>
+SUBTITLE(FPL - 1992)
 <p>
- With very recent source files available at all times, contributors can always
-make patches to very late sources, and thus they are less likely to cause
-problems when the maintainer attempts to apply them to his latest
-version. Many are those patches that have caused grief to overloaded Open
-Source programmers just because they were made before X large modifications
-to the source base.
+        I started once upon the time, around 1992, to write a script language
+        that we planned to use in our text editor FrexxEd which we wrote at
+        the time. Frexx Programming Language grew pretty much without control
+        and we changed direction many times during the first years of
+        development. Eventually it turned out to become a <b>very</b> C-like
+        interpreted language that was designed to let a program be able to add
+        functions to the interpreter so that the language could be easily
+        embedded and customized to applications. We also wrote a compiler that
+        converted the ASCII-based source code into a byte-coded format for
+        increased speed. The project was a closed-source one for a very long
+        time but was later turned into an entirely open source project.
 
-<p class="big">Current bugs</p>
+SUBTITLE(FrexxEd - 1991)
 <p>
- Ever got a reply from someone involved in a project, to a bug report you
-posted, that said something about this is already fixed in their "in-house"
-version? Bug reporters get annoyed, developers get obstructed.
-
-<p class="big">Automate!</p>
+        I and Kjell Ericson felt unhappy with the text editors we had on the
+        Amiga back in 1991. We decided it couldn't be that hard to write a
+        better one, one that would fit our needs a bit more. We wrote that
+        text editor during the years 1991 and 1996. It was a highly
+        customizable and programmable editor designed for programmers. We
+        released it as shareware during the time we developed it, but when we
+        got bored and stopped developing it, we changed the license so that it
+        became free and open.
+     
+SUBTITLE(Dancer - 1993)
 <p>
- One of the first things I do nowadays when I start a new (open) project, is
-to make an automatic archive build script. It creates a release-archive
-automatically. I use only that to create release archives, and thus it must be
-correct or people will complain. If it works well, there's nothing that
-prevents you from using that script as frequent as you please. It is good to
-remove all involved obstacles that might prevent you from the "release often"
-paragraph. Of course keeping the source on a publicly available CVS server is
-a great service and even better. Just make sure the repository is kept as
-updated as you can! You can although not limit yourself to the CVS server
-since the amount of people unwilling or unable to use cvs is quite large.
+        I played around with IRC and wrote a first basic IRC bot sometime
+        during 1993-1994. Bjorn Reese approached me when he had written his
+        first bot embryo and together we developed Dancer to become one of the
+        better defense-bots in the IRC world. The source was free and open
+        from the start. Dancer got a rich set of commands and configurable
+        features. It could hold a channel from being taken or harassed by
+        attack bots and scripts fairly well. I was the maintainer of the
+        project during around 1997 and 1998 until it was passed on to Tero
+        Jänkä. Today, Dancer is decaying somewhat due to the lack of
+        interested developers but there is still people involved in the
+        project although both I and Bjorn have stopped.
 
-SUBTITLE(Bazaar with No People?)
+SUBTITLE(Hypermail - 1997)
 <p>
- The world is full of Open Source projects. Sometimes you are lead to believe
-that once you start an open project people will come knocking on your door
-asking to join and do their part. That's not how it works out there in the
-real life. Many many projects are initiated, created, built and programmed by
-a very small core of people, or even by a single person. Mostly, the
-contribution from other people is limited to a steady stream of bug reports,
-ideas and suggestions. I'm not saying those are bad. Those are really useful
-and very often the stream of ideas from other people shapes the product into
-something that perhaps the original author(s) did not have in mind. I am
-merely pointing out that you won't find seriously creating main contributors
-easily.
+        When we (me and my friends at Frontec where we worked back then) first
+        started to play with web serving for real, sometime around 1996, we
+        quickly discovered a need for a tool that could convert a mailing list
+        archive into nice-looking HTML pages. We found hypermail v1.02 pretty
+        soon and it didn't take long until we noticed hypermail's limitations;
+        the biggest one being that it didn't handle MIME at all. I added some
+        simple patches to make it deal with 8-bit Swedish characters at first,
+        and later when hypermail v2 development took speed I wrote a whole
+        MIME decoder for hypermail that not only dealt with the 8bit
+        characters but also saved attachments properly and more. I also did
+        some major cleanups in the hypermail v2 sources to make it deal with
+        dynamic strings all over instead of the previous silly habit of static
+        length buffers with buffer overrun risks and my config file parser
+        replaced the former one.
 
-<p class="big">Is it still a Bazaar then?</p>
+SUBTITLE(mail2sms - 1998)
 <p>
- Yes, it is not limited to people actually submitting code or creative work,
-being open to ideas, new angles and visions is part of an open source and it
-sure proves to be Bazaar-style if you are.
+        My brother Björn Stenberg wrote a TCP/IP-based server for sending
+        messages to GSM phones already 1995 something. He also wrote a client
+        that could submit messages to the server and that client could
+        interpret MIME mails, although with some problems. I wrote a script
+        pretty soon that would take a message in a mail and send it as an SMS
+        to Björn's server to all telephone numbers specified in the subject.
+        You could make groups that enabled easy sending to a whole range of
+        telephones. After a while, the limits of Björn's MIME parsing code
+        started to appear more and more often and I wrote mail2sms, based on
+        some code I already wrote for the hypermail project. mail2sms offers
+        not only full MIME decoding but also regex search/replace, conditional
+        replacing, time/date dependent actions and more.
 
-SUBTITLE(Attracting People to Your Project)
-<p class="big">Programming is What Drives</p>
+SUBTITLE(curl - 1997)
 <p>
+        In 1997 when I was involved in Dancer development I started to think
+        about getting currency rates off the web to collect them in a database
+        to offer bot users to exchange currencies online. To get the web
+        pages, I wanted a small utility that could fetch a web page and
+        nothing more. I found httpget by Rafael Sagula. It did exactly what I
+        wanted. I soon found a very cool currency site on a gopher server so I
+        added gopher to httpget too. When up to speed I later added FTP too
+        and renamed the project to urlget since that seemed to be more
+        appropriate then. As time passed, more and more things got into urlget
+        and when I added the capability of uploading too I changed the project
+        name again, this time to curl. Curl is now a stand-alone tiny tool
+        that gets or sends data using URL syntax from and to a whole range of
+        different protocols. It supports HTTP, HTTPS, GOPHER, FTP, TELNET,
+        DICT, FILE and LDAP. The core of curl is now used in the separate
+        library named libcurl that is now being by other programs as well!
 
- It is very hard to run an open source project if there's no source! I think
- the term "open source" really serves its purpose when put in this light. If
- your project is not involving code and source to download, try, fix and
- patch, you are much more likely to lose projects participants faster than if
- you did. Evidently, we who participate in open projects very very often do
- that because we like programming. If there isn't enough programming involved,
- a huge share of us dissappear to somewhere else where there is source!
-
-<p class="big">Acknowledge contributions</p>
+SUBTITLE(spam.pl - 1997)
 <p>
+        I've been active on the Internet since 1993 and I think that
+        especially in the beginning it seemed as if many spammers picked email
+        addresses from the Usenet newsgroups. I wrote a lot of posts there and
+        the more time that passed, the more spam I got. In 1997 I decided that
+        I'd finally write a script that could extract all relevant information
+        by itself from offending mails and send a complaint to the correct
+        receivers. So, I wrote it, using plain Bourne shell. It turned out to
+        be rather slow and in 1998 I rewrote it using perl and not only did it
+        get faster but I also improved the parsing a lot. The script has
+        evolved since, but has been used for hundreds if not thousands of spam
+        complaints, many of those have been heard and have been the cause of
+        closed accounts.
 
- It is important to give credit where credit is due. To get credit is the main
- driving force for many people to do anything at all in an open source
- project, and therefore it is utterly important to point out who did what and
- to carefully avoid taking the honour from someone else's hard work. It is
- better to overdo this than to forget people.
+SUBTITLE(Triacle - 1999)
+<p>
+        When Bjorn Reese and I had written Dancer for several years and made a
+        huge program out of it, it suffered from a slightly bad design. We
+        wanted to add new features to it, but the basic design of the bot was
+        so that it became terribly hard to do so without breaking a lot of old
+        stuff or making very ugly kludges necessary. We decided the only sane
+        thing to do was to write a new bot, all from the start and do a lot of
+        design correct from the start this time. We knew what writing a bot
+        means after years of experience. We got as far as to a pretty good
+        ground and something to build on, a core that did most of the
+        networking layer when we gave up. We found out that we just didn't IRC
+        much any more nor did we run any bots actively. If you don't run a
+        bot, how could we develop a good one? We did some nice work for
+        triacle that has later been possible to re-use in other projects, so
+        it wasn't all in vain.
 
+SUBTITLE(Trio/dprintf - 1999)
 <p>
+        Involved as I have been in several projects including portable Unix
+        software, it is obvious that not even the printf() series of functions
+        are truly portable to the extent you'd want them to be. Being aware of
+        this and wanting this to improve in the projects I'm involved in, I
+        and Bjorn Reese initially wrote an implementation of the printf()
+        functions and I called the package dprintf() (the name came from that
+        my original package was daniel-printf and when I merged with Bjorn's
+        stuff I just kept my name). The package was not really complete and
+        after the triacle work had been done, we stood with a set of useful
+        string functions for C and a set of incomplete printf() functions.
+        Bjorn did most of the job of incorporating all those into the single
+        package trio which now has a complete set of printf() functions,
+        scanf() functions and a few other string-functions meant for portable
+        Unix programming.
 
- This goes all the way from bug reports and tiny patches to big changes and
- new functionality.  Remember that it may be hard for you to judge which
- changes that actually are "hard work" since even smaller changes may be
- tricky and that we all have different experiences and levels of skill. Don't
- underestimate the power of keeping even the small contributors happy.
+SUBTITLE(Netracer - 1998)
+<p>
+        In 1998 I and friends started to think about writing a game. It should
+        be a game in which you compete by writing agents/clients that then
+        fight against the ones your friends have written. The best programmed
+        client wins. We soon landed on the car-game idea and netracer was
+        born. A server keeps the track and car information and all clients
+        that connect get a selected amount of information and can tell the
+        server how it wants to run.  Ambitious as we were we even attempted to
+        make it reality in the real world! We got an R/C car and we were
+        supposed to add a CPU-board, PCMCIA-based code in java, sonars,
+        laser-things for distance-measuring, live video from the car and
+        more. However, it soon turned out that the happy bunch what were to
+        make this reality was lacking something essential: hardware skill. We
+        didn't manage to attract any of the hardware builders at our company
+        to join our project and soon the project died again. We went back to
+        netracer, we redesigned it. we wrote a new protocol, practically a new
+        server and now in November 1999, we are on track again and hopefully
+        we'll be able to compete within a few months!
 
-<p class="big">Sharing is Caring</p>
+SUBTITLE(smash - 2000)
 <p>
- No open source project can live and prosper without a decent web page and
- mailing list. I don't know how many projects I've started in the small, that
- receives a lot of attention and interested people as soon as it appears on a
- web site.
-<p>
- The mailing list option is quickly a good thing. As soon as you start having
- a private conversation with two, three other interested parties about how
- things could be done, improvements or entirely new things, it is better to
- have that chat in a more public way so that others can pop in and share their
- ideas more easily while being able to read all the others'.
-<p>
- Projects won't get known until they're public enough for other people to pop
- in by mistake or to find your project using a normal search engine.
+	Several years ago my brother wrote the SMS server I wrote about
+	above. Now, the second generation of that is getting developed. We've
+	designed a neat ASCII-based HTTP-like protocol that enables us to
+	write clients easily on any platform using the language you
+	want. There should be a plug-in system to enable many different
+	protocols and engines for different operators and we do use an
+	entirely new and better file storage syntax. This project is GPL
+	licensed.
 
-SUBTITLE(Docs is Doomed to Lag)
+SUBTITLE(Subversion - 2000)
 <p>
- I do not know the answer to this, but maybe it is a global programmer
-syndrome: the "Writedocophobia". We don't like to write documentation,
-manuals, howtos, descriptions, explanations. Or if we do, we always put focus
-on the development of the product itself, leaving the documentation for
-"later", for "a rainy day" or something. Few are those open projects who are
-well documented. The older the projects get, the larger amount of docs there
-is of course, but very often large parts of that docs is oudated too...
+        In the mid-year 2000 people on collab.net started hacking on a
+        replacement for CVS. I joined the project in the early autumn and I've
+        been a contributor to the project since. I'm not any main player in
+        this project, I mainly lurk in the background and commit odd fixes
+        every now and then. This project really has the odds of becoming the
+        future number one version control system, at least for open source
+        development...
 
-SUBTITLE(Complete Release Archives)
+SUBTITLE(fcpp - 1995)
 <p>
+        I once found a public domain cpp source code floating around. I
+        developed it further and turned it into a full-blown ANSI-compliant C
+        preprocessor. I also added enough options to make it useful to
+        preprocess web pages and still today, most web pages I create are
+        preprocessed using this tool.
 
- I am a firm believer that <i>all</i> files that are required to make a
- release archive should themselves be included in the archives (of course this
- doesn't include tools or things you can download freely from somewhere
- else). When the maintainer takes a long vacation, gets sick, drops interest
- or whatever, it is great value that others have the opportunity to continue
- the development without having to rewrite even a single file.
+SUBTITLE(RockBox - 2001)
 <p>
- Therefore, the automatic archive builder, the tiny help-scripts or whatever
- that is done to build releases should be included.
-BOXBOT
+        Archos makes hard-disk based MP3-players. Rockbox is the open source
+        project initiated in late year 2001 by my brother Björn to write an
+        open source firmware for their products.  I'm an avid supporter,
+        participant and contributor since before I bought my own <i>Archos
+        Recorder</i>. We write everything from scratch. The Archos target
+	hardware is a SH7034 at 12MHz, mp3 decoding is done by a MAS3507D or
+	MAS3587F.
+<p>
+        Rockbox expanded to cover lots of more music players, including brands
+	named iriver, iAudio and iPod.
+
+SUBTITLE(C-ares - 2004)
+<p>
+        During the summer 2002 Bjorn Reese and I once again joined up and
+        started planning and organizing project 'Denise'. We intended to write
+        a fine, multi-platform asynchronous name resolver library with a
+        liberal license.
+       <p> My own participation in this project made me instead adopt and fork
+        the ares project to produce c-ares. My own involvement in c-ares is
+        primarily to provide a good and solid asynch resolve library for
+        libcurl.
+
+
+</div>
 
 #include "footer.t"

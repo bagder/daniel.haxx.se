@@ -4,9 +4,6 @@ HEAD(Daniel Stenberg -- Hacking ups and downs)
 #include "body.t"
 #include "daniel.t"
 
-<p>
-Related: <a href="skills.html">My skills</a>
-
 TITLE(Hackers Are The Good People)
 BOXTOP
 
