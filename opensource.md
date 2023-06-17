@@ -1,7 +1,17 @@
+## FrexxEd - 1991
+
+I and Kjell Ericson felt unhappy with the text editors we had on the Amiga
+back in 1991. We decided it couldn't be that hard to write a better one, one
+that would fit our needs a bit more. We wrote that text editor during the
+years 1991 and 1996. It was a highly customizable and programmable editor
+designed for programmers. We released it as shareware during the time we
+developed it, but when we later got bored and stopped developing it, we
+changed the license so that it became free and open.
+
 ## FPL - 1992
 
-I started once upon the time, around 1992, to write a script language that we
-planned to use in our text editor FrexxEd which we wrote at the time. Frexx
+I started once upon the time, around 1992, to write a scripting language that
+we planned to use in our text editor FrexxEd which we wrote at the time. Frexx
 Programming Language grew pretty much without control and we changed direction
 many times during the first years of development. Eventually it turned out to
 become a <b>very</b> C-like interpreted language that was designed to let a
@@ -11,16 +21,6 @@ that converted the ASCII-based source code into a byte-coded format for
 increased speed. The project was a closed-source one for a very long time but
 was later turned into an entirely open source project.
 
-## FrexxEd - 1991
-
-I and Kjell Ericson felt unhappy with the text editors we had on the Amiga
-back in 1991. We decided it couldn't be that hard to write a better one, one
-that would fit our needs a bit more. We wrote that text editor during the
-years 1991 and 1996. It was a highly customizable and programmable editor
-designed for programmers. We released it as shareware during the time we
-developed it, but when we got bored and stopped developing it, we changed the
-license so that it became free and open.
-     
 ## Dancer - 1993
 
 I played around with IRC and wrote a first basic IRC bot sometime during
@@ -210,3 +210,8 @@ I later have tried to take a less active role in the project. I still do
 releases but the day to day maintenance is managed by by awesome
 co-maintainers.
 
+## trurl - 2023
+
+It can be a challenge to write shell scripts that have to manage, parse or
+manipulate URLs. To help solve this, we created the tool **trurl** in the
+spring of 2023. It uses the URL API provided by libcurl.
