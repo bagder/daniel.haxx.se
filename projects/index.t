@@ -16,7 +16,7 @@ BOXTOP
 <p>
  Everyone always has lots of projects going on. So do I. Here's where I intend
  to collect pointers to new and old projects of mine. See also <a
-href="/myopensource.html">my open source projects</a>.
+href="/opensource.html">my open source projects</a>.
 
 <table><tr valign="top"><td>
 

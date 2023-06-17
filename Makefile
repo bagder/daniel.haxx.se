@@ -8,15 +8,12 @@ ACTION=@echo fixing $@; \
 TODAY=$(shell date +'-D__TODAY__="%B %e, %Y"')
 NOW=$(shell date +'-D__NOW__="%H:%M"')
 
-all:	index.html myopensource.html opensource.html \
-	hackers.html about.html \
-	datateknik.html no_more_download_sites.html \
-	computers.html source.html bredband.html transition.html \
-	irchistory.html address.html old.html now.html m3.html \
-	rockbox-sandisk-connection.html mynextassignment.html \
-	podcasts.html photos.html weekly.html talks.html index2.html \
-	us-visa.html how-to-invite-me.html photos2.html \
-	my-name-in-products.html
+all: index.html opensource.html hackers.html about.html datateknik.html	\
+ no_more_download_sites.html computers.html source.html bredband.html	\
+ transition.html irchistory.html address.html old.html now.html m3.html	\
+ rockbox-sandisk-connection.html mynextassignment.html podcasts.html	\
+ photos.html weekly.html talks.html us-visa.html		\
+ how-to-invite-me.html photos2.html my-name-in-products.html
 	cd old-photos; make
 	cd hexpoetry; make
 	cd projects; make
@@ -37,9 +34,6 @@ about.html: about.t $(MAINPARTS) about.gen
 	$(ACTION)
 about.gen: about.md
 	$(MARKDOWN) < $< >$@
-
-index2.html: index2.t $(MAINPARTS) talk.inc
-	$(ACTION)
 
 address.html: address.t $(MAINPARTS)
 	$(ACTION)
@@ -73,13 +67,10 @@ irchistory.html: irchistory.t $(MAINPARTS) irchistory.gen
 no_more_download_sites.html: no_more_download_sites.t $(MAINPARTS)
 	$(ACTION)
 
-myopensource.gen: myopensource.md
+opensource.gen: opensource.md
 	$(MARKDOWN) < $< >$@
 
-myopensource.html: myopensource.t myopensource.gen $(MAINPARTS)
-	$(ACTION)
-
-opensource.html: opensource.t $(MAINPARTS)
+opensource.html: opensource.t opensource.gen $(MAINPARTS)
 	$(ACTION)
 
 hackers.html: hackers.t $(MAINPARTS)

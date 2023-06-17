@@ -168,9 +168,8 @@ SUBTITLE(rand&#40;&#41;)
 <br> LINK("/hexpoetry/", hexadecimal poetry)
 <br> LINK("/travel/", travel stuff)
 LINK("/http2/", http2 explained) - the HTTP/2 book
-<br> LINK("/myopensource.html", my open projects) - projects I am or was involved with
+<br> LINK("/opensource.html", my open projects) - projects I am or was involved with
 <br> LINK("/rockbox-sandisk-connection.html", Rockbox SanDisk Connection) - the story behind
-<br> LINK("/opensource.html", open source) - old post by me on what it takes to do open source
 <br> LINK("/photos/", photos) - random photos from the past
 <br> LINK("/transition.html", &quot;Working Without Copyleft&quot;) - the article
 #endif
