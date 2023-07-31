@@ -123,10 +123,9 @@ SUBTITLE(Upcoming talks by Daniel)
 <li> May 11, 2023. At <a href="https://myconf.io/">myConf</a>, Landskrona, Sweden. "just curl it"
 <li> May 25, 2023. At CAG Contactor.
 <li> June 15, 2023. WebSocket with libcurl webinar.
+<li> June 20, 2023. curl user survey 2023 presentation
 #else
 #define TALKS
-<li> June 20, 2023. curl user survey 2023 presentation
-<li> Aug 17-19 2023. At ConFLOSS (streamed).
 <li> Aug 30 2023. At elastx.
 <li> Nov 8-10, 2023. At Øredev.
 #ifdef FULLPAGE
