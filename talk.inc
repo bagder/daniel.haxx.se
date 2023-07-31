@@ -127,7 +127,7 @@ SUBTITLE(Upcoming talks by Daniel)
 #define TALKS
 <li> June 20, 2023. curl user survey 2023 presentation
 <li> Aug 17-19 2023. At ConFLOSS (streamed).
-<li> Aug 23 2023. At elastx.
+<li> Aug 30 2023. At elastx.
 <li> Nov 8-10, 2023. At Øredev.
 #ifdef FULLPAGE
 
