@@ -127,7 +127,8 @@ SUBTITLE(Upcoming talks by Daniel)
 #else
 #define TALKS
 <li> Aug 30 2023. At elastx.
-<li> Nov 8-10, 2023. At Øredev.
+<li> Nov 9, PyCon Stockholm, Sweden
+<li> Nov 10, 2023. At Øredev.
 #ifdef FULLPAGE
 
 </ul>
