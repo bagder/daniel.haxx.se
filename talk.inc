@@ -126,7 +126,8 @@ SUBTITLE(Upcoming talks by Daniel)
 <li> June 20, 2023. curl user survey 2023 presentation
 #else
 #define TALKS
-<li> Aug 30 2023. At elastx.
+<li> Aug 30 2023. At elastx, Stockholm
+<li> September 14 2023. At Keyfactor, Stockholm
 <li> Nov 9, PyCon Stockholm, Sweden
 <li> Nov 10, 2023. At Øredev.
 #ifdef FULLPAGE
