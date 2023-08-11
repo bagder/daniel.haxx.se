@@ -126,11 +126,12 @@ SUBTITLE(Upcoming talks by Daniel)
 <li> June 20, 2023. curl user survey 2023 presentation
 #else
 #define TALKS
-<li> Aug 30 2023. At elastx, Stockholm
+<li> August 30 2023. At elastx, Stockholm
+<li> August 31 2023, <a href="https://daniel.haxx.se/blog/2023/08/08/mastering-the-curl-command-line/">Mastering the curl command line</a> (online)
 <li> September 14 2023. At Keyfactor, Stockholm
+#ifdef FULLPAGE
 <li> Nov 9, PyCon Stockholm, Sweden
 <li> Nov 10, 2023. At Øredev.
-#ifdef FULLPAGE
 
 </ul>
 <p>
