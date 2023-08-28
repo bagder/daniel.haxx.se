@@ -131,7 +131,7 @@ SUBTITLE(Upcoming talks by Daniel)
 <li> September 14 2023. <a href="https://www.keyfactor.com/community-tech-meetup-23/">At Keyfactor</a>, Stockholm
 #ifdef FULLPAGE
 <li> Nov 9, 2023. <a href="https://www.pycon.se/">PyCon Stockholm</a>, Sweden
-<li> Nov 10, 2023. At Øredev, Malmö ?
+<li> Nov 10, 2023. <a href="https://oredev.org/">Øredev</a>, Malmö
 
 </ul>
 <p>
