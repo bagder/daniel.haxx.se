@@ -130,6 +130,7 @@ SUBTITLE(Upcoming talks by Daniel)
 <li> August 31 2023, <a href="https://daniel.haxx.se/blog/2023/08/08/mastering-the-curl-command-line/">Mastering the curl command line</a> (online)
 <li> September 14 2023. <a href="https://www.keyfactor.com/community-tech-meetup-23/">At Keyfactor</a>, Stockholm
 #ifdef FULLPAGE
+<li> Oct 17/18, 2023 <a href="https://nordicapis.com/events/platform-summit-2023/">Platform Summit 2023</a>, Stockholm, Sweden
 <li> Nov 9, 2023. <a href="https://www.pycon.se/">PyCon Stockholm</a>, Sweden
 <li> Nov 10, 2023. <a href="https://oredev.org/">Øredev</a>, Malmö
 
