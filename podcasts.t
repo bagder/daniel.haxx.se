@@ -35,6 +35,15 @@ BOXTOP
 #endif
 
 <tr>
+<td> 37 </td>
+<td> <a href="https://youtu.be/ClF0PFXnlFI?si=ZzIW5qkbQ0o4v9HU">Tech Over Tea #185</a> </td>
+<td> English </td>
+<td> 🎬 </td>
+<td> Sep 15, 2023 </td>
+<td> BDFL Of curl & libcurl | Daniel Stenberg (recorded Aug 29)</td>
+</tr>
+
+<tr>
 <td> 36 </td>
 <td> <a href="https://podcast.sustainoss.org/185">Sustain #185</a> </td>
 <td> English </td>
