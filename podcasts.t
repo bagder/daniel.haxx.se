@@ -35,6 +35,15 @@ BOXTOP
 #endif
 
 <tr>
+<td> 38 </td>
+<td> <a href="https://podcast.sustainoss.org/203">Sustain #203</a> </td>
+<td> English </td>
+<td>  🎤 </td>
+<td> Oct 13, 2023 </td>
+<td> What’s wrong with CVEs? Daniel Stenberg of cURL wants you to know (recorded Sep 22)</td>
+</tr>
+
+<tr>
 <td> 37 </td>
 <td> <a href="https://youtu.be/ClF0PFXnlFI?si=ZzIW5qkbQ0o4v9HU">Tech Over Tea #185</a> </td>
 <td> English </td>
