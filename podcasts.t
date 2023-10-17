@@ -35,6 +35,15 @@ BOXTOP
 #endif
 
 <tr>
+<td> 39 </td>
+<td> <a href="https://youtu.be/YQgAc4wlG94?si=3tCS3L_88ZgGbhhm">Coffee with Developers</a> </td>
+<td> English </td>
+<td> 🎬 </td>
+<td> Oct 13, 2023 </td>
+<td> Creating cURL and maintaining the open infrastructure of the web</td>
+</tr>
+
+<tr>
 <td> 38 </td>
 <td> <a href="https://podcast.sustainoss.org/203">Sustain #203</a> </td>
 <td> English </td>
