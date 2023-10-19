@@ -132,6 +132,7 @@ SUBTITLE(Upcoming talks by Daniel)
 #define TALKS
 <li> November 9, 2023. <a href="https://www.pycon.se/">PyCon Stockholm</a>, Sweden
 <li> November 10, 2023. <a href="https://oredev.org/">Øredev</a>, Malmö
+<li> November: mastering libcurl, a long video class (Date not yet set)
 #ifdef FULLPAGE
 
 </ul>
