@@ -4,11 +4,13 @@
 HEAD(Podcasts)
 #include "body.t"
 
+#if 0
 TITLE(Fossified)
 BOXTOP
 <p> Since the spring of 2023, I am co-hosting <a
  href="https://fossified.com/">the Fossified podcast</a> series with friends.
 BOXBOT
+#endif
 
 TITLE(Podcast and show appearances)
 BOXTOP
