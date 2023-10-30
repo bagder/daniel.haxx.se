@@ -42,7 +42,7 @@ BOXTOP
 <td> English </td>
 <td>  🎤 </td>
 <td> Oct 30, 2023 </td>
-<td> curl and security (recorded Oct 26)</td>
+<td> curl, creating software, testing, security, CVEs (recorded Oct 26)</td>
 </tr>
 
 <tr>
