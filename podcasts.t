@@ -41,7 +41,7 @@ BOXTOP
 <td> <a href="https://opensourcesecurity.io/2023/10/29/episode-399-curl-security-and-daniel-stenberg/">Open Source Security #399</a> </td>
 <td> English </td>
 <td>  🎤 </td>
-<td> Oct 30, 2023 </td>
+<td> Oct 29, 2023 </td>
 <td> curl, creating software, testing, security, CVEs (recorded Oct 26)</td>
 </tr>
 
