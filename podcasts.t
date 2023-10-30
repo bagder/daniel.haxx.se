@@ -37,6 +37,15 @@ BOXTOP
 #endif
 
 <tr>
+<td> 40 </td>
+<td> <a href="https://opensourcesecurity.io/2023/10/29/episode-399-curl-security-and-daniel-stenberg/">Open Source Security #399</a> </td>
+<td> English </td>
+<td>  🎤 </td>
+<td> Oct 30, 2023 </td>
+<td> curl and security (recorded Oct 26)</td>
+</tr>
+
+<tr>
 <td> 39 </td>
 <td> <a href="https://youtu.be/YQgAc4wlG94?si=3tCS3L_88ZgGbhhm">Coffee with Developers</a> </td>
 <td> English </td>
