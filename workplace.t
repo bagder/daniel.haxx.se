@@ -78,8 +78,9 @@ doesn't have an RJ45.
 L - Two extra computers: this is a Lenovo 13 on top that runs Windows, which I
 use for video conferencing and the likes when those glitch or work
 suboptimally on Linux. Underneath is one of my mac minis I use for curl
-development when I need to work on macOS specific issues. This is the m1
-version. I also have an x86 version but that is not in this picture.
+development when I need to work on macOS specific issues. This
+is <a href="https://daniel.haxx.se/blog/2022/12/30/an-m1-for-curl/">the m1
+version</a>. I also have an x86 version but that is not in this picture.
 <p>
 M - Extra temp screen and keyboard. Right now this set is attached to computer
 (B) but I also use it for the ones in (L) when necessary. Depending on work.
