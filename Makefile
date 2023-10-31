@@ -12,7 +12,7 @@ all: index.html opensource.html hackers.html about.html datateknik.html	\
  no_more_download_sites.html computers.html source.html bredband.html	\
  transition.html irchistory.html address.html old.html now.html m3.html	\
  rockbox-sandisk-connection.html mynextassignment.html podcasts.html	\
- photos.html weekly.html talks.html us-visa.html		\
+ photos.html weekly.html talks.html us-visa.html workplace.html		\
  how-to-invite-me.html photos2.html my-name-in-products.html
 	cd old-photos; make
 	cd hexpoetry; make
@@ -113,6 +113,9 @@ rockbox-sandisk-connection.html: rockbox-sandisk-connection.t $(MAINPARTS) sansa
 	$(ACTION)
 
 us-visa.html: us-visa.t $(MAINPARTS)
+	$(ACTION)
+
+workplace.html: workplace.t $(MAINPARTS)
 	$(ACTION)
 
 clean:

@@ -96,7 +96,7 @@ podcast on <a href="https://github.com/fossified/podcast">Fossified</a>.
 <p> <b>I stream</b> <a href="https://www.twitch.tv/curlhacker">curl
 development on twitch</a> occasionally.
 
-<p> <b>I work</b> for <a href="https://www.wolfssl.com/">wolfSSL</a> doing
+<p> <b>I work</b> for <a href="https://www.wolfssl.com/">wolfSSL</a> from <a href="workplace.html">home</a> doing
 commercial curl support. If you need help to fix curl problems, fix your app's
 use of libcurl, add features to curl, fix curl bugs, optimize your curl use or
 libcurl education for your developers... Then I'm your man. Contact us!
