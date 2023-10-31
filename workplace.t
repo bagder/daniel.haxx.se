@@ -20,10 +20,11 @@ My home office is on the upper floor of my house in a southern suburb of
 Stockholm, Sweden.
 
 <p>
-The desk is a 300 cm wide, 60 cm deep home made creation made out of oak tree
-(with legs from IKEA), designed to fit within the doors in the wall
-immediately next to the table on both sides. My original idea was to leave
-space to allow more than one person to work at it.
+The desk is a 300 cm wide, 60 cm deep home made design, created using a
+kitchen countertop in oak with white table legs from IKEA. It is designed to
+fit exactly between the doors in the wall immediately next to the table on
+both sides. My original idea was to leave space to allow more than one person
+to work at it.
 
 SUBTITLE(Zoom out)
 <p>
