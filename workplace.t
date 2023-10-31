@@ -128,9 +128,9 @@ tournament. Gold-colored plastic.
 <p>
 G - My <a href="https://daniel.haxx.se/blog/2021/08/11/a-github-star">GitHub star award</a>
 <p>
-H - ember mug, usb powered, app controlled. Keeps my coffee heated
+H - ember mug, usb powered, app controlled. Keeps my coffee heated. To be
+honest, I barely ever use it.
 <p>
 I - USB to RJ45 thingie for my silly left laptop without RJ45
-
 </div>
 #include "footer.t"
