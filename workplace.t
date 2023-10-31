@@ -37,10 +37,8 @@ A - Here are boxes from recent purchases and gifts that arrived. Not really
 for my work benefit, but good to keep around for while before recycling in
 case I need to return stuff or similar.
 <p>
-B - This is my new development machine that I was preparing to switch to and
-use as my main driver "any day now". It is a PC running a recent Intel CPU and
-Debian Unstable Linux, with a fast SSD and fast memory. Meant to compile
-fast. I have since switched it with the machine in E.
+B - This is my old development machine that have not been "taken care of"
+properly. The new, current machine I use, is in E.
 <p>
 C - An old loudspeaker from a long time ago for when I want sound. I often
 just use headphones (to save my family from my sounds and let the noise
@@ -51,8 +49,10 @@ D - cable mess. I counted 29 used power plugs a while ago. After this photo
 was taken I actually cleaned up the situation and the cables are now hidden in
 clean white boxes.
 <p>
-E - My old trusted old development machine. Runs Debian Unstable, with two 27
-inch 4K screens. Nowadays switched with the (A) machine.
+E -
+My <a href="https://daniel.haxx.se/blog/2023/02/20/my-2023-dev-machine/">current
+work horse and development machine</a>. Runs Debian Unstable, with two 27 inch
+4K screens.
 <p>
 F - backpacks. One for short stay-over trips and one I use for daytrips when I
 do talks etc. They usually should not just be out on the floor like this, but
