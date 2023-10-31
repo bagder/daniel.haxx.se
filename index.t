@@ -191,7 +191,6 @@ MELINK("https://www.openhub.net/accounts/bagder", openhub) |
 MELINK("https://www.slideshare.net/bagder/presentations", Slideshare) |
 MELINK("https://stackoverflow.com/users/93747/daniel-stenberg", stackoverflow) |
 MELINK("https://www.twitch.tv/curlhacker", Twitch) |
-MELINK("https://twitter.com/bagder", twitter) |
 MELINK("https://en.wikipedia.org/wiki/Daniel_Stenberg", Wikipedia) |
 MELINK("https://www.youtube.com/user/danielhaxxse/", Youtube)
 
