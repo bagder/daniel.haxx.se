@@ -132,5 +132,12 @@ H - ember mug, usb powered, app controlled. Keeps my coffee heated. To be
 honest, I barely ever use it.
 <p>
 I - USB to RJ45 thingie for my silly left laptop without RJ45
+
+<p>
+  Home office details and photos were originally submitted
+to <a href="https://hackerstations.com/setups/daniel_stenberg/">hacker
+stations</a> in February 2023.
+
 </div>
+
 #include "footer.t"

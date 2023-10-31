@@ -21,9 +21,7 @@ BOXBOT
 TITLE(Home office setup)
 BOXTOP
 
-<p> Enjoy this description of my <a
-href="https://hackerstations.com/setups/daniel_stenberg/">home office</a> and
-workplace hosted by Hacker Stations, from February 2023.
+<p> See also the description of my <a href="workplace.html">home office</a>.
 
 BOXBOT
 
