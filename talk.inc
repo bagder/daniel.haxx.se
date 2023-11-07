@@ -134,7 +134,8 @@ SUBTITLE(Upcoming talks by Daniel)
 <li> November 10, 2023. <a href="https://oredev.org/">Øredev</a>, Malmö
 <li> November 16+20 2023: <a href="">mastering libcurl</a>, a long two-part online video class
 #ifdef FULLPAGE
-
+<li> May 22-23 2024: Stockholm Tech Show and Nordic Mobile
+<li> May 28-30 2024: (pending details)
 </ul>
 <p>
  Look me up and say hi!
