@@ -129,10 +129,12 @@ SUBTITLE(Upcoming talks by Daniel)
 <li> September 14 2023. <a href="https://www.keyfactor.com/community-tech-meetup-23/">At Keyfactor</a>, Stockholm
 <li> October 18, 2023 <a href="https://nordicapis.com/events/platform-summit-2023/">Platform Summit 2023</a>, Stockholm, Sweden
 <li> November 9, 2023. <a href="https://www.pycon.se/">PyCon Stockholm</a>, Sweden
+<li> November 10, 2023. <a href="https://oredev.org/">Øredev</a>, Malmö
 #else
 #define TALKS
-<li> November 10, 2023. <a href="https://oredev.org/">Øredev</a>, Malmö
-<li> November 16+20 2023: <a href="">mastering libcurl</a>, a long two-part onl<li> February 3-4 2024: FOSDEM talk being considered, but not decided yet
+<li> November 16 2023: <a href="https://daniel.haxx.se/blog/2023/11/01/mastering-libcurl/">mastering libcurl</a>, part one
+<li> November 20 2023: <a href="https://daniel.haxx.se/blog/2023/11/01/mastering-libcurl/">mastering libcurl</a> part two
+<li> February 3-4 2024: FOSDEM talk being considered, but not decided yet
 ine video class
 #ifdef FULLPAGE
 <li> May 22-23 2024: Stockholm Tech Show and Nordic Mobile
