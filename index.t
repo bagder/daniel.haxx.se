@@ -120,7 +120,7 @@ SUBTITLE(Accomplishments)
 <td>
 
 <div class="minibox">
- <a class="minibox" href="https://daniel.haxx.se/blog/2023/04/23/google-open-source-peer-bonus-award-2023/">Google Open Source Peer Bonus 2023</a>
+ <a class="minibox" href="https://daniel.haxx.se/blog/2023/11/11/another-google-open-source-peer-bonus/">4 times Google Open Source Peer Bonus</a>
 </div>
 
 <div class="minibox">
@@ -129,10 +129,6 @@ SUBTITLE(Accomplishments)
 
 <div class="minibox">
  <a class="minibox" href="https://daniel.haxx.se/blog/2020/09/23/a-google-grant-for-libcurl-work/">Google Patch Reward 2020</a>
-</div>
-
-<div class="minibox">
- <a class="minibox" href="https://daniel.haxx.se/blog/2020/04/03/google-open-source-peer-bonus-award-2020/">Google Open Source Peer Bonus 2020</a>
 </div>
 
 <div class="minibox">
