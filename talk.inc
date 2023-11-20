@@ -135,7 +135,6 @@ SUBTITLE(Upcoming talks by Daniel)
 #else
 #define TALKS
 <li> February 3-4 2024: FOSDEM talk being considered, but not decided yet
-ine video class
 <li> May 22-23 2024: Stockholm Tech Show and Nordic Mobile
 #ifdef FULLPAGE
 <li> May 28-30 2024: (pending details)
