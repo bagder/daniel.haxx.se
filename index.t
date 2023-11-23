@@ -90,8 +90,10 @@ href="my-name-in-products.html">My name appears in products</a>.
 <p> <b>I participate</b> within the <a href="http://www.ietf.org/">IETF</a>,
 primarily in the HTTPbis and QUIC working groups.
 
-<p> <b>I speak</b> in public <a href="talks.html">every now and then</a> and
-podcast on <a href="https://github.com/fossified/podcast">Fossified</a>.
+<p> <b>I speak</b> in public <a href="talks.html">every now and then</a>.
+#if 0
+and podcast on <a href="https://github.com/fossified/podcast">Fossified</a>
+#endif
 
 <p> <b>I stream</b> <a href="https://www.twitch.tv/curlhacker">curl
 development on twitch</a> occasionally.
