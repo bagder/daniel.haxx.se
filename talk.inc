@@ -134,10 +134,11 @@ SUBTITLE(Upcoming talks by Daniel)
 <li> November 20 2023: <a href="https://daniel.haxx.se/blog/2023/11/01/mastering-libcurl/">mastering libcurl</a> part two
 #else
 #define TALKS
-<li> February 3-4 2024: FOSDEM talk being considered, but not decided yet
-<li> May 22-23 2024: Stockholm Tech Show and Nordic Mobile
+<li> January 16, 2024: "CVE management and curl" for IoT and SCADA Hackers Australia
+<li> February 3-4, 2024: FOSDEM talk being considered, but not decided yet
+<li> May 22-23, 2024: Stockholm Tech Show and Nordic Mobile
 #ifdef FULLPAGE
-<li> May 28-30 2024: (pending details)
+<li> May 28-30, 2024: maybe (pending details)
 </ul>
 <p>
  Look me up and say hi!
