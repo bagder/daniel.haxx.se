@@ -25,7 +25,7 @@ BOXTOP
 
 BOXBOT
 
-TITLE(Compuiter history)
+TITLE(My computer history)
 BOXTOP
 
 <p> Before 1985, I had to play around with the computers of my friends. I
