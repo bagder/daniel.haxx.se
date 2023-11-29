@@ -103,7 +103,7 @@ commercial curl support. If you need help to fix curl problems, fix your app's
 use of libcurl, add features to curl, fix curl bugs, optimize your curl use or
 libcurl education for your developers... Then I'm your man. Contact us!
 
-<p> <b>I write</b> <a href="https://lists.haxx.se/listinfo/daniel">weekly reports</a> you can read.
+<p> <b>I write</b> <a href="https://lists.haxx.se/listinfo/daniel">weekly email reports</a> you can read. Almost like a newsletter.
 
 <div style="clear: both;"/>
 SUBTITLE(Committees)
