@@ -28,8 +28,12 @@ SUBTITLE(Geolocation)
 
 SUBTITLE(Other means)
 <p>
+#if 0
 Twitter: <a href="https://twitter.com/bagder">@bagder</a><br>
-IRC: 'bagder' on libera.chat - in the #curl channel primarily.
+#endif
+Mastodon: <a href="https://mastodon.social/@bagder">@bagder@maston.social</a><br>
+IRC: 'bagder' on libera.chat - in the #curl channel primarily.<br>
+Signal: yes, get my number first
 
 SUBTITLE(Public Key)
 <p>
