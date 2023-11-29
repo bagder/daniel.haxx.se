@@ -39,8 +39,8 @@ members.
 <ul>
  <li> <b>1985, Spring</b> - I and my brother Björn bought a C64 together. We
       immediately started hacking BASIC on the thing and in the end of 1987 I
-      wrote my first 6510 assembler demos. More details on our adventures with
-      the C64 is found on <a href="http://kjell.haxx.se/horizon/">Kjell's
+      wrote my first 6510 assembler demos. More stories from our adventures with
+      the C64 are told on <a href="http://kjell.haxx.se/horizon/">Kjell's
       Horizon page</a>.
  <li> <b>1990</b> - Amiga 500. We initially wrote some assembler and fiddled
       with demos. Without the narrow limits of the kind the C64 offered, it
