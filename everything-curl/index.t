@@ -11,6 +11,11 @@ TITLE(Everything curl)
  The sources are hosted on <a href="https://github.com/bagder/everything-curl">GitHub</a>
 <p>
 
+SUBTITLE(ePUB)
+<p>
+A daily updated epub version of everything curl is available <a
+href="everything-curl.epub">here</a>.
+
 SUBTITLE(PDF)
 <p>
 
