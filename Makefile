@@ -23,6 +23,7 @@ all: index.html opensource.html hackers.html about.html datateknik.html	\
 	cd http2 && make
 	cd devcons && make
 	cd uncurled && make
+	cd everything-curl && make
 
 index.html: index.t $(MAINPARTS) talk.inc
 	$(ACTION)
