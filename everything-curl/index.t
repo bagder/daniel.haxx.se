@@ -22,4 +22,10 @@ SUBTITLE(PDF)
 A daily updated PDF version of the book is available <a
 href="everything-curl.pdf">here</a>.
 
+SUBTITLE(HTML)
+<p>
+
+A (rather crude) daily updated HTML version of the book is available as a zip
+package <a href="everything-curl.zip">here</a>.
+
 #include "footer.t"
