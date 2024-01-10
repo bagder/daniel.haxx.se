@@ -4,6 +4,8 @@ HEAD(Everything curl)
 #include "body.t"
 #include "setup.t"
 
+#include "data.t"
+
 TITLE(Everything curl)
 <p>
  <a href="https://everything.curl.dev">Everything curl</a> is hosted on everything.curl.dev.
@@ -11,21 +13,39 @@ TITLE(Everything curl)
  The sources are hosted on <a href="https://github.com/bagder/everything-curl">GitHub</a>
 <p>
 
-SUBTITLE(ePUB)
+SUBTITLE(Downloadable)
 <p>
-A daily updated epub version of everything curl is available <a
-href="everything-curl.epub">here</a>.
+<table cellpadding="5">
+<tr>
+<th>Format</th>
+<th>Size</th>
+<th>Updated</th>
+</tr>
 
-SUBTITLE(PDF)
-<p>
+<tr><td>
+<a href="everything-curl.pdf">PDF</a>
+</td><td>
+EVERYTHING_CURL_PDF_MB MB
+</td><td>
+EVERYTHING_CURL_PDF_STAMP
+</td></tr>
 
-A daily updated PDF version of the book is available <a
-href="everything-curl.pdf">here</a>.
+<tr><td>
+<a href="everything-curl.epub">ePUB</a>
+</td><td>
+EVERYTHING_CURL_EPUB_MB MB
+</td><td>
+EVERYTHING_CURL_EPUB_STAMP
+</td></tr>
 
-SUBTITLE(HTML)
-<p>
+<tr><td>
+<a href="everything-curl.zip">HTML</a>
+</td><td>
+EVERYTHING_CURL_ZIP_MB MB
+</td><td>
+EVERYTHING_CURL_ZIP_STAMP
+</td></tr>
 
-A (rather crude) daily updated HTML version of the book is available as a zip
-package <a href="everything-curl.zip">here</a>.
+</table>
 
 #include "footer.t"
