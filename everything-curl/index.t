@@ -15,35 +15,31 @@ TITLE(Everything curl)
 
 SUBTITLE(Downloadable)
 <p>
+ Updated <b>EVERYTHING_CURL_PDF_STAMP</b>
+
+<p>
 <table cellpadding="5">
 <tr>
 <th>Format</th>
 <th>Size</th>
-<th>Updated</th>
 </tr>
 
 <tr><td>
 <a href="everything-curl.pdf">PDF</a>
 </td><td>
 EVERYTHING_CURL_PDF_MB MB
-</td><td>
-EVERYTHING_CURL_PDF_STAMP
 </td></tr>
 
 <tr><td>
 <a href="everything-curl.epub">ePUB</a>
 </td><td>
 EVERYTHING_CURL_EPUB_MB MB
-</td><td>
-EVERYTHING_CURL_EPUB_STAMP
 </td></tr>
 
 <tr><td>
 <a href="everything-curl.zip">HTML</a>
 </td><td>
 EVERYTHING_CURL_ZIP_MB MB
-</td><td>
-EVERYTHING_CURL_ZIP_STAMP
 </td></tr>
 
 </table>
