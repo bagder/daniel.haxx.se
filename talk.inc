@@ -132,13 +132,21 @@ SUBTITLE(Upcoming talks by Daniel)
 <li> November 10, 2023. <a href="https://oredev.org/">Øredev</a>, Malmö
 <li> November 16 2023: <a href="https://daniel.haxx.se/blog/2023/11/01/mastering-libcurl/">mastering libcurl</a>, part one
 <li> November 20 2023: <a href="https://daniel.haxx.se/blog/2023/11/01/mastering-libcurl/">mastering libcurl</a> part two
+<li> January 16, 2024: "CVE management and curl" for IoT and SCADA Hackers Australia
 #else
 #define TALKS
-<li> January 16, 2024: "CVE management and curl" for IoT and SCADA Hackers Australia
-<li> February 3-4, 2024: FOSDEM talk being considered, but not decided yet
+
+<li> February 3, 2024 FOSDEM: <a
+href="https://fosdem.org/2024/schedule/event/fosdem-2024-1909-broom-not-included-curling-the-modern-way/">Broom
+not included: curling the modern way</a> in the Network room (UB5.230), 10:50
+- 11: 01
+
+<li> February 4, 2024 FOSDEM: "You too could have made curl" on the main track. La Fontaine (K1.105) 10:00 - 10:50
+
 <li> May 22-23, 2024: Stockholm Tech Show and Nordic Mobile
+
 #ifdef FULLPAGE
-<li> May 28-30, 2024: maybe (pending details)
+<li> May 28-30, 2024: Montreal Canada maybe (pending details)
 </ul>
 <p>
  Look me up and say hi!
