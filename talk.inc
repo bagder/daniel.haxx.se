@@ -139,7 +139,7 @@ SUBTITLE(Upcoming talks by Daniel)
 <li> February 3, 2024 FOSDEM: <a
 href="https://fosdem.org/2024/schedule/event/fosdem-2024-1909-broom-not-included-curling-the-modern-way/">Broom
 not included: curling the modern way</a> in the Network room (UB5.230), 10:50
-- 11: 01
+- 11:10
 
 <li> February 4, 2024 FOSDEM: "You too could have made curl" on the main track. La Fontaine (K1.105) 10:00 - 10:50
 
