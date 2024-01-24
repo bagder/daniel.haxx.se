@@ -69,8 +69,7 @@ webinars etc.
 I - A usb hub to provide a set of extra USB ports for when the ones in the PC
 are not enough or not close enough.
 <p>
-J - <a href="https://daniel.haxx.se/blog/2014/08/20/the-right-keyboard-layout">Mechanical keyboard</a> with Cherry MX Red switches. I average at some 8
-million key presses per year.
+J - <a href="https://daniel.haxx.se/blog/2024/01/24/logitech-g915-tkl/">Logitech G915 TKL keyboard</a>. I average at around ten million key presses per year. Pictured on the photo is my <a href="https://daniel.haxx.se/blog/2014/08/20/the-right-keyboard-layout/">old keyboard</a>.
 <p>
 K - USB charger. A micro USB, USB-C and my fitfit cables are on the
 table. Next to that is my ethernet to USB "dongle", as one of my laptops
