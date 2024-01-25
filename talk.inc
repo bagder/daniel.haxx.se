@@ -145,8 +145,6 @@ not included: curling the modern way</a> in the Network room (UB5.230), 10:50
 
 <li> May 20, 2024: Gothenburg
 
-<li> May 22, 2024: Stockholm Tech Show and Nordic Mobile. 10:15-10:45
-
 #ifdef FULLPAGE
 <li> May 28-30, 2024: Montreal Canada maybe (pending details)
 </ul>
