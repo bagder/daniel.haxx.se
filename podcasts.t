@@ -115,7 +115,7 @@ BOXTOP
 <td> <a href="https://pod.fossified.com/2023/03/19/s01e02.html">Fossified s01e02</a> </td>
 <td> English </td>
 <td> 🎤 </td>
-<td> March 19, 2023 </td>
+<td> Mar 19, 2023 </td>
 <td> curl 25 years</td>
 </tr>
 
