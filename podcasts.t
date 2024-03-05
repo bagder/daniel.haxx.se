@@ -36,6 +36,26 @@ BOXTOP
 </tr>
 #endif
 
+#if 0
+<tr>
+<td> 41 </td>
+<td> Rust in Production </td>
+<td> English </td>
+<td> 🎤 </td>
+<td> April, 2024 </td>
+<td> on rust in curl (recorded Feb 23, 2024)</td>
+</tr>
+#endif
+
+<tr>
+<td> 41 </td>
+<td> <a href="https://kodsnack.se/572/">Kodsnack 572</a> </td>
+<td> Swedish </td>
+<td> 🎤 </td>
+<td> Mar 5, 2024 </td>
+<td> FOSDEM and CVEs (recorded Feb 27, 2024) </td>
+</tr>
+
 <tr>
 <td> 40 </td>
 <td> <a href="https://opensourcesecurity.io/2023/10/29/episode-399-curl-security-and-daniel-stenberg/">Open Source Security #399</a> </td>
