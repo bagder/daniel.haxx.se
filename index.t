@@ -105,6 +105,8 @@ libcurl education for your developers... Then I'm your man. Contact us!
 
 <p> <b>I write</b> <a href="https://lists.haxx.se/listinfo/daniel">weekly email reports</a> you can read. Almost like a newsletter.
 
+<p> <b>I receive</b> a fair amount of <a href="https://bagder.github.io/emails/">curious emails</a>.
+
 <div style="clear: both;"/>
 SUBTITLE(Committees)
 <ul>
@@ -126,7 +128,7 @@ SUBTITLE(Accomplishments)
 </div>
 
 <div class="minibox">
- <a class="minibox" href="https://daniel.haxx.se/blog/2021/08/11/a-github-star/">GitHub Star 2021 - 2023</a>
+ <a class="minibox" href="https://daniel.haxx.se/blog/2021/08/11/a-github-star/">GitHub Star 2021 - 2024</a>
 </div>
 
 <div class="minibox">
