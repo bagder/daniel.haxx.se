@@ -142,7 +142,8 @@ not included: curling the modern way</a> in the Network room (UB5.230), 10:50
 #else
 #define TALKS
 
-<li> May 20, 2024: Gothenburg
+<li> May 20, 2024: Gothenburg at Mullvad
+<li> May 30, 2024: Gothenburg. HTTP/3 at Webbhuset
 
 #ifdef FULLPAGE
 </ul>
