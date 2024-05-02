@@ -36,16 +36,14 @@ BOXTOP
 </tr>
 #endif
 
-#if 0
 <tr>
-<td> 41 </td>
-<td> Rust in Production </td>
+<td> 42 </td>
+<td> <a href="https://corrode.dev/podcast/s02e01-curl/">Rust in Production s02e01</a></td>
 <td> English </td>
 <td> 🎤 </td>
-<td> April, 2024 </td>
-<td> on rust in curl (recorded Feb 23, 2024)</td>
+<td> May 2, 2024 </td>
+<td> on rust (components) in curl (recorded Feb 23, 2024)</td>
 </tr>
-#endif
 
 <tr>
 <td> 41 </td>
