@@ -18,3 +18,4 @@ ExpiresByType application/x-tar "access plus 1 year"
 RedirectMatch "^/.git" https://daniel.haxx.se/
 RedirectPermanent /http3-explained https://http3-explained.haxx.se
 RedirectPermanent /myopensource.html https://daniel.haxx.se/opensource.html
+RedirectPermanent /trio https://daniel.haxx.se/projects/trio/
