@@ -143,7 +143,7 @@ not included: curling the modern way</a> in the Network room (UB5.230), 10:50
 #else
 #define TALKS
 
-<li> May 29, 2024. for the EU commission's Open Source peeps
+<li> May 29, 2024. for the European Commission's Open Source peeps
 <li> May 30, 2024: Gothenburg. <a href="https://www.meetup.com/webbhuset/events/300590515/">HTTP/3 at Webbhuset</a>
 <li> September 23/24 2024. Stockholm. Nordic Software Security Summit 2024.
 
