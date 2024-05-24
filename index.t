@@ -124,7 +124,7 @@ SUBTITLE(Accomplishments)
 <td>
 
 <div class="minibox">
- <a class="minibox" href="https://daniel.haxx.se/blog/2023/11/11/another-google-open-source-peer-bonus/">4 times Google Open Source Peer Bonus</a>
+ <a class="minibox" href="https://daniel.haxx.se/blog/2024/05/24/google-peer-bonus-number-five/">5 times Google Open Source Peer Bonus</a>
 </div>
 
 <div class="minibox">
