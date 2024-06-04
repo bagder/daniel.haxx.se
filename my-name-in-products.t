@@ -50,9 +50,9 @@ condition that they inform the world that they are using my product.
 one you can find or be the easiest one to use, but that is unfortunately
 simply the fault of the people making the products.
 
-<p> Products I helped create have been installed in way over ten billion
-installations and pieces of my code run in virtually all Internet connected
-devices on the globe.
+<p> Products I helped create have been installed in billions of installations.
+Pieces of my code run in virtually all Internet connected devices on the
+globe.
 
 <p> The main products that are used widely that might contain or lead to my
 name include <a href="https://curl.se/">curl</a>, <a
