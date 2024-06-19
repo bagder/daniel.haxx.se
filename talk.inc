@@ -145,7 +145,7 @@ not included: curling the modern way</a> in the Network room (UB5.230), 10:50
 #else
 #define TALKS
 
-<li> September 23/24 2024. Stockholm. Nordic Software Security Summit 2024.
+<li> September 23/24 2024. Stockholm. <a href="https://nsss.se/">Nordic Software Security Summit 2024</a>
 
 #ifdef FULLPAGE
 </ul>
