@@ -37,6 +37,15 @@ BOXTOP
 #endif
 
 <tr>
+<td> 43 </td>
+<td> <a href="https://changelog.com/friends/49">Changelog and friends #49</a> </td>
+<td> English </td>
+<td> 🎤 </td>
+<td> June 21, 2024 </td>
+<td> Daniel Stenberg shares his guiding principles for BDFL’ing curl, gives us his perspective on the state of the internet, talks financial independence, ensuring curl won’t be the next XZ & more! </td>
+</tr>
+
+<tr>
 <td> 42 </td>
 <td> <a href="https://corrode.dev/podcast/s02e01-curl/">Rust in Production s02e01</a></td>
 <td> English </td>
