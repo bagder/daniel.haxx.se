@@ -36,6 +36,17 @@ BOXTOP
 </tr>
 #endif
 
+#if 0
+<tr>
+<td> 44 </td>
+<td> <a href="">Nerding out with Viktor</a> </td>
+<td> English </td>
+<td> 🎬 </td>
+<td> date </td>
+<td> curl, fun emails, used everywhere, open source sustainability, SBOMs, security (recorded July 30, 2024) </td>
+</tr>
+#endif
+
 <tr>
 <td> 43 </td>
 <td> <a href="https://changelog.com/friends/49">Changelog and friends #49</a> </td>
