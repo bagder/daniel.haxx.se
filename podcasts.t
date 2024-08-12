@@ -38,14 +38,23 @@ BOXTOP
 
 #if 0
 <tr>
-<td> 44 </td>
-<td> <a href="">Nerding out with Viktor</a> </td>
+<td> 45 </td>
+<td> <a href="">Focus on Linux</a> </td>
 <td> English </td>
-<td> 🎬 </td>
+<td> 🎤 </td>
 <td> date </td>
-<td> curl, fun emails, used everywhere, open source sustainability, SBOMs, security (recorded July 30, 2024) </td>
+<td> curl, STF, funding, sustainability, open source (recorded Aug 1, 2024) </td>
 </tr>
 #endif
+
+<tr>
+<td> 44 </td>
+<td> <a href="https://vpetersson.com/podcast/S01E17.html">Nerding out with Viktor #17</a> </td>
+<td> English </td>
+<td> 🎬 </td>
+<td> Aug 12, 2024 </td>
+<td> curl, C64, fun emails, used everywhere, open source sustainability, SBOMs, security (recorded Jul 30, 2024) </td>
+</tr>
 
 <tr>
 <td> 43 </td>
