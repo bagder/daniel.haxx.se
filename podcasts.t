@@ -36,16 +36,15 @@ BOXTOP
 </tr>
 #endif
 
-#if 0
 <tr>
 <td> 45 </td>
-<td> <a href="">Focus on Linux</a> </td>
+<td> <a href="https://focusonlinux.podigee.io/113-sovereign-tech-fund">Focus on Linux 113</a></td>
 <td> English </td>
 <td> 🎤 </td>
-<td> date </td>
-<td> curl, STF, funding, sustainability, open source (recorded Aug 1, 2024) </td>
+<td> Aug 16, 2024 </td>
+<td> curl, Sovereign Tech Fund, funding, sustainability, open source (recorded
+Aug 1, 2024) </td>
 </tr>
-#endif
 
 <tr>
 <td> 44 </td>
