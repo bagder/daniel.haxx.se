@@ -37,7 +37,7 @@ BOXTOP
 #endif
 
 <tr>
-<td> 45 </td>
+<td> 46 </td>
 <td> <a href="https://focusonlinux.podigee.io/113-sovereign-tech-fund">Focus on Linux 113</a></td>
 <td> English </td>
 <td> 🎤 </td>
@@ -47,7 +47,7 @@ Aug 1, 2024) </td>
 </tr>
 
 <tr>
-<td> 44 </td>
+<td> 45 </td>
 <td> <a href="https://vpetersson.com/podcast/S01E17.html">Nerding out with Viktor #17</a> </td>
 <td> English </td>
 <td> 🎬 </td>
@@ -56,7 +56,7 @@ Aug 1, 2024) </td>
 </tr>
 
 <tr>
-<td> 43 </td>
+<td> 44 </td>
 <td> <a href="https://changelog.com/friends/49">Changelog and friends #49</a> </td>
 <td> English </td>
 <td> 🎤 </td>
@@ -65,7 +65,7 @@ Aug 1, 2024) </td>
 </tr>
 
 <tr>
-<td> 42 </td>
+<td> 43 </td>
 <td> <a href="https://corrode.dev/podcast/s02e01-curl/">Rust in Production s02e01</a></td>
 <td> English </td>
 <td> 🎤 </td>
@@ -74,7 +74,7 @@ Aug 1, 2024) </td>
 </tr>
 
 <tr>
-<td> 41 </td>
+<td> 42 </td>
 <td> <a href="https://kodsnack.se/572/">Kodsnack 572</a> </td>
 <td> Swedish </td>
 <td> 🎤 </td>
@@ -83,7 +83,7 @@ Aug 1, 2024) </td>
 </tr>
 
 <tr>
-<td> 40 </td>
+<td> 41 </td>
 <td> <a href="https://opensourcesecurity.io/2023/10/29/episode-399-curl-security-and-daniel-stenberg/">Open Source Security #399</a> </td>
 <td> English </td>
 <td>  🎤 </td>
@@ -92,7 +92,7 @@ Aug 1, 2024) </td>
 </tr>
 
 <tr>
-<td> 39 </td>
+<td> 40 </td>
 <td> <a href="https://youtu.be/YQgAc4wlG94?si=3tCS3L_88ZgGbhhm">Coffee with Developers</a> </td>
 <td> English </td>
 <td> 🎬 </td>
@@ -101,7 +101,7 @@ Aug 1, 2024) </td>
 </tr>
 
 <tr>
-<td> 38 </td>
+<td> 39 </td>
 <td> <a href="https://podcast.sustainoss.org/203">Sustain #203</a> </td>
 <td> English </td>
 <td>  🎤 </td>
@@ -110,7 +110,7 @@ Aug 1, 2024) </td>
 </tr>
 
 <tr>
-<td> 37 </td>
+<td> 38 </td>
 <td> <a href="https://youtu.be/ClF0PFXnlFI?si=ZzIW5qkbQ0o4v9HU">Tech Over Tea #185</a> </td>
 <td> English </td>
 <td> 🎬 </td>
@@ -119,7 +119,7 @@ Aug 1, 2024) </td>
 </tr>
 
 <tr>
-<td> 36 </td>
+<td> 37 </td>
 <td> <a href="https://podcast.sustainoss.org/185">Sustain #185</a> </td>
 <td> English </td>
 <td>  🎤 </td>
@@ -128,7 +128,7 @@ Aug 1, 2024) </td>
 </tr>
 
 <tr>
-<td> 35 </td>
+<td> 36 </td>
 <td> <a href="https://shows.acast.com/63640bb66087460011850610/episodes/64526721efff280011a6c0e8">Svenska Snillen S01E04</a> </td>
 <td> Swedish </td>
 <td> 🎤 </td>
@@ -137,7 +137,7 @@ Aug 1, 2024) </td>
 </tr>
 
 <tr>
-<td> 34 </td>
+<td> 35 </td>
 <td> <a href="https://pod.fossified.com/2023/03/19/s01e02.html">Fossified s01e02</a> </td>
 <td> English </td>
 <td> 🎤 </td>
@@ -146,7 +146,7 @@ Aug 1, 2024) </td>
 </tr>
 
 <tr>
-<td> 33 </td>
+<td> 34 </td>
 <td> <a href="https://youtu.be/ZLtqHFxEDm8">Sourcegraph podcast S3E07</a> </td>
 <td> English </td>
 <td> 🎬 </td>
@@ -155,7 +155,7 @@ Aug 1, 2024) </td>
 </tr>
 
 <tr>
-<td> 32 </td>
+<td> 33 </td>
 <td> <a href="https://youtu.be/gNWg2Wtxz-w">Fairlight TV #60</a> </td>
 <td> English </td>
 <td> 🎬 </td>
@@ -164,7 +164,7 @@ Aug 1, 2024) </td>
 </tr>
 
 <tr>
-<td> 31 </td>
+<td> 32 </td>
 <td> <a href="https://kodsnack.se/488/">Kodsnack 488</a> </td>
 <td> Swedish </td>
 <td> 🎤 </td>
@@ -173,7 +173,7 @@ Aug 1, 2024) </td>
 </tr>
 
 <tr>
-<td> 30 </td>
+<td> 31 </td>
 <td> <a href="https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5zaW1wbGVjYXN0LmNvbS81SnpZcF9LcA/episode/NjVkM2ZhMjQtMDZhZC00MmNlLTllYTQtOWQ3YWI1MDQxZWQw?hl=en-SE&ved=2ahUKEwjejNvp-t75AhXGX_EDHazqDt4QieUEegQIBBAL&ep=6">The FOSS Pod - curl with Daniel Stenberg</a> </td>
 <td> English </td>
 <td> 🎤 </td>
@@ -182,7 +182,7 @@ Aug 1, 2024) </td>
 </tr>
 
 <tr>
-<td> 29 </td>
+<td> 30 </td>
 <td> <a href="https://www.se-radio.net/2022/03/episode-505-daniel-stenberg-on-25-years-with-curl/">Software Engineering Radio #505</a> </td>
 <td> English </td>
 <td> 🎤 </td>
@@ -191,7 +191,7 @@ Aug 1, 2024) </td>
 </tr>
 
 <tr>
-<td> 28 </td>
+<td> 29 </td>
 <td> <a href="https://trevligmjukvara.se/s10e04/">Trevlig Mjukvara s10e04</a></td>
 <td> Swedish </td>
 <td> 🎤 </td>
@@ -200,7 +200,7 @@ Aug 1, 2024) </td>
 </tr>
 
 <tr>
-<td> 27 </td>
+<td> 28 </td>
 <td> <a href="https://anchor.fm/amplifiedandintensified/episodes/57---Daniel-Stenberg-Creator-of-cURL-and-libcurl-e1fdq43">Cybersecurity: Amplified and Intensified #57</a> </td>
 <td> English </td>
 <td> 🎤 </td>
@@ -209,7 +209,7 @@ Aug 1, 2024) </td>
 </tr>
 
 <tr>
-<td> 26 </td>
+<td> 27 </td>
 <td> <a href="https://www.softwareatscale.dev/p/software-at-scale-42-daniel-stenberg">Software at Scale 42</a> </td>
 <td> English </td>
 <td> 🎤 </td>
@@ -218,7 +218,7 @@ Aug 1, 2024) </td>
 </tr>
 
 <tr>
-<td> 25 </td>
+<td> 26 </td>
 <td> <a href="https://www.almsec.se/inside-security-17-interview-with-curl-creator-daniel-stenberg/">Inside Security #17</a> </td>
 <td> English </td>
 <td> 🎬 </td>
@@ -227,7 +227,7 @@ Aug 1, 2024) </td>
 </tr>
 
 <tr>
-<td> 24 </td>
+<td> 25 </td>
 <td> <a href="https://youtu.be/X5SGO8cUG8o">Eddie Jaoude's livestream</td>
 <td> English </td>
 <td> 🎬 </td>
@@ -236,7 +236,7 @@ Aug 1, 2024) </td>
 </tr>
 
 <tr>
-<td> 23 </td>
+<td> 24 </td>
 <td> <a href="https://popcast-d9f7b6dc.simplecast.com/episodes/episode-81-total-recurl-with-curl-founder-daniel-stenberg">The Popcast - Episode 81 - Total ReCURL</a> </td>
 <td> English </td>
 <td> 🎬 </td>
@@ -245,7 +245,7 @@ Aug 1, 2024) </td>
 </tr>
 
 <tr>
-<td> 22 </td>
+<td> 23 </td>
 <td> <a href="https://rustacean-station.org/episode/035-daniel-stenberg/">The Rustacean Station Podcast #35</a></td>
 <td> English </td>
 <td> 🎤 </td>
@@ -254,7 +254,7 @@ Aug 1, 2024) </td>
 </tr>
 
 <tr>
-<td> 21 </td>
+<td> 22 </td>
 <td> <a href="https://github.com/readme/curl-25-years">The ReadME Podcast #8</a> </td>
 <td> English </td>
 <td> 🎤 </td>
@@ -263,7 +263,7 @@ Aug 1, 2024) </td>
 </tr>
 
 <tr>
-<td> 20 </td>
+<td> 21 </td>
 <td> <a href="https://anchor.fm/barcoding/episodes/Episode-18---Curl-the-ins-and-outs-on-developing-a-world-wide-used-command-line-tool-e11i636">Barcoding 18</a> </td>
 <td> English </td>
 <td> 🎤 </td>
@@ -272,7 +272,7 @@ Aug 1, 2024) </td>
 </tr>
 
 <tr>
-<td> 19 </td>
+<td> 20 </td>
 <td> <a href="https://www.changelog.com/podcast/436">Changelog 436</a> </td>
 <td> English </td>
 <td> 🎤 </td>
@@ -281,7 +281,7 @@ Aug 1, 2024) </td>
 </tr>
 
 <tr>
-<td> 18 </td>
+<td> 19 </td>
 <td> <a href="https://blog.firosolutions.com/2020/09/security-headlines-curl-special/">Security Headlines Podcast curl special</a> </td>
 <td> English </td>
 <td> 🎤 </td>
@@ -290,7 +290,7 @@ Aug 1, 2024) </td>
 </tr>
 
 <tr>
-<td> 17 </td>
+<td> 18 </td>
 <td> <a href="https://foss-north.se/pod/episodes.html#ep12">foss-north #13</a> </td>
 <td> English </td>
 <td> 🎤 </td>
@@ -299,7 +299,7 @@ Aug 1, 2024) </td>
 </tr>
 
 <tr>
-<td> 16 </td>
+<td> 17 </td>
 <td> <a href="https://foss-north.se/pod/episodes.html#ep12">foss-north #12</a> </td>
 <td> English </td>
 <td> 🎤 </td>
@@ -308,7 +308,7 @@ Aug 1, 2024) </td>
 </tr>
 
 <tr>
-<td> 15 </td>
+<td> 16 </td>
 <td> <a href="https://digitalsamtal.se/215-mot-curl-verktyget-du-anvander-varje-dag/">Digitalsamtal 215</a> </td>
 <td> Swedish </td>
 <td> 🎤 </td>
@@ -317,7 +317,7 @@ Aug 1, 2024) </td>
 </tr>
 
 <tr>
-<td> 14 </td>
+<td> 15 </td>
 <td> <a href="https://kodsnack.se/331/">Kodsnack 331</a> </td>
 <td> Swedish </td>
 <td> 🎤 </td>
@@ -326,7 +326,7 @@ Aug 1, 2024) </td>
 </tr>
 
 <tr>
-<td> 13 </td>
+<td> 14 </td>
 <td> <a href="https://kompilator.se/008/">Kompilator 8</a> </td>
 <td> Swedish </td>
 <td> 🎤 </td>
@@ -335,7 +335,7 @@ Aug 1, 2024) </td>
 </tr>
 
 <tr>
-<td> 12 </td>
+<td> 13 </td>
 <td> <a href="https://kompilator.se/avsnitt-005-curl-driver-internet-med-daniel-stenberg/">Kompilator 5</a> </td>
 <td> Swedish  </td>
 <td> 🎤 </td>
@@ -344,7 +344,7 @@ Aug 1, 2024) </td>
 </tr>
 
 <tr>
-<td> 11 </td>
+<td> 12 </td>
 <td> <a href="https://changelog.com/podcast/299">Changelog 299</a> </td>
 <td> English </td>
 <td> 🎤 </td>
@@ -353,7 +353,7 @@ Aug 1, 2024) </td>
 </tr>
 
 <tr>
-<td> 10 </td>
+<td> 11 </td>
 <td> <strike><a href="https://www.vuc.me/2018/vision-4-daniel-stenberg-curl/">Visions under construction, vision 4</a></strike></td>
 <td> English </td>
 <td> 🎤 </td>
@@ -362,7 +362,7 @@ Aug 1, 2024) </td>
 </tr>
 
 <tr>
-<td> 9 </td>
+<td> 10 </td>
 <td> <a href="https://archive.org/details/LinuxpoddenAvsnitt47">Linuxpodden 47</a> </td>
 <td> Swedish </td>
 <td> 🎤 </td>
@@ -371,7 +371,7 @@ Aug 1, 2024) </td>
 </tr>
 
 <tr>
-<td> 8 </td>
+<td> 9 </td>
 <td> <a href="https://juneday.podbean.com/e/interview-with-daniel-stenberg/">Juneday Interview </td>
 <td> English </td>
 <td> 🎤 </td>
@@ -380,7 +380,7 @@ Aug 1, 2024) </td>
 </tr>
 
 <tr>
-<td> 7 </td>
+<td> 8 </td>
 <td>  <a
 href="https://radiopublic.com/between-screens-podcast-6nkdZ8/ep/s1!7f407">Between
 screens 146</a> </td>
@@ -391,7 +391,7 @@ screens 146</a> </td>
 </tr>
 
 <tr>
-<td> 6 </td>
+<td> 7 </td>
 <td>  <a href="https://ma.ttias.be/syscast/4-curl-libcurl-future-web-daniel-stenberg/">Syscast 4</a> </td>
 <td> English </td>
 <td> 🎤 </td>
@@ -400,7 +400,7 @@ screens 146</a> </td>
 </tr>
 
 <tr>
-<td> 5 </td>
+<td> 6 </td>
 <td> <a href="https://kodsnack.se/120/">Kodsnack 120</a> </td>
 <td> Swedish </td>
 <td> 🎤 </td>
@@ -409,7 +409,7 @@ screens 146</a> </td>
 </tr>
 
 <tr>
-<td> 4 </td>
+<td> 5 </td>
 <td> <a href="https://changelog.com/podcast/153">Changelog 153</a> </td>
 <td> English </td>
 <td> 🎤 </td>
@@ -418,7 +418,7 @@ screens 146</a> </td>
 </tr>
 
 <tr>
-<td> 3 </td>
+<td> 4 </td>
 <td> <a
 href="https://packetpushers.net/podcast/show-224-http2-its-the-biggest-network-thing-happening-on-the-internet-today-repost/">Packet Pushers 224</a>  </td>
 <td> English </td>
@@ -428,21 +428,30 @@ href="https://packetpushers.net/podcast/show-224-http2-its-the-biggest-network-t
 </tr>
 
 <tr>
-<td> 2 </td>
-<td> <a href="https://player.fm/series/ping/ping-10-80-talets-copyparty-blev-dagens-lan-party-gst-daniel-stenberg-2013-10-31">Ping 10</a> </td>
+<td> 3 </td>
+<td> <a href="https://web.archive.org/web/20210514235230/https://player.fm/series/ping/ping-10-80-talets-copyparty-blev-dagens-lan-party-gst-daniel-stenberg-2013-10-31"">Ping 10</a> </td>
 <td> Swedish </td>
 <td> 🎤 </td>
 <td> Oct 31, 2013 </td>
-<td> </td>
+<td> Open Source, curl, C64, copy parties etc</td>
 </tr>
 
 <tr>
-<td> 1 </td>
+<td> 2 </td>
 <td> <a href="https://twit.tv/shows/floss-weekly/episodes/51">FLOSS weekly 51</a> </td>
 <td> English </td>
 <td> 🎤 </td>
 <td> Jan 10, 2009 </td>
 <td> the curl project </td>
+</tr>
+
+<tr>
+<td> 1 </td>
+<td> <a href="https://web.archive.org/web/20090226005247/http://knowledgecaps.com/2008/08/29/fos-fresh-online-servicesftp-vs-http/">KnowledgeCapsule</a> </td>
+<td> English </td>
+<td> 🎤 </td>
+<td> Aug 29, 2008 </td>
+<td> FTP vs HTTP </td>
 </tr>
 
 </table>
