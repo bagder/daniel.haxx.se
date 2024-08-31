@@ -203,7 +203,7 @@ from #amiga - a bot that could be scripted with FPL! We released the bot
 (Dancer) and FPL fully open source. It was not anything we considered much
 really, there was never any other consideration. If we could stand on the
 shoulders of giants and use this large amount of good software, the least we
-could do was to also also share our contribution with the world. That bot was
+could do was to also share our contribution with the world. That bot was
 written for unix systems primarily (I believe SunOS on Sparc was the system we
 used) and was my first real application doing TCP/IP networking.
 
@@ -415,7 +415,7 @@ single place on the Internet, blogging, was created at some point in the
 latter half of the 1990s.
 
 I published my firsrt ever first blog post on advogato.org in May 2000. My
-very first blog post was, to no one's surprise, about my work on curl. I would
+premiere blog post was, to no one's surprise, about my work on curl. I would
 then post frequent updates on that sites for years to come.
 
 On August 28, 2007 I moved my blogging over to my own site, daniel.haxx.se,
