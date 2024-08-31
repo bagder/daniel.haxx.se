@@ -416,7 +416,7 @@ latter half of the 1990s.
 
 I published my first ever first blog post on advogato.org in May 2000. My
 premiere blog post was, to no one's surprise, about my work on curl. I would
-then post frequent updates on that sites for years to come.
+then post frequent updates on that site for years to come.
 
 On August 28, 2007 I moved my blogging over to my own site, daniel.haxx.se,
 which I had been hosting since 2000. I installed WordPress on my site and
