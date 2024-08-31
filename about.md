@@ -408,6 +408,21 @@ Sara, the lead of libssh2 changed jobs in 2006 and was as a consequence of
 that unable to continue maintaining the libssh2 project and pretty soon I took
 over as maintainer of the libssh2 project.
 
+## blogging
+
+The concept of writing articles and sometimes almost diary-like entries in a
+single place on the Internet, blogging, was created at some point in the
+latter half of the 1990s.
+
+I published my firsrt ever first blog post on advogato.org in May 2000. My
+very first blog post was, to no one's surprise, about my work on curl. I would
+then post frequent updates on that sites for years to come.
+
+On August 28, 2007 I moved my blogging over to my own site, daniel.haxx.se,
+which I had been hosting since 2000. I installed WordPress on my site and
+since then my blog has been self-hosted. Over the following seventeen years, I
+posted 1,448 blog posts there - and I have not stopped yet.
+
 ## HTTPbis
 
 I had been working with all these protocols up until now without knowing and
@@ -546,6 +561,16 @@ ultimately awarded the 2nd place!
 The QUIC working group was formed in IETF during late 2016 and I joined the
 mailing list and subscribed to the GitHub repository at once to keep track of
 and possibly participate in the development.
+
+## CDN
+
+At times my blog posts would get large volumes of visitors which caused us
+problems when the webserver would get on its knees due to the intense traffic
+and load. Since the same server hosted several other sites, it was a nuisance.
+
+In May 2017, my personal blog as well as the curl website was switched over to
+get fronted by Fastly's CDN network. Suddenly almost all traffic was taken off
+my own server and the instabilities were gone.
 
 ## US issues
 
