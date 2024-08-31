@@ -519,6 +519,21 @@ called *http2 explained* that I released freely and openly on the web. It
 turned out a huge success and for the period I counted downloads, I saw more
 than 200,000 downloads!
 
+## everything curl
+
+I have always believed that a key component to reaching success for a project
+is to provide plentiful and accurate up-to-date documentation. In September
+2015 I started writing a separate documentation for curl. Something that would
+better help describe how to do things in curl if for example you don't know
+where to start. The existing manpages are excellent resources when you know
+what you want to do and you need to look up how to do it. everything curl was
+meant as an attempt to make a more tutorial style documentation for
+*everything* that is curl related.
+
+As with everything, given enough time it might turn into something quite good.
+Nine years later the book consists of 114,000 words and when rendered as a PDF
+it has more than 550 pages.
+
 ## Second best developer in Sweden
 
 In 2016, the Swedish online publication called Techworld had a contest for
@@ -550,7 +565,6 @@ or information about why I was denied so that effort resulted in nothing.
 In the spring of 2018, I reapplied for ESTA, got denied and then applied for a
 visa instead. I did the final steps for that when I visited the US embassy in
 Stockholm Sweden for an interview on April 17, 2018.
-
 
 ## Polhem Prize
 
@@ -617,6 +631,12 @@ My silly US travel situation lasted until November 9, 2020 when I after 937
 days of waiting finally received a visa in my passport. Of course, at this
 time the Covid-19 pandemic was still ravaging so not the ideal timing to
 travel anyway.
+
+## uncurled
+
+## trurl
+
+## wcurl
 
 ## Future
 
