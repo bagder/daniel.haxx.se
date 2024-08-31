@@ -618,6 +618,8 @@ Why did I leave? Two parts: 1. I was bored with the C++ Firefox messy
 development and getting more bug-reports filed than we manged to close and
 2. my manager turned out to be a bully who worked hard to make my life miserable.
 
+# Life 3.0
+
 ## A new home: wolfSSL
 
 In February 2019 I joined wolfSSL to do commercial curl support and work on
