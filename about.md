@@ -250,11 +250,17 @@ not a good name anymore so I changed it to *Urlget*. But not long after that,
 I added FTP support as well and then the step to adding FTP upload support was
 not big.
 
-In the late 1997 we (I and my friend Linus) registered our first company, Haxx
-HB, to use when doing odd spare time jobs outside of our regular employments.
-Another playful name (hack in plural, hacks, but with two Xs instead of
-cks). A couple of years later we converted it into a proper and real
-corporation; *aktiebolag* in Swedish.
+## Haxx
+
+In October 1997, my friend Linus and I registered our company, Haxx HB, to use
+when doing odd spare time jobs outside of our regular employments. Another
+playful name (hack in plural, hacks, but with two Xs instead of cks). Several
+years later we converted Haxx into a proper and real corporation; *aktiebolag*
+in Swedish.
+
+Due to the restrictive Internet domain registration rules in Sweden in the
+1990s we registered and used the domain **haxx.nu** until the year 2000 when
+the rules changed and we could register **haxx.se**.
 
 ## Spare time hacking and full-time work
 
