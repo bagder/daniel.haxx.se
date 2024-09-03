@@ -622,9 +622,13 @@ full years employed there and it was a great time with many awesome colleagues
 and friends. Working full-time from home on open source had been awesome, but
 it was time for me to do something else.
 
-Why did I leave? Two parts: 1. I was bored with the C++ Firefox messy
-development and getting more bug-reports filed than we manged to close and
-2. my manager turned out to be a bully who worked hard to make my life miserable.
+Why did I leave? Three parts:
+
+1. I was bored with the C++ Firefox messy development and getting more
+   bug-reports filed than we manged to close and
+2. my manager turned out to be a bully who worked hard to make my life
+   miserable.
+3. It was time to attempt to figure out how to work full-time on curl
 
 # Life 3.0
 
