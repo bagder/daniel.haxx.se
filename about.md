@@ -336,6 +336,8 @@ engineered mp3 players and replaced the original firmwares with our free
 version, that often was far better than the original one in terms of
 functionality, features and battery life.
 
+## libcurl
+
 Up to that point, curl was just a command line tool. You would invoke it from
 scripts or from a shell prompt. I of course suspected that there would be
 programs and systems out there that could benefit from getting curl's powers
