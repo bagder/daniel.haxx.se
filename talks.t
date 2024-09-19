@@ -90,7 +90,7 @@ not included: curling the modern way</a> in the Network room (UB5.230), 10:50
 <li> November 16: The making of curl and what's next. For a private audience.
 <li> November 4: Using libcurl and tiny-curl. For wolfSSL.
 <li> October 21: Online webinar: <a href="https://daniel.haxx.se/blog/2021/10/12/coming-webinar-getting-started-with-libcurl/">getting started with libcurl</a>
-<li> October 13: Stockholm, Sweden. <a href="https://www.netnod.se/netnod-events/netnod-tech-meeeting-2021-1">Netnod Tech Meeting</a>. "curl is everywhere" - I will be there PHYSICALLY!
+<li> October 13: Stockholm, Sweden. <a href="https://www.netnod.se/netnod-events/netnod-tech-meeeting-2021-1">Netnod Tech Meeting</a>. "curl is everywhere"
 <li> October 6: Online curl talk done for a private audience
 <li> September 21: Prague, Czechia. WebExpo, <a href="https://www.webexpo.net/prague2021/talk/just-curl-it">"just curl it"</a>
 <li> June 17: webinar: common libcurl mistakes
