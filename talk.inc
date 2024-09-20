@@ -145,7 +145,9 @@ not included: curling the modern way</a> in the Network room (UB5.230), 10:50
 #else
 #define TALKS
 
-<li> September 23 2024. Stockholm. <a href="https://nsss.se/">Nordic Software Security Summit 2024</a>: <a href="https://nsss.se/y2024/talks/cvemitrecvssnvdcnaoss-wtf/">CVEMITRECVSSNVDCNAOSS WTF</a> - Keeping the world from Burning.
+<li> September 23 2024: Stockholm. <a href="https://nsss.se/">Nordic Software Security Summit 2024</a>: at 11:00 <a href="https://nsss.se/y2024/talks/cvemitrecvssnvdcnaoss-wtf/">CVEMITRECVSSNVDCNAOSS WTF</a> - Keeping the world from Burning.
+
+<li> September 23 2024: Stockholm. <a href="https://nsss.se/">Nordic Software Security Summit 2024</a>: at 16:00 participation in the panel discussion – will the CRA really make us more secure?
 
 #ifdef FULLPAGE
 </ul>
