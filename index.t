@@ -117,11 +117,15 @@ SUBTITLE(Committees)
 </div>
 
 <div style="clear: both;"/>
-SUBTITLE(Accomplishments)
+SUBTITLE(Recognition)
 
 <table><tr valign="top">
 <td class="nophone"> <img src="trophy.svg" height="120"> </td>
 <td>
+
+<div class="minibox">
+<a class="minibox">Microsoft Most Valuable Professional</a>
+</div>
 
 <div class="minibox">
  <a class="minibox" href="https://daniel.haxx.se/blog/2024/05/24/google-peer-bonus-number-five/">5 times Google Open Source Peer Bonus</a>
