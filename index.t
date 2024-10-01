@@ -73,6 +73,14 @@ a.minibox {
         background: #202060;
     }
 }
+@media (prefers-color-scheme: dark) {
+    div.minibox {
+        background: #e0e0ff;
+    }
+    a.minibox {
+        color: #0000ff;
+    }
+}
 </style>
 
 <img class="daniel" src="final-12-400-gray.jpg" width=400 height=400 alt="Daniel Stenberg">

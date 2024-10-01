@@ -2,6 +2,7 @@ BODY {
  margin: 0px 0px 0px 0px;
  background-color: white; 
  font-family: Lora, arial, helvetica, ariel, sans-serif;
+ font-size: 20pt;
  color: black;
 }
     
@@ -79,7 +80,8 @@ pre.quote {
 /* top menu */
 div.topmenu {
     background-color: #f0f0ff;
-    color: white;
+    color: #000000;
+    font-size: 150%;
     text-align: center;
 }
 
@@ -91,10 +93,6 @@ div.main {
   background-color: #e0e0e0;
 }
 
-.twitter-timeline {
-  float: right;
-}
-
 a {
   text-decoration: none;
   color: #0000c0;
@@ -103,4 +101,41 @@ a {
 a:hover {
   text-decoration: none;
   color: #6060c0;
+}
+
+/* DARK MODE PROPERTIES */
+/* These will override all settings above */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #212121;
+        /* Try to keep it a bit light but not too grey,
+           so it does not impact people with accessibility needs */
+        color: #fbfbfb;
+    }
+    P {
+        color: #fbfbfb;
+    }
+    a {
+        color: #8080f0;
+    }
+
+    a:hover {
+        color: #202080;
+    }
+
+    .title {
+        color: #fbfbfb;
+    }
+
+    .subtitle {
+        border-bottom: 1px solid #fbfbfb;
+    }
+    LI {
+        color: #fbfbfb;
+    }
+    /* top menu */
+    div.topmenu {
+        background-color: #404040;
+        color: #e0e0e0;
+    }
 }
