@@ -33,6 +33,7 @@ SUBTITLE(Past talks)
 
 <p><b>2024</b>
 <ul>
+<li> September 30: Online. <a href="https://daniel.haxx.se/blog/2024/09/25/talk-keeping-the-world-from-burning/">CVEMITRECVSSNVDCNAOSS WTF</a> - Keeping the world from Burning.
 <li> September 23: Stockholm. <a href="https://nsss.se/">Nordic Software Security Summit 2024</a>: at 16:00 participation in the panel discussion – will the CRA really make us more secure?
 <li> September 23: Stockholm. <a href="https://nsss.se/">Nordic Software Security Summit 2024</a>: at 11:00 <a href="https://nsss.se/y2024/talks/cvemitrecvssnvdcnaoss-wtf/">CVEMITRECVSSNVDCNAOSS WTF</a> - Keeping the world from Burning.
 <li> May 30: Gothenburg. <a href="https://www.meetup.com/webbhuset/events/300590515/">HTTP/3 at Webbhuset</a>
