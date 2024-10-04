@@ -199,6 +199,7 @@ MELINK("https://www.internetmuseum.se/tidslinjen/curl-grundaren-daniel-stenberg-
 MELINK("https://keybase.io/bagder", Keybase) |
 MELINK("https://www.linkedin.com/in/danielstenberg", LinkedIn) |
 MELINK("https://mastodon.social/@bagder", Mastodon) |
+MELINK("https://mvp.microsoft.com/en-US/MVP/profile/8ec06c9e-b9d0-4bd8-a19c-0a3f819aa637", Microsoft MVP) |
 MELINK("https://www.openhub.net/accounts/bagder", openhub) |
 MELINK("https://www.slideshare.net/bagder/presentations", Slideshare) |
 MELINK("https://stackoverflow.com/users/93747/daniel-stenberg", stackoverflow) |
