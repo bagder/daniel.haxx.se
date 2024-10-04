@@ -664,7 +664,15 @@ In early November 2020 I could finally get my hands on the curl.se domain. I
 had been trying to get a curl domain under any top level domain for a long
 time when this domain finally ended up mine.
 
-## Visa!
+In the early 2000s this domain was used for a curling website that seems to
+have been handed over between a few different curling teams until it was
+purchased by someone who decided to run some kind of casino ads on it was a
+good idea. It remained like that for several years during which I at one timed
+tried to reached out to see if I could purchase it - but my offer was
+declined. Instead it eventually was abandoned and a friend of mine managed to
+snatch it and then gave it to me. Having good friends is awesome.
+
+## Visa
 
 My silly US travel situation lasted until November 9, 2020 when I after 937
 days of waiting finally received a visa in my passport. Of course, at this
@@ -673,9 +681,34 @@ travel anyway.
 
 ## uncurled
 
+In the spring of 2022, I decided to convert my then planned series of coming
+blog entries into an online book instead. The idea was to basically write down
+what I have learned from maintaining Open Source projects for several decades.
+To share lessons and insights I have gathered over the years - to produce
+something that maybe I would have been interested in when I was a newcomer.
+
+I decided to call this "uncurled" since so much of my Open Source work and
+life has been done on and around curl.
+
 ## trurl
 
+In the last day of March 2023 I made the first commit in a new project that
+within shortly would get named 'trurl'.
+
+The idea for this came out of me earlier this year adding a few new output
+features to curl that would allow users to output parts of the URL they told
+curl to work with. It struck me that while it was cool to have curl to do
+this, it is not at all curl's job to help users dissect URLs. Also, since we
+have learned several times in the recent years about the dangers of mixing URL
+parsers, it dawned on me that it would make a lot of sense to offer a separate
+tool for "URL management" that uses the same URL parser as curl does.
+Conveniently enough, we introduced a URL API to libcurl a couple of years ago.
+
+trurl is an additional tool managed by the curl project.
+
 ## wcurl
+
+## MVP
 
 ## Future
 
