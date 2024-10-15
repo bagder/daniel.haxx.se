@@ -106,13 +106,11 @@ welfare of society</i> / Donald Knuth
 
 <p> <b>I am</b> the founder and lead developer of <a
 href="https://curl.se/">cURL and libcurl</a>. An internet protocol geek, an
-open source person and a developer.
+Open Source person and a developer.
 
-<p><b>I have</b> written software for fun and profit since 1985. You find
-information about my various <a href="opensource.html">Open Source
-projects</a> on these web pages and on <a href="https://github.com/bagder/">my
-GitHub profile</a>. <a href="my-name-in-products.html">My name appears in many
-products</a>.
+<p><b>I create</b> software. You find information about my various <a
+href="opensource.html">Open Source projects</a> on these web pages and on <a
+href="https://github.com/bagder/">my GitHub profile</a>.
 
 <p> <b>I participate</b> within the <a href="http://www.ietf.org/">IETF</a>,
 primarily in the HTTPbis and QUIC working groups.
@@ -132,7 +130,9 @@ libcurl education for your developers... Then I'm your man. Contact us!
 
 <p> <b>I write</b> <a href="https://lists.haxx.se/listinfo/daniel">weekly email reports</a> you can read. Almost like a newsletter.
 
-<p> <b>I receive</b> a fair amount of <a href="https://bagder.github.io/emails/">curious emails</a>.
+<p> <b>I receive</b> a fair amount of <a
+href="https://bagder.github.io/emails/">curious emails</a>. <a
+href="my-name-in-products.html">My name appears in many products</a>.
 
 <div style="clear: both;"/>
 SUBTITLE(Committees)
