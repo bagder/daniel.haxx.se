@@ -48,7 +48,16 @@ a.minibox {
       margin: 30px 30px 30px 30px;
       padding: 10px;
       float: right;
-    } 
+    }
+
+.content {
+  padding-top: 30px;
+  margin-top: 0px;
+  max-width: 60em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @media screen and (max-width: 480px) {
     .daniel {
       max-width: 150px;
@@ -83,17 +92,27 @@ a.minibox {
 }
 </style>
 
-<img class="daniel" src="final-12-400-gray.jpg" width=400 height=400 alt="Daniel Stenberg">
+<div class="content">
 
 TITLE(Daniel Stenberg)
 
+<p style="width: 30em; text-align: center; font-size: 120%; margin-left: auto;
+margin-right: auto;"> <i>One of life's greatest sources of satisfaction is the
+knowledge that something you have created is contributing to the progress or
+welfare of society</i> / Donald Knuth
+</p>
+
+<img class="daniel" src="final-12-400-gray.jpg" width=400 height=400 alt="Daniel Stenberg">
+
 <p> <b>I am</b> the founder and lead developer of <a
 href="https://curl.se/">cURL and libcurl</a>. An internet protocol geek, an
-open source person and a developer. I've been programming for fun and profit
-since 1985. You'll find lots of info about my various <a
-href="opensource.html">Open Source projects</a> on these web pages and on <a
-href="https://github.com/bagder/">my GitHub profile</a>. <a
-href="my-name-in-products.html">My name appears in products</a>.
+open source person and a developer.
+
+<p><b>I have</b> written software for fun and profit since 1985. You find
+information about my various <a href="opensource.html">Open Source
+projects</a> on these web pages and on <a href="https://github.com/bagder/">my
+GitHub profile</a>. <a href="my-name-in-products.html">My name appears in many
+products</a>.
 
 <p> <b>I participate</b> within the <a href="http://www.ietf.org/">IETF</a>,
 primarily in the HTTPbis and QUIC working groups.
@@ -210,5 +229,6 @@ MELINK("https://www.youtube.com/user/danielhaxxse/", Youtube)
 BOXBOT
 </div>
 
+</div>
 
 #include "footer.t"
