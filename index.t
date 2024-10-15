@@ -51,7 +51,7 @@ a.minibox {
     }
 
 .content {
-  padding-top: 30px;
+  padding-top: 10px;
   margin-top: 0px;
   max-width: 60em;
   margin-left: auto;
