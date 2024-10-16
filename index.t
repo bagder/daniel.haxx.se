@@ -96,7 +96,7 @@ a.minibox {
 
 TITLE(Daniel Stenberg)
 
-<p style="width: 30em; text-align: center; font-size: 120%; margin-left: auto;
+<p style="max-width: 30em; text-align: center; font-size: 120%; margin-left: auto;
 margin-right: auto;"> <i>One of life's greatest sources of satisfaction is the
 knowledge that something you have created is contributing to the progress or
 welfare of society</i> / Donald Knuth
