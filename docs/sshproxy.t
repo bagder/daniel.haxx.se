@@ -1,16 +1,14 @@
 #include "doctype.t"
-<head><title>SSH Over Proxy</title>
-<link rel="STYLESHEET" type="text/css" href="/daniel.css">
-</head>
-#include "body.t"
 #include "setup.t"
+HEAD(SSH Over Proxy)
+#include "body.t"
 #include "daniel.t"
-<p>
+
+<div class="content">
 Related pages: <a href="http://shsc.info/SSHThroughHTTPProxy">SSHThroughHTTPProxy</a>
 <p>
 
 TITLE(SSH Through or Over Proxy)
-BOXTOP
 
 <p>
  In today's cruel networked world, we're too often hampered behind (evil)
@@ -30,10 +28,8 @@ customers' place or even in some cases while at home or at friends'.
  proxy setups, and that also will bring you more freedom and prevent peeking
  eyes to investigate your browsing habits!
 
-BOXBOT
 
-TITLE(What You Need)
-BOXTOP
+SUBTITLE(What You Need)
 
 <p> You need software installed and running in a location outside of where you
  are. I call that place 'home' in this document.
@@ -41,10 +37,7 @@ BOXTOP
 <p> The place you want to get out <i>from</i> is what I call 'work' in this
  document. At 'work' you're behind the evil proxy.
 
-BOXBOT
-
-TITLE(At Home)
-BOXTOP
+SUBTITLE(At Home)
 
 <p> <b>You need a HTTP proxy running</b>, and you really only need it to
 accept connections to proxy from localhost. Lots of people already have an
@@ -66,14 +59,11 @@ the net.
 <p> Perhaps needless to say, but you must make sure that your Apache or other
 httpd server doesn't use the 443 port for HTTPS.
 
-BOXBOT
+SUBTITLE(At Work)
+<center><img src="sshproxy.jpg" alt="picture trying to show the desrcibed scenario" title="picture trying to show the desrcibed scenario"></center>
 
-TITLE(At Work)
-BOXTOP
-<img src="sshproxy.jpg" align="right" alt="picture trying to show the desrcibed scenario" title="picture trying to show the desrcibed scenario">
-
-<p> <b>You need an SSH client</b> that can issue CONNECT requests through the
-company HTTP proxy. If you're on Windows, using <a
+<p> You need an SSH client that can issue CONNECT requests through the company
+HTTP proxy. If you're on Windows, using <a
 href="http://www.chiark.greenend.org.uk/~sgtatham/putty/">Putty</a> is fine as
 it has built-in support for tunneling through a HTTP proxy. If you're on
 unix/linux (or cywgin) you can use <a
@@ -81,13 +71,13 @@ href="http://www.openssh.org/">openssh</a> with <a
 href="http://www.agroman.net/corkscrew/">corkscrew</a> to go through the proxy
 to your home computer's port 443.
 
-<div class="grey">
 <p> If using openssh, you'd add the following line to your
 <tt>~/.ssh/config</tt> file:
-<p>
-<tt>
+
+<div class="grey">
+<pre>
 ProxyCommand /usr/local/bin/corkscrew proxy.work.com 80 %h %p
-</tt>
+</pre>
 </div>
 
 <p> You config the ssh client to <b>port-forward a local port</b>, say 8080,
@@ -109,10 +99,7 @@ all the protocols you have enabled in your proxy at home.
 through the proxy, to the ssh server at home and from there to your proxy, and
 out in the world...
 
-BOXBOT
-
-TITLE(The SOCKS proxy way)
-BOXTOP
+SUBTITLE(The SOCKS proxy way)
 <p>
  Instead of running a HTTP proxy at home to reach the internet with, you can
 use the tunnel as a SOCKS proxy. This basically allows you to not run anything
@@ -141,10 +128,7 @@ ssh client can reach your ssh server at home.
  Subsequently, you need to configure your work browser to use the SOCKS proxy
 now running at localhost port 8080.
 
-BOXBOT
-
-TITLE(Without CONNECT)
-BOXTOP
+SUBTITLE(Without CONNECT)
 <p>
  For cases when CONNECT is not allowed to port 443 of your home computer, you
 can of course try another port - if any at all are allowed, and then you may
@@ -174,10 +158,8 @@ in this example) to SSH to home over:
 htc -P proxy.corp.com:80 -F 8022 server.at.home:80
 </pre>
 </div>
-BOXBOT
 
-TITLE(Additional Comments)
-BOXTOP
+SUBTITLE(Additional Comments)
 <p>
  For other protocols you can of course just make sure that your work-ssh
 session forwards more ports to your home machine. It then differs between the
@@ -194,9 +176,7 @@ admins from snooping on your network traffic.
 <p>
  Changelog: I added the SOCKS proxy details in June 2010.
 
-BOXBOT
-
-Updated: __TODAY__ __NOW__ (Central European, Stockholm Sweden)
+</div>
 
 #include "footer.t"
 

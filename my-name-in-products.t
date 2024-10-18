@@ -1,19 +1,11 @@
 #include "doctype.t"
 #include "setup.t"
 #include "daniel.t"
-<style>
-
-.box {
-  width: 40em;
-  margin-left: auto;
-  margin-right: auto;
-}
-</style>
-
 HEAD(daniel.haxx.se -- My name in products)
 #include "body.t"
 
-BOXTOP
+<div class="content">
+
 TITLE(My name appears in products)
 
 <img src="https://daniel.haxx.se/blog/wp-content/uploads/2016/09/ios-credits.png" width="300" style="border: 1px solid black; margin-left: 10px; margin-right: 10px; float: right;">
@@ -93,6 +85,6 @@ SUBTITLE(Questions about products I work on)
 in the public forums, and I offer private <a
 href="https://curl.se/support.html">curl support for a fee</a>.
 
-BOXBOT
+</div>
 
 #include "footer.t"

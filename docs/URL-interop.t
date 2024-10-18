@@ -4,13 +4,12 @@ HEAD(The URL Interop Situation)
 #include "body.t"
 #include "daniel.t"
 
-<p>
-BOXTOP
-#include "URL-interop.gen"
-BOXBOT
+<div class="content">
 
 <p>
-Updated: __TODAY__ __NOW__ (Central European, Stockholm Sweden)
+#include "URL-interop.gen"
+
+</div>
 
 #include "footer.t"
 

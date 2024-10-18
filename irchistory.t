@@ -4,9 +4,11 @@ HEAD(History of IRC (Internet Relay Chat))
 #include "body.t"
 #include "daniel.t"
 
+<div class="content">
+
 <p>
-BOXTOP
 #include "irchistory.gen"
-BOXBOT
+
+</div>
 
 #include "footer.t"

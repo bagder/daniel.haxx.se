@@ -1,10 +1,10 @@
 #include "doctype.t"
-<head><title>Encrypted Transfer Protocols Compared</title>
-<link rel="STYLESHEET" type="text/css" href="/daniel.css">
-</head>
-#include "body.t"
 #include "setup.t"
+HEAD(Encrypted Transfer Protocols Compared)
+#include "body.t"
 #include "daniel.t"
+
+<div class="content">
 
 Related: <a href="ftp-vs-http.html">FTP vs HTTP</a>, <a href="curl-vs-wget.html">curl vs wget</a> and <a href="bittorrent-vs-http.html">bittorrent vs HTTP</a>
 <p>
@@ -134,8 +134,6 @@ SUBTITLE(Thanks)
 <p>
   Feedback and improvements by: Tomas Salfischberger, Joe Born
 
-BOXBOT
-<p>
-Updated: __TODAY__ __NOW__ (Central European, Stockholm Sweden)
+</div>
 
 #include "footer.t"

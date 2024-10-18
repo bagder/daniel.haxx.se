@@ -4,12 +4,13 @@ HEAD(curl vs libcurl)
 #include "body.t"
 #include "daniel.t"
 
+<div class="content">
+
 Related: <a href="ftp-vs-http.html">FTP vs HTTP</a>,
  <a href="bittorrent-vs-http.html">bittorrent vs HTTP</a> and
  <a href="curl-vs-wget.html">curl vs Wget</a>
 <p>
 TITLE(curl vs libcurl)
-BOXTOP
 <p>
  Differences between curl and libcurl.
 
@@ -73,9 +74,6 @@ SUBTITLE(Updates)
 
 #endif
 
-BOXBOT
-<p>
-Updated: __TODAY__ __NOW__ (Central European, Stockholm Sweden)
-
+</div>
 #include "footer.t"
 
