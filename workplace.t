@@ -5,7 +5,7 @@ HEAD(My workplace)
 #include "body.t"
 #include "daniel.t"
 
-<div style='max-width: 45em; margin-left: auto; margin-right: auto;'>
+<div class="content">
 
 TITLE(Home office)
 
