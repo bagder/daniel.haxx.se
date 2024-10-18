@@ -4,8 +4,8 @@
 HEAD(daniel.haxx.se -- Daniel Stenberg)
 #include "body.t"
 
+<div class="content">
 TITLE(Contact me)
-BOXTOP
 <p>
 
  If you want to contact me for asking technical questions, media reasons,
@@ -48,6 +48,6 @@ href="https://curl.se/">curl</a>, <a
 href="https://www.libssh2.org/">libssh2</a> and <a
 href="https://c-ares.org/">c-ares</a> using this key.
 
-BOXBOT
+</div>
 
 #include "footer.t"

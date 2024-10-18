@@ -4,6 +4,17 @@
 HEAD(Podcasts)
 #include "body.t"
 
+<style>
+tr {
+  height: 3em;
+}
+td {
+  background: #f0f0f0;
+}
+</style>
+
+<div class="content">
+
 #if 0
 TITLE(Fossified)
 BOXTOP
@@ -13,7 +24,6 @@ BOXBOT
 #endif
 
 TITLE(Podcast and show appearances)
-BOXTOP
 
 <table>
 <tr>
@@ -473,8 +483,7 @@ href="https://packetpushers.net/podcast/show-224-http2-its-the-biggest-network-t
 </tr>
 
 </table>
-
-BOXBOT
+</div>
 
 #include "footer.t"
 

@@ -5,9 +5,6 @@ HEAD(Daniel - video presentations)
 #include "daniel.t"
 
 <style type="text/css">
-.contents {
-  max-width: 95%;
-}
 .video {
     width: 336px;
     float: left;
@@ -16,7 +13,8 @@ HEAD(Daniel - video presentations)
     height: 22em;
 }
 </style>
-</head>
+
+<div class="content">
 
 TITLE(Video presentations featuring Daniel)
 
@@ -26,6 +24,8 @@ TITLE(Video presentations featuring Daniel)
  channel</a>.
 
 #include "videos.gen"
+
+</div>
 
 #include "footer.t"
 </BODY>

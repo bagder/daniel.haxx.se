@@ -6,8 +6,13 @@ HEAD(Daniel Stenberg -- Documentation)
 
 #define LINK(url,name) <a href="url">name</a>
 
+<div class="content">
+
 TITLE(Documentation)
-BOXTOP
+<p>
+ A probably incomplete collection.
+
+SUBTITLE(Books)
 <p>
  Books written by me:
 <ul>
@@ -18,8 +23,7 @@ BOXTOP
  learned about running and maintaining Open Source projects for three decades.
 </ul>
 
-<p>
- Collected random docs written by me.
+SUBTITLE(Random docs)
 
 <ul>
 <li>
@@ -58,6 +62,7 @@ BOXTOP
 <li> <a href="URL-interop.html">URL-interop</a> - problems in operability between the different URL/URI specifications.
 </ul>
 
+SUBTITLE(RFC credits)
 <p>
  I participate within IETF and I am credited for my contributions to:
 
@@ -86,6 +91,8 @@ Metalink Download Description Format
 
 </ul>
 
+SUBTITLE(Technical reviewer)
+
 <p> I was technical reviewer for the following books:
 
 <ul>
@@ -97,6 +104,8 @@ Scrapers</a> (see backside of 2nd edition)
 A Practical Guide for Beginners</a>
 </ul>
 
+SUBTITLE(Other acknowledgements)
+
 <p> Acknowledgements (in books):
 <ul>
 <li> <a href="https://www.manning.com/books/http2-in-action">HTTP/2 in Action</a>
@@ -106,9 +115,8 @@ A Practical Guide for Beginners</a>
 
 SUBTITLE(Presentations)
 <p>
- You may even like some <a href="/videos/">presentations</a> I've done.
-
-BOXBOT
+ You may like some <a href="/videos/">presentations</a> I've done.
+</div>
 
 #include "footer.t"
 

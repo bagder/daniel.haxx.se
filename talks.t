@@ -7,7 +7,8 @@ HEAD(Daniel - upcoming talks)
 #include "weekly-last.t"
 #define FULLPAGE
 
-BOXTOP
+<div class="content">
+
 <p>
  <a href="how-to-invite-me.html">How to invite me to do a talk</a>. Just some ideas.
 
@@ -209,6 +210,6 @@ not included: curling the modern way</a> in the Network room (UB5.230), 10:50
 <li> January 15: HTTP/2 in Berlin
 </ul>
 
-BOXBOT
+</div>
 
 #include "footer.t"

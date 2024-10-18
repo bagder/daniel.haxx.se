@@ -4,9 +4,6 @@ HEAD(Photos of Daniel)
 #include "body.t"
 #include "daniel.t"
 <style type="text/css">
-.contents {
-  max-width: 95%;
-}
 .image {
     float: left;
     padding-right: 10px;
@@ -14,10 +11,10 @@ HEAD(Photos of Daniel)
     height: 450px;
 }
 </style>
-</head>
+
+<div class="content">
 
 TITLE(Photographs of Daniel Stenberg)
-BOXTOP
 <p>
  This is a collection of photographs of Daniel for media and presentation
  purposes. Click the image and save-as to get the full resolution version.
@@ -107,5 +104,6 @@ SUBTITLE(License)
 <p>
  Alternative licensing available by agreement.
 
-BOXBOT
+</div>
+
 #include "footer.t"

@@ -50,14 +50,6 @@ a.minibox {
       float: right;
     }
 
-.content {
-  padding-top: 10px;
-  margin-top: 0px;
-  max-width: 60em;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 @media screen and (max-width: 480px) {
     .daniel {
       max-width: 150px;
