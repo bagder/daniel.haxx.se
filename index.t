@@ -122,8 +122,7 @@ libcurl education for your developers... Then I'm your man. Contact us!
 
 <p> <b>I write</b> <a href="https://lists.haxx.se/listinfo/daniel">weekly email reports</a> you can read. Almost like a newsletter.
 
-<p> <b>I receive</b> a fair amount of <a
-href="https://bagder.github.io/emails/">curious emails</a>. <a
+<p> <b>I receive</b> a fair amount of <a href="/email/">curious emails</a>. <a
 href="my-name-in-products.html">My name appears in many products</a>.
 
 <div style="clear: both;"/>

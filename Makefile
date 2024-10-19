@@ -24,6 +24,7 @@ all: index.html opensource.html hackers.html about.html datateknik.html	\
 	cd devcons && make
 	cd uncurled && make
 	cd everything-curl && make
+	cd email && make
 
 index.html: index.t $(MAINPARTS) talk.inc
 	$(ACTION)
