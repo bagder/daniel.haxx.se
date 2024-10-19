@@ -30,10 +30,9 @@ as jokes.
 <p> This is a subset of the total feed. A curated "best of".
 
 SUBTITLE(The emails)
-<p>
-<a href="https://bagder.github.io/emails/2009/2009-03-21">start here</a>, 
-<a href="https://bagder.github.io/emails/2017/2017-09-20.html">here</a> or
-<a href="https://bagder.github.io/emails/2020/2020-03-21.html">here</a>.
+<p> <a href="2009-03-21">start here</a>, <a href="2017-09-20.html">here</a> or
+<a href="2020-03-21.html">here</a>.
+
 <p>
 Or go to the <a href="toc.html">index of all emails</a>
 
