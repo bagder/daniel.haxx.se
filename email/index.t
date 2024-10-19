@@ -30,7 +30,7 @@ as jokes.
 <p> This is a subset of the total feed. A curated "best of".
 
 SUBTITLE(The emails)
-<p> <a href="2009-03-21">start here</a>, <a href="2017-09-20.html">here</a> or
+<p> <a href="2009-03-21.html">start here</a>, <a href="2017-09-20.html">here</a> or
 <a href="2020-03-21.html">here</a>.
 
 <p>
