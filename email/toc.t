@@ -9,6 +9,15 @@ td {
   font-size: 120%;
   padding: 8px 8px 8px 8px;
 }
+
+/* DARK MODE PROPERTIES */
+/* These will override all settings above */
+@media (prefers-color-scheme: dark) {
+
+   .odd {
+     background: #101010;
+   }
+}
 </style>
 
 <div class="content">

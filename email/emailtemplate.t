@@ -19,6 +19,15 @@ td {
     border: 2px solid black;
     padding: 4px 10px 4px 10px;
 }
+
+/* DARK MODE PROPERTIES */
+/* These will override all settings above */
+@media (prefers-color-scheme: dark) {
+
+   pre {
+     background: #101010;
+   }
+}
 </style>
 
 <div class="content">
