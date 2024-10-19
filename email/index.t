@@ -36,6 +36,9 @@ SUBTITLE(The emails)
 <p>
 Or go to the <a href="toc.html">index of all emails</a>
 
+SUBTITLE(Why do I get these emails?)
+<p> <a href="/my-name-in-products.html">My name appears in many products.</a>.
+
 SUBTITLE(Do I respond?)
 <p>
 I used to. Over time I learned that is very hard to bridge the knowledge gap,

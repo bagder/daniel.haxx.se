@@ -19,10 +19,8 @@ TITLE(My name appears in products)
 infotainment systems, software manuals, printer touch screens, device
 documentation and printed on paper shipped in glossy cardboard boxes.
 
-<big><strong>
 <p> My name shows up in all those places and many more for a very simple
 reason. I write software they use.
-</strong></big>
 
 <p> I write software that I give away for free for anyone to use. The users of
 software I work on usually download, build and use my software components
@@ -54,7 +52,8 @@ href="https://libssh2.org/">libssh2</a>.
 SUBTITLE(I cannot help you)
 
 <p> When you find my name in a product there is rarely any point in contacting
- me for help or to ask me for guidance with said product.
+ me for help or to ask me for guidance with said product. Many <a
+ href="/email/">people still email me</a>.
 
 <p> I do not know that product. I do not know how to use, repair or operate
 that product, device or tool.
