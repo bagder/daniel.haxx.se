@@ -42,7 +42,7 @@ I used to. Over time I learned that is very hard to bridge the knowledge gap,
 plus the fact that many users will just consider whatever I say as excuses for
 not helping them the way they want.
 <p>
-It simple takes too much time and energy. I almost never respond to these
+It simply takes too much time and energy. I almost never respond to these
 emails anymore.
 <p>
 
