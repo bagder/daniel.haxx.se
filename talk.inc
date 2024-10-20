@@ -146,10 +146,11 @@ not included: curling the modern way</a> in the Network room (UB5.230), 10:50
 <li> September 23 2024: Stockholm. <a href="https://nsss.se/">Nordic Software Security Summit 2024</a>: at 16:00 participation in the panel discussion – will the CRA really make us more secure?
 <li> September 30 2024: Online. <a href="https://daniel.haxx.se/blog/2024/09/25/talk-keeping-the-world-from-burning/">CVEMITRECVSSNVDCNAOSS WTF</a> - Keeping the world from Burning.
 
-#define TALKS
-
 #else
 
+#define TALKS
+
+<li> April 14-15, 2024: <a href="https://foss-north.se/">foss-north</a> in Gothenburg, Sweden.
 
 #ifdef FULLPAGE
 </ul>
