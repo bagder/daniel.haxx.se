@@ -154,6 +154,10 @@ SUBTITLE(Recognition)
 </div>
 
 <div class="minibox">
+ <a class="minibox" href="https://daniel.haxx.se/blog/2021/04/19/mars-2020-helicopter-contributor/">Mars Helicopter Contributor</a>
+</div>
+
+<div class="minibox">
  <a class="minibox" href="https://daniel.haxx.se/blog/2020/09/23/a-google-grant-for-libcurl-work/">Google Patch Reward 2020</a>
 </div>
 
