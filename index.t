@@ -186,19 +186,8 @@ SUBTITLE(Recognition)
 
 <div class="rand">
 SUBTITLE(rand&#40;&#41;)
-<p>
-<br> LINK("http://www.haxx.se/matrix/", Matrix Maker)
-<br> LINK("/computers.html", my computers)
-#if 0
-<br> LINK("/stuff/", old code)
-<br> LINK("/hexpoetry/", hexadecimal poetry)
-<br> LINK("/travel/", travel stuff)
-LINK("/http2/", http2 explained) - the HTTP/2 book
-<br> LINK("/opensource.html", my open projects) - projects I am or was involved with
-<br> LINK("/rockbox-sandisk-connection.html", Rockbox SanDisk Connection) - the story behind
-<br> LINK("/photos/", photos) - random photos from the past
-<br> LINK("/transition.html", &quot;Working Without Copyleft&quot;) - the article
-#endif
+ LINK("http://www.haxx.se/matrix/", Matrix Maker)
+<br> LINK("/computers.html", My computers)
 </div>
 
 <div class="elsewhere">
