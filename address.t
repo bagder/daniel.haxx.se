@@ -1,4 +1,5 @@
 #include "doctype.t"
+#define OGDESC "How to contact Daniel"
 #include "setup.t"
 #include "daniel.t"
 HEAD(daniel.haxx.se -- Daniel Stenberg)

@@ -1,4 +1,5 @@
 #include "doctype.t"
+#define OGDESC "The Daniel email collection"
 #include "setup.t"
 HEAD(Daniel Stenberg -- Emails)
 #include "body.t"

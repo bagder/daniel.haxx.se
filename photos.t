@@ -1,4 +1,5 @@
 #include "doctype.t"
+#define OGDESC "Photographs of Daniel"
 #include "setup.t"
 HEAD(Photos of Daniel)
 #include "body.t"

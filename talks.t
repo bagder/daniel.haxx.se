@@ -1,4 +1,5 @@
 #include "doctype.t"
+#define OGDESC "Upcoming and past talks by Daniel"
 #include "setup.t"
 
 HEAD(Daniel - upcoming talks)
