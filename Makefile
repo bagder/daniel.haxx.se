@@ -13,7 +13,7 @@ all: index.html opensource.html hackers.html about.html datateknik.html	\
  transition.html irchistory.html address.html old.html now.html m3.html	\
  rockbox-sandisk-connection.html mynextassignment.html podcasts.html	\
  photos.html weekly.html talks.html us-visa.html workplace.html		\
- how-to-invite-me.html photos2.html my-name-in-products.html
+ how-to-invite-me.html photos2.html my-name-in-products.html job.html
 	cd old-photos; make
 	cd hexpoetry; make
 	cd projects; make
@@ -118,6 +118,9 @@ us-visa.html: us-visa.t $(MAINPARTS)
 	$(ACTION)
 
 workplace.html: workplace.t $(MAINPARTS)
+	$(ACTION)
+
+job.html: job.t $(MAINPARTS)
 	$(ACTION)
 
 clean:
