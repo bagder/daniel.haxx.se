@@ -1,7 +1,7 @@
 #include "doctype.t"
 #include "setup.t"
 
-HEAD(Daniel Stenberg - daniel.haxx.se)
+HEAD(Daniel Stenberg)
 #include "body.t"
 #include "daniel.t"
 
