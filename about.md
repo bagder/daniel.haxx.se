@@ -199,7 +199,7 @@ infrared camera - and I came across and programmed on SunOS and DELL Unix as
 well. I discovered IRC and the fact that there were lots of people out there
 to talk to. I hung out a lot in #amiga on EFnet, before IRCnet existed. It
 soon led to me writing an IRC bot on my spare time with a friend (Bjorn Reese)
-from #amiga - a bot that could be scripted with FPL! We released the bot
+from #amiga - a bot that could be scripted with FPL. We released the bot
 (Dancer) and FPL fully open source. It was not anything we considered much
 really, there was never any other consideration. If we could stand on the
 shoulders of giants and use this large amount of good software, the least we
@@ -235,7 +235,7 @@ required a few small fixes and patches first...
 
 It is a curious coincident that the first httpget release (0.1) was done on
 November 11 1996 which also happens to be the same day the first ever Wget
-release was done! Wget has been considered a curl alternative or substitute by
+release was done. Wget has been considered a curl alternative or substitute by
 many command line tool users.
 
 Around this time I installed my first Linux systems at work, and we fired up
@@ -280,7 +280,7 @@ much.
 By the time the urlget tool got the ability to do uploads, the name had became
 misleading again, so the project was up for a name change one more time and
 curl was born. curl as in *see URL* or *client for URLs*. Gee, naming things
-is really hard!
+is really hard.
 
 I made the first curl release on March 20, 1998. curl version 4.0, as I kept
 the version numbering from the previous names.
@@ -453,7 +453,7 @@ happened to be organized in Stockholm Sweden. My home town. Since curl and
 HTTP were primarily hobbies of mine, I had a hard time to motivate the
 investment and travel budget of going to IETF meetings abroad. But this time
 the circus was coming to me and now I finally got to meet a lot of the mailing
-list participants in person for the first time. Friends! This made me even
+list participants in person for the first time. Friends. This made me even
 more interested in and motivated to work within HTTPbis going forward.
 
 Developers sometimes ask me if the slowness and bureaucracy of standardization
@@ -475,7 +475,7 @@ independent and non-browsers orient cookie parser implementer since many
 years, could provide good feedback and a completely different point of view
 then most others who were participating - many of them coming from the browser
 world. I would like to think my few bits of contribution helped making RFC
-6265 as good as it is! (Published in 2011.)
+6265 as good as it is. (Published in 2011.)
 
 ## Haxx AB
 
@@ -527,11 +527,11 @@ not as a contractor. It felt weird to give up that style of life but for this
 chance I was willing to do a lot. I traveled to Mountain View in November 2013
 and did seven different interviews in one rather long day...
 
-I started at Mozilla the first days of January 2014, in the networking
-team. HTTP, FTP, DNS, cookies, caching, sockets etc. All day at work. And then
-all night with curl. Mozilla even allowed me to spend a part of my work time
-on curl stuff! Mozilla has no office in Sweden, this meant I could work full
-time from home.
+I started at Mozilla the first days of January 2014, in the networking team.
+HTTP, FTP, DNS, cookies, caching, sockets etc. All day at work. And then all
+night with curl. Mozilla even allowed me to spend a part of my work time on
+curl stuff. Mozilla has no office in Sweden, this meant I could work full time
+from home.
 
 ## RFC 7540
 
@@ -540,7 +540,7 @@ new protocol version, I did several talks and presentations to a lot of
 different audiences in multiple countries. I also wrote a document about it,
 called *http2 explained* that I released freely and openly on the web. It
 turned out a huge success and for the period I counted downloads, I saw more
-than 200,000 downloads!
+than 200,000 downloads.
 
 ## everything curl
 
@@ -560,9 +560,9 @@ it has more than 550 pages.
 ## Second best developer in Sweden
 
 In 2016, the Swedish online publication called Techworld had a contest for
-**Sweden's best developer** - and were accepting nominations from the
-public. They have had this contest before but this time I was nominated and
-ultimately awarded the 2nd place!
+**Sweden's best developer** - and were accepting nominations from the public.
+They have had this contest before but this time I was nominated and ultimately
+awarded the 2nd place.
 
 ## QUIC
 
