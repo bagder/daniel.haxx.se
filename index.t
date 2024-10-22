@@ -187,7 +187,6 @@ SUBTITLE(Recognition)
 <div class="rand">
 SUBTITLE(rand&#40;&#41;)
 <p>
- LINK("/docs/", docs)
 <br> LINK("http://www.haxx.se/matrix/", Matrix Maker)
 <br> LINK("/computers.html", my computers)
 #if 0
