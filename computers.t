@@ -6,6 +6,8 @@ HEAD(Daniel Stenberg -- My Computers)
 
 <div class="content">
 
+See also <a href="workplace.html">my workplace</a>.
+
 TITLE(Current computers)
 
 <p>
