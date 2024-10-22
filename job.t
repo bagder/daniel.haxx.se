@@ -31,7 +31,8 @@ SUBTITLE(Commercial customers)
 SUBTITLE(My days)
 
 <p> I monitor GitHub activity from first thing in the morning, until late in
- the night. I act on incoming issues and I review pull-requests.
+ the night. I act on incoming issues, review pull-requests and merge
+ qualifying changes into the correct repositories.
 
 <p> I monitor HackerOne issues, so if there is a new issue submitted or
  updates done on existing one, I can follow-up and participate immediately.
