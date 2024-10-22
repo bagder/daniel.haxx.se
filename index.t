@@ -39,8 +39,8 @@ a.minibox {
 }
 
 .elsewhere {
-    float: left;
-    max-width: 40em;
+    padding-top: 10px;
+    clear: both;
 }
 
     .daniel {
