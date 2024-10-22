@@ -4,8 +4,9 @@ HEAD(Daniel Stenberg -- My Computers)
 #include "body.t"
 #include "daniel.t"
 
-TITLE(Current computer set)
-BOXTOP
+<div class="content">
+
+TITLE(Current computers)
 
 <p>
 <ul>
@@ -16,17 +17,8 @@ BOXTOP
  <li> Mac: Mac Mini m1. 16GB ram. 3.2GHz 1TB SSD.
 </ul>
 
-BOXBOT
 
-TITLE(Home office setup)
-BOXTOP
-
-<p> See also the description of my <a href="workplace.html">home office</a>.
-
-BOXBOT
-
-TITLE(My computer history)
-BOXTOP
+SUBTITLE(My computer history)
 
 <p> Before 1985, I had to play around with the computers of my friends. I
  think it is fair to say that my life took a different turn 1985, with that
@@ -115,7 +107,6 @@ members.
 
 </ul>
 
-BOXBOT
-
+</div>
 
 #include "footer.t"
