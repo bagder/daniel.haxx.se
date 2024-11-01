@@ -126,7 +126,7 @@ Aug 1, 2024) </td>
 <td> English </td>
 <td>  AUDIO </td>
 <td> Oct 13, 2023 </td>
-<td> What’s wrong with CVEs? Daniel Stenberg of cURL wants you to know (recorded Sep 22)</td>
+<td> What's wrong with CVEs? Daniel Stenberg of cURL wants you to know (recorded Sep 22)</td>
 </tr>
 
 <tr>
