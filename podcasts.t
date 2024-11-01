@@ -571,5 +571,4 @@ href="https://packetpushers.net/podcast/show-224-http2-its-the-biggest-network-t
 </table>
 </div>
 
-#include "footer.t"<
-
+#include "footer.t"
