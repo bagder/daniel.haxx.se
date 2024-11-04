@@ -29,7 +29,7 @@ a.minibox {
 
 .rand {
     float: left;
-    padding-right: 8px;
+    margin-left: 20px;
 }
 
 .talk {
