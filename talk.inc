@@ -150,7 +150,7 @@ not included: curling the modern way</a> in the Network room (UB5.230), 10:50
 
 #define TALKS
 
-<li> February 1-2, 2025: <a href="https://fosdem.org/2025/">FOSDEM</a> talk(s) proposed
+<li> February 1-2, 2025: <a href="https://fosdem.org/2025/">FOSDEM</a> in Brussels, Belgium. talk(s) proposed
 <li> April 14-15, 2025: <a href="https://foss-north.se/">foss-north</a> in Gothenburg, Sweden.
 <li> June 27, 2025: <a href="https://joyofcoding.org">Joy of Coding</a> in Rotterdam, Netherlands.
 <li> September 27-28, 2025: <a href="https://2025.eurobsdcon.org">EuroBSDcon</a> in Zagreb, Croatia.
