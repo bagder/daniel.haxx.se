@@ -70,6 +70,18 @@ TITLE(Podcast and show appearances)
 
 <tr><td class="year" colspan="7">2024</td></tr>
 
+#if 0
+<tr>
+<td> 49 </td>
+<td> <a href="https://kompilator.se/97">Kompilator 97</a></td>
+<td> SWEDISH </td>
+<td> AUDIO </td>
+<td> Nov 6</td>
+<td> Nov 5 </td>
+<td> curl, curl.se, development, working with open source</td>
+</tr>
+#endif
+
 <tr>
 <td> 48 </td>
 <td> <a href="https://focusonlinux.podigee.io/113-sovereign-tech-fund">Focus on Linux 113</a></td>
@@ -412,7 +424,7 @@ ies, then FrexxEd, unix, curl, HTTP and Polhem Prize</td>
 
 <tr>
 <td> 15 </td>
-<td> <a href="https://kompilator.se/avsnitt-005-curl-driver-internet-med-daniel-stenberg/">Kompilator 5</a> </td>
+<td> <a href="https://kompilator.se/005/">Kompilator 5</a> </td>
 <td> SWEDISH  </td>
 <td> AUDIO </td>
 <td> Apr 3 </td>
