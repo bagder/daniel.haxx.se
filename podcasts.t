@@ -70,7 +70,6 @@ TITLE(Podcast and show appearances)
 
 <tr><td class="year" colspan="7">2024</td></tr>
 
-#if 0
 <tr>
 <td> 49 </td>
 <td> <a href="https://kompilator.se/97">Kompilator 97</a></td>
@@ -78,9 +77,8 @@ TITLE(Podcast and show appearances)
 <td> AUDIO </td>
 <td> Nov 6</td>
 <td> Nov 5 </td>
-<td> curl, curl.se, development, working with open source</td>
+<td> curl, getting the curl.se domain, development, working with Open Source</td>
 </tr>
-#endif
 
 <tr>
 <td> 48 </td>
