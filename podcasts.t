@@ -71,6 +71,16 @@ TITLE(Podcast and show appearances)
 <tr><td class="year" colspan="7">2024</td></tr>
 
 <tr>
+<td> 50 </td>
+<td> <a href="https://hackaday.com/2024/11/06/floss-weekly-episode-808-curl-gotta-download-em-all/">FLOSS Weekly 808</a></td>
+<td> ENGLISH </td>
+<td> VIDEO </td>
+<td> Nov 7 </td>
+<td> Nov 5 </td>
+<td> How many curl installs are there?! What's the deal with CVEs? How has curl managed to not break its ABI for 18 years straight? And how did Daniel turn all this into a career instead of just a hobby? </td>
+</tr>
+
+<tr>
 <td> 49 </td>
 <td> <a href="https://kompilator.se/97">Kompilator 97</a></td>
 <td> SWEDISH </td>
