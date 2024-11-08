@@ -14,6 +14,9 @@ TITLE(I work on curl full-time)
 
 SUBTITLE(Commercial customers)
 
+<p> I provide <a href="https://rock-solid.curl.dev/">long term support support
+curl releases</a> called Rock-solid curl.
+
 <p> I offer and provide support to customers. Companies and teams who use
  curl/libcurl in their products and services who believe that curl serves a
  critical role in their infrastructure and who understand that I can help them
