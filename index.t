@@ -126,6 +126,7 @@ href="my-name-in-products.html">My name appears in many products</a>.
 <div style="clear: both;"/>
 SUBTITLE(Committees)
 <ul>
+ <li> <a href="https://europeanopensource.academy/">The European Open Source Academy</a>
  <li> <a href="https://daniel.haxx.se/blog/2023/05/24/polhemsradet/">Polhemsrådet</a>
  <li> <a href="https://accelerator.github.com/">GitHub Accelerator</a> Selection Committee
 </ul>
@@ -138,6 +139,10 @@ SUBTITLE(Recognition)
 <table><tr valign="top">
 <td class="nophone"> <img src="trophy.svg" height="120"> </td>
 <td>
+
+<div class="minibox">
+<a class="minibox" href="https://daniel.haxx.se/blog/2025/02/03/european-open-source-achievement-award/">European Open Source Achievement Award 2025</a>
+</div>
 
 <div class="minibox">
 <a class="minibox" href="https://daniel.haxx.se/blog/2024/10/02/im-a-professional/">Microsoft Most Valuable Professional</a>
