@@ -151,7 +151,7 @@ not included: curling the modern way</a> in the Network room (UB5.230), 10:50
 #define TALKS
 
 <li> January 16, 2025: curl and OSS talk at closed event in Stockholm
-<li> February 1-2, 2025: <a href="https://fosdem.org/2025/">FOSDEM</a> in Brussels, Belgium. talk proposed
+<li> February 1-2, 2025: <a href="https://pretalx.fosdem.org/fosdem-2025/talk/review/ZZEYK9BNVRUVD7ZWL3UCETMQEVMSEDXL">Tightening every bolt</a> at FOSDEM in Brussels, Belgium.
 <li> April 14-15, 2025: <a href="https://foss-north.se/">foss-north</a> in Gothenburg, Sweden.
 #ifdef FULLPAGE
 <li> June 27, 2025: <a href="https://joyofcoding.org">Joy of Coding</a> in Rotterdam, Netherlands.
