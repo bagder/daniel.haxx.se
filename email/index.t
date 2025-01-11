@@ -9,11 +9,12 @@ HEAD(Daniel Stenberg -- Emails)
 
 TITLE(The Daniel email collection)
 <p>
-This is a collection of emails I have received over the years. I have tried to
-remove all names, email addresses and some company names.
-<p>
-Except the redaction of personal identifiable information, the contents of the
-emails are shown exactly as I received them.
+This is a collection of somewhat special emails I have received over the
+years. Shown here for social science research purposes.
+
+<p> I have tried to clean off all names, email addresses and some company
+names from the emails. Except the redaction of personal identifiable
+information, the contents of the emails are shown exactly as I received them.
 <p>
 The emails tend to be in one of these categories.
 <ul>
