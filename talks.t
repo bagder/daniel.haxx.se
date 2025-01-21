@@ -35,8 +35,8 @@ SUBTITLE(Past talks)
 
 <p><b>2024</b>
 <ul>
-<li> January 16, 2025: curl and OSS talk at closed event in Stockholm, Sweden
-<li> January 9, 2025: getting started with libcurl
+<li> January 16: curl and OSS talk at closed event in Stockholm, Sweden
+<li> January 9: getting started with libcurl
 </ul>
 
 <p><b>2024</b>
