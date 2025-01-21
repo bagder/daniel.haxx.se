@@ -151,8 +151,7 @@ not included: curling the modern way</a> in the Network room (UB5.230), 10:50
 
 #define TALKS
 
-<li> January 21, 2025: <a href="https://daniel.haxx.se/blog/2025/01/16/presentation-curl-from-start-to-end/">curl from start to end</a> onlinea
-
+<li> January 21, 2025: <a href="https://daniel.haxx.se/blog/2025/01/16/presentation-curl-from-start-to-end/">curl from start to end</a> online
 <li> February 1, 2025: <a href="https://fosdem.org/2025/schedule/event/fosdem-2025-4204-tightening-every-bolt/">Tightening every bolt</a> at FOSDEM in Brussels, Belgium
 <li> March 27, 2025: HTTP/3 for the scania.js user group
 
