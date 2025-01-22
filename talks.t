@@ -35,6 +35,7 @@ SUBTITLE(Past talks)
 
 <p><b>2024</b>
 <ul>
+<li> January 21: <a href="https://daniel.haxx.se/blog/2025/01/16/presentation-curl-from-start-to-end/">curl from start to end</a> online
 <li> January 16: curl and OSS talk at closed event in Stockholm, Sweden
 <li> January 9: getting started with libcurl
 </ul>
