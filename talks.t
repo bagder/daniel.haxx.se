@@ -35,6 +35,7 @@ SUBTITLE(Past talks)
 
 <p><b>2025</b>
 <ul>
+<li> February 1: <a href="https://fosdem.org/2025/schedule/event/fosdem-2025-4204-tightening-every-bolt/">Tightening every bolt</a> at FOSDEM in Brussels, Belgium
 <li> January 21: <a href="https://daniel.haxx.se/blog/2025/01/16/presentation-curl-from-start-to-end/">curl from start to end</a> online
 <li> January 16: curl and OSS talk at closed event in Stockholm, Sweden
 <li> January 9: getting started with libcurl
