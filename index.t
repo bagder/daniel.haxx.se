@@ -153,7 +153,7 @@ SUBTITLE(Recognition)
 </div>
 
 <div class="minibox">
- <a class="minibox" href="https://daniel.haxx.se/blog/2021/08/11/a-github-star/">GitHub Star 2021 - 2024</a>
+ <a class="minibox" href="https://daniel.haxx.se/blog/2021/08/11/a-github-star/">GitHub Star 2021 - 2025</a>
 </div>
 
 <div class="minibox">
