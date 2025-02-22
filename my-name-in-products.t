@@ -71,7 +71,7 @@ SUBTITLE(I collect screenshotted credits)
 
 <p> If you found my name or credits in a product screen somewhere, please know
 that I collect <a
-href="https://daniel.haxx.se/blog/2016/10/03/screenshotted-curl-credits/">screenhostted
+href="https://daniel.haxx.se/blog/2016/10/03/screenshotted-curl-credits/">screenshotted
 curl/Daniel credits</a> on a dedicated page.
 
 SUBTITLE(Questions about products I work on)
