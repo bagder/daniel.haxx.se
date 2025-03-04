@@ -68,6 +68,18 @@ TITLE(Podcast and show appearances)
 </tr>
 #endif
 
+<tr><td class="year" colspan="7">2025</td></tr>
+
+<tr>
+<td> 51 </td>
+<td> <a href="https://youtu.be/0UavY_kKKic?si=IBthUsZLo9rX74fe">Security Weekly 320</a></td>
+<td> ENGLISH </td>
+<td> VIDEO </td>
+<td> Mar 4 </td>
+<td> Nov 3 </td>
+<td> Curl and libcurl are everywhere. Not only has the project maintained success for almost three decades now, but it's done that while being written in C. Daniel Stenberg talks about the challenges in dealing with appsec, the design philosophies that keep it secure, and fostering a community to create one of the most recognizable open source projects in the world. </td>
+</tr>
+
 <tr><td class="year" colspan="7">2024</td></tr>
 
 <tr>
