@@ -148,16 +148,16 @@ not included: curling the modern way</a> in the Network room (UB5.230), 10:50
 <li> January 16, 2025: curl and OSS talk at closed event in Stockholm, Sweden
 <li> January 21, 2025: <a href="https://daniel.haxx.se/blog/2025/01/16/presentation-curl-from-start-to-end/">curl from start to end</a> online
 <li> February 1, 2025: <a href="https://fosdem.org/2025/schedule/event/fosdem-2025-4204-tightening-every-bolt/">Tightening every bolt</a> at FOSDEM in Brussels, Belgium
+
+<li> March 27, 2025: HTTP/3 for the scania.js user group. Stockholm, Sweden.
 #else
 
 #define TALKS
-
-<li> March 27, 2025: HTTP/3 for the scania.js user group. Stockholm, Sweden.
 <li> April 14-15, 2025: <a href="https://foss-north.se/">foss-north</a> in Gothenburg, Sweden
 <li> May 22, 2025: <a href="https://www.meetup.com/openstack-user-group-sweden/events/306139678/">Open Infra Forum</a>. Stockholm, Sweden.
 
-#ifdef FULLPAGE
 <li> June 27, 2025: <a href="https://joyofcoding.org">Joy of Coding</a> in Rotterdam, Netherlands
+#ifdef FULLPAGE
 <li> September 27-28, 2025: <a href="https://2025.eurobsdcon.org">EuroBSDcon</a> in Zagreb, Croatia
 </ul>
 <p>
