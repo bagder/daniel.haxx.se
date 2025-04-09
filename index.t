@@ -145,7 +145,7 @@ SUBTITLE(Recognition)
 </div>
 
 <div class="minibox">
-<a class="minibox" href="https://daniel.haxx.se/blog/2024/10/02/im-a-professional/">Microsoft Most Valuable Professional</a>
+<a class="minibox" href="https://daniel.haxx.se/blog/2024/10/02/im-a-professional/">(former) Microsoft Most Valuable Professional</a>
 </div>
 
 <div class="minibox">
