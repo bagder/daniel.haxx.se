@@ -153,7 +153,7 @@ not included: curling the modern way</a> in the Network room (UB5.230), 10:50
 #else
 
 #define TALKS
-<li> April 14-15, 2025: <a href="https://foss-north.se/">foss-north</a> in Gothenburg, Sweden
+<li> April 14, 2025: <a href="https://foss-north.se/">foss-north</a> in Gothenburg, Sweden
 <li> May 22, 2025: <a href="https://www.meetup.com/openstack-user-group-sweden/events/306139678/">Open Infra Forum</a>. Stockholm, Sweden.
 
 <li> June 27, 2025: <a href="https://joyofcoding.org">Joy of Coding</a> in Rotterdam, Netherlands
