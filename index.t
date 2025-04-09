@@ -128,7 +128,6 @@ SUBTITLE(Committees)
 <ul>
  <li> <a href="https://europeanopensource.academy/">The European Open Source Academy</a>
  <li> <a href="https://daniel.haxx.se/blog/2023/05/24/polhemsradet/">Polhemsrådet</a>
- <li> <a href="https://accelerator.github.com/">GitHub Accelerator</a> Selection Committee
 </ul>
 
 </div>
