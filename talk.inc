@@ -156,7 +156,7 @@ not included: curling the modern way</a> in the Network room (UB5.230), 10:50
 #define TALKS
 <li> May 22, 2025: <a href="https://www.meetup.com/openstack-user-group-sweden/events/306139678/">Open Infra Forum</a>. Stockholm, Sweden.
 
-<li> June 27, 2025: <a href="https://joyofcoding.org">Joy of Coding</a> in Rotterdam, Netherlands
+<li> June 27, 2025: <a href="https://joyofcoding.org/daniel_stenberg.html">Joy of Coding</a> in Rotterdam, Netherlands: "Accidental world domination for fun"
 <li> September 27-28, 2025: <a href="https://2025.eurobsdcon.org">EuroBSDcon</a> in Zagreb, Croatia
 #ifdef FULLPAGE
 </ul>
