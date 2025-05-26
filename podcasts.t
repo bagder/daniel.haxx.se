@@ -71,6 +71,17 @@ TITLE(Podcast and show appearances)
 <tr><td class="year" colspan="7">2025</td></tr>
 
 <tr>
+<td> 52 </td>
+<td> <a href="https://opensourcesecurity.io/2025/2025-05-curl_vs_ai_with_daniel_stenberg/">Open Source Security with Daniel Stenberg</td> </a></td>
+<td> ENGLISH </td>
+<td> VIDEO </td>
+<td> May 26 </td>
+<td> May 15 </td>
+<td> AI slop in (curl) security reports, the AI guideles for contributing to curl and
+related matters. </td>
+</tr>
+
+<tr>
 <td> 51 </td>
 <td> <a href="https://youtu.be/0UavY_kKKic?si=IBthUsZLo9rX74fe">Security Weekly 320</a></td>
 <td> ENGLISH </td>
