@@ -87,13 +87,13 @@ a.minibox {
 <div class="content">
 
 TITLE(Daniel Stenberg)
-
+#if 0
 <p style="max-width: 30em; text-align: center; font-size: 120%; margin-left: auto;
 margin-right: auto;"> <i>One of life's greatest sources of satisfaction is the
 knowledge that something you have created is contributing to the progress or
 welfare of society</i> / Donald Knuth
 </p>
-
+#endif
 <img class="daniel" src="final-12-400-gray.jpg" width=400 height=400 alt="Daniel Stenberg">
 
 <p> <b>I am</b> the founder and lead developer of <a
