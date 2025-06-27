@@ -152,13 +152,16 @@ not included: curling the modern way</a> in the Network room (UB5.230), 10:50
 <li> March 27, 2025: HTTP/3 for the scania.js user group. Stockholm, Sweden.
 <li> April 14, 2025: <a href="https://foss-north.se/">foss-north</a> in Gothenburg, Sweden
 <li> May 22, 2025: <a href="https://www.meetup.com/openstack-user-group-sweden/events/306139678/">Open Infra Forum</a>. Stockholm, Sweden.
+<li> June 27, 2025: <a href="https://joyofcoding.org/daniel_stenberg.html">Joy of Coding</a> in Rotterdam, Netherlands: "Accidental world domination for fun"
 
 #else
 
 #define TALKS
-<li> June 27, 2025: <a href="https://joyofcoding.org/daniel_stenberg.html">Joy of Coding</a> in Rotterdam, Netherlands: "Accidental world domination for fun"
+<li> August: FrOSCon, Bonn?
+<li> August: Open Source Summit Europe, Amsterdam?
 <li> September 27-28, 2025: <a href="https://2025.eurobsdcon.org">EuroBSDcon</a> in Zagreb, Croatia
 #ifdef FULLPAGE
+<li> October: Codemotion, Milan?
 </ul>
 <p>
  Look me up and say hi!

@@ -35,6 +35,7 @@ SUBTITLE(Past talks)
 
 <p><b>2025</b>
 <ul>
+<li> June 27: <a href="https://joyofcoding.org/daniel_stenberg.html">Joy of Coding</a> in Rotterdam, Netherlands: "Accidental world domination for fun"
 <li> May 22: keynote at Open Infra Forum in Stockholm. <a href="https://daniel.haxx.se/media/curl%20-%20Open%20Infra%202025.pdf">curl is everywhere</a>
 <li> April 14: keynote at <a href="https://foss-north.se/">foss-north</a> in Gothenburg, Sweden: <a href="https://youtu.be/kn36wcBIGlY?si=8zsbDZXXMo1H5X1z">What comes after world domination?</a>
 <li> March 27: HTTP/3 for the scania.js user group. Stockholm, Sweden.
