@@ -161,6 +161,7 @@ not included: curling the modern way</a> in the Network room (UB5.230), 10:50
 <li> August: Open Source Summit Europe, Amsterdam?
 <li> September 27-28, 2025: <a href="https://2025.eurobsdcon.org">EuroBSDcon</a> in Zagreb, Croatia
 #ifdef FULLPAGE
+<li> October 1-3, <a href="https://nsss.se/">Nordic Software Security Summit</a>, Stockholm
 <li> October: Codemotion, Milan?
 </ul>
 <p>
