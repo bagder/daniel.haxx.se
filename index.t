@@ -11,15 +11,15 @@ HEAD(Daniel Stenberg)
 <style>
 div.minibox {
     padding: 5px 15px 5px 15px;
-    margin-right: 5px;
-    margin-bottom: 10px;
-    margin-top: 0px;
-    border: 0px solid black;
+    margin: 0px 5px 10px 0px;
+    border: 2px solid black;
     text-align: center;
-    border-radius: 25px;
+    position: relative;
+    border-radius: 35px;
     float: left;
-    font-size: 90%;
-    max-width: 10em;
+    font-size: 80%;
+    width: 10em;
+    height: 4em;
     background: #202060;
 }
 
@@ -135,20 +135,14 @@ SUBTITLE(Committees)
 <div style="clear: both;"/>
 SUBTITLE(Recognition)
 
-<table><tr valign="top">
-<td class="nophone"> <img src="trophy.svg" height="120"> </td>
-<td>
+<div>
 
 <div class="minibox">
 <a class="minibox" href="https://daniel.haxx.se/blog/2025/02/03/european-open-source-achievement-award/">European Open Source Achievement Award 2025</a>
 </div>
 
 <div class="minibox">
-<a class="minibox" href="https://daniel.haxx.se/blog/2024/10/02/im-a-professional/">(former) Microsoft Most Valuable Professional</a>
-</div>
-
-<div class="minibox">
- <a class="minibox" href="https://daniel.haxx.se/blog/2024/05/24/google-peer-bonus-number-five/">5 times Google Open Source Peer Bonus</a>
+<a class="minibox" href="https://daniel.haxx.se/blog/2024/10/02/im-a-professional/">Microsoft Most Valuable Professional 2024</a>
 </div>
 
 <div class="minibox">
@@ -156,7 +150,7 @@ SUBTITLE(Recognition)
 </div>
 
 <div class="minibox">
- <a class="minibox" href="https://daniel.haxx.se/blog/2021/04/19/mars-2020-helicopter-contributor/">Mars Helicopter Contributor</a>
+ <a class="minibox" href="https://daniel.haxx.se/blog/2021/04/19/mars-2020-helicopter-contributor/">Mars Helicopter Contributor 2021</a>
 </div>
 
 <div class="minibox">
@@ -170,14 +164,18 @@ SUBTITLE(Recognition)
 </div>
 
 <div class="minibox">
- <a class="minibox" href="https://daniel.haxx.se/blog/2016/12/01/2nd-best-in-sweden/">2nd best developer in Sweden 2016</a>
+ <a class="minibox" href="https://daniel.haxx.se/blog/2016/12/01/2nd-best-in-sweden/">Second best developer in Sweden 2016</a>
+</div>
+
+<div class="minibox">
+ <a class="minibox" href="https://daniel.haxx.se/blog/2024/05/24/google-peer-bonus-number-five/">5 times Google Open Source Peer Bonus 2011 - 2024</a>
 </div>
 
 <div class="minibox">
  <a class="minibox" href="https://daniel.haxx.se/blog/2009/11/14/i-won-it-you-guys-are-the-best/">Nordic Free Software Award 2009</a>
 </div>
 
-</td></tr></table>
+</table>
 
 <div style="clear: both;"/>
 
