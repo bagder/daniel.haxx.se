@@ -97,8 +97,8 @@ welfare of society</i> / Donald Knuth
 <img class="daniel" src="final-12-400-gray.jpg" width=400 height=400 alt="Daniel Stenberg">
 
 <p> <b>I am</b> the founder and lead developer of <a
-href="https://curl.se/">cURL and libcurl</a>. An internet protocol geek, an
-Open Source person and a developer.
+href="https://curl.se/">cURL and libcurl</a>. An internet protocol enthusiast,
+an Open Source person and a developer.
 
 <p><b>I create</b> software. You find information about my various <a
 href="opensource.html">Open Source projects</a> on these web pages and on <a
