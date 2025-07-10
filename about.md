@@ -708,6 +708,30 @@ trurl is an additional tool managed by the curl project.
 
 ## wcurl
 
+Ever since curl was born it has repeatedly and over and over been compared
+with another command line tool: wget. Countless times are people then adding
+that they prefer to use wget to curl when downloading files because they do
+not have to remember any extra command line options etc. The many-purposes
+aspect and its default view on how curl should behave, forces you to actually
+remember and provide a few command line options to download the contents of a
+URL. Different tools with different mindsets and different defaults.
+
+In the spring of 2024, Samuel Henrique and a few friends of his decided that
+the time was ripe to do something about this. Not by making curl work more
+like wget, but by introducing a new tool: a shell script that uses curl, that
+works almost like a drop-in replacement for wget for those "simple" uses cases
+when the user just wants to download the contents of one or a number of
+different URLs. No more command line options to remember. **wcurl** was born.
+
+The idea was partly that since so many people have curl installed already
+anyway, adding wcurl to the mix would then also in many cases be simpler and
+more acceptable. It removes the "need" to also install wget.
+
+As the script quickly proved working and quite popular, it was soon adopted
+into the curl project itself as yet another tool managed by us. Starting with
+the curl 8.14.0 release in May 2025, wcurl is shipped bundled in the normal
+curl tarball releases for maximum possible reach.
+
 ## MVP
 
 ## Future
