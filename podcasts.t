@@ -70,6 +70,28 @@ TITLE(Podcast and show appearances)
 
 <tr><td class="year" colspan="7">2025</td></tr>
 
+#if 0
+<tr>
+<td> 53 </td>
+<td> <a href="">Day Two DevOps</td>
+<td> ENGLISH </td>
+<td> AUDIO </td>
+<td> - </td>
+<td> May 29 </td>
+<td> curl development and the increasing amount of AI slop in (curl) security reports </td>
+</tr>
+
+<tr>
+<td> 53 </td>
+<td> <a href="">Software Engineering Radio</a> </td>
+<td> ENGLISH </td>
+<td> AUDIO </td>
+<td> - </td>
+<td> June 24 </td>
+<td> about hyper in curl, why we added it, how we did it, how it worked and why we eventually removed it again </td>
+</tr>
+#endif
+
 <tr>
 <td> 52 </td>
 <td> <a href="https://opensourcesecurity.io/2025/2025-05-curl_vs_ai_with_daniel_stenberg/">Open Source Security with Daniel Stenberg</td> </a></td>
