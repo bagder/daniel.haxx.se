@@ -734,6 +734,20 @@ curl tarball releases for maximum possible reach.
 
 ## MVP
 
+In the fall of 2024 I was nominated and then accepted into the Microsoft Most
+Valuable Professional (MVP) program: "in recognition of your outstanding
+contributions to the community".
+
+Since Microsoft is involved in a lot of network and Open Source related tings
+things days, I hoped that some of the MVP program would then overlap with my
+interests in those particular areas. It turned out to be a wrong assumption. I
+found the MVP program to be mostly about Microsoft non-stop bragging and
+pushing for nothing but Microsoft proprietary technologies and as I had zero
+interest in those, I ejected myself out from that program again after just a
+few months.
+
+## the European Open Source Academy
+
 ## Future
 
 I never plan never far ahead.
