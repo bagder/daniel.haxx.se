@@ -748,6 +748,13 @@ few months.
 
 ## the European Open Source Academy
 
+In the beginning of 2025 I was awarded the European Open Source Achievement
+Award at a grand award ceremony in Brussels, Belgium, and at the same time I
+accepted becoming the first *president* of the newly founded organization
+called the European Open Source Academy. It's misson is to elevate and
+acknowlede outstanding contributions to Open Source Software and Hardware in
+Europe. Something I of course want to help facilitate.
+
 ## Future
 
 I never plan never far ahead.
