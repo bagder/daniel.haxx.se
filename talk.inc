@@ -158,7 +158,8 @@ not included: curling the modern way</a> in the Network room (UB5.230), 10:50
 
 #define TALKS
 <li> August: FrOSCon, Bonn?
-<li> August: Open Source Summit Europe, Amsterdam?
+<li> August 25: Open Source Summit Europe, Amsterdam. "working for free to aid the starving tech giants"
+
 <li> September 27-28, 2025: <a href="https://2025.eurobsdcon.org">EuroBSDcon</a> in Zagreb, Croatia
 #ifdef FULLPAGE
 <li> October 1-3, <a href="https://nsss.se/">Nordic Software Security Summit</a>, Stockholm
