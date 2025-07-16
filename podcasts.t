@@ -70,17 +70,8 @@ TITLE(Podcast and show appearances)
 
 <tr><td class="year" colspan="7">2025</td></tr>
 
-#if 0
-<tr>
-<td> 53 </td>
-<td> <a href="">Day Two DevOps</td>
-<td> ENGLISH </td>
-<td> AUDIO </td>
-<td> - </td>
-<td> May 29 </td>
-<td> curl development and the increasing amount of AI slop in (curl) security reports </td>
-</tr>
 
+#if 0
 <tr>
 <td> 53 </td>
 <td> <a href="">Software Engineering Radio</a> </td>
@@ -91,6 +82,16 @@ TITLE(Podcast and show appearances)
 <td> about hyper in curl, why we added it, how we did it, how it worked and why we eventually removed it again </td>
 </tr>
 #endif
+
+<tr>
+<td> 53 </td>
+<td> <a href="https://packetpushers.net/podcasts/day-two-devops/d2do277-ai-security-submissions-at-curl-dev/">Day Two DevOps</td>
+<td> ENGLISH </td>
+<td> AUDIO </td>
+<td> July 16 </td>
+<td> May 29 </td>
+<td> curl development and the increasing amount of AI slop in (curl) security reports </td>
+</tr>
 
 <tr>
 <td> 52 </td>
