@@ -13,8 +13,7 @@ TITLE(Current computers)
 <p>
 <ul>
  <li> Desktop: Core-i7 13700K, 3.4GHz, 16 cores, 32GB ram. Dual 4K 27" screens (Dell U2720Q and Dell P2715Q)
- <li> Laptop: Core i7-7600U, 2.80GHz. Lenovo T470S. 14" 24GB RAM, 1TB SSD.
- <li> Video conference laptop: Core i5-6300U, 2.40 GHz. Lenovo 13
+ <li> Laptop: 13" Framework with an AMD Ryzen AI 9 HX 370 12 cores/24 threads, 96GB RAM, 4TB flash storage.
  <li> Mac: Mac Mini. Core i7-4578U CPU @ 3.00GHz. 16GB ram. 512GB SSD.
  <li> Mac: Mac Mini m1. 16GB ram. 3.2GHz 1TB SSD.
 </ul>
@@ -106,6 +105,8 @@ members.
  mini m1</a>. 8C CPU/16GB/1TB/8C GPU/1GbE.
 
  <li> <b>2023, February</b></b> - upgraded to a <a href="https://daniel.haxx.se/blog/2023/02/20/my-2023-dev-machine/">new dev machine</a> Intel Core i7-13700K, 3.4GHz 16 cores, 32GB 3600MHz ram, 2TB SSD
+
+ <li> <b>2025, July</b> - <a href="https://daniel.haxx.se/blog/2025/07/28/hello-sprout/">new laptop</a> A 13" Framework with an AMD Ryzen AI 9 HX 370, 96GB RAM, 4TB flash storage.
 
 </ul>
 
