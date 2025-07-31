@@ -12,6 +12,7 @@ pre {
     background: #f0f0f0;
     white-space: pre-wrap;
     word-break: keep-all;
+    padding: 6px 6px 6px 6px;
 }
 
 table {
