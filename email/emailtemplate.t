@@ -8,6 +8,7 @@ HEAD(Daniel Stenberg -- Email)
 <style>
 
 pre {
+    width: fit-content;
     max-width: 50em;
     background: #f0f0f0;
     white-space: pre-wrap;
