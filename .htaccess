@@ -19,3 +19,4 @@ RedirectMatch "^/.git" https://daniel.haxx.se/
 RedirectPermanent /http3-explained https://http3-explained.haxx.se
 RedirectPermanent /myopensource.html https://daniel.haxx.se/opensource.html
 RedirectPermanent /trio https://daniel.haxx.se/projects/trio/
+RedirectPermanent /ai-slop https://gist.github.com/bagder/07f7581f6e3d78ef37dfbfc81fd1d1cd
