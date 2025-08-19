@@ -61,7 +61,7 @@ members.
       card 802.11g. No more noisy box.
 
  <li> <b>2006, December</b> - Laptop: <a href="/f3ja/">ASUS F3JA</a>, 1.8GHz
-      dual core (Intel Core 2 Duo T5600), 120GB sata-disk, 1680x050 15.4"
+      dual core (Intel Core 2 Duo T5600), 120GB sata-disk, 1680x1050 15.4"
       LCD. Intel 3945ABG chipset. Dualboot Windows/Linux.
 
  <li> <b>2007, April</b> - Desktop: AMD Athlon 64 X2 5600+ (2.8GHz), 4GB RAM
