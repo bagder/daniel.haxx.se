@@ -153,17 +153,15 @@ not included: curling the modern way</a> in the Network room (UB5.230), 10:50
 <li> April 14, 2025: <a href="https://foss-north.se/">foss-north</a> in Gothenburg, Sweden
 <li> May 22, 2025: <a href="https://www.meetup.com/openstack-user-group-sweden/events/306139678/">Open Infra Forum</a>. Stockholm, Sweden.
 <li> June 27, 2025: <a href="https://joyofcoding.org/daniel_stenberg.html">Joy of Coding</a> in Rotterdam, Netherlands: "Accidental world domination for fun"
+<li> August 16: FrOSCon, Bonn: "AI slop attacks on the curl project"
 
 #else
 
 #define TALKS
-<li> August 16: FrOSCon, Bonn: "AI slop attacks on the curl project"
-<li> August 25: Open Source Summit Europe, Amsterdam. "working for free to aid the starving tech giants"
-
+<li> August 25: Open Source Summit Europe, Amsterdam. "giants, standing on the shoulders of"
 <li> September 27-28, 2025: <a href="https://2025.eurobsdcon.org">EuroBSDcon</a> in Zagreb, Croatia
-#ifdef FULLPAGE
 <li> October 1-3, <a href="https://nsss.se/">Nordic Software Security Summit</a>, Stockholm
-<li> October: Codemotion, Milan?
+#ifdef FULLPAGE
 </ul>
 <p>
  Look me up and say hi!
