@@ -35,6 +35,7 @@ SUBTITLE(Past talks)
 
 <p><b>2025</b>
 <ul>
+<li> August 25: Open Source Summit Europe, Amsterdam. "giants, standing on the shoulders of"
 <li> August 16: FrOSCon, Bonn: <a href="https://daniel.haxx.se/blog/2025/08/18/ai-slop-attacks-on-the-curl-project/">AI slop attacks on the curl project</a>
 <li> June 27: <a href="https://joyofcoding.org/daniel_stenberg.html">Joy of Coding</a> in Rotterdam, Netherlands: <a href="https://youtu.be/hbfeQqmxFKU?si=0XinK0eLvO3KUUCZ">Accidental world domination for fun</a>
 <li> May 22: keynote at Open Infra Forum in Stockholm. <a href="https://daniel.haxx.se/media/curl%20-%20Open%20Infra%202025.pdf">curl is everywhere</a>
