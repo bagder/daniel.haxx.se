@@ -73,7 +73,17 @@ TITLE(Podcast and show appearances)
 
 #if 0
 <tr>
-<td> 53 </td>
+<td> 55 </td>
+<td> OsProgramadores </td>
+<td> ENGLISH </td>
+<td> VIDEO </td>
+<td> - </td>
+<td> September 1 </td>
+<td> about how I got started with computers, having a career in Open Source and more </td>
+</tr>
+
+<tr>
+<td> 54 </td>
 <td> <a href="">Software Engineering Radio</a> </td>
 <td> ENGLISH </td>
 <td> AUDIO </td>
