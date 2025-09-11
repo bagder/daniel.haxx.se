@@ -39,15 +39,12 @@ Signal: yes, get my number first
 SUBTITLE(Public Key)
 <p>
 
-My <a
-href="https://pgp.mit.edu/pks/lookup?search=daniel%40haxx.se&op=index">GPG
-key</a> as of April 7th, 2016: <a href="/mykey.asc">mykey.asc</a>
+My <a href="https://keys.openpgp.org/search?q=daniel@haxx.se">PGP key</a> as
+of April 7th, 2016: <a
+href="/mykey.asc">27EDEAF22F3ABCEB50DB9A125CC908FDB71E12C2</a>
 
-<p>
- I typically sign at least all releases of <a
-href="https://curl.se/">curl</a>, <a
-href="https://www.libssh2.org/">libssh2</a> and <a
-href="https://c-ares.org/">c-ares</a> using this key.
+<p> I typically sign releases of <a href="https://curl.se/">curl</a> and <a
+ href="https://www.libssh2.org/">libssh2</a> using this key.
 
 </div>
 
