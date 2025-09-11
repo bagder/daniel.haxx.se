@@ -73,6 +73,16 @@ TITLE(Podcast and show appearances)
 
 #if 0
 <tr>
+<td> 56 </td>
+<td> Netstack.FM </td>
+<td> ENGLISH </td>
+<td> AUDIO </td>
+<td> - </td>
+<td> September 9 </td>
+<td> got started, knowing protcools, getting funded, keeping focus, working on curl full time </td>
+</tr>
+
+<tr>
 <td> 55 </td>
 <td> OsProgramadores </td>
 <td> ENGLISH </td>
