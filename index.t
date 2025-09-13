@@ -11,7 +11,7 @@ HEAD(Daniel Stenberg)
 <style>
 div.minibox {
     padding: 5px 15px 5px 15px;
-    margin: 0px 5px 10px 0px;
+    margin: 5px 5px 5px 0px;
     border: 2px solid black;
     text-align: center;
     position: relative;
@@ -129,6 +129,10 @@ SUBTITLE(Committees)
 SUBTITLE(Recognition)
 
 <div>
+
+<div class="minibox">
+<a class="minibox" href="https://daniel.haxx.se/blog/2025/09/13/developer-of-the-year/">Developer of the year 2025</a>
+</div>
 
 <div class="minibox">
 <a class="minibox" href="https://daniel.haxx.se/blog/2025/02/03/european-open-source-achievement-award/">European Open Source Achievement Award 2025</a>
