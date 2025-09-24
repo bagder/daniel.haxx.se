@@ -101,9 +101,6 @@ href="https://github.com/bagder/">my GitHub profile</a>.
 primarily in the HTTPbis and QUIC working groups.
 
 <p> <b>I speak</b> in public <a href="talks.html">every now and then</a>.
-#if 0
-and podcast on <a href="https://github.com/fossified/podcast">Fossified</a>
-#endif
 
 <p> <b>I stream</b> <a href="https://www.twitch.tv/curlhacker">curl
 development on twitch</a> occasionally.
@@ -119,7 +116,7 @@ href="my-name-in-products.html">My name appears in many products</a>.
 <div style="clear: both;"/>
 SUBTITLE(Committees)
 <ul>
- <li> <a href="https://europeanopensource.academy/">The European Open Source Academy</a>
+ <li> <a href="https://europeanopensource.academy/">President of The European Open Source Academy</a>
  <li> <a href="https://daniel.haxx.se/blog/2023/05/24/polhemsradet/">Polhemsrådet</a>
 </ul>
 
