@@ -101,7 +101,7 @@ TITLE(Podcast and show appearances)
 <td> AUDIO </td>
 <td> Sep 23 </td>
 <td> Sep 9 </td>
-<td> A conversation with Daniel Stenberg, creator and maintainer of curl, one of the most widely used networking tools on the internet. We talk about Daniel’s journey through decades of protocol work, the story of curl, what keeps him going, and how he balances open source with real life. </td>
+<td> A conversation with Daniel Stenberg, creator and maintainer of curl, one of the most widely used networking tools on the internet. We talk about Daniel's journey through decades of protocol work, the story of curl, what keeps him going, and how he balances open source with real life. </td>
 </tr>
 
 <tr>
