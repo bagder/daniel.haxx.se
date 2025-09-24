@@ -72,15 +72,6 @@ TITLE(Podcast and show appearances)
 
 
 #if 0
-<tr>
-<td> 56 </td>
-<td> Netstack.FM </td>
-<td> ENGLISH </td>
-<td> AUDIO </td>
-<td> - </td>
-<td> September 9 </td>
-<td> got started, knowing protcools, getting funded, keeping focus, working on curl full time </td>
-</tr>
 
 <tr>
 <td> 55 </td>
@@ -102,6 +93,16 @@ TITLE(Podcast and show appearances)
 <td> about hyper in curl, why we added it, how we did it, how it worked and why we eventually removed it again </td>
 </tr>
 #endif
+
+<tr>
+<td> 54 </td>
+<td> <a href="https://netstack.fm/#episode-6">Netstack.FM episode 6</td>
+<td> ENGLISH </td>
+<td> AUDIO </td>
+<td> Sep 23 </td>
+<td> Sep 9 </td>
+<td> A conversation with Daniel Stenberg, creator and maintainer of curl, one of the most widely used networking tools on the internet. We talk about Daniel’s journey through decades of protocol work, the story of curl, what keeps him going, and how he balances open source with real life. </td>
+</tr>
 
 <tr>
 <td> 53 </td>
