@@ -35,6 +35,7 @@ SUBTITLE(Past talks)
 
 <p><b>2025</b>
 <ul>
+<li> September 28: <a href="https://2025.eurobsdcon.org">EuroBSDcon</a> in Zagreb, Croatia: AI slop attacks on the curl project
 <li> August 25: Open Source Summit Europe, Amsterdam. <a href="https://www.youtube.com/watch?v=YEBBPj7pIKo">giants, standing on the shoulders of</a>
 <li> August 16: FrOSCon, Bonn: <a href="https://daniel.haxx.se/blog/2025/08/18/ai-slop-attacks-on-the-curl-project/">AI slop attacks on the curl project</a>
 <li> June 27: <a href="https://joyofcoding.org/daniel_stenberg.html">Joy of Coding</a> in Rotterdam, Netherlands: <a href="https://youtu.be/hbfeQqmxFKU?si=0XinK0eLvO3KUUCZ">Accidental world domination for fun</a>
