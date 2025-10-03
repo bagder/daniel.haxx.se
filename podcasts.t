@@ -82,17 +82,17 @@ TITLE(Podcast and show appearances)
 <td> September 1 </td>
 <td> about how I got started with computers, having a career in Open Source and more </td>
 </tr>
+#endif
 
 <tr>
-<td> 54 </td>
-<td> <a href="">Software Engineering Radio</a> </td>
+<td> 55 </td>
+<td> <a href="https://se-radio.net/2025/10/se-radio-688-daniel-stenberg-on-removing-rust-from-curl/">Software Engineering Radio 688</a> </td>
 <td> ENGLISH </td>
 <td> AUDIO </td>
-<td> - </td>
+<td> October 3 </td>
 <td> June 24 </td>
 <td> about hyper in curl, why we added it, how we did it, how it worked and why we eventually removed it again </td>
 </tr>
-#endif
 
 <tr>
 <td> 54 </td>
