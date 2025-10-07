@@ -51,55 +51,65 @@ much. My wireless headphones (Bose Quiet Comfort 35) are not in this photo.
 D - cable mess. I counted 29 used power plugs a while ago. After this photo
 was taken I actually cleaned up the situation and the cables are now hidden in
 clean white boxes.
-<p>
-E -
-My <a href="https://daniel.haxx.se/blog/2023/02/20/my-2023-dev-machine/">current
-work horse and development machine</a>. Runs Debian Unstable, with two 27 inch
-4K screens.
-<p>
-F - backpacks. One for short stay-over trips and one I use for daytrips when I
-do talks etc. They usually should not just be out on the floor like this, but
-when I took this photo I had not done my job right.
-<p>
-G - my work laptop. It's a 14 inch lenono 540s running Debian Unstable. I
-never work a lot from laptop but when I do this is my machine. It is light
-enough to be easy to bring with me wherever I like. Not very powerful.
-<p>
-H - my headset. A light Sennheiser set with a cable for meetings, talks,
-webinars etc.
-<p>
-I - A usb hub to provide a set of extra USB ports for when the ones in the PC
-are not enough or not close enough.
-<p>
-J - <a href="https://daniel.haxx.se/blog/2024/01/24/logitech-g915-tkl/">Logitech G915 TKL keyboard</a>. I average at around ten million key presses per year. Pictured on the photo is my <a href="https://daniel.haxx.se/blog/2014/08/20/the-right-keyboard-layout/">old keyboard</a>.
-<p>
-K - USB charger. A micro USB, USB-C and my fitfit cables are on the
-table. Next to that is my ethernet to USB "dongle", as one of my laptops
-doesn't have an RJ45.
-<p>
-L - Two extra computers: this is a Lenovo 13 on top that runs Windows, which I
-use for video conferencing and the likes when those glitch or work
-suboptimally on Linux. Underneath is one of my mac minis I use for curl
-development when I need to work on macOS specific issues. This
-is <a href="https://daniel.haxx.se/blog/2022/12/30/an-m1-for-curl/">the m1
-version</a>. I also have an x86 version but that is not in this picture.
-<p>
-M - Extra temp screen and keyboard. Right now this set is attached to computer
-(B) but I also use it for the ones in (L) when necessary. Depending on work.
-<p>
-N - Led light, for when I need extra bright lighting perhaps when doing video
-conferences or streaming. (A gift from GitHub)
-<p>
-O - Kid drawings with curl theme. To keep my spirits up! The left one is from
-my daughter from many years back and the right one is a more recent one from a
-friend's daughter.
-<p>
-P - I have three of these spotlights to provide pleasent light during the dark
-hours. The two ceiling windows do provide adequate and rather nice light for
-the bright hours but I live in Sweden and we have extended periods of darkness
-during winter...
-<p>
-Q - GitHub coasters. I need to put my coffee cup on something!
+
+<p> E - My <a
+href="https://daniel.haxx.se/blog/2023/02/20/my-2023-dev-machine/">current
+work horse and development machine</a>. Runs Debian Unstable, with two DELL 27
+inch 4K screens.
+
+<p> F - backpacks. One for short stay-over trips and one I use for daytrips
+when I do talks etc. They usually should not just be out on the floor like
+this, but when I took this photo I had not done my job right.
+
+<p> G - my work laptop. It's a 13 inch <a
+href="https://daniel.haxx.se/blog/2025/07/28/hello-sprout/">Framework</a>
+running Debian Unstable. I never work a lot from laptop but when I do this is
+my machine. It is light enough to be easy to bring with me wherever I like.
+
+<p> H - my headset. The photo shows my old set, I nowadays rock a Jabra Evolve
+40 - cabled, for meetings, talks, webinars etc.
+
+<p> I - A usb hub to provide a set of extra USB ports for when the ones in the
+PC are not enough or not close enough.
+
+<p> J - <a
+href="https://daniel.haxx.se/blog/2024/01/24/logitech-g915-tkl/">Logitech G915
+TKL keyboard</a>. I average at around ten million key presses per year.
+Pictured on the photo is my <a
+href="https://daniel.haxx.se/blog/2014/08/20/the-right-keyboard-layout/">old
+keyboard</a>.
+
+<p> K - USB charger. A micro USB, USB-C and my fitfit cables are on the table.
+Next to that is my ethernet to USB "dongle", as one of my laptops doesn't have
+an RJ45.
+
+<p> L - Two extra computers: this is my old Lenovo 13 on top which I actually
+never use anymore. Underneath is one of my mac minis I use for curl
+development when I need to work on macOS specific issues. This is <a
+href="https://daniel.haxx.se/blog/2022/12/30/an-m1-for-curl/">the m1
+version</a>. I also have an x86 version but that is not in this picture. I
+rarely use any of the macs either as I don't like them.
+
+<p> M - Extra temp screen and keyboard. Right now this set is attached to
+computer (B) but I also use it for the ones in (L) when necessary. Depending
+on work.
+
+<p> N - Led light, for when I need extra bright lighting perhaps when doing
+video conferences or streaming. (A gift from GitHub)
+
+<p> O - Kid drawings with curl theme. To keep my spirits up! The left one is
+from my daughter from many years back and the right one is a more recent one
+from a friend's daughter.
+
+<p> P - I have three of these spotlights to provide pleasent light during the
+dark hours. The two ceiling windows do provide adequate and rather nice light
+for the bright hours but I live in Sweden and we have extended periods of
+darkness during winter...
+
+<p> Q - GitHub coasters. I need to put my coffee cup on something! Nowadays I
+rock a set of <a
+href="https://daniel.haxx.se/blog/2023/11/03/curl-coasters/">curl
+coasters</a>.
 
 SUBTITLE(Zoom in)
 <center>
