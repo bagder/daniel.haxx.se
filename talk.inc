@@ -157,10 +157,11 @@ not included: curling the modern way</a> in the Network room (UB5.230), 10:50
 <li> August 25: Open Source Summit Europe, Amsterdam. "giants, standing on the shoulders of"
 <li> September 28, 2025: <a href="https://2025.eurobsdcon.org">EuroBSDcon</a> in Zagreb, Croatia
 
-#else
-
 #define TALKS
 <li> <a href="https://nsss.se/">Nordic Software Security Summit</a>, Stockholm (postponed, early 2026?)
+
+#else
+
 #ifdef FULLPAGE
 </ul>
 <p>
