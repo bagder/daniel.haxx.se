@@ -91,7 +91,7 @@ TITLE(Daniel Stenberg)
 
 <p> <b>I am</b> the founder and lead developer of <a
 href="https://curl.se/">cURL and libcurl</a>. An internet protocol enthusiast,
-an Open Source person and a developer.
+an Open Source person and a developer. <a href="https://europeanopensource.academy/">President of The European Open Source Academy</a>
 
 <p><b>I create</b> software. You find information about my various <a
 href="opensource.html">Open Source projects</a> on these web pages and on <a
@@ -116,7 +116,7 @@ href="my-name-in-products.html">My name appears in many products</a>.
 <div style="clear: both;"/>
 SUBTITLE(Committees)
 <ul>
- <li> <a href="https://europeanopensource.academy/">President of The European Open Source Academy</a>
+ <li> <a href="https://europeanopensource.academy/">The European Open Source Academy</a>
  <li> <a href="https://daniel.haxx.se/blog/2023/05/24/polhemsradet/">Polhemsrådet</a>
 </ul>
 
