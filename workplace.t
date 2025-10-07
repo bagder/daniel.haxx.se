@@ -28,6 +28,10 @@ fit exactly between the doors in the wall immediately next to the table on
 both sides. My original idea was to leave space to allow more than one person
 to work at it.
 
+<p> There are two windows in the ceiling right above the desk that let in
+daylight pretty good. They are equipped with curtains/covers to use for the
+rare few moments when the sun hits directly too much.
+
 SUBTITLE(Zoom out)
 <p>
 <center>
