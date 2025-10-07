@@ -121,33 +121,36 @@ SUBTITLE(Zoom in)
     <img src="extras-explained.jpg" width="800">
   </a>
 </center>
-<p>
-A - art work. A gift from curl's 20th birthday. It features 20 * 365 small
+
+<p> A - art work. A gift from curl's 20th birthday. It features 20 * 365 small
 lines for every day curl had existed, but with a twitch: they also form the
 big letter 'c' in a kind of subtle way.
-<p>
-B - a wooden robot that can be modified to stand or sit in different
+
+<p> B - a wooden robot that can be modified to stand or sit in different
 positions.
-<p>
-C - a GitHub star logo led thing. Powered by USB and controlled with the
+
+<p> C - a GitHub star logo led thing. Powered by USB and controlled with the
 little remote that is on the table next to it. It can be set to different
 colors and numerous different light patterns. From mildly disturbing to highly
 annoying...
-<p>
-D - A wooden 3d puzzle thing in its solved shape. A gift from GitHub.
-<p>
-E - My Polhem Prize award. A gold medal. But in this picture there are two old
-chocolate fake polhem prize awards lying on top of, hiding, the real medal.
-<p>
-F - A "korpen" medal I recevied a few years ago when my team won a floorball
-tournament. Gold-colored plastic.
-<p>
-G - My <a href="https://daniel.haxx.se/blog/2021/08/11/a-github-star">GitHub star award</a>
-<p>
-H - ember mug, usb powered, app controlled. Keeps my coffee heated. To be
+
+<p> D - A wooden 3d puzzle thing in its solved shape. A gift from GitHub.
+
+<p> E - My Polhem Prize award. A gold medal. But in this picture there are two
+old chocolate fake polhem prize awards lying on top of, hiding, the real
+medal.
+
+<p> F - A "korpen" medal I recevied a few years ago when my team won a
+floorball tournament. Gold-colored plastic.
+
+<p> G - My <a
+href="https://daniel.haxx.se/blog/2021/08/11/a-github-star">GitHub star
+award</a>
+
+<p> H - ember mug, usb powered, app controlled. Keeps my coffee heated. To be
 honest, I barely ever use it.
-<p>
-I - USB to RJ45 thingie for my silly left laptop without RJ45
+
+<p> I - USB to RJ45 thingie for my silly laptops without RJ45
 
 <p>
   Home office details and photos were originally submitted
