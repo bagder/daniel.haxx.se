@@ -136,9 +136,10 @@ annoying...
 
 <p> D - A wooden 3d puzzle thing in its solved shape. A gift from GitHub.
 
-<p> E - My Polhem Prize award. A gold medal. But in this picture there are two
-old chocolate fake polhem prize awards lying on top of, hiding, the real
-medal.
+<p> E - My <a
+href="https://daniel.haxx.se/blog/2017/10/20/my-night-at-the-museum/">Polhem
+Prize award</a>. A gold medal. But in this picture there are two old chocolate
+fake polhem prize awards lying on top of, hiding, the real medal.
 
 <p> F - A "korpen" medal I recevied a few years ago when my team won a
 floorball tournament. Gold-colored plastic.
