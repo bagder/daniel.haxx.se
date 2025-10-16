@@ -59,7 +59,7 @@ clean white boxes.
 <p> E - My <a
 href="https://daniel.haxx.se/blog/2023/02/20/my-2023-dev-machine/">current
 work horse and development machine</a>. Runs Debian Unstable, with two DELL 27
-inch 4K screens.
+inch 4K screens. The webcam on top of the right screen is a Razer Kiyo Pro.
 
 <p> F - backpacks. One for short stay-over trips and one I use for daytrips
 when I do talks etc. They usually should not just be out on the floor like
