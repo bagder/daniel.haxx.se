@@ -70,27 +70,23 @@ TITLE(Podcast and show appearances)
 
 <tr><td class="year" colspan="7">2025</td></tr>
 
-
-#if 0
-
 <tr>
-<td> 55 </td>
-<td> OsProgramadores </td>
+<td> 56 </td>
+<td> <a href="https://youtu.be/86RseR6E9Xs">OsProgramadores E-122</a></td>
 <td> ENGLISH </td>
 <td> VIDEO </td>
-<td> - </td>
-<td> September 1 </td>
+<td> Oct 18 </td>
+<td> Sep 1 </td>
 <td> about how I got started with computers, having a career in Open Source and more </td>
 </tr>
-#endif
 
 <tr>
 <td> 55 </td>
 <td> <a href="https://se-radio.net/2025/10/se-radio-688-daniel-stenberg-on-removing-rust-from-curl/">Software Engineering Radio 688</a> </td>
 <td> ENGLISH </td>
 <td> AUDIO </td>
-<td> October 3 </td>
-<td> June 24 </td>
+<td> Oct 3 </td>
+<td> Jun 24 </td>
 <td> about hyper in curl, why we added it, how we did it, how it worked and why we eventually removed it again </td>
 </tr>
 
@@ -109,7 +105,7 @@ TITLE(Podcast and show appearances)
 <td> <a href="https://packetpushers.net/podcasts/day-two-devops/d2do277-ai-security-submissions-at-curl-dev/">Day Two DevOps</td>
 <td> ENGLISH </td>
 <td> AUDIO </td>
-<td> July 16 </td>
+<td> Jul 16 </td>
 <td> May 29 </td>
 <td> curl development and the increasing amount of AI slop in (curl) security reports </td>
 </tr>
