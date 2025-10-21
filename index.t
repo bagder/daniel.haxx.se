@@ -128,6 +128,10 @@ SUBTITLE(Recognition)
 <div>
 
 <div class="minibox">
+<a class="minibox" href="https://daniel.haxx.se/blog/2025/10/21/a-royal-gold-medal/">Swedish IVA Gold Medal 2025</a>
+</div>
+
+<div class="minibox">
 <a class="minibox" href="https://daniel.haxx.se/blog/2025/09/13/developer-of-the-year/">Developer of the year 2025</a>
 </div>
 
