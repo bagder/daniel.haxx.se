@@ -157,6 +157,12 @@ SUBTITLE(Recognition)
 
 <div class="minibox">
  <a class="minibox"
+ href="https://daniel.haxx.se/blog/2019/12/18/internetmuseum/">Internet
+ Museum 2019</a>
+</div>
+
+<div class="minibox">
+ <a class="minibox"
  href="https://daniel.haxx.se/blog/2017/10/20/my-night-at-the-museum/">The Polhem
  Prize 2017</a>
 </div>
