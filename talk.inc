@@ -156,12 +156,12 @@ not included: curling the modern way</a> in the Network room (UB5.230), 10:50
 <li> August 16: FrOSCon, Bonn: "AI slop attacks on the curl project"
 <li> August 25: Open Source Summit Europe, Amsterdam. "giants, standing on the shoulders of"
 <li> September 28, 2025: <a href="https://2025.eurobsdcon.org">EuroBSDcon</a> in Zagreb, Croatia
-
-#define TALKS
 <li> <a href="https://nsss.se/">Nordic Software Security Summit</a>, Stockholm (postponed, early 2026?)
 
 #else
+#define TALKS
 
+<li> January 30, 2026: EU Open Source Policy Summit 2026
 <li> May 2026: Open Infra Forum, Stockholm Sweden
 
 #ifdef FULLPAGE
