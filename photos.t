@@ -22,6 +22,11 @@ TITLE(Photographs of Daniel Stenberg)
 <p>
 
 <div class="image">
+<a href="daniel/dressed-up.jpg"><img src="daniel/dressed-up_t.jpg"><br>
+Dressed up (October 2025)</a><br>2668x4000
+</div>
+
+<div class="image">
 <a href="Evia/Daniel_final-12.jpg"><img src="Evia/b-Daniel_final-12.jpg"><br>
 Casually green (June 2021)</a><br>6240x4160
 </div>
