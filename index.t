@@ -9,24 +9,6 @@ HEAD(Daniel Stenberg)
 #define MELINK(url,name) <a rel="me" href="url">name</a>
 
 <style>
-div.minibox {
-    padding: 5px 15px 5px 15px;
-    margin: 5px 5px 5px 0px;
-    border: 2px solid black;
-    text-align: center;
-    position: relative;
-    border-radius: 35px;
-    float: left;
-    font-size: 80%;
-    width: 10em;
-    height: 4em;
-    background: #202060;
-}
-
-a.minibox {
-    color: #ffff80;
-}
-
 .rand {
     float: left;
     margin-left: 20px;
@@ -36,6 +18,7 @@ a.minibox {
     float: left;
     width: 25em;
     max-width: 95%;
+    margin-left: 20px;
 }
 
 .elsewhere {
@@ -62,25 +45,9 @@ a.minibox {
     .nophone {
       display: none;
     }
-    div.minibox {
-        margin-right: 2px;
-        margin-left: 2px;
-        border: 0px solid black;
-        text-align: center;
-        border-radius: 25px;
-        float: left;
-        font-size: 80%;
-        max-width: 10em;
-        background: #202060;
-    }
 }
 @media (prefers-color-scheme: dark) {
-    div.minibox {
-        background: #e0e0ff;
-    }
-    a.minibox {
-        color: #0000ff;
-    }
+
 }
 </style>
 
@@ -113,73 +80,31 @@ href="workplace.html">home</a>.
 <p> <b>I receive</b> a fair amount of <a href="/email/">curious emails</a>. <a
 href="my-name-in-products.html">My name appears in many products</a>.
 
-<div style="clear: both;"/>
+<div style="float: left;">
+SUBTITLE(Recognition)
+<ul>
+<li> <a href="https://daniel.haxx.se/blog/2025/10/21/a-royal-gold-medal/">Swedish IVA Gold Medal 2025</a>
+<li> <a href="https://daniel.haxx.se/blog/2025/09/13/developer-of-the-year/">Developer of the year 2025</a>
+<li> <a href="https://daniel.haxx.se/blog/2025/02/03/european-open-source-achievement-award/">European Open Source Achievement Award 2025</a>
+<li> <a href="https://daniel.haxx.se/blog/2024/10/02/im-a-professional/">Microsoft Most Valuable Professional 2024</a>
+<li> <a href="https://daniel.haxx.se/blog/2021/08/11/a-github-star/">GitHub Star 2021 - 2025</a>
+<li> <a href="https://daniel.haxx.se/blog/2021/04/19/mars-2020-helicopter-contributor/">Mars Helicopter Contributor 2021</a>
+<li> <a href="https://daniel.haxx.se/blog/2020/09/23/a-google-grant-for-libcurl-work/">Google Patch Reward 2020</a>
+<li> <a href="https://daniel.haxx.se/blog/2019/12/18/internetmuseum/">Internet Museum 2019</a>
+<li> <a href="https://daniel.haxx.se/blog/2017/10/20/my-night-at-the-museum/">The Polhem Prize 2017</a>
+<li> <a href="https://daniel.haxx.se/blog/2016/12/01/2nd-best-in-sweden/">Second best developer in Sweden 2016</a>
+<li> <a href="https://daniel.haxx.se/blog/2024/05/24/google-peer-bonus-number-five/">Five times Google Open Source Peer Bonus 2011 - 2024</a>
+<li> <a href="https://daniel.haxx.se/blog/2009/11/14/i-won-it-you-guys-are-the-best/">Nordic Free Software Award 2009</a>
+</ul>
+</div>
+
+<div style="float: left;">
 SUBTITLE(Committees)
 <ul>
  <li> <a href="https://europeanopensource.academy/">The European Open Source Academy</a>
  <li> <a href="https://daniel.haxx.se/blog/2023/05/24/polhemsradet/">Polhemsrådet</a>
 </ul>
-
 </div>
-
-<div style="clear: both;"/>
-SUBTITLE(Recognition)
-
-<div>
-
-<div class="minibox">
-<a class="minibox" href="https://daniel.haxx.se/blog/2025/10/21/a-royal-gold-medal/">Swedish IVA Gold Medal 2025</a>
-</div>
-
-<div class="minibox">
-<a class="minibox" href="https://daniel.haxx.se/blog/2025/09/13/developer-of-the-year/">Developer of the year 2025</a>
-</div>
-
-<div class="minibox">
-<a class="minibox" href="https://daniel.haxx.se/blog/2025/02/03/european-open-source-achievement-award/">European Open Source Achievement Award 2025</a>
-</div>
-
-<div class="minibox">
-<a class="minibox" href="https://daniel.haxx.se/blog/2024/10/02/im-a-professional/">Microsoft Most Valuable Professional 2024</a>
-</div>
-
-<div class="minibox">
- <a class="minibox" href="https://daniel.haxx.se/blog/2021/08/11/a-github-star/">GitHub Star 2021 - 2025</a>
-</div>
-
-<div class="minibox">
- <a class="minibox" href="https://daniel.haxx.se/blog/2021/04/19/mars-2020-helicopter-contributor/">Mars Helicopter Contributor 2021</a>
-</div>
-
-<div class="minibox">
- <a class="minibox" href="https://daniel.haxx.se/blog/2020/09/23/a-google-grant-for-libcurl-work/">Google Patch Reward 2020</a>
-</div>
-
-<div class="minibox">
- <a class="minibox"
- href="https://daniel.haxx.se/blog/2019/12/18/internetmuseum/">Internet
- Museum 2019</a>
-</div>
-
-<div class="minibox">
- <a class="minibox"
- href="https://daniel.haxx.se/blog/2017/10/20/my-night-at-the-museum/">The Polhem
- Prize 2017</a>
-</div>
-
-<div class="minibox">
- <a class="minibox" href="https://daniel.haxx.se/blog/2016/12/01/2nd-best-in-sweden/">Second best developer in Sweden 2016</a>
-</div>
-
-<div class="minibox">
- <a class="minibox" href="https://daniel.haxx.se/blog/2024/05/24/google-peer-bonus-number-five/">5 times Google Open Source Peer Bonus 2011 - 2024</a>
-</div>
-
-<div class="minibox">
- <a class="minibox" href="https://daniel.haxx.se/blog/2009/11/14/i-won-it-you-guys-are-the-best/">Nordic Free Software Award 2009</a>
-</div>
-
-</table>
 
 <div style="clear: both;"/>
 
@@ -195,7 +120,7 @@ SUBTITLE(rand&#40;&#41;)
 
 <div class="elsewhere">
 
-SUBTITLE(Me elsewhere)
+SUBTITLE(Daniel elsewhere)
 <p>
 MELINK("https://csdb.dk/scener/?id=8084", CSDb) |
 MELINK("https://www.facebook.com/stenberg.daniel", Facebook) |
