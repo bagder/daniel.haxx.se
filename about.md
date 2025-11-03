@@ -785,7 +785,7 @@ installed software products, with over 20 billion installations.
 
 ## Royal Academy of Engineering Science
 
-In October 2025 I was awarded a gold medal by the Swedid Royal Academy of
+In October 2025 I was awarded a gold medal by the Swedish Royal Academy of
 Engineering Science. Their motivation:
 
 Daniel Stenberg, software developer, is awarded IVA’s Gold Medal for his
