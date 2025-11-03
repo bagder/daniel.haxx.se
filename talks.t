@@ -22,6 +22,21 @@ HEAD(Daniel - upcoming talks)
   time and effort and my family still wants food on the table. Don't assume I
   can do this for free.
 
+SUBTITLE(Biography)
+<p>
+<small><i>Suitable for use in assocation with talks</i></small>
+
+<p>
+Daniel Stenberg is a Swedish Internet protocol expert and developer who has
+participated in and worked with Open Source for thirty years. Perhaps most
+known for being the founder and lead developer of the curl project, one of the
+world's most widely used software components. He participates in protocol
+development within the IETF and has authored books on curl, Open Source,
+HTTP/2, HTTP/3 and is a frequent public speaker. Daniel is the president of
+the European Open Source Academy and a two times gold medal receiver for his
+Open Source work. Employed by wolfSSL.
+
+
 SUBTITLE(Previous talks recorded on video)
 
 <p>
