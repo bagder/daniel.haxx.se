@@ -73,7 +73,8 @@ primarily in the HTTPbis and QUIC working groups.
 development on twitch</a> occasionally.
 
 <p> <b>I work</b> <a href="job.html">full-time on curl</a> from <a
-href="workplace.html">home</a>.
+href="workplace.html">home</a> for <a href="https://wolfssl.com/">wolfSSL</a>
+and <a href="https://haxx.se/">Haxx</a>
 
 <p> <b>I write</b> <a href="https://lists.haxx.se/listinfo/daniel">weekly email reports</a> you can read. Almost like a newsletter.
 
