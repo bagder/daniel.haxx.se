@@ -755,6 +755,47 @@ called the European Open Source Academy. It's misson is to elevate and
 acknowlede outstanding contributions to Open Source Software and Hardware in
 Europe. Something I of course want to help facilitate.
 
+Part of their motivation said:
+
+This inaugural award, corresponding with an invitation to the European Open
+Source Academy, recognises your exceptional contribution as a European open
+source leader whose impact has transformed the European and global
+technological landscape, and whose engagement has highly contributed to a
+thriving open source community in Europe. Your founding and continuous
+contribution to cURL has had a tremendous impact on the global and European
+technological landscape thanks to its innovative nature. We also want to
+recognise your continuous commitment to open source maintenance and knowledge
+sharing, positioning you as a leading and respected figure in the European
+open source community.
+
+## Developer of the year
+
+In September of 2025 I was awarded *Developer of the year* in Sweden at a
+prize gala in Stockholm. Their motivation (transleted from Swedish):
+
+This year’s winner is a developer with a lifelong passion for technology and
+problem solving. His interest was awaken already in the 1980s with a
+commodore64 and has since grown into a career characterized by curiosity and
+drive. After starting his professional life at IBM, the developer has
+contributed to the open source world for a long time – both as a coder and as
+an ambassador for open collaboration. For this year’s winner, development is
+also a way to understand people and the most challenging part of technology is
+the collaboration between them. He created curl, one of the world’s most
+installed software products, with over 20 billion installations.
+
+## Royal Academy of Engineering Science
+
+In October 2025 I was awarded a gold medal by the Swedid Royal Academy of
+Engineering Science. Their motivation:
+
+Daniel Stenberg, software developer, is awarded IVA’s Gold Medal for his
+outstanding contributions to software development, where he has played a
+central role in internet infrastructure and open source software. Through his
+work with curl – a tool now used by billions of devices worldwide – he has
+enabled reliable and secure data transfer over the internet, not only between
+traditional computer programmes but also across smartphones, vehicles,
+satellites and spacecraft.
+
 ## Future
 
 I never plan never far ahead.
