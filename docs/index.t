@@ -38,6 +38,9 @@ SUBTITLE(Random docs)
  <a href="curl-vs-wget.html">curl vs Wget</a> - a comparison of similarities
  and differences for ordinary humans
 
+<li>
+ <a href="wcurl-vs-wget.html">wcurl vs Wget</a> - URL download tool comparison
+
 <li> <a href="curl-vs-httpie.html">curl vs HTTPie</a> - a comparison of
  similarities and differences
 

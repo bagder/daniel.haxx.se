@@ -9,7 +9,7 @@ NOW=$(shell date +'-D__NOW__="%H:%M"')
 OUT=index.html sshproxy.html curl-vs-wget.html m6d2.html ftp-vs-http.html \
  bittorrent-vs-http.html encrypted-transfer-protocols-compared.html \
  curl-vs-libcurl.html poll-vs-select.html curl-vs-httpie.html \
- URL-interop.html
+ URL-interop.html wcurl-vs-wget.html
 
 all: $(OUT)
 
@@ -26,6 +26,11 @@ curl-vs-wget.gen: docs/curl-vs-wget.md
 	$(MARKDOWN) < docs/curl-vs-wget.md > curl-vs-wget.gen
 
 curl-vs-wget.html: curl-vs-wget.t $(MAINPARTS) curl-vs-wget.gen
+	$(ACTION)
+
+wcurl-vs-wget.gen: docs/wcurl-vs-wget.md
+	$(MARKDOWN) < docs/wcurl-vs-wget.md > wcurl-vs-wget.gen
+wcurl-vs-wget.html: wcurl-vs-wget.t $(MAINPARTS) wcurl-vs-wget.gen
 	$(ACTION)
 
 curl-vs-httpie.gen: docs/curl-vs-httpie.md
