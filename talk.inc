@@ -161,7 +161,8 @@ not included: curling the modern way</a> in the Network room (UB5.230), 10:50
 #else
 #define TALKS
 
-<li> January 30, 2026: EU Open Source Policy Summit 2026
+<li> January 30, 2026: <a href="https://summit2025.openforumeurope.org/">EU Open Source Policy Summit 2026</a>, Brussels Belgium
+<li> January 31/Feb 1 2026: FOSDEM talk?
 <li> May 2026: Open Infra Forum, Stockholm Sweden
 
 #ifdef FULLPAGE
