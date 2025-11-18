@@ -115,7 +115,8 @@ SUBTITLE(Committees)
 
 <div class="rand">
 SUBTITLE(rand&#40;&#41;)
- LINK("http://www.haxx.se/matrix/", Matrix Maker)
+ LINK("/uses.html", Daniel uses)
+<br> LINK("http://www.haxx.se/matrix/", Matrix Maker)
 <br> LINK("/computers.html", My computers)
 </div>
 

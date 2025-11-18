@@ -6,7 +6,7 @@ HEAD(Daniel Stenberg -- My Computers)
 
 <div class="content">
 
-See also <a href="workplace.html">my workplace</a>.
+See also <a href="workplace.html">my workplace</a> - <a href="uses.html">Daniel uses</a>.
 
 TITLE(Current computers)
 

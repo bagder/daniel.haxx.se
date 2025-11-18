@@ -7,7 +7,7 @@ HEAD(My workplace)
 
 <div class="content">
 
-See also <a href="computers.html">my computers</a>.
+See also <a href="computers.html">my computers</a> - <a href="uses.html">Daniel uses</a>.
 
 TITLE(Home office)
 
