@@ -5,13 +5,26 @@
 HEAD(Daniel uses)
 #include "body.t"
 
+<style>
+.item {
+  background: #e0e0e0;
+}
+/* DARK MODE PROPERTIES */
+/* These will override all settings above */
+@media (prefers-color-scheme: dark) {
+  .item {
+    background: #505050;
+  }
+}
+</style>
+
 <div class="content">
 <p>
 See also <a href="computers.html">My computers</a> - <a href="/workplace.html">My workplace</a>
 
 TITLE(Daniel uses)
 
-#define ITEM(x) <tr><td style="background:#e0e0e0;"> x </td>
+#define ITEM(x) <tr><td class="item"> x </td>
 #define WHICH(x) <td><b> x </b></td></tr>
 <p>
 
