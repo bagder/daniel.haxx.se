@@ -111,6 +111,9 @@ WHICH(Intel Core i7-13700K 5.3GHz)
 ITEM(Screens)
 WHICH(2: Dell U2720Q + P2715Q)
 
+ITEM(Favorite game)
+WHICH(N/A)
+
 </table>
 </div>
 
