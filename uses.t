@@ -88,7 +88,7 @@ ITEM(Email hosting)
 WHICH(Self-hosted)
 
 ITEM(Email server)
-WHICH(Postfix)
+WHICH(Postfix + dovecot)
 
 ITEM(Blog system)
 WHICH(Wordpress)
