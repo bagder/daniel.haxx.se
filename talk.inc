@@ -163,9 +163,10 @@ not included: curling the modern way</a> in the Network room (UB5.230), 10:50
 
 <li> January 30, 2026: <a href="https://summit2025.openforumeurope.org/">EU Open Source Policy Summit 2026</a>, Brussels Belgium
 <li> January 31/Feb 1 2026: FOSDEM talk?
-<li> May 2026: Open Infra Forum, Stockholm Sweden
+<li> March 4-5, 2026: NDC Security. Oslo, Norway.
 
 #ifdef FULLPAGE
+<li> May 2026: Open Infra Forum, Stockholm Sweden
 </ul>
 <p>
  Look me up and say hi!
