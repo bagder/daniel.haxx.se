@@ -205,7 +205,8 @@ not included: curling the modern way</a> in the Network room (UB5.230), 10:50
 <li> April 5: at <a href="https://www.netnod.se/netnod-events/netnod-spring-meeting-2017/">Netnod spring meeting</a>, Stockholm Sweden
 <li> March 18: <a href="https://github.com/curl/curl/wiki/curl-meeting-2017">curl://up</a>. Nuremberg, Germany
 <li> March 18: <a href="https://github.com/curl/curl/wiki/curl-meeting-2017">curl://up</a>. Nuremberg, Germany
-<li> February 4: on <a href="https://fosdem.org/2017/schedule/event/curl/">curl</a> and <a href="https://fosdem.org/2017/schedule/event/mozilla_http2_whats_next/">HTTP2</a> at <a href="https://fosdem.org/2017/">FOSDEM</a> Brussels
+<li> February 4: <a href="https://fosdem.org/2017/schedule/event/curl/">curl</a> at <a href="https://fosdem.org/2017/">FOSDEM</a> Brussels
+<li> February 4: <a href="https://fosdem.org/2017/schedule/event/mozilla_http2_whats_next/">HTTP2</a> at <a href="https://fosdem.org/2017/">FOSDEM</a> Brussels
 </ul>
 
 <p><b>2016</b>
@@ -238,7 +239,19 @@ not included: curling the modern way</a> in the Network room (UB5.230), 10:50
 <li> October 2: <a href="http://apacheconcore2015.sched.org/event/cd9545130a7be6011b87e04b204130ab">Apachecon, Budapest</a>
 <li> September 10: HTTP/2 for Truesec
 <li> March 17: HTTP/2 for TCP/IP Geeks Stockholm
+<li> February 1: HTTP/2 right now. FOSDEM. Brussels, Belgium.
+<li> February 1: Internet all the things - using curl in your device. FOSDEM. Brussels, Belgium.
 <li> January 15: HTTP/2 in Berlin
+</ul>
+
+<p><b>2011</b>
+<ul>
+<li> February 5: "libcurl, seven SSL libs and one SSH lib" at FOSDEM.
+</ul>
+
+<p><b>2010</b>
+<ul>
+<li> February 6-7: I talked Rockbox at FOSDEM.
 </ul>
 
 </div>
