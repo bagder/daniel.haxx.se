@@ -50,6 +50,7 @@ SUBTITLE(Past talks)
 
 <p><b>2025</b>
 <ul>
+<li> December 5: <a href="https://youtu.be/1Q8CTrK4H0w">webinar: tiny curl</a>
 <li> September 28: <a href="https://2025.eurobsdcon.org">EuroBSDcon</a> in Zagreb, Croatia: AI slop attacks on the curl project
 <li> August 25: Open Source Summit Europe, Amsterdam. <a href="https://www.youtube.com/watch?v=YEBBPj7pIKo">giants, standing on the shoulders of</a>
 <li> August 16: FrOSCon, Bonn: <a href="https://daniel.haxx.se/blog/2025/08/18/ai-slop-attacks-on-the-curl-project/">AI slop attacks on the curl project</a>
