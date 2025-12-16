@@ -1,6 +1,6 @@
 SUBTITLE(Upcoming talks by Daniel)
 <ul>
-#if 0
+#if 1
 #define TALKS
 #endif
 
