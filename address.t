@@ -34,7 +34,7 @@ Twitter: <a href="https://twitter.com/bagder">@bagder</a><br>
 #endif
 Mastodon: <a href="https://mastodon.social/@bagder">@bagder@mastodon.social</a><br>
 IRC: 'bagder' on libera.chat - in the #curl channel primarily.<br>
-Signal: yes, get my number first
+Signal: yes
 
 SUBTITLE(Public Key)
 <p>
