@@ -100,7 +100,7 @@ on work.
 
 <p> N - Lights. Since this photo was taken, I have added two Elgato Key Light
 MK2 to my setup. Sweden has a lot of dark hours in winters and these big led
-lights make me less dim and grey.
+lights make me less dim and grey when visible on video.
 
 <p> O - Kid drawings with curl theme. To keep my spirits up! The left one is
 from my daughter from many years back and the right one is a more recent one
