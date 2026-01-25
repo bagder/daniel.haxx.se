@@ -98,8 +98,9 @@ rarely use any of the macs either as I don't like them.
 computer (B) but I also use it for the ones in (L) when necessary. Depending
 on work.
 
-<p> N - Led light, for when I need extra bright lighting perhaps when doing
-video conferences or streaming. (A gift from GitHub)
+<p> N - Lights. Since this photo was taken, I have added two Elgato Key Light
+MK2 to my setup. Sweden has a lot of dark hours in winters and these big led
+lights make me less dim and grey.
 
 <p> O - Kid drawings with curl theme. To keep my spirits up! The left one is
 from my daughter from many years back and the right one is a more recent one
