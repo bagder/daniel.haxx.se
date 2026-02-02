@@ -68,6 +68,18 @@ TITLE(Podcast and show appearances)
 </tr>
 #endif
 
+<tr><td class="year" colspan="7">2026</td></tr>
+
+<tr>
+<td> 57 </td>
+<td> <a href="https://youtu.be/Vp8K12oLs6A?si=I98v2SdiQkAihtId">Coffee with Developers</a> </td>
+<td> ENGLISH </td>
+<td> VIDEO </td>
+<td> Jan 30 </td>
+<td> Jan 26</td>
+<td> Closing down the bug-bounty and the onslaught of bad security reports</td>
+</tr>
+
 <tr><td class="year" colspan="7">2025</td></tr>
 
 <tr>
