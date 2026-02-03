@@ -88,7 +88,7 @@ SUBTITLE(Recognition)
 <li> <a href="https://daniel.haxx.se/blog/2025/09/13/developer-of-the-year/">Developer of the year 2025</a>
 <li> <a href="https://daniel.haxx.se/blog/2025/02/03/european-open-source-achievement-award/">European Open Source Achievement Award 2025</a>
 <li> <a href="https://daniel.haxx.se/blog/2024/10/02/im-a-professional/">Microsoft Most Valuable Professional 2024</a>
-<li> <a href="https://daniel.haxx.se/blog/2021/08/11/a-github-star/">GitHub Star 2021 - 2025</a>
+<li> <a href="https://daniel.haxx.se/blog/2021/08/11/a-github-star/">GitHub Star 2021 - 2026</a>
 <li> <a href="https://daniel.haxx.se/blog/2021/04/19/mars-2020-helicopter-contributor/">Mars Helicopter Contributor 2021</a>
 <li> <a href="https://daniel.haxx.se/blog/2020/09/23/a-google-grant-for-libcurl-work/">Google Patch Reward 2020</a>
 <li> <a href="https://daniel.haxx.se/blog/2019/12/18/internetmuseum/">Internet Museum 2019</a>
