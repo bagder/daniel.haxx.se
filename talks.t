@@ -51,6 +51,7 @@ SUBTITLE(Past talks)
 <p><b>2026</b>
 <ul>
 <li> February 1: <a href="https://fosdem.org/2026/schedule/event/B7YKQ7-oss-in-spite-of-ai/">Open Source Security in spite of AI</a> at FOSDEM, Brussels Belgium.
+<li> January 31: AboutCode. Brussels, Belgium.
 <li> January 30: <a href="https://summit.openforumeurope.org/">EU Open Source Policy Summit 2026</a>, Brussels Belgium
 </ul>
 <p><b>2025</b>
