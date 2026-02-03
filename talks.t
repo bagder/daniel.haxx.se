@@ -33,7 +33,7 @@ known for being the founder and lead developer of the curl project, one of the
 world's most widely used software components. He participates in protocol
 development within the IETF and has authored books on curl, Open Source,
 HTTP/2, HTTP/3 and is a frequent public speaker. Daniel is the president of
-the European Open Source Academy and a two times gold medal receiver for his
+the European Open Source Academy and a three times medal receiver for his
 Open Source work. Employed by wolfSSL.
 
 
