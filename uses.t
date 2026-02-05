@@ -109,7 +109,10 @@ ITEM(CPU)
 WHICH(Intel Core i7-13700K 5.3GHz)
 
 ITEM(Screens)
-WHICH(2: Dell U2720Q + P2715Q)
+WHICH(2 x 27 inch 4K: Dell U2720Q + P2715Q)
+
+ITEM(Headsets)
+WHICH(Jabra Evolve 40 and Bose Quiet Comfort 35)
 
 ITEM(Favorite game)
 WHICH(N/A)
