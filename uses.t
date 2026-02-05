@@ -114,6 +114,12 @@ WHICH(2 x 27 inch 4K: Dell U2720Q + P2715Q)
 ITEM(Headsets)
 WHICH(Jabra Evolve 40 and Bose Quiet Comfort 35)
 
+ITEM(Webcam)
+WHICH(Razer Kiyo Pro)
+
+ITEM(Camera lights)
+WHICH(two Elgato Key Light MK2)
+
 ITEM(Favorite game)
 WHICH(N/A)
 
