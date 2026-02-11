@@ -70,6 +70,28 @@ TITLE(Podcast and show appearances)
 
 <tr><td class="year" colspan="7">2026</td></tr>
 
+#if 0
+<tr>
+<td> 59 </td>
+<td> <a href="https://netstack.fm/">Netstack.FM episode X</td>
+<td> ENGLISH </td>
+<td> AUDIO </td>
+<td> XXXX </td>
+<td> Feb 5 </td>
+<td> Attending FOSDEM, AI slop, bug-bounty, keeping development up </td>
+</tr>
+#endif
+
+<tr>
+<td> 58 </td>
+<td> <a href="https://redmonk.com/videos/daniel-stenberg-ai-onslop/">RedMonk: How Daniel Stenberg, founder of curl, is Navigating the AI Onslop</td>
+<td> ENGLISH </td>
+<td> VIDEO </td>
+<td> Feb 11 </td>
+<td> Feb 10 </td>
+<td> AI slop, bug-bounty, curl, AI contributions, overload, future </td>
+</tr>
+
 <tr>
 <td> 57 </td>
 <td> <a href="https://youtu.be/Vp8K12oLs6A?si=I98v2SdiQkAihtId">Coffee with Developers</a> </td>
