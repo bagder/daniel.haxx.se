@@ -70,17 +70,15 @@ TITLE(Podcast and show appearances)
 
 <tr><td class="year" colspan="7">2026</td></tr>
 
-#if 0
 <tr>
 <td> 59 </td>
-<td> <a href="https://netstack.fm/">Netstack.FM episode X</td>
+<td> <a href="https://netstack.fm/#episode-27">Netstack.FM episode 27</td>
 <td> ENGLISH </td>
 <td> AUDIO </td>
-<td> XXXX </td>
+<td> Feb 17 </td>
 <td> Feb 5 </td>
 <td> Attending FOSDEM, AI slop, bug-bounty, keeping development up </td>
 </tr>
-#endif
 
 <tr>
 <td> 58 </td>
