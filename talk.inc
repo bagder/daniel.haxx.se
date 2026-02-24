@@ -5,6 +5,7 @@ SUBTITLE(Upcoming talks by Daniel)
 #endif
 
 <li> March 5, 2026: <a href="https://ndcsecurity.com/agenda/three-decades-of-curl-0ugm/0m55j1o34kp">Three decades of curl</a> at NDC Security. Oslo, Norway.
+<li> April 27-28, 2026: <a href="https://foss-north.se/2026/">something something AI and OSS</a> at foss-north, Gothenburg, Sweden.
 <li> May 21 2026: Open Infra Forum, Stockholm Sweden
 
 #ifdef FULLPAGE
