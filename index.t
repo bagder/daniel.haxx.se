@@ -84,9 +84,9 @@ href="my-name-in-products.html">My name appears in many products</a>.
 <div>
 SUBTITLE(Medals)
 <p align="center">
-<a href="https://daniel.haxx.se/blog/2017/10/20/my-night-at-the-museum/"><img width=200 height=200 src="m-polhem.jpg" border=0 style="margin-right: 30px;"></a>
-<a href="https://daniel.haxx.se/blog/2026/02/02/a-third-medal/"><img width=200 height=200 src="m-eosa.jpg" border=0 style="margin-right: 30px;"></a>
-<a href="https://daniel.haxx.se/blog/2025/10/21/a-royal-gold-medal/"><img width=200 height=200 src="m-iva.jpg" border=0></a>
+<a href="https://daniel.haxx.se/blog/2017/10/20/my-night-at-the-museum/"><img width=200 height=200 src="m-polhem.jpg" border=0 style="margin: 20px 20px 20px 20px;"></a>
+<a href="https://daniel.haxx.se/blog/2026/02/02/a-third-medal/"><img width=200 height=200 src="m-eosa.jpg" border=0 style="margin: 20px 20px 20px 20px;"></a>
+<a href="https://daniel.haxx.se/blog/2025/10/21/a-royal-gold-medal/"><img width=200 height=200 src="m-iva.jpg" border=0 style="margin: 20px 20px 20px 20px;></a>
 </div>
 
 <div style="float: left;">
