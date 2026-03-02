@@ -29,9 +29,6 @@ SUBTITLE(Geolocation)
 
 SUBTITLE(Other means)
 <p>
-#if 0
-Twitter: <a href="https://twitter.com/bagder">@bagder</a><br>
-#endif
 Mastodon: <a href="https://mastodon.social/@bagder">@bagder@mastodon.social</a><br>
 IRC: 'bagder' on libera.chat - in the #curl channel primarily.<br>
 Signal: yes
@@ -45,6 +42,11 @@ href="/mykey.asc">27EDEAF22F3ABCEB50DB9A125CC908FDB71E12C2</a>
 
 <p> I typically sign releases of <a href="https://curl.se/">curl</a> and <a
  href="https://www.libssh2.org/">libssh2</a> using this key.
+
+SUBTITLE(Sponsor me)
+
+<p> You can sponsor me and my Open Source work via <a
+ href="https://github.com/sponsors/bagder">GitHub sponsors</a>.
 
 </div>
 
