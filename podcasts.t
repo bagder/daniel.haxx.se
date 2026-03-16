@@ -78,7 +78,7 @@ TITLE(Podcast and show appearances)
 <td> Mar 16 </td>
 <td> Mar 5 </td>
 <td> How a small open source tool became core internet infrastructure. The
- conversation covers curl’s origin, maintainer pressure, AI-generated bug
+ conversation covers curl's origin, maintainer pressure, AI-generated bug
  bounty spam, the future of vulnerability reporting, and how AI is changing
  software engineering and security. </td>
 </tr>
