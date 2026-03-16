@@ -71,6 +71,19 @@ TITLE(Podcast and show appearances)
 <tr><td class="year" colspan="7">2026</td></tr>
 
 <tr>
+<td> 60 </td>
+<td> <a href="https://youtu.be/9CTwcMcvJ_o">The Secure Disclosure</td>
+<td> ENGLISH </td>
+<td> VIDEO </td>
+<td> Mar 16 </td>
+<td> Mar 5 </td>
+<td> How a small open source tool became core internet infrastructure. The
+ conversation covers curl’s origin, maintainer pressure, AI-generated bug
+ bounty spam, the future of vulnerability reporting, and how AI is changing
+ software engineering and security. </td>
+</tr>
+
+<tr>
 <td> 59 </td>
 <td> <a href="https://netstack.fm/#episode-27">Netstack.FM episode 27</td>
 <td> ENGLISH </td>
