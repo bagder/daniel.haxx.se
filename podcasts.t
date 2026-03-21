@@ -70,8 +70,9 @@ TITLE(Podcast and show appearances)
 
 <tr><td class="year" colspan="7">2026</td></tr>
 
+
 <tr>
-<td> 60 </td>
+<td> 61 </td>
 <td> <a href="https://youtu.be/9CTwcMcvJ_o">The Secure Disclosure</td>
 <td> ENGLISH </td>
 <td> VIDEO </td>
@@ -81,6 +82,17 @@ TITLE(Podcast and show appearances)
  conversation covers curl's origin, maintainer pressure, AI-generated bug
  bounty spam, the future of vulnerability reporting, and how AI is changing
  software engineering and security. </td>
+</tr>
+
+<tr>
+<td> 60 </td>
+<td> <a href="https://youtu.be/ohzzGy5K9Dk">The Serial Port: How an IRC bot spawned the world's most prolific software</td>
+<td> ENGLISH </td>
+<td> VIDEO </td>
+<td> Feb 28 </td>
+<td> &nbsp; </td>
+<td> curl has become one of the most prolific software tools ever made. (this
+is not strictly a podcast) </td>
 </tr>
 
 <tr>
