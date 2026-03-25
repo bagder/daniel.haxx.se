@@ -49,7 +49,16 @@ not helping them the way they want.
 <p>
 It simply takes too much time and energy. I almost never respond to these
 emails anymore.
+
+SUBTITLE(Respect)
+
 <p>
+I want to respect and not make fun of the actual humans behind these emails
+and I make an effort to hide their true identities so that others cannot do so
+either. No one knows everything and asking questions should be encouraged.
+
+<p> We can still enjoy them for what they are. We can giggle at the emails,
+<i>sympathizing</i> with the poor persons who felt they had to send them.
 
 </div>
 
