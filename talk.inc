@@ -12,6 +12,7 @@ Forum, Stockholm Sweden
 <li> May 23-24 2026: curl up, Prague, Czechia.
 
 #ifdef FULLPAGE
+<li> September 24, 2026: NDC TechTown, Kongberg, Norway: Three decades of curl.
 </ul>
 <p>
  Look me up and say hi!
