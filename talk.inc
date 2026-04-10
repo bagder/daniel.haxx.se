@@ -13,6 +13,7 @@ Forum, Stockholm Sweden
 
 #ifdef FULLPAGE
 <li> September 24, 2026: NDC TechTown, Kongberg, Norway: Three decades of curl.
+<li> November 4-6, 2026: NSSS Stockholm, Sweden
 </ul>
 <p>
  Look me up and say hi!
