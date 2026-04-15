@@ -4,7 +4,7 @@ SUBTITLE(Upcoming talks by Daniel)
 #define TALKS
 #endif
 
-<li> April 16, 2026: curl roadmap 2026. Webinar.
+<li> April 16, 2026: <a href="https://www.wolfssl.com/curl-roadmap-2026-with-daniel-stenberg/">curl roadmap 2026</a>. Webinar.
 
 <li> April 21, 2026: <a href="https://go.anchore.com/the-challenges-of-third-party-software.html">The Challenges of 3rd Party Software Risk</a>. Webinar with Anchore
 
