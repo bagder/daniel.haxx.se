@@ -50,6 +50,7 @@ SUBTITLE(Past talks)
 
 <p><b>2026</b>
 <ul>
+<li> April 16: <a href="https://youtu.be/DESGZXXKajY">curl roadmap 2026</a>. Webinar.
 <li> March 5: <a href="https://ndcsecurity.com/agenda/three-decades-of-curl-0ugm/0m55j1o34kp">Three decades of curl</a> at NDC Security. Oslo, Norway.
 <li> February 1: <a href="https://fosdem.org/2026/schedule/event/B7YKQ7-oss-in-spite-of-ai/">Open Source Security in spite of AI</a> at FOSDEM, Brussels Belgium.
 <li> January 31: AboutCode. Brussels, Belgium.
