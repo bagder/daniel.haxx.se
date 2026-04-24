@@ -4,7 +4,7 @@ SUBTITLE(Upcoming talks by Daniel)
 #define TALKS
 #endif
 
-<li> April 28, 2026: <a href="https://foss-north.se/2026/speakers-and-talks.html#dstenberg">The state of AI, slop and security</a> at foss-north, Gothenburg, Sweden.
+<li> April 28, 2026: <a href="https://foss-north.se/2026/speakers-and-talks.html#dstenberg">Open Souce AI Reality</a> at foss-north, Gothenburg, Sweden.
 <li> May 21, 2026: <a
 href="https://www.meetup.com/openinfra-user-group-sweden/events/313615139/">State
 actors, sleeper agents and plain bugs. Curl security matters</a> Open Infra
