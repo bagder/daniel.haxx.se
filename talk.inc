@@ -4,7 +4,7 @@ SUBTITLE(Upcoming talks by Daniel)
 #define TALKS
 #endif
 
-<li> May 18, 2926: "AI code security" for Swedish cyber infra security people.
+<li> May 18, 2026: "AI code security" for Swedish cyber infra security people.
 <li> May 21, 2026: <a
 href="https://www.meetup.com/openinfra-user-group-sweden/events/313615139/">State
 actors, sleeper agents and plain bugs. Curl security matters</a> Open Infra
