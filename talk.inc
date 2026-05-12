@@ -13,6 +13,7 @@ Forum, Stockholm Sweden
 #ifdef FULLPAGE
 <li> June 4, 2026: <a href="https://bsidesvilnius.lt/">BSides Vilnius</a>, Lithuania
 <li> June 16-17, 2026: <a href="https://indico.neic.no/event/287/">BSides Ume 2026</a> keynote. Umeå, Sweden.
+<li> September 15, 2026: Fastly Xcelerate, Stockholm Sweden.
 <li> September 24, 2026: <a href="https://ndctechtown.com/">NDC TechTown</a>, Kongsberg, Norway: Three decades of curl.
 <li> November 4-6, 2026: <a href="https://nsss.se/2026/conference-news/nsss-fall-26/">NSSS</a> Stockholm, Sweden
 </ul>
