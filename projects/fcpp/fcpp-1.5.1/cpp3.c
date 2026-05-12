@@ -290,7 +290,7 @@ int dooptions(struct Global *global, struct fppTag *tags)
       global->wflag++;
       break;
     case FPPTAG_INPUT_NAME:
-      strcpy(global->work, tags->data);    /* Remember input filename */
+      snprintf(global->work, NWORK, "%s", (char *)tags->data);  /* Remember input filename */
       global->first_file=tags->data;
       break;
     case FPPTAG_INPUT:
@@ -389,7 +389,7 @@ ReturnCode initdefines(struct Global *global)
     dp->nargs = DEF_NOARGS;
     time(&tvec);
     tm = localtime(&tvec);
-    sprintf(tp, "\"%3s %2d %4d\"",      /* "Aug 20 1988" */
+    snprintf(tp, 14, "\"%3s %2d %4d\"",  /* "Aug 20 1988" */
 	    months[tm->tm_mon],
 	    tm->tm_mday,
 	    tm->tm_year + 1900);
@@ -403,7 +403,7 @@ ReturnCode initdefines(struct Global *global)
       return(FPP_OUT_OF_MEMORY);
     dp->repl = tp;
     dp->nargs = DEF_NOARGS;
-    sprintf(tp, "\"%2d:%02d:%02d\"",    /* "20:42:31" */
+    snprintf(tp, 11, "\"%2d:%02d:%02d\"", /* "20:42:31" */
 	    tm->tm_hour,
 	    tm->tm_min,
 	    tm->tm_sec);
