@@ -77,7 +77,7 @@ TITLE(Podcast and show appearances)
 <td> VIDEO </td>
 <td> May 13 </td>
 <td> Nov 25, 2025 </td>
-<td> You've probably seen the meme with the tny project maintained by one person that holds up half the pyramid of all software products and services we use and connect to the world wide web. Curl is a project that is not much bigger than that, but has the same or even bigger impact. Used by billions of people and devices, but maintained by a small community. </td>
+<td> You've probably seen the meme with the tiny project maintained by one person that holds up half the pyramid of all software products and services we use and connect to the world wide web. Curl is a project that is not much bigger than that, but has the same or even bigger impact. Used by billions of people and devices, but maintained by a small community. </td>
 </tr>
 
 <tr>
