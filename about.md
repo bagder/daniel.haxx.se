@@ -771,7 +771,7 @@ open source community.
 ## Developer of the year
 
 In September of 2025 I was awarded *Developer of the year* in Sweden at a
-prize gala in Stockholm. Their motivation (transleted from Swedish):
+prize gala in Stockholm. Their motivation (translated from Swedish):
 
 This year’s winner is a developer with a lifelong passion for technology and
 problem solving. His interest was awaken already in the 1980s with a
