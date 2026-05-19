@@ -12,7 +12,6 @@ Forum, Stockholm Sweden
 <li> May 28, 2026: <a href="https://events.vtools.ieee.org/m/559728">Hiqh-Quality Chaos - on finding flaws in code with AI</a>. At KTH, Stockholm, Sweden.
 #ifdef FULLPAGE
 <li> June 4, 2026: <a href="https://bsidesvilnius.lt/">BSides Vilnius</a>, Lithuania
-<li> June 16-17, 2026: <a href="https://indico.neic.no/event/287/">BSides Ume 2026</a> keynote. Umeå, Sweden.
 <li> September 15, 2026: Fastly Xcelerate, Stockholm Sweden.
 <li> September 24, 2026: <a href="https://ndctechtown.com/">NDC TechTown</a>, Kongsberg, Norway: Three decades of curl.
 <li> November 4-6, 2026: <a href="https://nsss.se/2026/conference-news/nsss-fall-26/">NSSS</a> Stockholm, Sweden
