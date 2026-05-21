@@ -50,6 +50,9 @@ SUBTITLE(Past talks)
 
 <p><b>2026</b>
 <ul>
+<li> May 21: <a
+href="https://www.meetup.com/openinfra-user-group-sweden/events/313615139/">State actors, sleeper agents and plain bugs. Curl security matters</a> Open Infra
+Forum, Stockholm Sweden
 <li> May 18: "AI code security" for Swedish cyber infra security people.
 <li> April 28: <a href="https://foss-north.se/2026/speakers-and-talks.html#dstenberg">Open Souce AI Reality</a> at foss-north, Gothenburg, Sweden.
 <li> April 21: <a href="https://go.anchore.com/the-challenges-of-third-party-software.html">The Challenges of 3rd Party Software Risk</a>. Webinar with Anchore
