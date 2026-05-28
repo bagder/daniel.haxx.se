@@ -50,6 +50,7 @@ SUBTITLE(Past talks)
 
 <p><b>2026</b>
 <ul>
+<li> May 28: <a href="https://events.vtools.ieee.org/m/559728">Hiqh-Quality Chaos - on finding flaws in code with AI</a>. At KTH, Stockholm, Sweden.
 <li> May 23-24: <a href="https://github.com/curl/curl-up/wiki/2026">curl up</a>, Prague, Czechia.
 <li> May 21: <a
 href="https://www.meetup.com/openinfra-user-group-sweden/events/313615139/">State actors, sleeper agents and plain bugs. Curl security matters</a> Open Infra
