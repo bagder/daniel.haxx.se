@@ -50,6 +50,7 @@ SUBTITLE(Past talks)
 
 <p><b>2026</b>
 <ul>
+<li> June 4: <a href="https://bsidesvilnius.lt/">BSides Vilnius</a>, Lithuania
 <li> May 28: <a href="https://events.vtools.ieee.org/m/559728">Hiqh-Quality Chaos - on finding flaws in code with AI</a>. At KTH, Stockholm, Sweden.
 <li> May 23-24: <a href="https://github.com/curl/curl-up/wiki/2026">curl up</a>, Prague, Czechia.
 <li> May 21: <a
