@@ -54,6 +54,8 @@ HEAD(Daniel Stenberg)
 <div class="content">
 
 TITLE(Daniel Stenberg)
+<iframe src="https://github.com/sponsors/bagder/button" title="Sponsor bagder" height="32" width="114" style="border: 0; border-radius: 6px;"></iframe>
+
 <img class="daniel" src="final-12-400-gray.jpg" width=400 height=400 alt="Daniel Stenberg">
 
 <p> <b>I am</b> the founder and lead developer of <a
