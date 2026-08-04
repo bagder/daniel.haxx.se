@@ -13,8 +13,8 @@ BOXTOP
  href="https://daniel.haxx.se/blog/2019/05/09/sometimes-i-speak/">talked in a
  dozen countries</a> to both huge and small audiences.
 
- Here's some guidelines to make it a smoother process with a higher likeliness
- of success and happy faces on all sides.
+ Here are some guidelines to make it a smoother process with a higher
+ likeliness of success and happy faces on all sides.
 
 SUBTITLE(Scheduling)
 <p>
