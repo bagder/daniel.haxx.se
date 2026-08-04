@@ -19,10 +19,10 @@ math was always one of my favorite subjects.
 
 I discovered the joy of computers for the first time sometime in the early 80s
 when Kjell, a friend of mine, and I entered data sets in Basic that we eagerly
-read in some of the first C64 magazines at his place and since then I have been
-hooked. Kjell owned a C64 before me so it was in his home I had my first
+read in some of the first C64 magazines at his place and since then I have
+been hooked. Kjell owned a C64 before me so it was in his home I had my first
 experiences in the computer world. Me and my younger brother Björn then
-subsequently saved up money for our first own computer that we finally bought
+subsequently saved up money for our first computer that we finally bought
 together when I was 14 years old, 1985. A Commodore 64. A glorious and
 marvelous Commodore 64.
 
@@ -49,7 +49,7 @@ the *demo scene* of the time, organized a *copy-party* in our school
 (Kvarnbergsskolan) in Huddinge in the late winter 1987. We got sucked deeper
 and harder into the C64 demo and hacker spirit and community. During that
 meet-up with hundreds of other C64 geeks we met many like-minded people,
-released our first demo ever (actually, our first software release at all any
+released our first demo ever (actually, our first software release in any
 category - I was 17 years old by then). We released two more demos as
 Confusing Solution in the early 1998. We spent more and more of our spare time
 coding C64 assembly.
@@ -67,15 +67,15 @@ opcodes and circuits.
 ## bagder
 
 There was this established nickname tradition on the demo scene. I started out
-calling myself D$85 based on my initials and the year I got the C64, but I
-did not really like it (for one it was impossible to pronounce) and when we
-joined SSS I switched.
+calling myself D$85 based on my initials and the year I got the C64, but I did
+not really like it (for one it was impossible to pronounce) and when we joined
+SSS I switched.
 
 I figured I would pick an animal and I went with *bagder*. I quickly realized
 I had actually misspelled the animal, but then it also dawned on me that my
-nickname would be better and more special this way and so I stuck with
-it. Like a dyslexic badger. People have frequently been mistaking my nick for
-the animal ever since.
+nickname would be better and more special this way and so I stuck with it.
+Like a dyslexic badger. People have frequently been mistaking my nick for the
+animal ever since.
 
 I used the nickname during our demo years and after that period, I have
 selected this name for various other services and account names. Like on
@@ -83,8 +83,8 @@ GitHub, Twitter etc.
 
 ## Horizon
 
-The three of us (me, Kjell and Björn) and a few other coders left SSS
-after a while and instead we created Horizon together with a bunch of other
+The three of us (me, Kjell and Björn) and a few other coders left SSS after a
+while and instead we created Horizon together with a bunch of other
 demo-hacker friends from the Swedish *scene* (several came from the group
 Thundercats) and now we were definitely one of the leading demo groups in
 Sweden. We wanted to have a more tight-knit group that would do and focus on
@@ -92,19 +92,19 @@ demos only - no cracking at all. We won a whole range of demo competitions in
 Sweden and Denmark during that period of a few years. We also organized some
 of the biggest nerd-meetings in northern Europe during the period. So called
 copy-parties. We would gather more than 500 teenagers from all over northern
-Europe in a school over a weekend and spend it hacking on code, chat, drink
-coca cola and then compete in a demo competition toward the end. (Such events
-would later on get called LAN-parties but back in the late 80s and early 90s
-we had no LANs...)
+Europe in a school over a weekend and spend it hacking on code, chatting,
+drinking coca cola and then compete in a demo competition toward the end.
+(Such events would later on get called LAN-parties but back in the late 80s
+and early 90s we had no LANs...)
 
 ## Skyline Techniques
 
 During these days I also wrote a *music editor* (a program which you use to
 compose and create music) with a separate optimized production music player
-and under the name Skyline Techniques Björn and Linus wrote several catchy
-SID tunes that we and others would use in many demos of the time. We had a
-dream of being able to produce and sell music to commercial C64 productions
-but that never materialized.
+and under the name Skyline Techniques Björn and Linus wrote several catchy SID
+tunes that we and others would use in many demos of the time. We had a dream
+of being able to produce and sell music to commercial C64 productions but that
+never materialized.
 
 ## Games
 
@@ -146,24 +146,24 @@ FrexxEd around 1991 - a customizable and programmable text editor for the
 Amiga. In that same year - when I was 20 years old and moved into my first
 apartment I shared with my brother - I debuted in the IT industry
 professionally by starting that job at IBM. I worked with RS/6000 machines and
-IBM's Unix flavor called AIX. This was my first introduction to Unix and C and
-wow, I was immediately hooked and fascinated by the unix concepts. "Unix is
-the future!" I said to my girlfriend then (she would later become the
-Mrs. Stenberg I'm married to today), who of course had no any idea what I was
-talking about. I learned all this new stuff primarily through man pages. My
-actual work was probably called something like system installation and setup
-of RS/6000 machines that arrived to us to get customized and polished before
-they were sent out to customers.
+IBM's Unix flavor is called AIX. This was my first introduction to Unix and C
+and wow, I was immediately hooked and fascinated by the unix concepts. "Unix
+is the future!" I said to my girlfriend then (she would later become the Mrs.
+Stenberg I'm married to today), who of course had no idea what I was talking
+about. I learned all this new stuff primarily through man pages. My actual
+work was probably called something like “system installation and setup” of
+RS/6000 machines that arrived to us to get customized and polished before they
+were sent out to customers.
 
 ## IBM
 
 At IBM, I learned that there were lots of free source code for programs
-available. That there is a super cool editor called Emacs which you can do
-anything with. Much of the inspiration and ideas for FrexxEd which we
-continued to work on I got through my discoveries and lessons with Emacs on
-that job. Emacs on the Amiga existed too, but it did not really come to
-justice there and we thought that we could do better in the (somewhat limited
-compared to the big unix machines of the times) Amiga environment.
+available. There is a super cool editor called Emacs which you can do anything
+with. Much of the inspiration and ideas for FrexxEd which we continued to work
+on I got through my discoveries and lessons with Emacs on that job. Emacs on
+the Amiga existed too, but it did not really come to justice there and we
+thought that we could do better in the (somewhat limited compared to the big
+unix machines of the times) Amiga environment.
 
 ## FrexxEd
 
@@ -176,19 +176,19 @@ BBS *The Holy Grail* for several years into the 90s.
 
 The name *FrexxEd* was just a playful word using two xx's which we enjoyed and
 that habit has followed us later in life too. Basically the Swedish word fräck
-(translates to cheeky) Englishified with xes, and then Ed tacked on to the
-end of it like many text editors were named at that time. The fact that the
-name turned similar to the Amiga scripting language Arexx was actually not
+(translates to cheeky) Englishified with xes, and then Ed tacked on to the end
+of it like many text editors were named at that time. The fact that the name
+turned similar to the Amiga scripting language Arexx was actually not
 intentional.
 
-FrexxEd was shareware for long time. We came from the C64 and Amiga background
-where FOSS was not a familiar concept and it was not at all existing within
-that culture - sadly enough, it would have been a really good idea for that
-community too. Eventually I learned the true ways of life and I released FPL
-fully open. In modern times people who run one of them new AmigaOS versions
-have found a renewed interest in FrexxEd and they have ported it over. It is
-exciting that it is still alive - containing more than 30 years old code of
-ours. FrexxEd code still exists on GitHub.
+FrexxEd was shareware for a long time. We came from the C64 and Amiga
+background where FOSS was not a familiar concept and it was not at all
+existing within that culture - sadly enough, it would have been a really good
+idea for that community too. Eventually I learned the true ways of life and I
+released FPL fully open. In modern times people who run one of them new
+AmigaOS versions have found a renewed interest in FrexxEd and they have ported
+it over. It is exciting that it is still alive - containing more than 30 years
+old code of ours. FrexxEd code still exists on GitHub.
 
 ## Dancer
 
@@ -209,8 +209,8 @@ used) and was my first real application doing TCP/IP networking.
 
 By now the Amiga had completely left my life, and I used my job's modem pool
 with dial-back to log on to my employer's various unix machines to IRC and
-hack on bots on my spare time. I still spent a lot of time in #amiga and
- #amigaswe where I got lots of online friends.
+hack on bots in my spare time. I still spent a lot of time in #amiga and
+#amigaswe where I got lots of online friends.
 
 ## Httpget
 
@@ -218,7 +218,7 @@ After the summer 1996, I changed roles at work and I started as a consultant
 within embedded systems. Frontec Tekniksystem was then the name of my new
 professional home. At my first assignment I improved a PPP implementation for
 Ericsson running on pSOS. I then moved on and implemented my own malloc
-replacement. That was the beginnings of my years as an embedded systems
+replacement. That was the beginning of my years as an embedded systems
 consultant. Almost always working at the customer's place deeply within their
 product teams.
 
@@ -233,13 +233,13 @@ I found a little tool online called *httpget* which was written by a Brazilian
 fellow named Rafael Sagula. It fit my purposes almost perfectly. It only
 required a few small fixes and patches first...
 
-It is a curious coincident that the first httpget release (0.1) was done on
+It is a curious coincidence that the first httpget release (0.1) was done on
 November 11 1996 which also happens to be the same day the first ever Wget
 release was done. Wget has been considered a curl alternative or substitute by
 many command line tool users.
 
 Around this time I installed my first Linux systems at work, and we fired up
-our first public web servers and more. As I had experience from various other
+our first public web servers and more. As I had experience with various other
 unixes from before, Linux was not particularly challenging to install but was
 still way more interesting due to its price and level of freedom.
 
@@ -253,7 +253,7 @@ not big.
 ## Haxx
 
 In October 1997, my friend Linus and I registered our company, Haxx HB, to use
-when doing odd spare time jobs outside of our regular employments. Another
+when doing odd spare time jobs outside of our regular employment. Another
 playful name (hack in plural, hacks, but with two Xs instead of cks). Several
 years later we converted Haxx into a proper and real corporation; *aktiebolag*
 in Swedish.
@@ -271,13 +271,13 @@ they need more sleep than I do, so I simply started staying up after they go
 to bed and I get around two extra hours, totally alone to work on whatever I
 want.
 
-Two hours per day, every day through decades end up a lot of time. Of course I
-also spend a little extra at times and during vacations I do not spend as
+Two hours per day, every day through decades ends up a lot of time. Of course
+I also spend a little extra at times and during vacations I do not spend as
 much.
 
 ## curl
 
-By the time the urlget tool got the ability to do uploads, the name had became
+By the time the urlget tool got the ability to do uploads, the name had become
 misleading again, so the project was up for a name change one more time and
 curl was born. curl as in *see URL* or *client for URLs*. Gee, naming things
 is really hard.
@@ -295,13 +295,14 @@ times before the smartphones), and been working in *Smash* to send SMS
 messages to operators' modem receivers. I worked with Trio - a printf and
 string function library. I have contributed code to and I am involved somewhat
 in wget. I was an early contributor and committer in the Subversion project. I
-write and maintain *roffit* - a tool for to create HTML pages from nroff files
+write and maintain *roffit* - a tool for creating HTML pages from nroff files
 (man pages).
 
 ## Licensing
 
 curl had started out GPL licensed pretty much without thought, but after some
-thinking I decided the GPL approach was not exactly in line with my philosophy.
+thinking I decided the GPL approach was not exactly in line with my
+philosophy.
 
 In 1998 when we released curl 4.9, we switched to the MPL license. It is a
 liberal license and was much more in line with what I really wanted people to
@@ -325,7 +326,7 @@ Companies that otherwise would not have considered using curl.
 ## Rockbox
 
 In the year 2000 lots of things happened. I and several of my friends and
-colleagues switched employer to Contactor AB, but I basically remained doing
+colleagues switched employers to Contactor AB, but I basically remained doing
 the same thing: embedded systems development as a consultant. I got married.
 
 In that period I co-founded the Rockbox project (together with Björn and
@@ -333,7 +334,7 @@ Linus) and I worked a lot within that project for many years. It was great fun
 and I met a lot of new friends through that, many of which I still meet and
 chat with regularly. Rockbox is an mp3 player firmware replacement. We reverse
 engineered mp3 players and replaced the original firmwares with our free
-version, that often was far better than the original one in terms of
+version, which often was far better than the original one in terms of
 functionality, features and battery life.
 
 ## libcurl
@@ -341,9 +342,9 @@ functionality, features and battery life.
 Up to that point, curl was just a command line tool. You would invoke it from
 scripts or from a shell prompt. I of course suspected that there would be
 programs and systems out there that could benefit from getting curl's powers
-into their applications and that doing curl as a library would enable
-that. curl was always sort of written with that mind-set internally, but of
-course it needed some work to make a real and official API out of it.
+into their applications and that doing curl as a library would enable that.
+curl was always sort of written with that mind-set internally, but of course
+it needed some work to make a real and official API out of it.
 
 On August 7 2000, we released the first libcurl version. libcurl 7.1. It was
 immediately getting used and appreciated by early adopters and it gave me
@@ -351,25 +352,25 @@ inspiration and energy to continue down that path.
 
 # Life 2.0
 
-I continued to hack on curl on my spare time, and work as an embedded systems
+I continued to develop curl in my spare time, and work as an embedded systems
 consultant during my days. In 2003, me and my wife bought a house in a
-southern suburb to Stockholm and on September 26 our daughter Agnes was
-born. Life would never be the same again (as every parent knows).
+southern suburb of Stockholm and on September 26 our daughter Agnes was born.
+Life would never be the same again (as every parent knows).
 
 ## c-ares
 
-Name resolving for applications have always been done with a synchronous
+Name resolving for applications has always been done with a synchronous
 function call with the POSIX API and this had been a concern for a while for
 me and a few friends who at this time had been pondering on starting up a
 project to work on this problem. One day however, I stumbled over the existing
 library called ares that did almost exactly what we wanted. I quickly took it
 to heart and implemented support in curl to use this library to do
 asynchronous and non-blocking name resolves. Soon I learned that the
-maintainer of ares pretty much considered his work done on that code base and
+maintainer of Ares pretty much considered his work done on that code base and
 he did not want to merge the changes I fed back and deemed necessary - for
 example support for building and working on Windows. I felt that I had no
-other option than to fork the project and adopt it myself to drive it
-forward. So I did, and c-ares was born.
+other option than to fork the project and adopt it myself to drive it forward.
+So I did, and c-ares was born.
 
 ## IIS funding
 
@@ -378,17 +379,17 @@ Swedish foundation IIS (The Internet Foundation In Sweden) to get some focused
 development time on curl. I wanted to implement a new API and make it more fit
 to do really large amounts of parallel transfers. I was given a grant that I
 worked on during spring 2005 and the multi_socket API was born. Doing 10,000
-simultaneous transfers in the same thread became possible. Working from home a
-few months doing this was awesome.
+simultaneous transfers in the same thread became possible. Working from home
+for a few months doing this was awesome.
 
 ## Adobe funding
 
 In 2006 my second child was born, Rex, and he was still just a few months old
-when I was contracted by Adobe to work on implementing SFTP support for
-curl. Adobe wanted to use it in one of their products to complement FTP
-uploading. SFTP itself being based on SSH protocol required that we could use
-a proper library to do the binary protocol level parts with so that I would not
-have to do the actual SSH bits within the curl project.
+when I was contracted by Adobe to work on implementing SFTP support for curl.
+Adobe wanted to use it in one of their products to complement FTP uploading.
+SFTP itself being based on SSH protocol required that we could use a proper
+library to do the binary protocol level parts with so that I would not have to
+do the actual SSH bits within the curl project.
 
 I loved getting the opportunity to once again work full time on curl for a few
 months.
@@ -403,10 +404,10 @@ and use this within libcurl that already had a non-blocking API that was an
 absolute requirement. So I asked both projects about it. Basically how they
 looked at the prospect of (me) adding non-blocking support and what they think
 about it. Both responded fairly quickly from what I recall. One in a fairly
-dismissing manner suggesting I should use threads instead, and the other in a
-welcoming and interested fashion. Of course I went with the project that had
-the better welcoming. I immediately felt welcome and got to know Sara who ran
-the libssh2 project.
+dismissive manner suggesting I should use threads instead, and the other in a
+welcoming fashion. Of course I went with the project that had the better
+welcoming. I immediately felt welcome and got to know Sara who ran the libssh2
+project.
 
 In cooperation with others in the libssh2 project we implemented a
 non-blocking API and I made curl use this API and starting in November 2006 we
@@ -422,9 +423,9 @@ The concept of writing articles and sometimes almost diary-like entries in a
 single place on the Internet, blogging, was created at some point in the
 latter half of the 1990s.
 
-I published my first ever first blog post on advogato.org in May 2000. My
-premiere blog post was, to no one's surprise, about my work on curl. I would
-then post frequent updates on that site for years to come.
+I published my first ever blog post on advogato.org in May 2000. My premiere
+blog post was, to no one's surprise, about my work on curl. I would then post
+frequent updates on that site for years to come.
 
 On August 28, 2007 I moved my blogging over to my own site, daniel.haxx.se,
 which I had been hosting since 2000. I installed WordPress on my site and
@@ -436,9 +437,9 @@ posted 1,448 blog posts there - and I have not stopped yet.
 I had been working with all these protocols up until now without knowing and
 not really caring about exactly how protocols are made or how decisions were
 made about them. But the more I worked with HTTP and all its intricate
-details, I become aware of differences in implementations and struggles to
-work with servers that obviously did not follow what was written the
-RFCs. Until someone one day pointed out the HTTPbis working group to me.
+details, I became aware of differences in implementations and struggles to
+work with servers that obviously did not follow what was written in the RFCs.
+Until someone one day pointed out the HTTPbis working group to me.
 
 HTTPbis was an IETF working group that had been started in 2007 with an effort
 to refresh the HTTP/1.1 spec. I joined the list and started to follow the
@@ -471,11 +472,11 @@ hundred lines and totally useless. Attempts had been made over the years to
 correct it and at least two new cookie RFC were written that failed to get
 adopted. Finally in 2009 we started a group within IETF that worked to
 document how cookies actually work on the web. I felt that I, as an
-independent and non-browsers orient cookie parser implementer since many
-years, could provide good feedback and a completely different point of view
-then most others who were participating - many of them coming from the browser
-world. I would like to think my few bits of contribution helped making RFC
-6265 as good as it is. (Published in 2011.)
+independent and non-browsers focused cookie parser implementer for many years,
+could provide good feedback and a completely different point of view then most
+others who were participating - many of them coming from the browser world. I
+would like to think my few bits of contribution helped make RFC 6265 as good
+as it is. (Published in 2011.)
 
 ## Haxx AB
 
@@ -484,7 +485,7 @@ basically had found the assignments on my own and sold myself without my
 employer's involvement. At the same time I felt that the company I worked for
 was not really going in the direction that I wanted to go in. I did not really
 get my money's worth there. In the end of August 2009 I quit my employment and
-I instead become the first full-time employee of Haxx AB, our own firm.
+I instead became the first full-time employee of Haxx AB, our own firm.
 
 In 2009, I was awarded **the Nordic Free Software Award** along with Simon
 Josefsson for my work in open source and free software up until that point.
@@ -497,20 +498,19 @@ related jobs more than the occasional smaller hacks and minor improvements
 me please* tasks), so the protocol side remained a spare time occupation.
 
 A few months after me, my brother Björn joined me as Haxx employee number two
-and a year after, Linus become employee number three. What a glorious
-development. Looking back, that switch was one of the best decisions I have ever
-done in my professional life.
+and a year after, Linus became employee number three. What a glorious
+development. Looking back, that switch was one of the best decisions I have
+ever made in my professional life.
 
-Haxx was like a dream since forever, transformed into reality. A small number
-of close friends who are all experts in embedded systems and Linux. We worked
-as expert consultants and contractors for companies that built various
-embedded systems Embedded systems today means a high degree Linux and open
-Source.
+Haxx was like a long-time dream transformed into reality. A small number of
+close friends who are all experts in embedded systems and Linux. We worked as
+expert consultants and contractors for companies that built various embedded
+systems Embedded systems today means a high degree Linux and open Source.
 
 ## HTTP/2
 
 The HTTPbis working group took upon itself to work on an update to HTTP 1.1
-that had been the major HTTP version for many years. It has started to shown
+that had been the major HTTP version for many years. It has started to show
 its age and HTTP/2 took off from Google's SPDY. I participated in that work.
 
 ## Mozilla
@@ -529,9 +529,9 @@ and did seven different interviews in one rather long day...
 
 I started at Mozilla the first days of January 2014, in the networking team.
 HTTP, FTP, DNS, cookies, caching, sockets etc. All day at work. And then all
-night with curl. Mozilla even allowed me to spend a part of my work time on
-curl stuff. Mozilla has no office in Sweden, this meant I could work full time
-from home.
+night on curl. Mozilla even allowed me to spend a part of my work time on curl
+stuff. Mozilla had no office in Sweden, this meant I could work full time from
+home. (I have not returned to working in an office since.)
 
 ## RFC 7540
 
@@ -554,8 +554,8 @@ meant as an attempt to make a more tutorial style documentation for
 *everything* that is curl related.
 
 As with everything, given enough time it might turn into something quite good.
-Nine years later the book consists of 114,000 words and when rendered as a PDF
-it has more than 550 pages.
+Nine years later the book consisted of 114,000 words and when rendered as a
+PDF it had more than 550 pages.
 
 ## Second best developer in Sweden
 
@@ -582,11 +582,11 @@ my own server and the instabilities were gone.
 
 ## US issues
 
-In December 2016 I attended the week long Mozilla all-hands meeting on Hawaii
+In December 2016 I attended the week long Mozilla all-hands meeting in Hawaii
 (which was also my 12th visit to the US through the years - yes I have had
-reason go back and actually carefully count the occasions). In June 2017 I was
-set to travel to San Francisco for another all-hands company meeting, when I
-was refused to board the flight due to unspecified "problems with my ESTA".
+reason to go back and actually carefully count the occasions). In June 2017 I
+was set to travel to San Francisco for another all-hands company meeting, when
+I was refused to board the flight due to unspecified "problems with my ESTA".
 (ESTA is the visa waiver program under which I as a Swede can travel to the
 US.)
 
@@ -605,7 +605,7 @@ I was awarded the Polhem Prize in October 2017 for my almost 20 years of
 having run the curl project and its impact on the world. An amazing honor.
 
 At the award ceremony, I was handed a gold medal from the hands of the Swedish
-king himself.
+king, Carl Gustav XVI, himself.
 
 ## HTTP/3 explained
 
@@ -625,8 +625,8 @@ it was time for me to do something else.
 Why did I leave? Three parts:
 
 1. I was bored with the C++ Firefox messy development and getting more
-   bug-reports filed than we manged to close and
-2. my manager turned out to be a bully who worked hard to make my life
+   bug-reports filed than we managed to close and
+2. My manager turned out to be a bully who worked hard to make my life
    miserable.
 3. It was time to attempt to figure out how to work full-time on curl
 
@@ -645,7 +645,10 @@ wolfSSL already offered a set of existing open source libraries and commercial
 support on those, so adding curl and libcurl to that offer was a good match -
 and many customers use both wolfSSL and libcurl in products.
 
-I knew wolfSSL and its CEO Larry already since many years back.
+I had known wolfSSL and its CEO Larry already for many years.
+
+(Technically I am a contractor, as wolfSSL has no subsidiary in Sweden. I am
+an employee of Haxx AB.)
 
 ## Covid-19
 
@@ -654,8 +657,8 @@ learned exactly how big of a deal this Covid-19 thing was. Up until then I did
 a little more than one presentation per month, which served as an excellent
 way to spice up the working-from-home life.
 
-Then came the era of doing presentations over video. So much harder. So much
-not the same thing. Neither for me as a presenter and certainly not for the
+Then came the era of doing presentations over video. So much harder. So not
+the same thing. Neither for me as a presenter and certainly not for the
 audience either.
 
 ## curl.se
@@ -666,16 +669,16 @@ time when this domain finally ended up mine.
 
 In the early 2000s this domain was used for a curling website that seems to
 have been handed over between a few different curling teams until it was
-purchased by someone who decided to run some kind of casino ads on it was a
-good idea. It remained like that for several years during which I at one timed
-tried to reached out to see if I could purchase it - but my offer was
+purchased by someone who decided that running some kind of casino ads on it
+was a good idea. It remained like that for several years during which I at one
+time tried to reach out to see if I could purchase it - but my offer was
 declined. Instead it eventually was abandoned and a friend of mine managed to
 snatch it and then gave it to me. Having good friends is awesome.
 
 ## Visa
 
-My silly US travel situation lasted until November 9, 2020 when I after 937
-days of waiting finally received a visa in my passport. Of course, at this
+My silly US travel situation lasted until November 9, 2020 when I, after 937
+days of waiting, finally received a visa in my passport. Of course, at this
 time the Covid-19 pandemic was still ravaging so not the ideal timing to
 travel anyway.
 
@@ -692,8 +695,8 @@ life has been done on and around curl.
 
 ## trurl
 
-In the last day of March 2023 I made the first commit in a new project that
-within shortly would get named 'trurl'.
+On the last day of March 2023 I made the first commit in a new project that
+would shortly get named 'trurl'.
 
 The idea for this came out of me earlier this year adding a few new output
 features to curl that would allow users to output parts of the URL they told
@@ -721,7 +724,7 @@ the time was ripe to do something about this. Not by making curl work more
 like wget, but by introducing a new tool: a shell script that uses curl, that
 works almost like a drop-in replacement for wget for those "simple" uses cases
 when the user just wants to download the contents of one or a number of
-different URLs. No more command line options to remember. **wcurl** was born.
+different URLs. No more command line options to remember. wcurl was born.
 
 The idea was partly that since so many people have curl installed already
 anyway, adding wcurl to the mix would then also in many cases be simpler and
@@ -739,7 +742,7 @@ Valuable Professional (MVP) program: "in recognition of your outstanding
 contributions to the community".
 
 Since Microsoft is involved in a lot of network and Open Source related things
-these days, I hoped that some of the MVP program would then overlap with my
+these days, I hoped that some of the MVP programs would then overlap with my
 interests in those particular areas. It turned out to be a wrong assumption. I
 found the MVP program to be mostly about Microsoft non-stop bragging and
 pushing for nothing but Microsoft proprietary technologies and as I had zero
@@ -751,8 +754,8 @@ few months.
 In the beginning of 2025 I was awarded the European Open Source Achievement
 Award at a grand award ceremony in Brussels, Belgium, and at the same time I
 accepted becoming the first *president* of the newly founded organization
-called the European Open Source Academy. It's misson is to elevate and
-acknowlede outstanding contributions to Open Source Software and Hardware in
+called the European Open Source Academy. Its mission is to elevate and
+acknowledge outstanding contributions to Open Source Software and Hardware in
 Europe. Something I of course want to help facilitate.
 
 Part of their motivation said:
@@ -768,14 +771,19 @@ recognise your continuous commitment to open source maintenance and knowledge
 sharing, positioning you as a leading and respected figure in the European
 open source community.
 
+Before the subsequent award ceremony in 2026, I was given the medal version of
+the award. At the 2025 ceremony we got a larger plaque.It took a while after
+the formation of the academy until the medal design was completed and they
+were produced.
+
 ## Developer of the year
 
 In September of 2025 I was awarded *Developer of the year* in Sweden at a
-prize gala in Stockholm. Their motivation (transleted from Swedish):
+prize gala in Stockholm. Their motivation (translated from Swedish):
 
 This year’s winner is a developer with a lifelong passion for technology and
-problem solving. His interest was awaken already in the 1980s with a
-commodore64 and has since grown into a career characterized by curiosity and
+problem solving. His interest was awakened already in the 1980s with a
+Commodore 64 and has since grown into a career characterized by curiosity and
 drive. After starting his professional life at IBM, the developer has
 contributed to the open source world for a long time – both as a coder and as
 an ambassador for open collaboration. For this year’s winner, development is
@@ -795,6 +803,15 @@ work with curl – a tool now used by billions of devices worldwide – he has
 enabled reliable and secure data transfer over the internet, not only between
 traditional computer programmes but also across smartphones, vehicles,
 satellites and spacecraft.
+
+## A Bagder company at last
+
+Swedish tax regulations changed some laws somewhat in 2026 for companies
+controlled by four or fewer owners, which subsequently made us change
+ownership status of Haxx AB. I then founded a new company, Bagder AB, that now
+holds the shares of Haxx AB that previously belonged to me personally. I am
+the sole owner of Bagder AB and the associated registered domain bagder.se. So
+eventually Bagder is actually the name of a legal entity.
 
 ## Future
 
