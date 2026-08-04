@@ -29,13 +29,16 @@ SUBTITLE(Scheduling)
 
 SUBTITLE(Compensation)
 
-<p> Do not assume that I can offer a for-free delivery - I still need food on
- the table and preparing, creating, traveling and delivering a good
- presentation takes serious time and efforts. Also, talking at a conference
- takes away developer time (which is what I actually do for a living).
+<p> Do not assume that I do this for free - I still need food on the table and
+ preparing, creating, traveling and delivering a good presentation takes
+ serious time and efforts. Also, talking at a conference takes away developer
+ time (which is what I actually do for a living).
 
 <p> I will expect that you cover travel and lodging expenses. I don't require
  fancy, but it needs to be decent.
+
+<p> If you offer no compensation for my time spent for this, you require that
+ I spend my spare time, for free, for your event.
 
 <p> I consider it good manners if you address the price/charge situation, if
  not in the first contact email at least in the following discussion. If you
