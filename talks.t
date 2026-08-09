@@ -48,6 +48,23 @@ SUBTITLE(Podcasts)
 
 SUBTITLE(Past talks)
 
+<p> I have done hundreds of speaking gigs in front of small and big audiences.
+I have spoken at events in person in the following countries:
+
+Belgium,
+Croatia,
+Czechia,
+Denmark,
+Germany.
+Hungary,
+Lithuania,
+Netherlands,
+Norway,
+Spain,
+Sweden,
+USA
+.
+
 <p><b>2026</b>
 <ul>
 <li> June 4: <a href="https://bsidesvilnius.lt/">BSides Vilnius</a>, Lithuania
