@@ -9,6 +9,7 @@ SUBTITLE(Upcoming talks by Daniel)
 <li> October 31, 2026. FOSSCOMM 2026. Athens, Greece. Online.
 #ifdef FULLPAGE
 <li> November 4-6, 2026: <a href="https://nsss.se/2026/conference-news/nsss-fall-26/">NSSS</a> Stockholm, Sweden
+<li> November 12, 2026: <a href="https://secureai.se/">Secure AI</a>, Stockholm Sweden
 <li> November 26–27 2026. <a href="https://wawtech.io/">WAWTech 2026</A>, Warsaw, Poland.
 </ul>
 <p>
