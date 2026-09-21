@@ -71,8 +71,18 @@ TITLE(Podcast and show appearances)
 <tr><td class="year" colspan="7">2026</td></tr>
 
 <tr>
+<td> 63 </td>
+<td> <a href="https://opensourcesecurity.io/2026/2026-09-curl-bliss-stefan-daniel/">The curl summer of Bliss with Daniel and Stefan</a></td>
+<td> ENGLISH </td>
+<td> VIDEO </td>
+<td> Sep 21 </td>
+<td> Sep 17 </td>
+<td> Josh chats with Daniel and Stefan from curl about their summer of bliss. Curl stopped taking vulnerability reports for a month and nothing much happened really. Daniel and Stefan have a really pragmatic view of all the new LLM powered vulnerability detection tools. </td>
+</tr>
+
+<tr>
 <td> 62 </td>
-<td> <a href="https://youtu.be/ZWv-AWgP_NI">My Open Source Experience Podcast</td>
+<td> <a href="https://youtu.be/ZWv-AWgP_NI">My Open Source Experience Podcast</a></td>
 <td> ENGLISH </td>
 <td> VIDEO </td>
 <td> May 13 </td>
