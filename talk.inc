@@ -6,7 +6,7 @@ SUBTITLE(Upcoming talks by Daniel)
 
 <li> October 6, 2026: <a href="https://www.netnod.se/netnod-tech-meeting-2026">Netnod Tech Meeting</a>. Stockholm, Sweden.
 <li> October 21, 2026. <a href="https://www.techboras.se/aktuellt/boras-tech-day-2026/">Borås Tech Day 2026</a>, Borås, Sweden
-<li> October 31, 2026. FOSSCOMM 2026. Athens, Greece. Online.
+<li> October 31, 2026. FOSSCOMM 2026. Athens, Greece.
 #ifdef FULLPAGE
 <li> November 4-6, 2026: <a href="https://nsss.se/2026/conference-news/nsss-fall-26/">NSSS</a> Stockholm, Sweden
 <li> November 12, 2026: <a href="https://secureai.se/">Secure AI</a>, Stockholm Sweden
