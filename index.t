@@ -110,7 +110,7 @@ SUBTITLE(Recognition)
 </div>
 
 <div style="float: left;">
-SUBTITLE(Committees)
+SUBTITLE(Member of)
 <ul>
  <li> <a href="https://europeanopensource.academy/">The European Open Source Academy</a>
  <li> <a href="https://daniel.haxx.se/blog/2023/05/24/polhemsradet/">Polhemsrådet</a>
