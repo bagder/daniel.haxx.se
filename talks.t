@@ -67,6 +67,7 @@ USA
 
 <p><b>2026</b>
 <ul>
+<li> October 6: <a href="https://www.netnod.se/netnod-tech-meeting-2026">Netnod Tech Meeting</a>. Stockholm, Sweden.
 <li> September 15: <a href="https://www.fastly.com/events/xcelerate-stockholm">Fastly Xcelerate</a>. Stockholm, Sweden.
 <li> September 10: Open Source Network meetup at SUSE. Online.
 <li> June 4: <a href="https://bsidesvilnius.lt/">BSides Vilnius</a>, Lithuania
