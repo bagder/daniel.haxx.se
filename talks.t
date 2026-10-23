@@ -67,6 +67,8 @@ USA
 
 <p><b>2026</b>
 <ul>
+<li> October 21. <a href="https://www.techboras.se/aktuellt/boras-tech-day-2026/">Borås Tech Day 2026</a>, Borås, Sweden
+<li> October 17. Fireside chat/AMA session - Purdue University (online)
 <li> October 6: <a href="https://www.netnod.se/netnod-tech-meeting-2026">Netnod Tech Meeting</a>. Stockholm, Sweden.
 <li> September 15: <a href="https://www.fastly.com/events/xcelerate-stockholm">Fastly Xcelerate</a>. Stockholm, Sweden.
 <li> September 10: Open Source Network meetup at SUSE. Online.
