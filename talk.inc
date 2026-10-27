@@ -5,7 +5,7 @@ SUBTITLE(Upcoming talks by Daniel)
 #endif
 
 <li> October 31, 2026. <a href="https://2026.fosscomm.gr/">FOSSCOMM 2026</a>. Athens, Greece.
-<li> November 4-6, 2026: <a href="https://nsss.se/2026/conference-news/nsss-fall-26/">Nordic Software Security Summit</a>, Stockholm Sweden
+<li> November 5, 2026: "Deluge, Distill, Defend: Mastering the AI Vulnerability Overflow" at <a href="https://nsss.se/2026/conference-news/nsss-fall-26/">Nordic Software Security Summit</a>, Stockholm Sweden
 <li> November 12, 2026: <a href="https://secureai.se/">Secure AI</a>, Stockholm Sweden
 #ifdef FULLPAGE
 <li> November 23, 2026: <a href="https://www.ncsc.se/sv/aktuellt/svensk-cyber-2026/">Svensk Cyber 2026</a>, Stockholm Sweden
