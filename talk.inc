@@ -10,6 +10,7 @@ SUBTITLE(Upcoming talks by Daniel)
 #ifdef FULLPAGE
 <li> November 23, 2026: <a href="https://www.ncsc.se/sv/aktuellt/svensk-cyber-2026/">Svensk Cyber 2026</a>, Stockholm Sweden
 <li> November 26–27 2026. <a href="https://wawtech.io/">WAWTech 2026</A>, Warsaw, Poland.
+<li> January 30-31 2027: Brussels, Belgium. I propose a talk.
 </ul>
 <p>
  Look me up and say hi!
