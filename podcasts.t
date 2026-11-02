@@ -71,6 +71,16 @@ TITLE(Podcast and show appearances)
 <tr><td class="year" colspan="7">2026</td></tr>
 
 <tr>
+<td> 64 </td>
+<td> <a href="https://youtu.be/06Qjai8RQKw">Can Open Source Survive the AI Bug Hunt?</a></td>
+<td> ENGLISH </td>
+<td> VIDEO </td>
+<td> Oct 30 </td>
+<td> Oct 5 </td>
+<td> Daniel Stenberg, creator of curl, joins ST&Ouml;K and KUGG for a conversation about keeping curl secure as the tools used to break it keep getting better. </td>
+</tr>
+
+<tr>
 <td> 63 </td>
 <td> <a href="https://opensourcesecurity.io/2026/2026-09-curl-bliss-stefan-daniel/">The curl summer of Bliss with Daniel and Stefan</a></td>
 <td> ENGLISH </td>
