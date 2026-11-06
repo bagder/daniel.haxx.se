@@ -67,6 +67,7 @@ USA.
 
 <p><b>2026</b>
 <ul>
+<li> November 5: "Deluge, Distill, Defend: Mastering the AI Vulnerability Overflow" at <a href="https://nsss.se/2026/conference-news/nsss-fall-26/">Nordic Software Security Summit</a>, Stockholm Sweden
 <li> October 31: <a href="https://2026.fosscomm.gr/">FOSSCOMM 2026</a>. Athens, Greece.
 <li> October 21: <a href="https://www.techboras.se/aktuellt/boras-tech-day-2026/">Borås Tech Day 2026</a>, Borås, Sweden
 <li> October 17: Fireside chat/AMA session - Purdue University (online)
