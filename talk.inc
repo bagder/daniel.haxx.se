@@ -10,6 +10,7 @@ SUBTITLE(Upcoming talks by Daniel)
 #ifdef FULLPAGE
 <li> January 29 2027: FOSSapalooza, Brussels, Belgium. Probably something.
 <li> January 30-31 2027: Brussels, Belgium. I have proposed a talk.
+<li> May 20-21 2027: Paris, France. Open Source Founders Summit 2027.
 </ul>
 <p>
  Look me up and say hi!
