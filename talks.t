@@ -61,12 +61,15 @@ Hungary,
 Lithuania,
 Netherlands,
 Norway,
+Poland,
 Spain,
 Sweden,
 USA.
 
 <p><b>2026</b>
 <ul>
+<li> November 27: <a href="https://wawtech.io/">WAWTech 2026</A>, Warsaw, Poland. Ask Me Anything.
+<li> November 26: <a href="https://wawtech.io/">WAWTech 2026</A>, Warsaw, Poland. "High volume AI vulnerability reporting"
 <li> November 23: <a href="https://www.ncsc.se/sv/aktuellt/svensk-cyber-2026/">Svensk Cyber 2026</a>, Stockholm Sweden
 <li> November 12: <a href="https://secureai.se/">Secure AI</a>, Stockholm Sweden
 <li> November 5: "Deluge, Distill, Defend: Mastering the AI Vulnerability Overflow" at <a href="https://nsss.se/2026/conference-news/nsss-fall-26/">Nordic Software Security Summit</a>, Stockholm Sweden
