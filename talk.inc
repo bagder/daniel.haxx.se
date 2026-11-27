@@ -6,6 +6,7 @@ SUBTITLE(Upcoming talks by Daniel)
 
 <li> January 29 2027: FOSSapalooza, Brussels, Belgium. Probably something.
 <li> January 30-31 2027: Brussels, Belgium. I have proposed a talk.
+<li> February 24-25 2027: Aarhus, Denmark. V2 Security 2027.
 <li> May 20-21 2027: Paris, France. Open Source Founders Summit 2027.
 #ifdef FULLPAGE
 </ul>
